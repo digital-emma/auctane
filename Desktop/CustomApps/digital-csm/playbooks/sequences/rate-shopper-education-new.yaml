@@ -1,0 +1,152 @@
+sequence_name: rate-shopper-education-new
+signal: rate_shopper_not_adopted
+trigger_mode: onboarding
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  No engagement after all three touches — flag account in Salesforce as
+  rate_shopper_outreach_exhausted and create a CSM task for human review.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "The {carrier_1} vs {carrier_2} decision you're making manually {manual_rate_decisions_weekly}x a week — {account_name}"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas — I've been assigned to support the {account_name}
+      account at ShipStation.
+
+      Before reaching out, I ran an audit on your account and want
+      to walk you through what I found.
+
+      You're processing around {monthly_order_volume} orders a month
+      across {carrier_1} and {carrier_2}. Right now, every carrier
+      selection is happening manually — that's roughly
+      {manual_rate_decisions_weekly} individual rate decisions every
+      week. Based on accounts at your volume and carrier mix, you're
+      likely leaving 10–15% in shipping cost savings on the table
+      each month.
+
+      Rate Shopper would automate that decision on every order. Here
+      are the three steps I'd recommend based on your account:
+
+      Step 1: Enable Rate Shopper
+      → https://ship14.shipstation.com/settings/rateShopper
+
+      Step 2: Connect your walleted carriers
+      → https://ship14.shipstation.com/settings/carriers
+
+      Step 3: Set your first automation rule
+      → https://ship14.shipstation.com/automations
+
+      {legacy_plan_block}
+
+      I've put together a quick video walkthrough for each step:
+      {video_link}
+
+      Just reply here if you want me to walk you through the setup
+      based on your specific carrier mix — I already have your
+      account open.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                  # Salesforce contact first name
+      - account_name                # Salesforce account name
+      - carrier_1                   # primary carrier from PES carriers_in_use[0]
+      - carrier_2                   # secondary carrier from PES carriers_in_use[1]
+      - manual_rate_decisions_weekly # Salesforce field
+      - monthly_order_volume        # Salesforce monthly_order_volume
+      - legacy_plan_block           # conditional — rendered only if current_plan IN [Silver, Bronze, Gold]:
+                                    # "One thing worth knowing: your current {current_plan} plan is
+                                    #  ${current_plan_cost}/mo. Standard is ${standard_plan_cost}/mo and
+                                    #  includes Rate Shopper (customizable), Analytics, and 10 users —
+                                    #  features that were $149/mo add-ons on your current plan. Full
+                                    #  comparison: https://www.shipstation.com/pricing/ — the difference
+                                    #  is usually under $1."
+      - video_link                  # Salesforce video_link field (walkthrough video or placeholder)
+      - current_plan                # used inside legacy_plan_block
+      - current_plan_cost           # used inside legacy_plan_block
+      - standard_plan_cost          # used inside legacy_plan_block
+
+  - day: 7
+    subject: "Following up on the {account_name} audit — Rate Shopper setup"
+    body: |
+      Hi {first_name},
+
+      Following up on my note from last week — I wanted to check
+      in on the Rate Shopper setup for {account_name}.
+
+      Based on the audit I ran on your account,
+      {monthly_order_volume} orders a month with {carrier_1} and
+      {carrier_2} is the exact profile where Rate Shopper makes
+      the biggest difference. Accounts at this volume that switch
+      from manual carrier selection typically see 10–20% in
+      shipping cost recovery within the first 30 days.
+
+      The three steps I outlined are still the fastest path:
+
+      Step 1: Enable Rate Shopper
+      → https://ship14.shipstation.com/settings/rateShopper
+
+      Step 2: Connect your walleted carriers
+      → https://ship14.shipstation.com/settings/carriers
+
+      Step 3: Set your first automation rule
+      → https://ship14.shipstation.com/automations
+
+      The video walkthrough covers each step: {video_link}
+
+      If something came up or you have questions about the
+      carrier preference rules, just reply — I'm here.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name              # Salesforce contact first name
+      - account_name            # Salesforce account name
+      - monthly_order_volume    # Salesforce monthly_order_volume
+      - carrier_1               # primary carrier
+      - carrier_2               # secondary carrier
+      - video_link              # Salesforce video_link field
+
+  - day: 14
+    subject: "Last note on the {account_name} Rate Shopper setup"
+    body: |
+      Hi {first_name},
+
+      Last note from me on the Rate Shopper setup for {account_name}.
+
+      I ran this audit because I could see from your account that
+      manual carrier selection was costing you time — and likely
+      money — each month. Rate Shopper is still not enabled, which
+      means {manual_rate_decisions_weekly} manual rate decisions
+      are still happening each week.
+
+      When you're ready, here's the path:
+
+      Step 1: Enable Rate Shopper
+      → https://ship14.shipstation.com/settings/rateShopper
+
+      Step 2: Connect your walleted carriers
+      → https://ship14.shipstation.com/settings/carriers
+
+      Step 3: Set your first automation rule
+      → https://ship14.shipstation.com/automations
+
+      Video walkthrough: {video_link}
+
+      I'll leave this with you. If you'd like me to take another
+      look at your account before you set it up, just reply and
+      I'll pick it back up from where I left off.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                    # Salesforce contact first name
+      - account_name                  # Salesforce account name
+      - manual_rate_decisions_weekly  # Salesforce field
+      - video_link                    # Salesforce video_link field

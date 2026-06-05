@@ -1,0 +1,29 @@
+name: no_label_printed_7_days
+description: >
+  Detects active accounts that have not printed a shipping label in 7 or more
+  consecutive days. Label printing is the primary value action in Auctane products
+  — absence for 7+ days on an active account is an early churn signal.
+source: segment_batch   # absence-of-event check; computed in nightly batch
+trigger:
+  event_absence: label_printed
+  inactive_days_threshold: 7
+  account_filter: active   # exclude churned or paused accounts
+
+urgency_tier: early_warning   # fixed — no tiers
+recommended_action: enroll_hubspot_sequence
+sequence: re-engagement-label
+human_escalation: false
+
+salesforce_action: log_activity_update_health_score
+
+personalization:
+  - field: days_inactive
+    source: signal_payload
+  - field: last_used
+    source: signal_payload
+  - field: account_name
+    source: salesforce
+  - field: primary_shipping_use_case
+    source: salesforce_custom_fields
+
+cooldown_days: 7

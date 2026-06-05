@@ -1,0 +1,40 @@
+name: shipping_volume_decline
+description: >
+  Detects accounts whose T12M shipping volume has declined more than 20%
+  vs. their prior 12-month baseline. Signals a revenue risk and triggers
+  re-engagement or human escalation depending on severity.
+source: bigquery
+measurement:
+  current: SUM(shipments) WHERE ship_date >= today - 365   # T12M
+  previous: SUM(shipments) WHERE ship_date BETWEEN today - 730 AND today - 365   # P12M
+  trigger_threshold_pct: 10   # T12M < 90% of P12M; spec lists tiers starting at 10%
+
+urgency_tiers:
+  early_warning:
+    decline_range_pct: [10, 20]
+    recommended_action: enroll_hubspot_sequence
+    sequence: churn-intervention-volume
+    human_escalation: false
+  active_risk:
+    decline_range_pct: [20, 35]
+    recommended_action: enroll_hubspot_sequence
+    sequence: churn-intervention-volume
+    human_escalation: false
+  critical:
+    decline_range_pct_min: 35
+    recommended_action: escalate_to_csm
+    sequence: churn-intervention-volume
+    human_escalation: true
+
+salesforce_action: update_health_score_flag_for_csm_review
+
+personalization:
+  - field: pct_decline
+    source: signal_payload
+    transform: format_as_percentage
+  - field: account_name
+    source: salesforce
+  - field: csm_owner
+    source: salesforce
+
+cooldown_days: 30

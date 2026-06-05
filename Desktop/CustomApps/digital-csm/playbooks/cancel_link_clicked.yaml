@@ -1,0 +1,29 @@
+name: cancel_link_clicked
+description: >
+  Fires immediately when a user clicks the cancellation link in the product UI.
+  Always critical. Never handled autonomously — escalates to the assigned CSM
+  within 15 minutes. Automation is paused for the account until the CSM resolves.
+source: segment
+trigger:
+  event: cancel_subscription_clicked
+  mode: real_time   # does not wait for the nightly batch
+
+urgency_tier: critical   # fixed — no tiers
+recommended_action: escalate_to_csm
+sequence: cancel-intent-intervention
+human_escalation: true
+escalation_sla_minutes: 15
+escalation_note: >
+  Never handle autonomously. Escalate to the assigned CSM owner immediately.
+  If unassigned, notify the CSM manager. Do not enroll in any automated
+  email sequence until the CSM has spoken with the account.
+
+salesforce_action: create_urgent_task_notify_csm_owner
+
+personalization:
+  - field: account_name
+    source: salesforce
+  - field: csm_owner
+    source: salesforce
+  - field: cancel_event_timestamp
+    source: segment_payload

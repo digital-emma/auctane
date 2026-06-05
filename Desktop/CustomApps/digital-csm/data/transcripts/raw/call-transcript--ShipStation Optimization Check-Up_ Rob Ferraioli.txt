@@ -1,0 +1,135 @@
+ShipStation Optimization Check-Up: Rob Ferraioli
+
+Jeff Powell with Rob Ferraioli
+Recorded on May 29, 2026 via Zoom, 28m
+
+
+
+Participants
+
+Auctane
+Jeff Powell, Lead, Customer Success
+
+Company Placeholder
+Rob Ferraioli
+
+
+
+Transcript
+
+0:00 | Jeff
+hey, rob, how you doing today? Sir? Doing? Alright. How are you? Doing? Well. Happy that it's Friday after a short week. So ready to get outside and, you know, enjoy the weather. Hopefully, it's nice this weekend. Hopefully. Yeah. Well, I'm not going to take up too much of your time. I know it's Friday and people usually are busy and have stuff to do. I'm going to start off with a quick slide deck, just kind of introduce myself kind of the point of the pindo that you saw in shipstation and kind of let you know who I am. So you're not talking to a complete stranger. Alright, we'll just go from there. Okay. Sounds good. Alright. Let me get this ready to go, hold up and then share my screen. Alright. So you're joining me today for the pindo optimization, check in. Basically here's the agenda. We'll do a quick intro purpose of today's, meeting shipping workflow, success, optimizing your account if needed an action item plus resources. I might have some homework. You might have some homework. We'll see where we end up at the end of the call. But basically about me, my name is Jeff Powell. I'm actually the lead customer success manager for shipstation. I am located in Frisco Texas, so not too far off from your all's location. So if you ever did need me on site or wanted me to come check out the warehouse, see about workflows with that. I'm happy to do so. I know you all are a high volume account and happy to assist in any way I can. But my whole goal is to save time for you and reduce manual work in shipstation. So if you're feeling like things are very manual multiple clicks, then we can talk through that and see what we can do there, make sure you're getting the most out of shipstation. It is a very robust system. We're coming out with new features as time progresses, educating you on those features and seeing if it would work in your tech stack or not, if it doesn't great. If it does perfect. You know, it's not going to hurt my feelings if you don't use the things that we are offering, just want to make sure you get the most bang for your buck using shipstation scaling and improving your performance. And then, you know, advising with my industry knowledge and years at shipstation. You know, to help you all out in any beneficial way that being said, I've been with the company for a little over four years. I've been at CSM for about three and a half of those four years. So my whole goal really is just to be an advocate for you and your team. And in between like the corporate side of auctane. So think of me as like an employee, not so much a vendor that you don't have to pay for. That. Being said, I will say, I am not supportive if you do have support like issues. I still recommend that you go through the support channels whether it's via phone call, email or the messaging. And if you're not getting a solution, then go ahead, shoot me a call, leave me a voicemail or you can send me an email as well. And then I'll go on my backend and try to escalate that up and get you what you needed as soon as possible. I'm also not sales there's. A sales rep in the area. His name's josh aukit. I don't know if you met him before, but he's my counterpart. His whole goal is to find you cheaper shipping that's efficient and works well with you. That can help you save you money there along some other items. But that's their main focus. I just want to make sure you're happy in shipstation. And, you know, whatever I can do to make sure that happens. Awesome kind of what I just went over again, identify any pain points, understanding your workflow, making sure you're on the right plan with your volume that you're doing and answer any questions and provide guidance along the way. And as I mentioned, updates features that we come out with that you might miss in our marketing emails. You know, once I learn more about your business, I suggest those things to you, the articles on them. And then if you're interested in implementing them either myself or depending on the product type, it is, we could actually get you set up with our implementation team depending on what type of product we decide to implement into shipstation. And then six workflow phases. This is what we view from shipstation as kind of the life of your business. Sourcing being the first one, I have no business in sourcing. We have no business in sourcing. We're not going to tell you how to source your products and where to get them from that's out of our depth. But like storing, managing your inventory, warehouse levels, all that we have knowledge in that we can suggest either third party carriers or internal resources that we have helping you with your E commerce platforms, whether or not you want to expand that to, you know, some people sell on Shopify, eBay, Amazon, if you're ever open to like looking into those. Things I can help you out with that and getting that imported into shipstation, and then making sure you're picking and packing processes as efficient as possible with the tools we have in shipstation, and then once again carrier logistics and final delivery. And then we do have returns available in shipstation. So our returns portal, if you're interested in that, we can help you get that set up as well. But those are the five out of the six areas that I, you know, specialize in and, you know, giving you the best information possible there and helping you out along your journey with shipstation. So that being said that's a little bit about me. I was born and raised in Allen, Texas, lived in the midwest for a couple of years, just moved back to Dallas a year and a half ago to the Frisco area as I mentioned. So I'm very familiar with the area and very happy to be back. That being said, I would like to hand it over to you rob and, you know, learn a little bit about you, your position and at pactright and, you know, kind of what your day to day is and then how you utilize shipstation and y'all's operation. 
+
+6:19 | Rob
+Sounds good. Yeah, I appreciate it, Jeff. Thanks for, the overview yeah. So, yeah, in my role, so I'm really handling this from a consulting perspective for pactright. Okay. I'm not full time with these guys. 
+
+6:34 | Jeff
+Okay, you. 
+
+6:35 | Rob
+Know, so I help them out with basically their Netsuite implementation, their integration, their, you know, integration with shipstation. And, you know, just issues that come up during the day and things like that. Now they're basically. So I'm actually not even I'm located in New Jersey believe. 
+
+6:56 | Jeff
+It or not. Okay. Gotcha. 
+
+6:58 | Rob
+So, I know you're close, I've been down there a bunch of times, you know, to their farmer's branch location, but there's a Guy there that I would definitely introduce you to as well. Okay, Cody, who, you know, is kind of boots on the ground. I mean, he's doing a lot of different things. He's their VP like sales and stuff. But between him and Adan is their warehouse manager. Those guys can definitely, you know, be a point of contact if somebody's in the area or wanted to stop in or whatever that's the right guys to reach out to. Okay. But what I'm seeing, I mean, I think everybody's happy with the ShipStation in. 
+
+7:37 | Jeff
+Fact. Okay, good. You. 
+
+7:39 | Rob
+Know they asked me to have more and more of their partners because they are a three PL operation. 
+
+7:44 | Jeff
+Right. That's why I kind of assumed basically seeing all the different orders and third party shipping and whatnot going on? 
+
+7:50 | Rob
+Exactly. Yeah. So they have maybe 20 30 different partners, let's say, and they're not all of them yet are integrated into the ShipStation, but the majority and the majority of the volume is now going through ShipStation. Okay? I'm pretty happy with it. You know, what I do is I'll set up like the automation. So when the orders come in from Netsuite, it looks for the partner id, it looks for the shipping account number. We do a lot of third party shipping. Okay? So we configure that automation so that when Adan goes in and packs it out and ships it, he just, it's all populated for him. We've got all the pack slips created in there, you know? So I've been handling that side of things. What I'm interested in, you know, some of the things you mentioned, I can tell you personally, Netsuite for me. I don't really like the system that much. 
+
+8:45 | Jeff
+Yeah, you. 
+
+8:47 | Rob
+Know, it's not, and they're only using a fraction of it. They're using the WMS piece which isn't the greatest WMS, right? It's just, they're using it. They're not using it for the financials, they're not using it for their, you know, like a true ERP, they're just using it to track quantities in and out of the warehouse stuff like that, right? Okay. So it's kind of limited and I'd be interested. I don't know if the ShipStation have like you mentioned picking, right? So could, yeah, it has pick pack ship. Does it actually have like receiving and stock levels and stock movements and all that as well? 
+
+9:28 | Jeff
+It does. So this year, we really ramped up our inventory management system and warehouse management system. That's being said, I'll be honest like we are still expanding out the capabilities of it, but we have inventory management in there. So you can have stock levels, you can set your stock levels for a certain amount. And you'll get an alert when it gets below that to like be like, hey, it's time to order something. And those are just like the basic functions of our regular inventory management system. Then our warehouse, we have bin, location, lot locations, all that information that can be set in the ShipStation. And when you put out your pick list, all that information's on there from us instead of Netsuite, so, you know, and then with that, if you have barcodes, you can scan the barcode, then you can go scan the physical item. And if it has a barcode on that, then you're good to go. Like basically, there's two ways you can do it with the picking. We have a mobile app that's actually been modified and cleaned up really well. So that your pickers can, you know, say you give them a batch of orders, they go open that batch. It tells them the first order to go to, it will tell them like what aisle that product is in, what shelf and what bin that's in. Then they can scan the barcode and it'll either give them the green circle with a check mark in it, or a red X saying like, hey, this is the incorrect product and then it won't let you go on until you scan the correct product or if it's out of stock, you can say skip out of stock, whatever that situation might be. And then once you picked it and you drop it off to the packing station, of course, you can scan to verify one more time at the packing station. If you want to just to double check, everybody's work and, you know, reduce error shipping, you know, as I've seen, you guys have a lot of orders coming through a lot of different products. So, you know, there is human error there, but that's one way to eliminate it with the warehouse locations. You can have all that information, bin locations, you can have backup locations as well. Then our more robust inventory management system that would actually be looking at changing you guys and upgrading you to our new premium plan. So we've changed and I'll get into that a little bit later. But with our premium function, our inventory management has purchase order capability. It has forecasting for your products. What else does it have? It has quite a bit I'll. Actually just show you this real quick. Do you guys handle lock control items serialize as well? Yes, sir. We just added that in okay, serial to the product page. So I can also send you a demo of all the stuff. Okay? That's not what I wanted. Google is trying to enforce their AI when you're searching now. Okay. So I'm going to share this with you real quick and don't worry about the pricing right now. That's something that we can work on if this is something you want to move forward with. So, right here, standard shipping, I'm just going to, you guys are not starter if anything you're standard. And if you look into the inventory management, the more robust, this is where the premium is going to come in for you. All right. But let's just go ahead and go down to warehouse management, right? So high keys, barcodes, pack list, pick to tote is the big house, big warehouse management system there. So think about that as like Amazon worker having multiple orders, they have like a cart and they're just picking multiple orders at once into a tote. And then you put that tote over at the packing station. And then the packing station picks out the orders one at a time and fulfills those. And, you know, prints the label out for them. Barcode scan, verified to print. We have that dashboard and picker reports. You'll have that standard and at premium and then cubic scan. That's a very unique thing. If people have that. It's basically a very expensive machine that you put the products on there. It gives you the dimensions of it and, you know, puts in the weights automatically in the dimensions of that without having to do anything type wise. Now inventory management, the big difference here is you can do a purchase order in shipstation. So if you need a product, you can create a purchase order in shipstation. When that product comes in from your vendor, you can scan it into shipstation instead of having to manually input it into shipstation… forecasting and reorder assist. So once again, we'll look at like if you have a date range, it'll do forecasting for you, let you know off of your previous shipments, how much you need to have on hand. And then once again, when it's time to reorder and have those packages or place an order in like it does the timeline of like putting the order in, how long it takes to get you there, get to your location. And so it factors all those things in and helps you decide, you know, all right, we're getting low, we're running low, we're at our limit, we need to place an order in, we'll have it in time to make sure we don't run out essentially. Then we have the product catalog, which is basic inventory grid, CSV, upload bundles, lot, tracking, and then inventory sync as well. So if they were to, you know, switch from Netsuite and change and go to Shopify, or bigcommerce or woocommerce, shipstation can be the source of truth for y'all. So you just update the values of the products in shipstation. And then we output that into your E commerce store. Now, of course, we have a list of E commerce stores online that we can do that with, you know, there are just so many different E commerce out there platforms uis, that we can't do it for all of them. But the big ones like Shopify, Amazon, eBay, bigcommerce, woocommerce, we can share that inventory source and ship it out or send it out via API keys or API to them and make sure you have the right level. So there's no overselling going on. And then you have a source of truth back in shipstation. It becomes a one stop shop for you versus having to use Netsuite. And, you know, shipstation and have that as an inventory source and shipstation, just as your, you know, shipping process. So I can send all this information over to you. Rob. I'll send you some of the demos we have as well. So you can, it'll be quite a bit but, you know, at your own pace, obviously, this is not an overnight decision. This will be needed to have further conversations on and, you know, setting up your inventory, getting you on if we go the premium route, we'll also talk pricing, of course there. So, but we will like send you over to the implementation team to help you get everything. I'm sure you're probably capable of getting everything set up, but, you know, just to have that extra support, they usually do like two to three meetings that are like about an hour long and they will help you. They're not going to do it for you, but they'll coach you through the whole thing and answer any questions you have. 
+
+17:12 | Rob
+Awesome. Yeah. Do you know, does it handle multi, like a multi tenant situation? 
+
+17:18 | Jeff
+Yeah, multiple warehouse locations, it's. 
+
+17:21 | Rob
+not, so it's not, I mean, I guess we could use locations but it's really, you know, being that we're a three PL. 
+
+17:28 | Jeff
+Yeah, multiple businesses. We. 
+
+17:30 | Rob
+need to segregate inventory between different businesses. Yeah. 
+
+17:34 | Jeff
+So that would just be even though, like the it's flower mound, correct? Or location where, farmer's branch? Sorry. Yes, yes, sir. So basically, you would just create multiple warehouses in shipstation and you can name them off of those businesses even though you're shipping from one location. We could have as many warehouses as you needed and having the inventory just for those warehouses and that source. Okay? That's the way around that. So, yes, we can definitely do that. We had that in mind with three PLS that we obviously know they're shipping for different businesses. You know, different products, different quantities that just need to show for those warehouses and see those stock levels in the set of having one warehouse location. And that pretty much just, it's already lies in shipstation… inventory management warehouses. So, this is in shipstation, I'll share, I'm in y'all's account. I'm not making any changes whatsoever. Yeah. But you can simply see here you just add a warehouse. And then once you do start the inventory sync and the inventory process, you assign… warehouses to, those products and stuff like that. And so you would be able to track. So, you know, say it was Nike Adidas, you know, puma, just simple brands. You could have a Nike warehouse, a puma warehouse, an Adidas warehouse all within, your shipstation for, your three PL companies that you're fulfilling for, and all that inventory would be assigned to those warehouses for those specific products. 
+
+19:15 | Rob
+And you mentioned you guys have an integration with, you said Shopify for instance. 
+
+19:20 | Jeff
+Yes, sir. Yeah, they're one of our best E commerce platform partnerships that we have. So really, as we expand and add new features, we work with Shopify to make sure, that will integrate over to Shopify. And so our ims, our WMS, all work well with Shopify and like sending the product inventory over there and making sure you have the right count. The one thing that you have to make sure is this like you choose one source of truth there and that's whether or not it's going to be Shopify, that's going to be the source of truth or shipstation is going to be your source of truth? Because if you're updating Shopify and you're updating shipstation, it messes everything up. So you just really have to hone in on, you know, if you go full inventory system with us, that, that's the case, for them out in farmer's branch. 
+
+20:13 | Rob
+Yeah, because we're using soligo right now. And one of the things that we would need to be able to do and this may be a limitation is we connect to multiple Shopify accounts, right? So we have a lot of customers, our BTC customers, our Shopify customers. So we can have four or five different stores feeding us orders into Netsuite today. So, do you support multiple connections to different Shopify stores? Yep you? 
+
+20:46 | Jeff
+Could have unlimited Shopify stores in shipstation. Oh, awesome. All right. Yeah, there's only one or two E commerce. I think square is one where for whatever reason with their backend and our backend, they only allow one connection there, but Shopify, bigcommerce, woocommerce, eBay, Amazon, multiple accounts allowed. 
+
+21:06 | Rob
+And we don't need anything in the middleware, then we just go direct. 
+
+21:09 | Jeff
+No, you go direct. It's a direct integration into shipstation. Awesome. All right. That's cool. What that really looks like is I'll show you here? Oh, I didn't even share my screen. I apologize. 
+
+21:24 | Jeff
+It's a really seamless. So this is the warehouse where you can add a warehouse, have multiple warehouses here and then selling channels as you brought in your, you know, custom store here. You just go to connect store. Shopify is our first one and basically you put in your domain and then it will take you to your store to log in and allow the integration to happen. And you just need the admin username and password for that. And then from there, you're set and it's connected into shipstation. Got it. So super simple setup, some are a little bit more detailed than that, but Shopify is one of our easiest integrations that we have in shipstation. 
+
+22:10 | Rob
+Yeah. I mean, you know, we'll have to investigate, right? And make sure it's robust enough for all the functionality in the warehouse. I'm not sure what, you know, what else? Maybe we're missing things. I know they do cycle counting and, you know, there's inventory adjustments and stuff like that as well… one. 
+
+22:29 | Jeff
+Thing I could probably get together rob maybe next week or in the next couple weeks is get someone from product to answer any questions you might have about the inventory management system and the warehouse management system. And just so you can ask them pick their brand because obviously that's their product. They're going to. I know all these different products. I'm not an expert in every single one and see if I can get someone on board on a call with you and I, and just allow you to have a session with them. But in the meantime, since I have your email already from signing up with this meeting, I'm going to send you all the knowledge based articles I have and demo videos, take your time to look through it. Like I said, this is not an overnight decision. You know, you got to talk and make sure you think it's a good idea and then present it to, you know, the people at the, not the packed, right people, Cody and his, what was it? Oh Don. Yeah. 
+
+23:24 | Rob
+Yeah, a D a N the. 
+
+23:26 | Jeff
+Don. Okay. I had it. Oh, and, but close a and a Don and let's see if this is something they want to move forward with. And then, you know, I don't know how much you're paying for the third party apps to go into Netsuite from the other Shopify. I don't know how much you're paying for Netsuite, but I'll send you the pricing page as well. Like I said, take it with a grain of salt. I'll work with you all on pricing. I'm not going to be able to like get it down to what you're paying. Currently with shipstation, it's going to obviously be more because you're investing in the ims and WMS system as well, but it's all going to be in one one, one location for you. 
+
+24:06 | Rob
+Where does shipstation start to? Like when do you need to like jump off a shipstation and move to another platform? Like 10,000 orders a month? Is it 20,000? Like, where do you see people having to make that leap at some point? 
+
+24:21 | Jeff
+I've had, so I had a customer in Florida where they were doing 15,000 shipments a month and now they're doing 50,000 shipments a month. It's all about how you set your shipstation up. And if you're utilizing the features and, you know, instead of like you're doing your homework on the end to make everything move in seamlessly without any errors or like problems. And then we have shipstation set up correctly. Like we're using automation rules. We're using packaging. We're implementing scan to verify or scanning workflows in there. I mean, we have people doing 50,000 to 100,000 shipments a month. What it really comes down to is the other software that I would recommend from our brand is shipstation API and that's where you basically have our platform but you build it out however you want it's a bunch of coding, a lot of development work but you have like our carriers and our software because shipstation API runs the regular shipstation. But basically you could create your own shipstation with shipstation API and how like things come in through apis and all that. A lot of customization. It would be basically making your own customized shipstation account platform. And that's just a preference. It's really like, do I want something that's already built out for me? That I don't have to spend, you know, 30 hours, 40 hours building something out with a developer team or do we just want to, you know, use shipstation and the tools it has… that being said, you know, some people do feel like they get too big for shipstation but they make that decision really before talking to anyone at shipstation and discussing those pain points that's kind of where I come in now, if there are major pain points that y'all are having and I'll shoot you straight like, yes, we have a solution for you or at this time, it's on our radar. Hopefully, it's here in the next quarter or like we already have it on the product roadmap like it's coming out at this point in time. I'll let you know that obviously, I have internal connections to talk to people, but that's where like I really see people leave shipstation is one big reason is they don't have it set up, right? And they're not willing to go do the work to get things up and running. And so they think, hey, I'm gonna jump to another shipping platform, start from scratch and have that company come in and set everything up for me and that's generally what? I see, we are, we started out as a small to medium business targeting those customers, but we are focusing in on enterprise accounts and I mean, we have some pretty big name customers that are, you know, based in Europe but they have locations in the United States, all across the country and they're using shipstation. So, yeah, you know, I'll tell you nordstrom's is one of our customers and they use shipstation. So, you know, imagine how much volume they have going and they're still using our products. So that should give you kind of an idea that we can really suit all volume in shipstation. It's just whether or not how you have things set up and running. 
+
+27:39 | Rob
+Yeah. All right. I appreciate it. Yeah, we'll look through it. I do have to hop to another call. 
+
+27:43 | Jeff
+Yeah, of course, rob. 
+
+27:44 | Rob
+But, yeah, I appreciate all the time and the information. This is helpful like, you know, I'm going to see what they want to do. I mean, it's nice to have it all under one roof honestly? Yeah. 
+
+27:53 | Jeff
+For sure. I will send you an email out today with all that articles and stuff about the ims and WMS. And then I'll send you the pricing page. So if you want to look through the comparisons at a later date, you can do that as well, but I appreciate your time, rob, and I hope to be in close contact with you and working through this as we move forward. 
+
+28:13 | Rob
+Awesome. Thanks man. I appreciate it Jeff. 
+
+28:15 | Jeff
+Yes, sir. You have a great weekend. Bye bye you too. 
+
+28:17 | Rob
+Take care. 

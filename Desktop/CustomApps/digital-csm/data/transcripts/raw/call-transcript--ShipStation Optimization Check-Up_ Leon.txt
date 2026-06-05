@@ -1,0 +1,609 @@
+ShipStation Optimization Check-Up: Leon
+
+Devin Lawrence with AceSoft LLC
+Recorded on Jun 2, 2026 via Zoom, 29m
+
+
+
+Participants
+
+Auctane
+Devin Lawrence, Customer Success Manager
+
+AceSoft LLC
+Leon Lien
+
+
+
+Transcript
+
+0:00 | Leon
+hello? Hello. Yeah. I have a big problem with my ShipStation. All my historical records are gone. 
+
+0:12 | Devin
+Are they gone? From? Where are you accessing them? 
+
+0:17 | Leon
+Okay. Well, I can see the record, but all the notes that I put in are gone. 
+
+0:25 | Devin
+Can you, are you able to open up ShipStation and share your screen? Yes? 
+
+0:31 | Leon
+How do I share my screen there? 
+
+0:33 | Devin
+Should be a button at the bottom of the zoom window. If you just move your cursor down to the bottom, there should be a little share… option. 
+
+0:52 | Devin
+Do you see it? 
+
+0:59 | Devin
+Yeah. And I think when you click on it, you can just select desktop or? 
+
+1:08 | Leon
+You should see it now, right? Yeah. 
+
+1:11 | Devin
+Well, yeah, I can see the, yeah, I can see me. Okay, here we go. 
+
+1:17 | Leon
+Okay. So for instance, now, I have an id that I want to find. Okay? I have an id. I have an id here. Okay. I go to customer. I come here. See, I see this record, right? But I have no information regarding to this anymore. I used to have a record here and show me which account it is, and when is this order coming in? Now, they're all gone? 
+
+1:52 | Devin
+Because this is just you're looking at the customer information. 
+
+1:56 | Leon
+Because, this is the, I think, well, now, I don't have any information about this buyer and I think this buyer ordered from me a few years a few years ago. I used to be able to see them. So, if. 
+
+2:10 | Devin
+you go to let's say you click on customers up like close that, just click your customers button up there. Yeah, let's see if it's click on somebody else. Oh, God, nothing, are you expecting to see something for each customer? 
+
+2:28 | Leon
+Oh, yeah. I've been using shipstation for years and I have all these, historical records. I need to retrieve them. 
+
+2:36 | Devin
+So, are you looking to retrieve? Like, cause let's say you go to your… well. 
+
+2:43 | Leon
+If I go to orders, I can only see orders within three months, but what about orders if? 
+
+2:49 | Devin
+You go to order date, see that order date column? Right above custom three next to quantity. It's like in light blue, not new order. But right below that, there's an order date with a little carrot next, like a dropdown. Yeah, hit that. And then custom range. Are you able to… open expand that? 
+
+3:17 | Leon
+Okay. So I will go to, let's say, okay, let's try this. 
+
+3:22 | Devin
+Click a date before you hit that. Oh, 
+
+3:25 | Leon
+okay. Did I click on a date? 
+
+3:28 | Devin
+No, I think you clicked on, you got down to August, but you didn't click on an actual date. 
+
+3:32 | Leon
+Okay. 
+
+3:33 | Devin
+Just put, did you click on like one or seven? Yeah, click on something? Let's see what happens. 
+
+3:39 | Leon
+And then I put this, I, 
+
+3:42 | Leon
+Go with nothing. Okay? 
+
+3:45 | Devin
+Go to go to your gear icon in the top right? And then hit… you're cause you're on version two. Okay. Go to subscription there under account. Okay? 
+
+4:07 | Devin
+Yeah. See, see that little blue banner at the top where it says limited features on this version, switch to new layout. 
+
+4:14 | Leon
+Oh, 
+
+4:17 | Devin
+it's very similar in terms of the information on the user interface. It's just a little more updated in terms of the format. Okay? 
+
+4:24 | Leon
+Let's do that. Okay? Now? Oh, okay. Okay. 
+
+4:38 | Devin
+Okay. Go back to, okay. What does it say action required? Migrate to the new eBay integration? Okay. Say, remind me later… and then go back to that gear icon. Top right? Hit on payment, hit payment and subscription… right? Under account in kind of the middle of the screen there's account. And then right underneath there's users payment or you can do it on the top left too. So, if you hit account, it'll drop down. 
+
+5:08 | Leon
+Okay. 
+
+5:09 | Devin
+Options. There you go. Now, payment and subscription. Okay. Now, see bottom right? Kind of there's a link for data archive. See that over to the right? 
+
+5:21 | Leon
+Yeah. 
+
+5:24 | Devin
+This is, I don't know, maybe just click on the first one. Not for down like you can download? 
+
+5:33 | Leon
+Oh, okay. So, from here, I can download orders from every month, right? 
+
+5:39 | Devin
+Yes, I just, I found this page. I just hadn't clicked on download yet to see what the output is, if it's like a CSV or a excel file. 
+
+5:51 | Leon
+Okay. So, so, wow. That doesn't help me too much on the search though. So, I have to download every month. 
+
+5:57 | Devin
+Well, I was just, I was just showing you where there is information. 
+
+6:01 | Leon
+Yeah, if. 
+
+6:02 | Devin
+you go back to let's say go back to go to shipments in the top? Like right next to orders and in between orders and returns, yeah. 
+
+6:10 | Leon
+Oh, right here, this. 
+
+6:12 | Devin
+Is your historical shipment data? 
+
+6:15 | Leon
+That's fine. That's good. So. 
+
+6:17 | Devin
+I don't know if you want to click on like, I don't know what you're trying to look at like what? 
+
+6:22 | Leon
+I usually use the id buyer id, oh, because. 
+
+6:28 | Devin
+That's just going to give you information on the buyer. But if you click on, let's say that top one mark Pina, like click, I don't know if you can click on that. Well, that's the. 
+
+6:39 | Leon
+Tracking. 
+
+6:39 | Devin
+but, yeah. 
+
+6:42 | Leon
+But, I lost all the tracks. I don't know which account they ordered from me. I don't know. 
+
+6:48 | Devin
+Like, are you able to click on the person's? Name, the recipient name, mark? Pina? Yeah. Is that going to take you to that? Okay? Now, no, if you go to the order number zero four, one, four, seven, two. Yeah. 
+
+7:00 | Leon
+This one, let me see. Let me see. So. 
+
+7:02 | Devin
+You have internal note there four ounce, five dollars, 72 to four piece, bto four nine nine. Is that the information you're looking for? Right there? Like, yeah. 
+
+7:13 | Leon
+But it doesn't tell me. 
+
+7:14 | Devin
+The internal note. 
+
+7:17 | Leon
+Internal notes, good. This is good. Right there. This is what I'm looking for. So actually, I have to know. I have, well, there is no way to search by the eBay id huh, eBay user id, the. 
+
+7:31 | Devin
+EBay user id. Yes, because you have various eBay stores, yeah. 
+
+7:37 | Leon
+For instance, this one, let me see if there's a user id, okay? 
+
+7:40 | Devin
+So, I can show you where the eBay connection is. 
+
+7:43 | Leon
+Okay. If. 
+
+7:45 | Devin
+you want to close this, just top right of, this window is an X to close out. Okay… go to, the gear icon again that's like the settings and… then you're going to go to on the left hand side, you see selling channels right under account. Top. Yeah. Click that. Now, you can see your various eBay stores, right? If you, if there's one in particular, you want to go first to, maybe there's one that gets the most volume. I don't know if it's okay by maybe, yeah, I'm not sure what the initials are. 
+
+8:21 | Leon
+Okay. Click. 
+
+8:23 | Devin
+On the three dots, bottom, right? Okay. And then say, edit store details. 
+
+8:30 | Leon
+Okay. 
+
+8:30 | Devin
+Now, right at the bottom there, it says, edit eBay settings. Okay. Now here, you can map like custom field. You said custom field three. I think you wanted that. 
+
+8:41 | Leon
+This is wonderful. This is wonderful. So, yeah, I used to have custom field three, which mapped to the legacy item id. So now I get it that's good now. 
+
+8:53 | Devin
+If you want to change those custom field one and two there's other like references. I don't know if those help you or not, or if that's the only thing you're looking for. 
+
+9:00 | Leon
+But there's no user id though. 
+
+9:03 | Devin
+There's like, you know, there's order id. Yeah… I don't know if you scroll down there, what else is. 
+
+9:10 | Leon
+there they don't have well, but eBay. 
+
+9:12 | Devin
+Purchase mark, you know, purchase marketplace. I don't know if that helps you? 
+
+9:16 | Leon
+Oh, yes. Yes, at. 
+
+9:18 | Devin
+The very bottom eBay purchase market or eBay listing marketplace. Oh, anyways, those are, you can toggle those, whatever you want. 
+
+9:26 | Leon
+I know. Oh, this is good. This is good. This is really good. Yeah, I could definitely use it. 
+
+9:34 | Devin
+So, then you just hit save. Okay? 
+
+9:37 | Leon
+And what about this checkbox? Let me see. 
+
+9:39 | Devin
+Import eBay items, specifics for products and variants. You'd have to hit that little question mark. I didn't get too into the weeds. Oh, I don't know, louse, import. Okay? 
+
+9:51 | Leon
+Oh, yes. See right now, I cannot see any cancel orders there. You. 
+
+9:56 | Devin
+Go, click that Guy. Yeah, the other thing, you can trial and error. So, if you're because I'm not too sure on the cause and effect, but you can always click it. And then if you notice like, okay, something changed or I like this or I don't maybe that this is the setting that you need to turn on or off. So you hit save. 
+
+10:16 | Leon
+Yep. Wow. That's good. So, this is globally applied, right? 
+
+10:20 | Devin
+Now, that's just for that one eBay store. Now, if you go over and see that little store setup, the blue, you just passed over it right above the o N, there's the settings, store set. If you go to store setup. Now, you got to go to like L, o or JU and you click those three buttons on the right? 
+
+10:36 | Leon
+Wow, this is wonderful. 
+
+10:38 | Devin
+And then, yeah, hit edit and then hit the edit eBay settings. And then you can do the same thing. Wonderful. This is. 
+
+10:47 | Leon
+Really wonderful. This is all this. 
+
+10:49 | Devin
+Is what I'm looking for. So, yeah, hit that middle one, so. 
+
+10:54 | Leon
+I have to do this on go. 
+
+10:56 | Devin
+Back to that. Go back to your edit. EBay settings, go back real quick. I think you hit the wrong one. See you did the top one instead of the middle one on the left side. Oh, yeah. Yeah. There you go. Boom, check the middle one and then save. 
+
+11:10 | Leon
+Okay. Oh, this saved my life. This is awesome. I. 
+
+11:14 | Devin
+don't. 
+
+11:15 | Leon
+I. 
+
+11:15 | Devin
+don't think it's gonna be retroactive though. You know, I don't think it's gonna go apply these settings to previous orders that have shipped that's fine. 
+
+11:29 | Leon
+That's fine. I don't well, right now, I can only see orders within three months. That doesn't help me much, but these, but I definitely need this. Okay. So for the historical record, probably, I just lost them. 
+
+11:45 | Devin
+No, no, no, you didn't lose them. It's just not gonna, it's just not gonna add these references into those custom fields, you know, like the ones that are the orders that have shipped and been marked sold or whatever those are. 
+
+11:57 | Leon
+Gonna be here's. The name right here. See that… I see them right here. This is the user id. There you go. There you go. Yeah. Okay. This. 
+
+12:08 | Devin
+Is good. So, I, 
+
+12:09 | Leon
+have to come here to search, right? 
+
+12:13 | Devin
+So, when I search, can you come with this? I mean, you can click that column and it'll filter it by… I think it should filter it by maybe alphabetical. I'm not sure how it's gonna filter it, but I can… right there, see filter by marketplace username right? Underneath, create customer. There's a filter by, and then marketplace username. So if you click that little drop down right there, right? No, to the left to the left next to country, one more. There you go, marketplace username. So I don't know what happens. Okay. It just gives you how… many stores have you done? Two or did you do three? I. 
+
+12:59 | Leon
+Only do three. 
+
+13:00 | Devin
+Okay. Nevermind. Maybe that's not correlated. 
+
+13:03 | Leon
+I got that. I got that. This is so I can actually come here. Oh, see I found it. 
+
+13:11 | Devin
+Yeah, there it is. See. 
+
+13:13 | Leon
+I found it. 
+
+13:19 | Leon
+There are. 
+
+13:20 | Devin
+Currently, no orders. Is there, are you looking for like a canceled order or something? 
+
+13:26 | Leon
+No, I'm looking for the records. Maybe I put some note on these buyers. I want to know these buyers' information that I put in before. Oh, but at least I can find, I can find it right here. Ah, now I can find it. Okay. So I don't know which account you ordered from me? 
+
+13:53 | Devin
+Maybe if you add to all the other stores… 
+
+13:58 | Leon
+Yes, I'm not sure. Oh, well, actually this is, well, I actually will make some progress now that's pretty good. So, actually is. 
+
+14:14 | Devin
+this, have you been using any other platforms to ship and create labels or do you primarily just use shipstation? 
+
+14:23 | Leon
+I primarily use shipstation. You know, the other well, so far, the best thing is shipstation. The other, I just, well, the good thing about shipstation is you can, not only, I can ship from shipstation. I can only put my customer service notes into it, you know, but the other shipping program, they only let you ship just shipping. You can only do shipping. You cannot do any customer service. 
+
+14:48 | Devin
+Yeah. Got it. So. 
+
+14:50 | Leon
+Now, well, actually, this meeting is good. You solved my problem. 
+
+14:53 | Devin
+Good, good. Yeah. And that's kind of my job here at shipstation is customer success. I'm here to kind of help you optimize the software, make sure you're getting the functionality and features you need. And I'm locally based in southern California. So, I'm in orange county. 
+
+15:11 | Leon
+Are you in orange county? Excuse me, you're in orange county? 
+
+15:15 | Devin
+Yeah, yeah. I'm in orange county. 
+
+15:16 | Leon
+Okay. So, so can I have your email, my email? Yeah, I'm not going to call, you know, but when I send you some email, at least, you know, I can get some fast response. 
+
+15:27 | Devin
+Oh, definitely. And you can call me too. I have a zoom phone number, but usually during the week, I'm out, I don't want to bother you visiting merchants. So you might not get me, but here I'll let me send you an email and then you'll have my information. Yeah, please. What's your email? 
+
+15:47 | Leon
+Jqs? 
+
+15:49 | Devin
+Jqs? 
+
+15:50 | Leon
+You can see my screen, right? 
+
+15:53 | Devin
+Oh, no, I went to my email, so let me go back. Okay. Here you go. Yeah, let me see. 
+
+15:59 | Leon
+Jqsleon. At email. Com. 
+
+16:02 | Devin
+Jqsleon at, okay. That was the email in the invite. So, yes. Okay. Jqs. I just noticed on your account, there was different emails. 
+
+16:11 | Leon
+Oh, yes, because I have five users. Got it. 
+
+16:20 | Devin
+Okay. And I'll put shipstation customer. Okay… I'll send you this, you'll let me know. Hopefully you get it. And then… so, because I noticed from year over year, it looks like your volume's down a little bit. I don't know if that's due to just business decline or? 
+
+16:43 | Leon
+Yeah. It's just due to business decline. 
+
+16:45 | Devin
+Okay. Shipstation, we have restructured our subscription plan offering. So I'm wondering if there's an area of opportunity here for you? Yeah. 
+
+16:59 | Leon
+We are considering to adjust our subscription level, but so far, but at this moment, we are not planning to do that yet. 
+
+17:09 | Devin
+Are there, how do you currently manage your inventory? Do you do it somewhere else or? 
+
+17:15 | Leon
+Yeah, I have inventory. I have a warehouse, I have a storage house. I have a storage outside. 
+
+17:24 | Devin
+No, no, but like do you have an inventory software or how do you keep track of your inventory? 
+
+17:28 | Leon
+Oh, we use excel. 
+
+17:30 | Devin
+Just excel file. 
+
+17:31 | Leon
+Yeah, just excel. Okay? 
+
+17:33 | Devin
+So, there's an opportunity to make shipstation your inventory like source of truth and then it can update it'll, you know, orders will come in from your marketplaces. It'll update your sources, and then your marketplaces. So, and the beginning of setting that up is basically importing a CSV file with all your current on hand stock. 
+
+17:56 | Leon
+I don't but the problem is the problem is we have about, but you'll. 
+
+18:05 | Devin
+have it in a, you have it in a, you can put it in a CSV, right? You have it in an excel file, yes, but it's so it's just an import that you do the. 
+
+18:15 | Leon
+Problem is it's not accurate. 
+
+18:17 | Devin
+It's not accurate. 
+
+18:18 | Leon
+It's not accurate. 
+
+18:20 | Devin
+So, you have like a lot of tribal knowledge in terms of what's. 
+
+18:23 | Leon
+yeah. 
+
+18:24 | Devin
+Available to sell? Yeah. Okay. Well, I mean, you could also, well, yeah. Okay. So let me show you go to the gear icon again and we're going to go back to that accounts and payment. Yeah. So payment and subscription. Sorry, that's the one you want to click underneath account. So there, it shows what you're on right now, right? Gold, which is a 2000 per month plan. And then you have the three users. If you click that edit button. 
+
+18:58 | Devin
+You're on the tab now, like top left, you see the little lightning bolt purple. So you're on new plans, right? So, what we've done is we consolidated plans into three and then you can adjust based on your monthly volume. 
+
+19:09 | Leon
+Or maybe I could use this and. 
+
+19:12 | Devin
+I think standard would be, you would probably need standard based on the features you're using, I need more. 
+
+19:20 | Leon
+Account. I need at least three account. I need those. I need at least three user account. 
+
+19:28 | Devin
+Meaning three separate ShipStation logins or just users, it's three. 
+
+19:33 | Leon
+Users because I have three co workers working together. 
+
+19:37 | Devin
+Yeah. So if you go to like go to standard and instead of 2000 a month, you can change that, not starter, the one over the one that's blue? 
+
+19:45 | Leon
+Right here. Yeah, yeah, 1,000. 
+
+19:48 | Devin
+So you automatically receive 10 users, and then there's oh, 
+
+19:54 | Leon
+so, you changed the plan? 
+
+19:56 | Devin
+Correct. We've added users… we've added licenses for the analytics for like the reporting functionality. And then what we've done is like a lot of the features now are considered add ons, right? If you want to do the inventory sync, it's like an extra 30 a month. If you want to do the rate shopper tool, that's like 100 and something. All those features now are included in standard it's just now based on kind of your tier, your monthly volume. 
+
+20:28 | Leon
+Okay. So what's the shipping API? 
+
+20:32 | Devin
+So, so if you, so right below where you are there's a compare features box. If you click that little drop down. So, right, keep going down. Yeah, right. No up, right? Compare features. Yeah, right there, boom. Okay. So this gives you kind of a overview but the… API tools, you can, there's an inventory API? 
+
+21:00 | Leon
+No, I mean, you mean API means I can write a code, write a program to control ShipStation. 
+
+21:07 | Devin
+Well, it's allowing two programs to talk, right? Like the application program interface, right? 
+
+21:14 | Leon
+So, I can actually, I can because I'm a programmer, okay? 
+
+21:18 | Devin
+So, yeah. So you might know this maybe a little more than I do. But if… like, so, okay. So let's close this window real quick if you want to. Like, we can jump, go down that. 
+
+21:29 | Leon
+Which window, so? 
+
+21:31 | Devin
+Top right of this, the window that's open, just top right there's the X, yeah, and hit exit. Okay? If you go to API settings under user management on the left hand side, under payment and subscription. Yeah, API settings right there. So there's two versions. I think if you click that drop down there's… a version two API, and… then you can just, you know, self serve, and then there's the development docs right there. But right now it's see how it says, get the inventory API, add on that's an additional API function that right now you would have to pay. But with the new, I guess my point is the new standard plan that comes with it. 
+
+22:19 | Leon
+Okay. I don't need inventory. 
+
+22:22 | Devin
+Yeah. So if you, so I would just go to the documentation. So there's the developer guides right there. 
+
+22:28 | Leon
+Okay. Very good in. 
+
+22:29 | Devin
+Terms of what access you're getting because then you can use the API, like I don't know if you have an ERP system we do. Yeah. So you could use the shipping API through shipstation. So in your ERP, you're creating labels instead of going to shipstation, right? 
+
+22:47 | Leon
+That's why I said that to the UI. If I can do that, I don't need that many user accounts. 
+
+22:51 | Devin
+Okay. Yeah. So that could, but it's kind of self serve. So, I, yeah… if you're a developer, I would go through that documentation to see what's available. And if you can implement it. 
+
+23:01 | Leon
+Yeah, that's good. That's good. This is also good for today. And. 
+
+23:06 | Devin
+then I'll say last thing, if you go to the left towards the bottom of that list, there's add ons. 
+
+23:12 | Leon
+Click. 
+
+23:13 | Devin
+that. So these are the current add ons right? That if you wanted some additional functionality, you'd have to pay for these add ons are now included in the new plans. Okay? So if you go to like the standard 1,000 plan, it's it might be a little more than you're paying now, but it's now including these and for example, the rate shopper depending… on if, how you, I think you're using like usps, pretty low cost add ons, yeah, carrier services, right? But let's say you wanted to like open up additional carrier options, for your customers. Ultimately, you could then configure the rate shopper to select the best carrier service price, you know, whether it's the cheapest, whether it's a time and transit thing. And then, you know, some retailers on their website will say, yeah, we got free standard expedited, right? Then you can map those to certain services. And then the rate shopper will then do the work to say, like, hey, this customer's in San Diego, they requested expedited… but we know if we can just ship it ups, ground, it's going to get there the next day. Like we don't need to ship it overnight fedex or overnight ups to fulfill the client's request. So the rate shopper kind of helps do that. And then it gives you the carrier service price and you're done, you don't have to go through the menu and like select, I want to do ground advantage or whatever usps, whatever media mail. So it's something to evaluate because I think if right now you're I think you're probably around 500 a little over 500 orders a month, right? If you click your little insights button there top left next to the shipstation logo up all the way to, yeah, right there, you'll see. 
+
+25:09 | Leon
+Oh, I use this all the time. Yeah. So. 
+
+25:12 | Devin
+You're right at the first, you're right around 500. So if you weren't if you went to the standard 500 plan, it would be, you would be saving money on your monthly subscription. But if you do hit that 501, you know, it's. 
+
+25:31 | Leon
+going. 
+
+25:31 | Devin
+To say, hey, you can't process labels you need to upgrade to 1,000. 
+
+25:34 | Leon
+Yeah. And. 
+
+25:35 | Devin
+then the price from 500 to 1,000. Now, you're a little above what you're paying… but it's adjustable. So you can kind of like, yeah, if you have seasonality, you can kind of manage your subscription, you have to manage it. It's not going to like bump you down. 
+
+25:55 | Leon
+But. 
+
+25:55 | Devin
+it does open up all those features. So. 
+
+26:00 | Leon
+I'll definitely look into this. Yeah. 
+
+26:04 | Devin
+Yeah, explore go back. Yeah, you can look in the payment. You can look at and kind of compare the prices. And then the last thing I'll just mention which a lot of people kind of are familiar now with those tools. But if you go back to the gear icon, On… the list on the left at the bottom, it's labs. It's not intuitive. Okay. But we're adding a lot of AI integration. So even if you go and you enable the ask shipstation feature, it's going to give you a little AI functionality where you can kind of you can talk with it and try to like optimize certain things. So if you say activate ask, it's not going to cost you anything. It's just a value add… and you say launch… see now, you can even type in like what can you do for me or, you know, what to be? 
+
+27:08 | Leon
+Honest with you. I'd rather send an email to you. AI actually doesn't really help. 
+
+27:14 | Devin
+I think where it's the most helpful is the fourth one down. You see the one that says AI automation rule creator on the feature side, not on the right but on the left over. We did ask shipstation. But the fourth one down is AI automation. Oh, right here. This is a good tool because there are a lot of automations you can set up in shipstation, right there's a lot of if this, then that, and this tool allows you to kind of like feed it the scenario you're looking for and it'll create the automation for you. Okay? Instead of you going in and like looking through 100 options in the dropdown of like what you can create… in terms of automation. So, anyways, I just wanted to just show you this but you can, if you want to disable that, you know, feel free. 
+
+28:07 | Leon
+Very helpful. Let's forget. 
+
+28:10 | Devin
+About this one. And we're hoping customers will use that, the tool so that it kind of improves the, you know, the language learning. I'll check it out. I'll. 
+
+28:20 | Leon
+check it out because I'm a programmer. I like this kind of thing automation. You know, I like this kind of thing. Yeah. Okay. So, you solved my problem, several problems. 
+
+28:32 | Devin
+Good, great. 
+
+28:33 | Leon
+Thank you for meeting you're. 
+
+28:35 | Devin
+welcome. And then, yeah, you have my email, right? It came through. 
+
+28:38 | Leon
+Did you send it to me? I did. Oh, okay. All right. When you receive my email, don't panic. Okay. So, I just have sometimes just raise some questions and you don't have to answer me right away. I know you guys are busy. Okay? 
+
+28:55 | Devin
+I will appreciate that. Yeah. Is there anything else? 
+
+29:09 | Leon
+So far? So good. Since I have your email, I'll just once I have some questions, I'll send email to you. 
+
+29:15 | Devin
+Yeah. If you have any more questions on the API functionality, if the developer docs, maybe aren't isn't enough for you? Maybe you want a little more detail, let me know. Okay, I can get with the team and our corporate is in Texas. So, I'll get with them and, they can help us out. Okay? All right. Leon? All right. 
+
+29:35 | Leon
+Thank you very much. You're. 
+
+29:36 | Devin
+welcome. Appreciate your time. 
+
+29:37 | Leon
+Thank you. Okay. Bye bye. 

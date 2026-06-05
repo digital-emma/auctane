@@ -1,0 +1,41 @@
+name: zero_automation_rules
+description: >
+  Identifies accounts with no active automation rules. Fired in two modes:
+  onboarding (never adopted the feature) and regression (had rules, now none).
+  Each mode uses a distinct HubSpot sequence — onboarding emails educate on
+  setup; regression emails re-engage accounts that previously saw value.
+source: bigquery   # automation rules configuration table
+
+urgency_tier: early_warning   # fixed for both modes
+human_escalation: false
+recommended_action: enroll_hubspot_sequence
+
+trigger_modes:
+  onboarding:
+    condition: 0 automation rules ever created
+    days_post_onboarding_threshold: 14
+    sequence: automation-education-new
+    description: >
+      Account has been active for 14+ days and has never created an
+      automation rule. Send education sequence on getting started with automation.
+
+  regression:
+    condition: had 1+ active rules, now 0 active for 30+ consecutive days
+    inactive_days_threshold: 30
+    sequence: automation-reengagement
+    description: >
+      Account previously used automation rules but all have been deleted or
+      deactivated for 30+ days. Send re-engagement sequence highlighting
+      what they're missing and how to restore value.
+
+salesforce_action: log_activity
+
+personalization:
+  - field: trigger_mode
+    source: signal_payload
+  - field: days_inactive
+    source: signal_payload
+  - field: account_name
+    source: salesforce
+
+cooldown_days: 14

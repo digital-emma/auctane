@@ -1,0 +1,465 @@
+ShipStation Automation Check-up: John Skurka
+
+Miranda Gibble with Dri Wash Solutions
+Recorded on Jun 3, 2026 via Zoom, 38m
+
+
+
+Participants
+
+Auctane
+Miranda Gibble, Customer Success Associate
+
+Dri Wash Solutions
+John Skurka
+
+
+
+Transcript
+
+0:00 | Miranda
+hi, good morning. 
+
+0:18 | Miranda
+Let me know if you have any trouble hearing. 
+
+0:41 | Miranda
+Sorry, it's a little high pitched like echoey. 
+
+0:51 | John Skurka
+Yeah. 
+
+0:54 | Miranda
+I still can't hear… it's. Very high pitched. Oh, I can see you now… 
+
+1:12 | Miranda
+No, I can't hear at all. 
+
+2:18 | John Skurka
+Can you hear me now? 
+
+2:20 | Miranda
+Yeah, I can hear you. 
+
+2:25 | John Skurka
+So, it appears that Shopify is having an issue this morning, so, I'm not sure how well any of this is going to work. 
+
+2:32 | Miranda
+Let me take a look. I was not aware of any issues. Let's see. Let's see. Okay, it looks like Shopify is having an outage here, correct? I think it's only with the store refresh. Okay. Yeah, yeah, we should still be able to access. 
+
+2:55 | John Skurka
+Shipstation can't connect to any of my stores, so. 
+
+2:59 | Miranda
+Yeah, that's correct. Currently, Shopify is experiencing an outage, so there's a disconnect between like the ability to import orders at the moment, but the actual shipstation website isn't down. It's just, we can't pull in orders until Shopify's outage has been resolved. Okay. Yeah. But we can absolutely reschedule if you'd like just really up to you on how you would like to. 
+
+3:26 | John Skurka
+Well, I'm not, you know, I'm not exactly sure what this is all about. It's. Just shipstation came up and said you need to update, your… shipping workflows. 
+
+3:40 | Miranda
+Okay. I can provide some clarification. And then from there, we can see if this is something you'd like to continue. It's not required. It's very optional just to see. But the automation checkup meeting, what it is, it entails just essentially reviewing the account together, seeing how you're currently utilizing shipstation. Our main focus would be mostly on automation features. So, if there's any automation features not being utilized, we could see today if that would benefit the account. But, that's really how the meeting goes. 
+
+4:14 | John Skurka
+Okay. That's fine. 
+
+4:15 | Miranda
+Okay, cool. So it's a very flexible approach. What I typically do is I just drop into the shipstation account, do some discovery questions, we might take the full time. We might not. It just depends on what we go over. But essentially, what I would just do is just make any recommendations as we discuss the account a little further. Okay. My name's Miranda, part of the digital customer success team. So my overall goal besides setting up any automations is just making sure you get the maximum value out of shipstation. So when you log in, you feel super confident knowing you're utilizing it to the best of your base based on your shipping needs. 
+
+4:58 | John Skurka
+Okay. 
+
+4:59 | Miranda
+So, yeah, we can just dive right in. So let me go ahead and just share my screen so I can drop in like a user in the account which I've already done. So. So yeah, you'll see at this top right right now, if you're just getting that, fail to import this error, specifically, that entity not found that's just letting us know that Shopify outage is currently what we can do. I would recommend if you haven't reached out to support, they have like an incident ticket that's open. So as soon as it's resolved, they reach out to you or you can also use our status page, I believe it's been updated. Did you, let me see… if not, what are we on today? Let me see. They should be updating the page. Oh, sorry. Shopify's here we go. I'll make sure to provide this over, but as soon as this is resolved, you'll be able to start bringing in orders. We're just waiting on Shopify to update us. But just something to keep on your radar, but the actual ShipStation page itself is still functioning. There's no issues. It's just right now we can't bring in those orders till they resolve it. But you do have orders right now that we could take a look at. So I like to start in the orders tab just to kind of get a good understanding of how you begin processing orders. How do you, or what do you focus on first when you are preparing orders to be shipped? 
+
+6:34 | John Skurka
+So, the first thing I do is basically print out an invoice and a packing slip from Shopify. Okay? And then I pack the order and then just come over to shipstation click on the order and, you know, I've got a lot of… I guess maybe you call them automations, I don't know. But like for instance, the top one there, which is a half case, it should pre fill the weight and the package size, which it has, and actually the service which is ups ground. And so then I just then I just, you know, put the weight in perfect. Yeah. 
+
+7:25 | Miranda
+I do see you're using some product defaults so that's perfect. Let me see. Does that apply to every order? Do you know if product defaults are typically applied? 
+
+7:36 | John Skurka
+Well, one thing I mean, I typically use the button on a ship panel that says save these. 
+
+7:49 | Miranda
+You, 
+
+7:49 | John Skurka
+know, it's I can't I, your screen is really small to me. So I, it's… down there at the. 
+
+8:02 | John Skurka
+I think it says save these. Something is blocking. Let me see what's going on here. 
+
+8:08 | Miranda
+This one is save as default shipping configuration for this product. Yeah, perfect. Yeah, that's one quick easy way to save product defaults. Super useful. Product defaults are really great for like if an order contains that one quantity or like item. So whenever I do see you have like weights typically import automatically from Shopify too. So if you don't have that saved, if you have that like set up in Shopify, we can actually import that in. It looks like dimensions too. You have some custom packaging so that's great to utilize as well. So then you don't have to like manually input each time the dimensions. The only question I have is when you are shipping… or like assigning the service, is it based off of preference by the customer yourself or whatever's like the cheapest. 
+
+9:08 | John Skurka
+I've sort of defaulted to ups only because… delivery issues with the postal service and fedex. As far as I think, I haven't checked in a while, but ups seems to be cheaper than fedex ground. So, there are some times when I have to use the USPS, if the customer only supplies a po box. 
+
+9:36 | Miranda
+But for. 
+
+9:37 | John Skurka
+the most part, I default to ups. 
+
+9:40 | Miranda
+Okay. Yeah, I think I did notice that when I looked at your shipments, I noticed primarily ups ground, sometimes usps, priority for those po boxes. So, yeah. 
+
+9:52 | John Skurka
+And also for Hawaii and Alaska because ups is really expensive to get to Hawaii and Alaska. 
+
+9:59 | Miranda
+Okay. Gotcha. So these are things like if you're having to manually set that up. One thing that comes to mind that you can utilize is like automation rules, you do have a good few already set up. But in those cases where you're like, hey… you can set it up where you can say, hey, every order just have ups ground apply. And then for orders that come from Hawaii or Alaska or our po box have usps priority mail assigned. And what that does is the system can take care of that for you. So then you can just know like that's something manually. You don't have to like double check or make changes to just something I would recommend if you'd like to set that up. We can set that up in sure, go ahead. Yeah. So we can do ground. So, this is just going to say that we will assign ups ground. Let me do here. And then we'll just do package the custom packages. If it applies it'll save that information still. But this is just saying, hey, every order, ups ground will apply now. And then what I would do is just create an additional one that says… it'll overwrite that broad one. But we can say, hey, if it comes from, I think we have state here. We go. If it includes… Alaska or Hawaii. Did… you, where's Hawaii? There it is. Then you can have you have usps priority mail, correct? Right? Okay. And then we'll set a separate one for po boxes just so then that doesn't cause… any issues. 
+
+11:54 | Miranda
+Or actually we'll put usps priority or. 
+
+12:04 | Miranda
+There you go. Just so then you can see that information, perfect. And then we'll just do one for po boxes… for pew. 
+
+12:20 | Miranda
+And then what we will do is. 
+
+12:32 | Miranda
+we'll put contains po box. And then same thing here. We'll just have usps priority mail… and then just package for now. Perfect. So this will now these three just moving forward. It won't you won't have to make any changes to the services yourself. It'll just let the system know, to do. So I wonder if we have any that could be actually, I just want to see if there's any orders that we could test this with. 
+
+13:21 | Miranda
+Okay. Let me try Hawaii and if it, it's okay. If it's not any orders moving forward will now have… that assigned. Okay? Now there, let me try po boxes… see if we have any. Okay, there's no orders just yet. But if you do have an order that'll just moving forward, have that apply. I was hoping to see if there's any open orders, but that's absolutely. Okay. This will, I'm 100 percent confident that'll start applying properly for you moving forward. Any questions on that setup though, or just kind of like automation, rules of function? 
+
+14:05 | John Skurka
+Matter of fact, if you could, the one that says a tool crib, second, that, that's no longer applicable. So if we can delete that. 
+
+14:15 | Miranda
+Delete it. Okay, perfect. There you go. Perfect. That is deleted. Okay. Sweet. So, yeah, that's just like one automation that we can focus on trying to see product defaults already brings in the weight and dimensions, and then you have custom packages. So those are already great tools to utilize. Have there been any other redundant or like pain point, pain points experienced in shipstation? 
+
+14:46 | John Skurka
+The only thing… that I've sort of noticed and I'm not sure how it all works when the customer places an order, they're obviously getting a quote for shipping from ups. I believe well, I can actually look at. So one of… the latest ones it says actually ground advantage, which I think is the USPS, but I noticed that… the pricing. So is there any, I guess the question becomes, is there any way to… have shipstation pricing come into the customer's window? 
+
+15:43 | Miranda
+Like check up y? 
+
+15:44 | John Skurka
+Yeah, right. When they check out, yeah. 
+
+15:47 | Miranda
+We do have a check out rate feature. Let's see it requires. Let me see if both accounts. It does require to have a certain Shopify plan or if you activate like the carrier services in Shopify, you'll then have that feature and you could set up where we display those rates to your Shopify check out page. I think if I'm not mistaken, let me just see which… I know we have a nice little article here we go. That goes over. Wait, no, not this one. Check out. Did you? Okay. Here we go. 
+
+16:40 | Miranda
+Okay. Here we go. I think we do. So, yeah, it looks like just for the check out rate, it requires being on the Shopify advance plan or higher. And then let's see… do you have possibly… or when did you first open your Shopify account? Do you recall many years ago? Many years? Okay. There's also another, if you have like a third party carrier just depending on the plan type you are on. But there is another option where if you switch to annual or paid for a third party carrier shipping option, you could have access to check out rates, but you can follow up, which I would recommend just following up with Shopify just to get clarity. But as soon as that's done, this page right here… will open up for you to then set up check out rates in shipstation. And it's fairly easy when you set it up. I can actually we have like a nice little article here that kind of walks through but it's fairly easy to set up. So once you actually have that like this will clear once you make that change. But the way it'll work, just zoom in here. There'll be a button to add a check out rate. When you add that check out rate, you'll just click live rate and live rate just means like we will return a live or, and most up to date rate that's returning from the carrier flat rate is like if you just want to set a certain price, and then free is if you offer, I recommend, if you offer free shipping, like make sure to set up that rule in Shopify. Let's say you offer free shipping for over 50 dollars or over 100 dollars. Keep that in Shopify and just use the library because the free shipping option in shipstation is like offering it to all customers. 
+
+18:41 | John Skurka
+I don't do free. 
+
+18:42 | Miranda
+Shipping. Okay, cool. Then. Yeah, just use, I would recommend just using the library but when you do that, you'll just be able to select the services you want to compare. So let's say you don't want to offer usps ground advantage. You don't want to offer any of those other ones. You can just now have ups ground show or if you want to compare ups and fedex ground, you can add those. The way it'll work is we will only show the rate that returns the cheapest back in back to your customer's checkout. So it's like another cool feature. And then, yeah, that's basically it there's not really any additional steps you have to take besides that you just add checkout rate, click live, add the services you want to compare and that'll be it. Okay. But yeah, I'll make sure after this meeting to share that information with you. Just so then if you do want to configure that or need any additional assistance, you can reach out to me. Okay… good question though. And then… another thing I did want to just showcase is in the analytics, we do have some new reporting capabilities. The one I just wanted to review with you is our shipping cost one, these are great, but we have a way to track carrier performance. What this means is it'll let you know how the carrier's doing when it comes to delivering at the time, delivering on time with that transit time that they estimated. We have a nice little map chart too that's color coded to let you know how they're doing as well. But I did want to just go over the shipping cost one. This one is a nice report that just lets you know what the customer paid at checkout compared to what was paid in shipstation. So this is just a nice way to quickly just fact check, make sure if you're potentially eating those costs or sometimes you might profit or you're kind of balanced out or evening out just something I wanted to showcase that you can see this information here. Do you want to pause, see if you have any questions concerns? 
+
+20:52 | John Skurka
+Nope. I'm good, cool. And. 
+
+20:55 | Miranda
+Then this also can be exported here. We have a shipping cost report here. So if you ever want to actually run this actually just lets you know, I like this right side. So if it's in the green, that just means you actually profited, if it's in the red, it just means you ate that cost. But same thing shipping paid. So what the customer paid and then what was the actual cost in shipstation for that label? Just something to, okay? 
+
+21:21 | John Skurka
+Showcase. So basically what that was saying, the summary page there is that I'm ahead of the game? 
+
+21:29 | Miranda
+Yeah. In this case, you're doing? Yeah, I would say you're profiting a little, but that could also go to like boxes or like shipping. Yeah, right? So as long as you don't see too much red, then you're in the good for sure. I would definitely say that. Okay. And then since you don't offer free shipping, this is actually super accurate because I know free shipping, we'd show like shipping was zero and then, you know, that would kind of make the numbers a little off. But this is, super accurate for your shipping… cost. Cool. Let me see if there's any. I don't think I really have any other recommendations of the way you're utilizing it already, like using product defaults, which is one of our automations using those custom packages. Now, we have some automation rules just to help with some of those like manual clicks that were being done. But besides that, I think it is being utilized great. Let me see. I do see. How are the returns. I do see you recently generated a return. How has that process been? 
+
+22:33 | John Skurka
+Pretty good. You know, I mean, so basically, I, you know, if it's an error, I don't if it's an error on my part. I pay for the return. So there recently was an error and I can't yeah, it was at that top line there. And all I did was create a new order in shipstation and pasted the customer's information from Shopify. Basically the address. 
+
+23:03 | Miranda
+Okay. The. 
+
+23:05 | John Skurka
+Only thing that I did notice in that particular one is shipstation did not have the item, the actual item. So I hadn't like I hadn't connected the shop. It was a fairly new item. I mean, the item was added probably back in March. Okay? But when I went to go to, when you do new order, you go down to the bottom and you type in SKU, it'll give a bunch of suggestions on what I might be talking about. Yeah. And I could not find the item. 
+
+23:38 | Miranda
+Okay. So. 
+
+23:40 | John Skurka
+It hadn't brought it over from Shopify yet, which was confusing. So, I just put something in there. It really didn't matter for my purpose, but Shopify, I think requires or shipstation, requires that there be something there. 
+
+23:59 | Miranda
+Yeah. Let me see. Because I also wanted to see, okay, this order right here. 
+
+24:04 | John Skurka
+No, well, the first, the top one, the top one, yeah, that's the one. 
+
+24:09 | Miranda
+Okay. Gotcha. 
+
+24:11 | John Skurka
+Let. 
+
+24:12 | Miranda
+me see. 
+
+24:15 | John Skurka
+Yeah. So that item is not really the item that was being returned? 
+
+24:20 | Miranda
+Huh. 
+
+24:22 | John Skurka
+So, 
+
+24:24 | Miranda
+interesting. And this never came you? 
+
+24:26 | John Skurka
+See, yeah, if you see his original item, 39 20 was a starbird for a 275. 
+
+24:34 | Miranda
+But. 
+
+24:36 | John Skurka
+I could not. Okay. 
+
+24:40 | Miranda
+This is the new item and then let me check the returns to Polish because… I think there's a return in here. And then, so… you sent a different item out and then something else is being returned, correct? 
+
+24:59 | John Skurka
+It's yeah. Okay. It's basically the same item, but for a different side of the boat. 
+
+25:04 | Miranda
+Okay. 
+
+25:06 | John Skurka
+But, you know, again, it could have been my error that I was not typing in the right, the correct skew, I guess. 
+
+25:15 | Miranda
+Okay. Gotcha. Yeah, because it looks like this one does live created March 20 23. Interesting. I just want to test something real quickly. See if we skew. 
+
+25:32 | John Skurka
+Okay. Let me try. Yeah, that's not the item. 
+
+25:34 | Miranda
+What was the item? The? 
+
+25:36 | John Skurka
+Item is a starboard for 275? Oh, wait, let me go back. The SKU is starboard. Well, it contains the, it actually just contains the word star? 
+
+25:58 | John Skurka
+Yep. Starboard 275. 
+
+26:08 | John Skurka
+But if you, the full name is starboard. I think… starboard, I'm sorry, B o a RD. 
+
+26:22 | Miranda
+Oh, starboard. Okay. There we go. And then you said 275, right? Yeah, it doesn't look like it lives. It could be two… Stephen? 
+
+26:34 | John Skurka
+If you go, if you went, if you went back to where the 39 20, the actual order number… and you look… yeah, see. So the item name right there, starboard is included. And 275. Now, I don't know. I would think it would search that whole item name to find that item. 
+
+26:58 | Miranda
+Okay. So, this is what, let me see. Because I wonder, I think it has to be like the full thing. Let me try actually, no, it. 
+
+27:05 | John Skurka
+Doesn't actually search the, I think find those. 
+
+27:11 | Miranda
+Yeah, like I think if you, for example, let me just try… starboard 275. Yeah, I think if you type in like, let's just see. 
+
+27:23 | John Skurka
+See, but that starbird would be in the name not in the SKU because, I abbreviate starbird by star in the SKU typically, huh. So again, it would be in the name of the okay. 
+
+27:38 | Miranda
+I see. Well. 
+
+27:40 | John Skurka
+See, but that's looking at the, that's looking at the title as well. The name. 
+
+27:45 | Miranda
+Yeah, starboard works for some reason. I just don't know why 275 doesn't or this is like one other see. 
+
+27:54 | John Skurka
+But, but the starboard version isn't showing up in that list. 
+
+27:59 | Miranda
+Gotcha. Let me try by SKU again, I do want to try that too. And I see it's 275. So let me try that. I'm just going to type in 275. 
+
+28:20 | Miranda
+Yeah, this one right here, right? 
+
+28:21 | John Skurka
+No, well. 
+
+28:24 | Miranda
+Right. Yeah. I think that was the one I saw… 275. 
+
+28:33 | John Skurka
+But I'm pretty sure the, item name has starboard, in the item name because see that one, the top one says port. 
+
+28:44 | Miranda
+Okay. 
+
+28:45 | John Skurka
+So, it really matters which side? 
+
+28:50 | Miranda
+Of the board. Oh, okay. I see what you're saying. Okay. So, and then starboard didn't. 
+
+28:56 | John Skurka
+so, it should, and some of these are old. Okay? Like the brushed ones, I mean, that I'm not sure how to get rid of some of those or if shipstation does not take into account if the item is a draft or not. 
+
+29:12 | Miranda
+Okay. Gotcha. In. 
+
+29:13 | John Skurka
+In Shopify we. 
+
+29:15 | Miranda
+Don't delete them. There's a way to deactivate or delete them as well. So, sorry, I'm just still mind boggled. I want to try some, one more thingy. So, I am starting to see what you're saying. I wonder if we can get that. 
+
+29:33 | John Skurka
+Yeah, that's what I would typically do, right? I know that the name contains starboard and 275, show me those only those items that contain those two words. 
+
+29:45 | Miranda
+Yeah. Okay. Yeah, I'll definitely get those looking too, because I am puzzled by that, why it's not populating because if I look up, I want to see if I look up here if it'll nope. Okay. Well, it doesn't pull up here either, so that's strange, but. 
+
+30:03 | John Skurka
+And. 
+
+30:05 | Miranda
+then 275. 
+
+30:11 | Miranda
+Yeah, I don't even have 275 in here either when I look up to starboard, until I look up here. 
+
+30:19 | John Skurka
+So, yeah, I'm trying to, can you sort by, can you sort by age or the most current? We? 
+
+30:29 | Miranda
+Can also do age or created? 
+
+30:31 | John Skurka
+At how long are they playing in that list? 
+
+30:34 | Miranda
+Yeah, because there's some, well, there's still some for that's. Actually a good point because I did see it was created in 20 23. 
+
+30:42 | John Skurka
+Yeah. So, this most current order was in March of this year. 
+
+30:48 | Miranda
+Okay. Gotcha. I do want to see if I can find it quickly here. I think it was 323. Okay. Yeah. And… let me extend this and then look for 275. Okay. Not that one. We're looking for starboard. Yeah, that's… interesting. I don't see starboard here either… I. 
+
+31:21 | John Skurka
+Don't so I don't think starboard or star is in the SKU, and that's my error. So that would be, it would be in the name though, which… is why I think maybe, but when you type starboard and 275 in the name field, it didn't show up either. 
+
+31:42 | Miranda
+No, it did not. Yeah, I was curious as to why it didn't show because, yeah, here's, model 275. 
+
+31:49 | John Skurka
+And starboard is in the name. 
+
+31:53 | Miranda
+So I do want to get this looked into for sure because if I search here, I should be able to pull it up. Yeah, there it is three 31 20 23. Oh. 
+
+32:03 | John Skurka
+Again, but see that is the wrong. That is not the correct item. The name, that says model 242 42. So. 
+
+32:12 | Miranda
+Oh, okay. Maybe that's. 
+
+32:14 | John Skurka
+because I had to, I couldn't find the one I was looking for. So I had to just choose something to. 
+
+32:21 | Miranda
+Put in there. And. 
+
+32:22 | John Skurka
+That's why I chose that one. 
+
+32:24 | Miranda
+OK. No, this is not you're right? You're right? This is not the right one. It is in 390, this order, right here. 
+
+32:30 | John Skurka
+Right. That is the correct one. OK? 
+
+32:33 | Miranda
+And this is the one we're talking about, correct? OK. Cool. OK. Yeah, I'll definitely get that looked into, because, yeah, I see it here 10 nine, oh 10 920 21. OK. And see what is. 
+
+32:48 | John Skurka
+See that? That is a, or… even though it doesn't say it. 
+
+32:55 | Miranda
+OK. March 275 word. 
+
+32:57 | John Skurka
+Yeah. In March, I added fort and starboard to the name, of the item, but I didn't add it in the SKU, which just was a, an… oversight on my part. 
+
+33:11 | Miranda
+Oh, I think that's what it is. OK. Yeah, because let me see. I think I see what's going on… because it's right here, but it has a different name. Interesting. I wonder if we have duplicates. No, it's right there, 
+
+33:38 | John Skurka
+See, but again, that is the old one. So that name of that item does not say starboard anywhere. Yeah, new item does say starboard. So, for some reason, it didn't get pulled in. Yeah, but maybe it's because the SKU is the same. Is that possible? It? 
+
+33:59 | Miranda
+Could also be that. So, if we have any orders, let me see because I think most came in with this old name. 
+
+34:08 | John Skurka
+Yeah. The 39 20 there, that's the, that was the very first order contained the starboard version for the 275. 
+
+34:21 | Miranda
+OK. Gotcha. But I. 
+
+34:23 | John Skurka
+think it's because I don't have starboard in the SKU, I probably use the same SKU. Yeah, both port and starboard. 
+
+34:34 | Miranda
+Correct. Yes. Yeah, I see starboard. 
+
+34:37 | John Skurka
+If I change the SKU once Shopify comes back up, maybe that'll and. 
+
+34:43 | Miranda
+I can also try one other thing. Do you want to still use that SKU? 
+
+34:48 | John Skurka
+Yeah, I mean, like I said, I think I just need to change the SKU in Shopify, but I can't do it right now. 
+
+34:54 | Miranda
+OK, because no worries. I was going to say another thing we can do is override, let me look up polished mod 275. Yeah. Here it is, what we can do is you can just change it here. And then I can put override the imported name… and then save that. There we go. This is another way we can have it update… but you can also update that name in Shopify. I would just double check, make sure that name's updated in Shopify, but we also in shipstation overrode that name. So now, when you pull up this one order or this one product, it should. Now. Let me try. Did you… OK, there's starboard? Let me try starboard. I don't think it'll pull up that way, but at least when you pull this up, it says say, start, oh, let me try the item name. Sorry, that would make more sense. Well, no, it's the only thing. 
+
+36:05 | John Skurka
+Starboard. And then let. 
+
+36:07 | Miranda
+me, try it together. 
+
+36:11 | John Skurka
+No, we have a space. 
+
+36:17 | Miranda
+I just wanted to see if maybe there's a way to look it up, but it's… that one, right? It? 
+
+36:25 | John Skurka
+Is, but see that one's a particular version of it that has the blackstone amount, so. 
+
+36:32 | Miranda
+The. 
+
+36:33 | John Skurka
+general, one would not have. 
+
+36:36 | Miranda
+That. Okay. Then we might want to edit this because I think I just copy and pasted. So here, I would just recommend if you have different versions, maybe having different SKUs for this version? 
+
+36:48 | John Skurka
+Oh, yeah. And that's like they say that's my issue, okay? Because I copied it and I didn't change the SKU. So I will do that. 
+
+36:54 | Miranda
+Okay. Gotcha. Yeah. And that'll just make it a little easier if you have different, like different versions or different styles, sorry, different styles, Cool. But if you do need to clean up like any old ones, there is a way. So like if some of these aren't being utilized, you can select them all or select one first. You have to deactivate it. When you deactivate, you can then delete those product records in shipstation. If you deactivate it'll, just hide it. So then like at the top, right, I was clicking that show inactive products. So if there were any deactivated that prevents it from fully wiping it. But if, you know, like I don't even plan on using those product records, you can just deactivate and then delete it's. Just kind of like a two step process just to make sure because once you delete those product records, they're fully wiped from your shipstation account. Awesome. Any questions though? Any questions? Any concerns? No? 
+
+37:51 | John Skurka
+I think I'm good all. 
+
+37:52 | Miranda
+Right. Well, I'll make sure to recap everything we spoke about today, and then feel free to reach out if you have any questions concerns. I just put a disclaimer if you are unable to log in, unable to ship something urgent, I still recommend reaching out to support just to make sure you get immediate assistance, but anything non urgent, absolutely, feel free to reach out anytime moving forward. All right. Very. 
+
+38:13 | John Skurka
+Good. Thank you. Appreciate it. Thank. 
+
+38:15 | Miranda
+You have a great rest of your day. Thanks you too. Thank you. 

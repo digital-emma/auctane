@@ -1,0 +1,44 @@
+name: no_walleted_carriers
+description: >
+  Identifies accounts with no connected walleted carriers. Fired in two modes:
+  onboarding (never connected one) and regression (had carriers, all removed or
+  disconnected). Walleted carrier connections drive shipping volume and lock-in —
+  zero connections is both an adoption gap and a competitive vulnerability.
+source: bigquery   # carrier configuration table
+
+urgency_tier: early_warning   # fixed for both modes
+human_escalation: false
+recommended_action: enroll_hubspot_sequence
+
+trigger_modes:
+  onboarding:
+    condition: 0 walleted carriers connected, 14+ days post-onboarding
+    days_post_onboarding_threshold: 14
+    sequence: walleted-carrier-setup-new
+    description: >
+      Account has been active for 14+ days with no walleted carrier connected.
+      Send setup education sequence with step-by-step connection guide
+      and highlight cost and speed benefits vs. retail rates.
+
+  regression:
+    condition: had 1+ walleted carriers, all removed or disconnected for 30+ days
+    inactive_days_threshold: 30
+    sequence: walleted-carrier-reengagement
+    description: >
+      Account previously had walleted carriers connected but all have been
+      removed or disconnected for 30+ days. Send re-engagement sequence
+      to understand why they disconnected and guide reconnection.
+
+salesforce_action: log_activity
+
+personalization:
+  - field: trigger_mode
+    source: signal_payload
+  - field: days_inactive
+    source: signal_payload
+  - field: account_name
+    source: salesforce
+  - field: recommended_carrier
+    source: account_fit_model
+
+cooldown_days: 14

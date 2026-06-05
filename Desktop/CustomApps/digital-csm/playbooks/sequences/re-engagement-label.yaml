@@ -1,0 +1,101 @@
+sequence_name: re-engagement-label
+signal: no_label_printed_7_days
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  days_inactive reaches 21+ with no reply by Email 3 — flag account in Salesforce
+  as re-engagement_failed and create a CSM task for human review.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "Everything okay with your {account_name} orders?"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas from ShipStation.
+
+      I noticed it's been {days_inactive} days since your last
+      label was printed on your account. That's unusual based
+      on your typical shipping pattern — you normally ship
+      around {avg_weekly_shipments} orders a week.
+
+      A few things worth checking if something isn't working:
+
+      - Orders awaiting shipment: {orders_link}
+      - If you're seeing an error when printing, it's usually
+        a carrier connection issue — you can check your
+        connected carriers here: {carriers_link}
+
+      If you've switched to a different platform or are taking
+      a planned break, no worries at all — just let me know
+      and I'll update your account accordingly.
+
+      Otherwise, your order queue is here and ready:
+      {orders_link}
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name              # Salesforce contact first name
+      - account_name            # Salesforce account name
+      - days_inactive           # days since last label_printed event (signal payload)
+      - avg_weekly_shipments    # rolling 90-day average weekly shipments from BQ
+      - orders_link             # https://ship14.shipstation.com/orders/awaiting-shipment
+      - carriers_link           # https://ship14.shipstation.com/settings/carriers
+
+  - day: 7
+    subject: "Still seeing a gap in your {account_name} shipments"
+    body: |
+      Hi {first_name},
+
+      Quick follow-up — it's now been {days_inactive} days
+      since your last label.
+
+      If there's a technical issue blocking you, I want to
+      get it fixed fast. The most common culprits at this
+      point are:
+
+      - A carrier connection that's gone inactive
+        → Check here: {carriers_link}
+      - A billing issue on the account
+        → Your account status: {orders_link}
+      - Orders stuck in an error state
+        → Awaiting shipment queue: {orders_link}
+
+      Just reply with what you're seeing and I'll get it
+      sorted out.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name        # Salesforce contact first name
+      - account_name      # Salesforce account name
+      - days_inactive     # days since last label_printed event (signal payload)
+      - carriers_link     # https://ship14.shipstation.com/settings/carriers
+      - orders_link       # https://ship14.shipstation.com/orders/awaiting-shipment
+
+  - day: 14
+    subject: "Last check-in on {account_name}"
+    body: |
+      Hi {first_name},
+
+      It's been {days_inactive} days since your last shipment
+      and I haven't heard back — so I'll leave this with you.
+
+      If you ran into a problem and want help resolving it,
+      I'm here — just reply to this email.
+
+      If you've moved on, I completely understand. Either way,
+      your account is here whenever you need it:
+      {orders_link}
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name        # Salesforce contact first name
+      - account_name      # Salesforce account name
+      - days_inactive     # days since last label_printed event (signal payload)
+      - orders_link       # https://ship14.shipstation.com/orders/awaiting-shipment

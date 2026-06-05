@@ -1,0 +1,582 @@
+ShipStation Automation Check-up: Laurena Emhoff
+
+Jonathan Carucci with Laurena Accessories
+Recorded on Jun 2, 2026 via Zoom, 39m
+
+
+
+Participants
+
+Auctane
+Jonathan Carucci, Customer Success Associate
+
+Laurena Accessories
+Laurena Emhoff
+
+
+
+Transcript
+
+0:00 | Laurena
+hello Lorne. Hello? How? 
+
+0:05 | Jonathan Carucci
+Is it going? I do apologize for some reason my computer was trying to not connect. I'm connected on my phone now. 
+
+0:13 | Laurena
+Hold on a second. Hello? Yeah, I'm on a call. Okay. Bye bye. I'm sorry about that. 
+
+0:25 | Jonathan Carucci
+No, no, no, no worries at all. Yeah, my computer for some reason wasn't trying to connect to the internet. And so I had to, you know, kind of jump in… and so, you know, sorry for the little bit of tardiness, but I do definitely want to thank you for setting up this time, this meeting here. And, you know, I'm waiting for my computer to boot back up. And then I'm going to turn on my screen so you'll see it. But before we kind of continue, I do want to, you know, first introduce myself, my name is Jonathan. I'm part of your account managing team. We do kind of handle the optimization of the accounts and seeing what we can do to make your workflow optimized, if there's a possibility for it. Now, I do want to know a little bit more about you. I want to know in terms of your position within the company, a little bit about the company itself. And then if you can provide maybe a little bit of the reason why you booked this meeting with automations. Is there something in mind or is there something you're experiencing within shipstation that you feel like, hey, this is perfect for this meeting. And then we can just kind of go from there. 
+
+1:38 | Laurena
+Okay. Yeah. The only reason honestly why I stepped in the meeting was I got notes saying that certain things wouldn't work if I didn't and I was like, well, what does that mean? So I kind of don't know quite honestly the purpose to some degree. Yeah. 
+
+1:58 | Jonathan Carucci
+No, it completely makes sense. So you received a, was it like within the computer or within the account itself? 
+
+2:06 | Laurena
+It might've been. Yeah, yeah, I think it was when I logged in… but I am the owner and I do a lot of shipments. I'm in the costume business for like Halloween… and cosplay, et cetera. So there is definitely seasonality, probably true for most businesses, but yeah… no. 
+
+2:41 | Jonathan Carucci
+No, no, that is. 
+
+2:42 | Laurena
+Definitely. Okay. 
+
+2:45 | Jonathan Carucci
+Perfect. A long time. So I look at least I'm looking at it with like the last probably… last 30 days. It looks to be you have about 106 107 orders now, based on what you stated, I'm guessing you do get peaks probably around closer to October is when it just sort of jumps up. 
+
+3:08 | Laurena
+No, it starts off in July. 
+
+3:11 | Jonathan Carucci
+Got it. Okay. Goes. 
+
+3:12 | Laurena
+All the way into and then it continues on to the holidays. So, because some of the stuff I have are gift items as well. Okay? 
+
+3:22 | Jonathan Carucci
+And then usually your workflow, I just really want to know the importance of it. So the workflow that you have is it just like you go ahead and you… get an order, the order comes in to shipstation via etsy or Shopify, you look at the labels, you create them and then, or you create the labels and then you just send them out or what is the workflow? 
+
+3:47 | Laurena
+On it that's right? Yeah. Yep. So I create the labels. I think only last year I started doing bulk because especially when it's like heavy and the sizing works, I'll do the bulk feature to run a whole bunch of labels at once… but yeah, I don't know if I'm missing anything because I guess part of it is, I don't even know what this can do. So, there may be things that I'm doing that I could save time on, but that is that's pretty much it in a nutshell. 
+
+4:24 | Laurena
+Oops. Hello. 
+
+4:27 | Jonathan Carucci
+Are you able to hear me? Yep. I can hear. 
+
+4:29 | Laurena
+you. 
+
+4:30 | Jonathan Carucci
+okay. That is perfect. Yeah. Okay. So, yeah, you don't know what, you don't know. I guess that's one of the sayings there and are you able to see me now? 
+
+4:40 | Laurena
+Yeah, I see. Now, I see now. 
+
+4:42 | Jonathan Carucci
+Perfect. Now computer is back to work. So I apologize for that, but no problem. Okay. So, okay. So, yeah, as far as looking at your accounts, you know, we do. So that I guess the reason probably why you got that pop up is most likely because our… there's like a little if our computer looks at an account, see something that it triggers these meetings that's whenever it happens and looking at your account, I am looking at automation rules, it looks like you only have one automation rule which is called problem customer. Oh. 
+
+5:23 | Laurena
+I was just playing around with it once. Yeah, there was a crazy customer. I was like, well, that'd be great to make sure I can reject them, but yeah, I was like this can do this but I don't do anything. I just, it's very like you said, it's so the orders come in automatically through Shopify, even if it's through Shopify. And I actually, now, I use there's a company called masonette. It's like a kind of like a marketplace, they interface through a special thing through Shopify. So it's also comes through them. So yeah, you know, the partners I have is through Shopify. Yeah. And so it seems to work, yeah. 
+
+6:01 | Jonathan Carucci
+And then some etsy, because I do see there's about nine orders within your account here. And then etsy. Okay. So when you come in, what's the most important thing when you come in, is it just looking at the price? Do you already know what carrier you're going to use when you're creating the label or do you have to kind of shop around to see if it's like because I do see that you have parcels like ground advantage? 
+
+6:22 | Laurena
+Yeah. I mean, I guess I look at them like, well, they all seem to be the same pricing except not ground. But I know there's two different, maybe I should just go in the system. 
+
+6:33 | Jonathan Carucci
+Yeah. By the way I am in the system as well. So if you have something that you want to be like, let's take a look at this. We can absolutely. 
+
+6:39 | Laurena
+Look at it. But yeah, I will, for the most part, I usually do usps parcel unless it's a more expensive, a higher revenue point then I'll do ups. 
+
+6:54 | Jonathan Carucci
+Okay. 
+
+6:56 | Laurena
+Or something's a rush or something, but that's pretty much what I do. 
+
+7:01 | Jonathan Carucci
+Yeah. And you would be able to look at, and that's one of those things that you, by looking at the order, you already know that it's going to need to be rushed out because you see the order itself or is there something that triggers it to let you know this needs to be going out? 
+
+7:16 | Laurena
+No, I would know. Yeah, I would know. Yeah. 
+
+7:20 | Jonathan Carucci
+Okay. So let's see what carriers do you have. So you use shipstation carrier? Okay? So one thing that I will say, let me share my screen, at least something that we can do to optimize at least if, for the most part, you just want what is the cheapest rate out of the services that you have? Let me show you, I'm going to share my screen really fast and it's going to be, I'm going to be sharing. Okay? So this is your account right here. Okay? So we'll look at an order. So I'm guessing you come in, you click order. Okay? And then you'll select an order, and then you'll kind of like select a service or do you select a service or do you click browse rates? 
+
+8:10 | Laurena
+I select the service? 
+
+8:12 | Jonathan Carucci
+Okay. So right away and then is, do you select a service by kind of saying like all right, ups, ground advantage? And then you just look at what the rate is, and then that's how you select it. 
+
+8:25 | Laurena
+Like for this item, I know I'm going to pick like usps. So I usually look at this, go under service and I pick usps parcel got. 
+
+8:35 | Jonathan Carucci
+It now you just said by looking at this package, is it because of the item? 
+
+8:39 | Laurena
+Yes. Okay. 
+
+8:39 | Jonathan Carucci
+Okay. So let me actually show you. I don't know how many products you have, but I can at least show you what this call is called. Whenever an order comes in and it's just one item, it's just called, a standalone order. One thing that shipstation does is if you do the same thing for like you said, I know because this is the only item, this is what it's going to be. You can actually click on the item here and you can click on shipping. Okay, what it will do is you're able to not only put the weights dimensions because you, like you said, if it's that you already know what it is, you can even add the service here already. What this is going to do is any single time that the order comes in and it's only one line item and it's this one, it's going to automatically include it's. Now going to add the service from now on moving forward. The only time that it won't do that is if there's two line items on an order, right? Okay. But that's one way to optimize it to where it already, you're like you just said, I already know which one's going to be, right? So let's you can go ahead and just click it select here. Do it for domestic international. If that's an option that you have, you can put the package weight because you already know what the weight is. So that's even less things that come in. So whenever it imports can. 
+
+9:55 | Laurena
+You pick a, preset? 
+
+9:58 | Jonathan Carucci
+Not for the standalone because presets are technically presets are manual actions. Oh, really? So you are okay. Okay. So you're saying like the preset here, right? Yeah, that's fine. 
+
+10:12 | Laurena
+That's fine. 
+
+10:14 | Jonathan Carucci
+Because for the most part, you would just, you would just kind of know the dimensions of it, right? Based on what it is. Oh yeah. So you would just be like 1,412 10. 
+
+10:25 | Laurena
+Yeah, I mean, it's pretty hard to preset anyway, right? Yeah. Now. 
+
+10:30 | Jonathan Carucci
+Whenever you do preset, do you manually add it or do you use hotkeys for preset? 
+
+10:35 | Laurena
+Oh, I manually, I don't really use the hotkeys. Got. 
+
+10:38 | Jonathan Carucci
+It, yeah, yeah, because I was going to say there's a, how about a name? Oh… so if it's a witch hat adult, then got it. Then you'd be okay. So you wouldn't be able to do the preset but kind of the same way you're doing it. If it's if you know that it's a witch hat and it's adult, then you'd go ahead. 
+
+10:55 | Laurena
+And just, can you click back into that? Can you click back in for a second? I just want to see if I'm setting it up, you're. 
+
+11:00 | Jonathan Carucci
+saying, yeah. 
+
+11:02 | Laurena
+So, when I'm setting it up, yeah, right there, so you can put. 
+
+11:07 | Jonathan Carucci
+Oh, okay. Shipping. Oh, 
+
+11:09 | Laurena
+okay. Yeah. Okay. I see. And. 
+
+11:11 | Jonathan Carucci
+If you do want this applied to orders that are available right now, you can always check this off. Like once you set it up, you can check, apply to open orders and save it. And then it should, we should see it add to the order. 
+
+11:24 | Laurena
+So, then once you do this, what will it do for me? Then it will just have. 
+
+11:28 | Jonathan Carucci
+So, from let's say you put, you know, what the package weight is, what the service is. So the next time an order comes into shipstation that matches that because of the item name, right? As soon as it comes in, once you click into it, it's going to now have the service selected. It's going to now have the weight added. It's going to have the dimensions added. So you don't even have to now do the manual work of adding it. You don't even have to put the preset anymore. It's going to be included. Okay? And so the only reason why I say that is because there's it looks like a lot of the orders that are coming in are single line items. They are, they are that's great because I mean, it is a little bit of work to set it up in the beginning because depending on how many products you have, right? Right? Actually, it's a lot, yep, which by the way, you can always, you know, you can always go to the products tab and then just kind of update that way. But we have noticed that a lot of people who say, yeah, we do have to set up what the custom values are, what values, what service we would select. But then as soon as we're done with it, now, whenever the orders are coming in, it's so much easier now because of the fact that we, now, whenever you come in, you know, let's say you get 12 orders, 15 orders in a day, but it's a single line item. You're going to click on it and it's going to already have the service that's going to have all the work. You don't even have to select the presets from the drop down. It's already going to be selected. 
+
+12:56 | Laurena
+It's a great print label. 
+
+12:57 | Jonathan Carucci
+Exactly at that point, unless. 
+
+12:59 | Laurena
+And if you want a bulk purchase… it's all filled in. Yeah, and you can select in bulk, okay? 
+
+13:05 | Jonathan Carucci
+Which, by the way, whenever you bulk purchase, do you use a sidebar or how exactly is it that you bulk purchase? 
+
+13:10 | Laurena
+What am I doing? Let me think… I usually would do, I don't think I do the sidebar. I do advanced search. So let's say I'm doing like all my witch hats, I'll do an advanced search for waiting shipment by the product name. And. 
+
+13:30 | Jonathan Carucci
+then you'll just filter all those based on the item. Yeah. 
+
+13:32 | Laurena
+I'll create it as a batch. I'll assign it to a batch. And then I run it for the batch. 
+
+13:38 | Jonathan Carucci
+Okay. And you run it as a batch just to make sure that you kind of get to see what the total amount is, or… is it or do you want. 
+
+13:51 | Laurena
+it to be that I don't have to go through one by one, right? Yeah. 
+
+13:54 | Jonathan Carucci
+I was going to say because another way, if you don't want to create a batch and like let's say you filter it. So it shows you all the orders that you want to go ahead and do. Okay, you are able to just click what's called like the sidebar. Okay? And then let's say it filters all those. You just click that right there. And then what it will do is it will select. It's. Going to show you basically all the orders. It's going to show you all the rates especially if the rates are already selected or services already selected. So all you really have to do is just, it's going to tell you what the total is. You can just create the labels there without having to create a batch. If it's not necessary. If it's not part of your workflow. Now, if it is important for you to create batches because it's like I need to make sure that there's like a historical document that this batch is because I created the labels for the same item, you can't but once again, another way that a lot of merchants kind of are liking is a sidebar because they can go ahead and not have to, it saves them steps. They don't have to create a label. They don't have to or batches don't have to go in there. They just select whatever's filtered and shown there. Okay? So those are ways at least I think just with the standalone product detail, that is a great way to automate your service and optimize it because of what we just stated, the single line item, and I think that's going to actually help you guys help you out. A lot. Now. Speaking of really fast, I do have to, we do have to talk about this only because it's a new lineup change that came in the payment and subscription side. I do see here that you are on the silver plan up to a 1,000 for 59. Now, the main thing is, do you monthly… it seems to be you're over 100 under 500. And then whenever you go towards like you said, towards the end of the year, it's whenever it kind of comes up. 
+
+15:45 | Laurena
+Yeah, you're right? I'm. 
+
+15:46 | Jonathan Carucci
+fine. 
+
+15:47 | Laurena
+Yeah. 
+
+15:49 | Jonathan Carucci
+So here's one thing. So you're currently under what this subscription is, obviously you're on the silver plan. So for the most part, you're kind of paying for this volume. Normally, I'd say, hey, let's take a look at what's called the new plan because our product team brought up what's called, basically a lot of features are added to it. And now the main thing is it's just volume based. The only thing for me is I don't think it's going to, it's the right fit for you because of the fact that exactly because like let's say even if you were to do like, all right, let's do up to 500 for shipments per month, it's still going to be 30 dollars more and you're not based on your workflow, you're not really needing a lot of the things that come here. One of the main things that is a big plus for people is that you do get phone support and you get like shipping API based on the workflow. We looked at it with you. You're not really using those. So that's not something that. 
+
+16:46 | Laurena
+What is shipping API? What is that? So? 
+
+16:48 | Jonathan Carucci
+That just means basically like Shopify or etsy connection. Sometimes there's integrations that aren't with one of the partners that we have more custom more. 
+
+16:57 | Laurena
+Custom exactly. 
+
+16:58 | Jonathan Carucci
+It's a very it's a customized way that you have to build it and then connect it with shipstation. But once again, that's not something for you now when you're in the current subscription here… because you're not really using customized packing slips and it's probably you're the only user who does this, correct? 
+
+17:17 | Laurena
+I do, but, you know, I think this year, I probably would have another user doing it come busy time because, yeah, this can just be a lot. So. 
+
+17:31 | Jonathan Carucci
+So, the main reason why I was going to say in the event that let's say, you know, that you're obviously, you're going to get busy towards the end. But if this is kind of the numbers that you're doing, you are able to kind of jump down to this one, and then you can even add a user, which the usual would just be like five dollars extra. 
+
+17:48 | Laurena
+But what am I losing? Let's say, so let's just say between the bronze and the silver Because I, yeah, I totally forgot about this because I was at the lower one and then I jumped up last year, busy season. 
+
+18:04 | Jonathan Carucci
+That's probably what it was most likely you jumped up because you probably in one month went over 500. So the system kind of told you okay, like if you want to keep shipping, you need to upgrade, yeah. 
+
+18:14 | Laurena
+I absolutely did. Yeah. 
+
+18:16 | Jonathan Carucci
+Which it's a good thing, like I said, but at the same time, if you aren't because you're not really losing much between these two, the main thing that you really are with this one is just a packing slip switch. You're either using branded or customized. It doesn't really look like you have that part of your workflow because you do it yourself. You don't have a warehouse that someone has to come in and look at it at what the order is. And then the same support it's still live chat. So those are kind of the main things that we're looking at actually. 
+
+18:43 | Laurena
+That's a question I have though because I do need to, I do have an issue when I'm getting something through one of the partners, I have to go into Shopify and print out the slips. I would like to have a more, that is a waste of time for me, like to change the, to… customize the packing slip. Okay? So. 
+
+19:10 | Jonathan Carucci
+At that point, if that is, so when you customize it, what is it that you want to add? 
+
+19:14 | Laurena
+It should say their name on it. Like, so like there's a, there's, I don't know how it would, why would it tell me? I don't see, but, yeah. 
+
+19:27 | Jonathan Carucci
+I'm going to look at. 
+
+19:28 | Laurena
+This if I have any here recently. 
+
+19:32 | Jonathan Carucci
+So, this is how the packing slip will look like for one of the open orders that we currently have. 
+
+19:37 | Laurena
+Right. That's what I use all the time, right? Okay. I have not updated. You know, I need to update this thing. I don't even remember how I did this. I did this many years ago. It's okay. So. 
+
+19:48 | Jonathan Carucci
+You, do you include a packing slip within the order? Yeah. Oh, okay. So the here, it does look like it does include their name because you're stating that it, that initiative that you're having? Is it just with Shopify orders that you're saying that? It just doesn't it doesn't show this on theirs or what exactly is? 
+
+20:04 | Laurena
+That you're saying no, like I need to have something different. Like, so this has Bailey and Ava party. So, wait, why would this have, oh, I have to fix this. I'm like what is this? I, this is old. Got it. Okay. I didn't realize this. Okay. But one of them is through it's called Shopify collective. So let's just say there's a small boutique. It should have their name at the top and mine. Okay? 
+
+20:32 | Jonathan Carucci
+Now, whenever the, it would have to come in from this Shopify? 
+
+20:36 | Laurena
+Store, it'll come through, they all come through that one Shopify, it's not a separate Shopify. Got it. And I think the way you use it, you can identify it is, I think it says if it's a collective partner, it's a very specific column. 
+
+20:52 | Jonathan Carucci
+In Shopify in. 
+
+20:54 | Laurena
+Shopify. Okay. Like I can see it on the screen, I can see it in shipstation when it is using that collective partner. 
+
+21:01 | Jonathan Carucci
+Let me see if I can. Oh, okay. I. 
+
+21:03 | Laurena
+can find one. Yeah. 
+
+21:04 | Jonathan Carucci
+That'd be good because then we could probably select and automate. Well, first of all, we would. 
+
+21:09 | Laurena
+That is a headache. And if I do more and more volume and then let's just say, and I'm looking to put in to launch tiktok, that… would be, I'd want that different too. 
+
+21:21 | Jonathan Carucci
+Okay. Got it. Okay. By the way we do. And if, in the event that you did want to go ahead and launch tiktok, we do have tiktok as a direct integration partner. So that. 
+
+21:30 | Laurena
+Would be, and you're able to, but you can customize the shipping. 
+
+21:36 | Jonathan Carucci
+Link for that. Yeah, I mean, you can as much as the carriers will allow us, but, yeah, you are able to customize the label. You're able to just add if you need label messages on it. Yes. And then packing slips, yeah, you'll be able to customize it and then kind of select it. So if you do create a tiktok thing, you can always create a customized. So here you'll click on like settings templates and then packing slips. So you would be able to create a template, and you can even name it like tiktok template or whatever. And then just do an automation rule to say, if an order comes in from this store, go ahead and create a packing slip, this custom packing slip, okay? 
+
+22:19 | Laurena
+Yeah, this is an area where I'm like, yeah, you know what? I am doing? This kind of backwards here and I'm like, okay, the volume is okay. But when it gets busy time, it's something I'm like I have to do, this. 
+
+22:30 | Jonathan Carucci
+Sucks. Yeah. And that's one of those things where it's like, all right, if we're able to just get this stuff set up already by the time that comes in, you're prepared, most of it is automated. So, if they're automated. So, if there's a couple of things that do come up, you can worry about those. But rather than having to work each one, okay, I'll show. 
+
+22:45 | Laurena
+You one. Oh, this is old. Let me see. I know I have a recent one orders. What is this one? What is one second? I'm trying to find it? Oh, this doesn't say that it's interesting. We're all. 
+
+23:07 | Laurena
+Okay. You know, they've changed something on it. They also did an update on the system. So I don't know how we'd be able to tell this is, let me see. I have an order number. Okay. Do I need to share my screen? Oh. 
+
+23:28 | Jonathan Carucci
+Yeah, actually, that would be perfect. Let me go ahead and stop sharing mine, okay? Or? 
+
+23:32 | Laurena
+Actually, or hold on or maybe it's easier. Hold on. I can give you the, I can give you the order number. Let's just see, which is easier you think? 
+
+23:41 | Jonathan Carucci
+I think now for you to share, okay? Because at that point, especially in shipstation, because you, at that point, you can just keep on clicking and go. 
+
+23:47 | Laurena
+Okay. So, let me see. Let me see how I share, okay. 
+
+23:51 | Jonathan Carucci
+On the zoom meeting, if you like hit our faces on the bottom, it's going to show a little toolbar and you'll see a little share icon, okay? 
+
+23:59 | Laurena
+Okay. Yeah. Here, here, here, here, I see it. I see it, share settings… let's see the settings though. Okay, I want to share, I will just do the desktop. 
+
+24:19 | Laurena
+Ugh. Why am I doing this? 
+
+24:25 | Jonathan Carucci
+Now, is it within the zoom meeting that you're looking at or? 
+
+24:29 | Laurena
+Yeah, I'm in the zoom meeting, trying to do the share and it's time I have to do something. 
+
+24:34 | Jonathan Carucci
+Oh, you have a mac? Yeah. 
+
+24:36 | Laurena
+Oh, yeah. Yeah. 
+
+24:37 | Jonathan Carucci
+You got to give it permissions? 
+
+24:39 | Laurena
+No, yeah. Yeah. Application window screens, desktop. 
+
+24:53 | Laurena
+I have to go to grant access privacy settings. How do I do this here? 
+
+25:04 | Laurena
+I'm going to save this for worse. 
+
+25:16 | Laurena
+Okay. Let's see if this works. Let's see, share. Let's try it. Oh, it should work. You got it. Okay. Let's see. 
+
+25:26 | Jonathan Carucci
+All right. 
+
+25:27 | Laurena
+All right. So let's go. Let me find this now. Okay. So let me go back here into shipstation. Let's see if we put in the, it's a shipment that happened. Let me see if I can put in the… this is the order number. I don't have to do an advanced search. Yeah, here it is. So this is the order. This is… see. They didn't update to their system. I don't know how I can tell this is through Mason. 
+
+26:04 | Jonathan Carucci
+So, rather than shipment, let's click on the order number. Okay? Go back to orders. Yes. No, go back to right? Actually, if you want to go back to shipment, let me. 
+
+26:15 | Laurena
+Go back, let me go back. Let me go back. Okay, hold on. Yes. And. 
+
+26:19 | Jonathan Carucci
+Okay. So when you click search, you'll see that it says shipment number, but then to the right, it'll say the order number. Yeah, let's click there. 
+
+26:23 | Laurena
+Right. This one's in here. Okay? 
+
+26:25 | Jonathan Carucci
+Let's see if here, it shows us any information. It used. 
+
+26:30 | Laurena
+to, I guess maybe if it says masonet, that might be one masonet marketplacer because they recently changed, it used to have another way of signifying and they just changed their integration. 
+
+26:46 | Jonathan Carucci
+Okay. But by the way, 
+
+26:47 | Laurena
+if it imports based? 
+
+26:50 | Jonathan Carucci
+On notes from buyer that's actually not bad because you can still build. Okay. So here is how you could do it. So you could build an automation rule. So you could even just copy like masonet. So if it imports with that name masonet, we could always copy exactly… that. So here's what you would have to do. So, yeah, you can go do masonet and then let's click. Did you already copy the name? Yeah. Okay. Cool. Let's get out of there. Let's get out of this order. And right there, yeah, let's click on settings. So the gear icon on the top, right? 
+
+27:29 | Laurena
+This one, yes. 
+
+27:30 | Jonathan Carucci
+And then on the left side, click on automation. Yes, right there. And then automation rules. 
+
+27:37 | Laurena
+Okay. 
+
+27:39 | Jonathan Carucci
+Let's go ahead and do a create rule. Okay? We're not going to create one right now just because we still don't have the custom packing slip, but I'll show you at least, so change where it says, if so, it's not going to be every order is imported. It's going to go ahead and if orders match this specific criteria. So go ahead and do that. Okay? And then we'll add the criteria and the criteria would be, I believe it's internal notes. So let's look for internal notes. We might have to go all the way to the top to the eyes, let's. 
+
+28:10 | Laurena
+see, oh, there's more. 
+
+28:12 | Jonathan Carucci
+Yes. Oh, yeah. There's yeah, there's a lot of criteria for sure. So let's say contains. 
+
+28:16 | Laurena
+Yeah. So. 
+
+28:18 | Jonathan Carucci
+All the way in the bottom there. So it says if it contains and then we'll go ahead and yeah, there. So what it's telling is all right, if internal notes contains this and since, you know, it's going to come in with that, but we don't know what's the rest of it, it's going to be, but we just need that important part. So if it contains that, then action type, let's do select and then let's put packing slip. No, I think it might be, yeah use a specific, yeah, use a specific packing slip. You're going to create one by then. And then at that point, you'll just name it. So right now, you only have that one but I'll show you how to customize it to where it's named. It's going to show the name of it. And I think that's going to be perfect for you because not only is it going to like… it's, basically going to get it as soon as the order comes in from Shopify and you're creating the order, it's going to tell within the order itself. It's going to be like perfect. This is the packing slip. So now you don't have to worry about it. So now it's going to apply to it. So now you don't have to worry about it. And when you're creating it within the order. Now, once again, what I'm going to show you right now is how to customize the packing slip so that now you can build them, name them, do whatever you have to do. And at least now you know how to get, to the automation rule to build it. Okay? All right. So last thing that I'm going to show? 
+
+29:39 | Laurena
+You and I can get to automators and say, up here too, go ahead. 
+
+29:41 | Jonathan Carucci
+Up there. So that one right there, it's different, right? Yeah, it's different just because they're kind of showing you how you can set there's different ways to automate it and they're just telling you, hey, by the way, this is kind of all right. I'm going to leave that one. So this kind of walks you through it the other way. It's like I already know what I'm doing. Let me go ahead and create my own thing. 
+
+30:00 | Laurena
+Okay. But I could also do it under automation rules. Yeah. 
+
+30:03 | Jonathan Carucci
+Yeah. If you click there and manage it, I think it should take you to the page, same? 
+
+30:07 | Laurena
+Thing? Yes. Okay. 
+
+30:09 | Jonathan Carucci
+All right. So actually, you're perfect. You're right in the same area. If you want to go where automations was on the left side on the templates right above it. And then click pack and slip. So this is where we're going to go ahead and create your own. So now, one thing that actually is new and it's actually really cool is if you click on the new template, the green button. Okay? So currently, you have two pack and slips one. 
+
+30:31 | Laurena
+Second. So this is what I'm currently using for everything. Yes. Okay. Got it. Yep. I'm like what's in there? 
+
+30:38 | Jonathan Carucci
+Okay. Yeah, I see and that's the store default. So, and then here, what the one thing that's good is now on. So yeah, it's HTML. But one thing that now it's done is on the right side, it's going to show you a preview. And that one was included recently before you have to create it. And then like do a test order to see what it's going to look like. Now you can make whatever changes and it's going to show you what that's going to look like. So in the future, let's say how you say, hey, I want, I don't want my brand icon to show up or I want the new icon to show up, you'll change it within the HTML, and then on the right side, it's going to show you exactly how it's going to look like if you want the name to be on the bottom rather than the top, as soon as you make the changes, it's going to show up there. The main thing is now you just have to create one. For now, you just have to create a custom packing slip, name it for the store, the Shopify store. 
+
+31:28 | Laurena
+You have to use HTML to do it. 
+
+31:30 | Jonathan Carucci
+Yeah, yeah. That's the one thing, but you can always do like an insert field. And I think even whenever you're clicking on, it will show you what it's changing, but that's one of the main things the custom packing slips that they do have, they… are, I want. 
+
+31:47 | Laurena
+To do something like putting in a logo, like. 
+
+31:49 | Jonathan Carucci
+How would I, so that one is within the branded so that it would be within the like, the store itself. So let's. 
+
+31:59 | Laurena
+say, and that's part of the problem, right? Because the store is all everything's in one store. It's all on Shopify… that's the issue. So. 
+
+32:08 | Jonathan Carucci
+I guess the main thing, so, yeah, you actually would, then you could add the logo to this packing slip like on the, in the HTML itself, okay? I, 
+
+32:18 | Laurena
+guess I can probably do that with chatgbt maybe. 
+
+32:21 | Jonathan Carucci
+Yes. So, I was actually going to say before there are forums there are like shipstation forums because one thing that shipstation can't do is we can't build. Okay? It's a customized feature. So people themselves started going to create their own shipstation forums like, hey guys, if you want to build your own label or if you guys want to do this, and, this is how the HTML would look like. But now that AI got here, you just said, you know, hey, I want to build a custom, you know, packing slip in shipstation to add my logo. How is that going to look like? 
+
+32:53 | Laurena
+Can I just copy and paste it over this? You? 
+
+32:55 | Jonathan Carucci
+Might not even have to, you might just, it might be the other way around in chatgpt, it'll probably create it for you. And then what you do is you, yeah, you grab it there, put it in there where it tells you to. But by the way, I'm going to. 
+
+33:08 | Laurena
+Go ahead where puts we, but I would, but where I would put it would be here, right? 
+
+33:13 | Jonathan Carucci
+Yes, yeah. You'd put it there. 
+
+33:14 | Laurena
+Copy and paste. 
+
+33:15 | Jonathan Carucci
+Got it. Huh. And then unless there's a specific area where it says like, all right, on line 18, go ahead and paste this. 
+
+33:24 | Laurena
+Got it. Yeah, I thought you're saying, yes, you're right? I would probably query and say, this is what I got, I want to change it to do this. This is, got it. Got. 
+
+33:31 | Jonathan Carucci
+It exactly. Okay. So, you know, a lot of information there. But what I can also do is then let me send, I'll send you some automation. I'm going to send you some automation rules article. And then I'm also going to send you some custom packing slips articles because sometimes the shipstation articles, it'll walk you through it. So in the event that you do forget it, it'll say, okay, where did Jonathan tell me to go? This is where he told me. I remember that and go from there, that's perfect. But at the same time, yes, edit my. 
+
+34:04 | Laurena
+current, let me see. I'm sorry, one second. If I go in my current one because I think I created this, let's see edit. What does it look like? 
+
+34:11 | Jonathan Carucci
+Oh, I can't edit, so not that one because it's the default. I think you, the shipstation a by five to 11. The one under that is probably the one that it's the edited one. So if you click on a three dots on the one below. 
+
+34:22 | Laurena
+But the one I'm using now isn't it the default, yes. 
+
+34:26 | Jonathan Carucci
+But you can't edit that one because that's the one that shipstation's created, but you can always copy it and then edit how you need to and. 
+
+34:33 | Laurena
+then tell it to use. There's a text at the bottom of my default that's old. If I want to update that text, I can't do it in here. 
+
+34:41 | Jonathan Carucci
+Not through the default one, but most likely if it's an old… if there's an old text, it's probably getting it from your actual store itself. 
+
+34:52 | Laurena
+Yeah. Okay. So go to the branded customer page. Got it. Okay. That's exactly what you're using. Yes, that makes more. So I'm like I don't remember doing this. That was eons ago. Okay. I'll follow you. I follow you. 
+
+35:06 | Jonathan Carucci
+So, yeah, we go ahead and did that and then, yeah, you change it up, update it there. Same thing, probably where it's getting the same logo. 
+
+35:15 | Laurena
+Okay. I have to go through and look at it. Yeah. 
+
+35:18 | Jonathan Carucci
+But… this, these are like at least three or four different ways of optimizing it. Now. I think it's a good you're going to have our information. I'm going to be sending you an email. So in the event that you have another question or something, feel free to either book another meeting, send an email. Hey, this isn't working. Hey, can you walk me through this again? You know, this is what our department's here for, make sure that you are as comfortable with it, automate it so that whenever it's time for it, you can go ahead and exactly. 
+
+35:48 | Laurena
+This is great. This is great. Okay, I learned something but if I want to. Okay, so if I'm going to create the different templates, okay? Let's just say I downgrade my plan just to save 20 bucks, I guess for the next two months. Now, can I still create multiple templates or no? 
+
+36:07 | Jonathan Carucci
+So that's where it came in. So as soon as you wanted customized packing slips that's whenever you're on the right plan in the silver plan, got it. The bronze. You would not be able to customize it. Yeah. Okay. Perfect. So I will go ahead and send you a couple of great of help center article. This is perfect. Yeah, this is what the meetings are. Yeah. And like I said, I am, yeah, like, you know, it's. 
+
+36:33 | Laurena
+like, I don't know why I need this call. I'm like what's this call for? I'm like my God, this is actually a problem I've been having. 
+
+36:38 | Jonathan Carucci
+And that's when it's a win for us because whenever that happens, we're just like, okay. Sometimes there's workflow, things that was like, yeah, that's that set up automation rules is build everything. Okay? This is perfect. But then other times it's kind of like yours where it's like, you know, your system so well and you run it so well that it's like, all right, where can we find help? So, as soon as you started kind of listing a couple of things that it would be good if we could do this. This is a pain point and we have a way around it, that's whenever it's like perfect for me. This is a win. Right here. You are getting more knowledge within ShipStation. You're going to be implementing it and it's going to help you out in the shorter months and also in peak season, which is what we need for you. So you worry about everything else and not having to worry about manually creating the labels here. So. 
+
+37:21 | Laurena
+I have another question. You have a second, just thinking out of line. So like there are certain products that I'm like, you know, if I ever got somebody to a third party to do the shipping for me, I, there's only certain things I'd want to route to them to make my life easier. It's because the way it's packaged. And so, I'm like, well, I guess I'd mean, I'd need some sort of a flow that will say, okay, if a witch hat comes in, it goes to this three PL provider to fulfill, would, how do you have customers that do that? 
+
+37:55 | Jonathan Carucci
+Yes. So the only caveat to that is you are able to do that. They would have to have a ShipStation, like if they do have a ShipStation account, they are able to use a. 
+
+38:04 | Laurena
+ShipStation… exactly. 
+
+38:07 | Jonathan Carucci
+But yeah, you can absolutely. So exactly the same way you did, if you know that it's a specific product, that if it came in from this store and it's this product, you want to send it to them, you actually can go ahead and even build an automation rule to say, like hypothetically, you would build an order tag so that in ShipStation, if it's that if it meets that criteria, it's going to have an order tag, you can do an automation rule that says, if this is a tag for this item, go ahead and send that to the three PL as soon as it imports. It goes and it sends it to them. You don't even have to tell it to like, you don't even have to click it, select it, send it to them. It automatically gets sent to them. They fulfill it. And then you get that information. Yeah, that is a workflow that is absolutely 100 percent possible. Yeah. 
+
+38:45 | Laurena
+That's something that I can see for the near future. 
+
+38:48 | Jonathan Carucci
+So, things. 
+
+38:49 | Laurena
+So busy, at least at a busy time. So I was. 
+
+38:52 | Jonathan Carucci
+going to say it is possible to do so and yeah, absolutely can automate it to where you don't even have to worry about it. It comes in and it's already there. They ship it and you don't have to worry about manually sending it. 
+
+39:03 | Laurena
+And I would know I would see what they do. 
+
+39:07 | Jonathan Carucci
+Yeah. So I see you would as soon as they create the label and, you know, send it out. That information comes into your shipstation account. So you could go in the shipments tab, and then it's going to tell you the tracking number. You can even look at the label. You can look at all that information, the notification to the marketplace. You're still, they're the ones who ship it, but you still technically have the keys of the information. Okay. 
+
+39:30 | Laurena
+Good, good. All right. Thank you all. 
+
+39:34 | Jonathan Carucci
+Right. I'll go ahead and send you an email shortly, but, yeah, thank you for this meeting time. All right. Well, hopefully this is going to bring you a lot less headaches because that's what we want. Yes. 
+
+39:45 | Laurena
+Thank you so much. Take care. All right. 
+
+39:46 | Jonathan Carucci
+Have a good one. 

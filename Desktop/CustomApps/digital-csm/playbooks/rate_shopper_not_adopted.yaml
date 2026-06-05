@@ -1,0 +1,46 @@
+name: rate_shopper_not_adopted
+description: >
+  Identifies accounts that have not used the rate shopping feature. Fired in two
+  modes: onboarding (never executed a rate shop) and regression (was using it,
+  now inactive for 30+ days). Rate shopping is a high-value differentiator —
+  non-adoption correlates with lower retention and lower shipping volume growth.
+source: segment + bigquery   # event: rate_shop_executed
+
+urgency_tier: early_warning   # fixed for both modes
+human_escalation: false
+recommended_action: enroll_hubspot_sequence
+
+trigger_modes:
+  onboarding:
+    condition: no rate_shop_executed event ever, 21+ days post-onboarding
+    days_post_onboarding_threshold: 21
+    sequence: rate-shopper-education-new
+    description: >
+      Account has been active for 21+ days with no rate shop activity.
+      Send education sequence on how rate shopping reduces shipping costs
+      and drives label volume growth.
+
+  regression:
+    condition: previously fired rate_shop_executed, now none in 30+ days
+    inactive_days_threshold: 30
+    sequence: rate-shopper-reengagement
+    description: >
+      Account used rate shopping previously but has gone 30+ days without
+      executing a rate shop. Send re-engagement sequence with a
+      cost-savings hook based on their historical rate shop savings.
+
+salesforce_action: log_activity
+
+personalization:
+  - field: trigger_mode
+    source: signal_payload
+  - field: days_inactive
+    source: signal_payload
+  - field: last_used
+    source: signal_payload
+  - field: account_name
+    source: salesforce
+  - field: estimated_savings_opportunity
+    source: bigquery_rate_model
+
+cooldown_days: 14

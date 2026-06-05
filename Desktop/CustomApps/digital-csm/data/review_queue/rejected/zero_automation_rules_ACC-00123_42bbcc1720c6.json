@@ -1,0 +1,29 @@
+{
+  "output_id": "42bbcc1720c6",
+  "status": "rejected",
+  "submitted_at": "2026-06-04T23:32:18.158131+00:00",
+  "signal": {
+    "signal": "zero_automation_rules",
+    "account_id": "ACC-00123",
+    "urgency_tier": "early_warning",
+    "trigger_mode": "regression",
+    "human_escalation": false,
+    "metric_current": 0.0,
+    "metric_previous": 3.0,
+    "days_inactive": 55,
+    "sequence": "automation-reengagement",
+    "recommended_action": "enroll_hubspot_sequence"
+  },
+  "agent_output": {
+    "action": "agent_handles",
+    "outreach_subject": "Your automation rules at Test Co \u2014 quick check-in",
+    "outreach_body": "Hi there...",
+    "hubspot_sequence": "automation-reengagement",
+    "salesforce_action": "log_activity",
+    "features_referenced": [
+      "automation_rules"
+    ]
+  },
+  "rejected_at": "2026-06-04T23:32:18.158918+00:00",
+  "rejection_reason": "tone too casual for this account segment"
+}

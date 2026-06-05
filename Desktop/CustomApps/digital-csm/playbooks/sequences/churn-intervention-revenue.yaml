@@ -1,0 +1,113 @@
+sequence_name: churn-intervention-revenue
+signal: revenue_decline
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  urgency_tier == critical (35%+ decline) — skip sequence entirely, escalate to
+  human CSM immediately. urgency_tier == active_risk (20–35%) — shorten delay
+  to 5 days between touches instead of 7.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "{account_name} — your shipping costs vs. last year"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas from ShipStation's customer success team.
+
+      I was reviewing your account and noticed your revenue
+      through ShipStation over the last 12 months is
+      {decline_percent}% below the prior year.
+
+      Before assuming this is a business trend, I want to
+      rule out a few things on our end that are worth checking:
+
+      1. Rate optimization — your account shows you're not
+         currently using {disabled_rate_feature}. For accounts
+         at your volume, this typically recovers 10–15% of
+         shipping cost without any workflow changes.
+
+      2. Plan fit — you're currently on {current_plan} at
+         ${current_plan_cost}/mo. Based on your current usage,
+         {plan_recommendation} may actually give you more for
+         effectively the same price. You can compare here:
+         https://www.shipstation.com/pricing/
+
+      Your full revenue and carrier performance breakdown
+      is here: {analytics_link}
+
+      Worth a look — and if anything stands out, just reply.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name              # Salesforce contact first name
+      - account_name            # Salesforce account name
+      - decline_percent         # computed from signal payload (T12M vs P12M)
+      - disabled_rate_feature   # top rate-related disabled feature (e.g. "Rate Shopper")
+      - current_plan            # Salesforce plan_type field
+      - current_plan_cost       # Salesforce current_plan_cost field
+      - plan_recommendation     # agent-generated: "Standard" if on Silver/Bronze/Gold, else omit block
+      - analytics_link          # https://ship14.shipstation.com/dashboard/operations
+
+  - day: 7
+    subject: "One thing that might explain the {account_name} revenue gap"
+    body: |
+      Hi {first_name},
+
+      Wanted to follow up with something specific I found
+      in your account.
+
+      Looking at your shipments over the last 90 days,
+      {specific_carrier_observation}. That pattern is costing
+      accounts like yours an estimated ${estimated_monthly_savings}
+      per month in avoidable carrier costs.
+
+      The fix is a one-time setup — Rate Shopper with carrier
+      preference rules means ShipStation makes that decision
+      automatically on every order instead of manually each time.
+
+      You can set it up directly here:
+      https://ship14.shipstation.com/settings/rateShopper
+
+      Takes about 2 minutes. Just reply if you want me to
+      walk you through the preference settings.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                    # Salesforce contact first name
+      - account_name                  # Salesforce account name
+      - specific_carrier_observation  # agent-generated from BQ carrier distribution
+                                      # e.g. "you're choosing UPS Ground on 78% of orders
+                                      # that USPS Priority would fulfill cheaper"
+      - estimated_monthly_savings     # agent-estimated from carrier delta × monthly volume
+
+  - day: 14
+    subject: "Closing the loop on {account_name}"
+    body: |
+      Hi {first_name},
+
+      Last note from me on this.
+
+      Your revenue through ShipStation is down {decline_percent}%
+      year over year. I've flagged a couple of things that could
+      be contributing — but I don't want to keep reaching out
+      if the timing isn't right.
+
+      If you ever want to revisit your setup or talk through
+      what's changed, I'm here:
+      {analytics_link}
+
+      Just reply and I'll pick it back up.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name        # Salesforce contact first name
+      - account_name      # Salesforce account name
+      - decline_percent   # computed from signal payload (T12M vs P12M)
+      - analytics_link    # https://ship14.shipstation.com/dashboard/operations

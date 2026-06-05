@@ -1,0 +1,387 @@
+ShipStation Automation Check-up: Mike DeMasi
+
+Joey Velasquez with VS Eyewear
+Recorded on Jun 2, 2026 via Zoom, 37m
+
+
+
+Participants
+
+Auctane
+Joey Velasquez, Customer Success Associate
+
+VS Eyewear
+Mike DeMasi, Manager, Information Technology
+
+
+
+Transcript
+
+0:00 | Joey
+hello? Hey, Mike. Thanks so much for taking the time. How are you? 
+
+0:05 | Mike
+Great. Thanks. Awesome. 
+
+0:07 | Joey
+I'm doing great as well. Yeah, there's an automations checkup book some time with me here to just talk about your business. Really, this can go many different ways. So, you know, we're not tied to just automation, definitely feel free to make any topics known that you want to prioritize and we can absolutely tackle those. But where are you calling in from? 
+
+0:31 | Mike
+Pennsylvania? 
+
+0:32 | Joey
+Pennsylvania? Cool. I'm here in central Texas. So, yeah, just out, we're based out of Austin. Our offices are in Austin. So, yeah, here in central Texas, been nice weather feeling like summer already. So, yeah, yeah, probably, is it a little bit heating up over there? It's. 
+
+0:51 | Mike
+heating up a little bit. It's still a little cool, a little breezy but. 
+
+0:54 | Joey
+Really nice. 
+
+0:55 | Mike
+Yeah. 
+
+0:56 | Joey
+Still a little bit of light sweater weather maybe in the mornings but awesome. Cool. Well, yeah. So here I have my screen shared here. Just a quick little slideshow kind of let you know how these checkups can go. And actually we need to update this a little bit. We just went through well, we merged companies. So big announcement change mainly with our company name. So shipstation global is the new name. Actually maybe the product is still going to just be shipstation. So very new stuff as of today. So, but yeah, quick intros. We'll start with that. Then we'll go over the purpose of today's, meeting and look over your shipping workflow. Mainly focus on that. Just really look over how you flow in shipstation, how you process your shipments. And yeah, and then we can see if we can implement a new automation, a form of automation either by rule or service mapping. And then we'll send over some action items afterwards with some with an email with some resources as well. So that's me right here, Joey Velasquez digital customer success manager. So really we're here to help streamline and improve your shipping workflows within shipstation. So really identifying any manual work that can be reduced by automation or done for you by automation, get the most value out of shipstation. So making sure you're utilizing all the tools that you have accessible to, you know, getting the most out of your subscription, things like that, and then offer any guidance based on your unique workflow, any of your current goals, we can offer some guidance on different things that might help in shipstation, things that we can cover today, like once again identifying that manual work, seeing what you currently do manually that we can do with automation, setting up or going over your shipping usage, your carrier usage and optimization… providing any feature or recommendation based on your business. And then of course, answer any of your questions there. But yeah, I'll hand it over to you and just go over kind of a brief intro and then kind of walk us through how you use shipstation on a day to day. And if there's any specific topics you'd want to prioritize, okay? 
+
+3:21 | Mike
+Well, honestly, I didn't know what this meeting was about. I just thought it was a mandatory meeting that we were doing something wrong, had to upgrade something because we're pretty much, I think running shipstation pretty well where we're not doing very, we're doing very little manually. We have a couple different shipping methods. We have a couple different companies that are the same, but we have one site now that is a Wordpress site, and the other one is Shopify, and we're looking to move the Wordpress to Shopify within the next six months. Nice. But all of our orders are importing directly from the platforms into Shopify. Okay? Or I'm sorry, into shipstation into. 
+
+4:14 | Joey
+Shipstation. 
+
+4:15 | Mike
+And then if we ship, we… are just… choosing fedex, ups account number. We try to ship mostly if we're shipping via ups through shipstation. You guys have really good rates, but some customers want fedex third party, ups, third party. We hardly ever ship under our account because our rates can't compare to what yours are. Other than fedex. We use fedex two day pack, which is a really good program. Oh. 
+
+4:58 | Joey
+Yeah. 
+
+4:59 | Mike
+We also do quite a few dropships. Okay. That again, they're in there. So if we do dropships, what we'll do is we'll take the dropship information. When we get it, we'll mark the tracking number in shipstation, mark it as shipped and shipstation will notify our customers. Okay? 
+
+5:21 | Joey
+Are those mainly through various stores or mainly through the Amazon store? 
+
+5:26 | Mike
+No, it's mostly through two vendors. Okay? 
+
+5:35 | Joey
+Just see that here. Okay. Well, yeah, that gives me a good idea of kind of what I was seeing before our call and how you use your carriers. Yeah, it looks like, honestly, yeah, like you mentioned, you're using shipstation. Great. There's always, you know, it comes to that point where you're just in that same cycle and, you know, it works for you. So there's you know, no reason to brainstorm to try to fix. So these calls are more proactive rather than reactive rather than waiting for, you know, maybe a big sale to take off and you need kind of enhancing your workflow recommendations, things like that. You know, we want to be proactive about it and see what you're currently doing and, you know, how to maybe just add to it and build on it. Yeah. So yeah, there were, we're not shipping. 
+
+6:23 | Mike
+That much now, quite frankly we're okay. We probably ship about 10 packages a day because about 30 packages are being drop shipped. You know, we do more drop ships than ship. 
+
+6:37 | Joey
+Okay. Yeah. And I did just look at your shipment count and at least within the shipment count that goes towards your volume. You're at 600 right now for the month or for your bill cycle. And that does include some of those fulfillment shipments as well. So, yeah, it's hard to pin down the number just based off of that, just to get to know, you know, how much you're actually creating in shipstation and how much are being fulfilled elsewhere. So, yeah, let's see here. So just what I did see definitely a decent amount of shipments going out through shipstation and being created through shipstation. You did have all the proper, you know, the customers are able to select their specific carrier option and service through the website and that comes in through shipstation. The only thing I noticed or the main thing I wanted to first talk about was the service mapping. The main thing I look for and let me go ahead and share my screen here in your account. So through my audits here, I mainly look for what automation is being done through by looking at your waiting shipment orders and seeing how they came in through shipstation. What automation took place? Nothing quite here except for the store color rule that's the only rule you had other than that default one that doesn't do much. And then you had some product mapping that didn't apply, no product mapping there. And so really not too much automation being done although, you know, like I mentioned, you have this coming in through your store, you have the weight coming in here. So all that's left is picking service and package type. So at least service, we know that typically you're going to go with this one because that's what the customer selected. So we can map that to that service and to your specific account that you'd like to typically use through shipstation. We can map that service. There. Is there any hesitation on doing that or have you looked into doing this before? 
+
+8:45 | Mike
+Well, the only thing that we don't we like manually because we'll just sometimes we'll override it. It's not like we're smarter than the customers but we are a lot of them will choose the cheapest. And if we try not to ship too much with the USPS. 
+
+9:02 | Joey
+Okay. So. 
+
+9:03 | Mike
+If ups is even similar like from your rate? 
+
+9:08 | Joey
+We'll ship ups. 
+
+9:10 | Mike
+Or if fedex two day is even similar. So we change that just and if they bitch and moan, say, hey, I chose, well, you know, we're upgrading your shipping and even the price, right? So that's so that's what we do. Okay? So we kind of we'll adjust that on the fly. 
+
+9:28 | Joey
+Okay. So there is a bit of override there just depending on and is that depending on just the rates, how they're looking and how. 
+
+9:37 | Mike
+much that's really dependent on the rates? Or sometimes if we see well, hell, you know, it's only a couple of hours more and they'll get a couple of days, we'll change them to fedex two day one rate. 
+
+9:49 | Joey
+Okay. Fedex two day and that one rate? Yeah. And then you'll change it there. Yeah, that one rate is definitely a great option. Yeah. 
+
+9:58 | Mike
+It's a really good option. Let's. 
+
+9:59 | Joey
+see, oh, so with that, since there's a lot of kind of manual override, and there's just a lot of variables here which we typically see a lot especially through these calls. So we, why just to get into kind of why you got this pop up within your app, it was selective. So we do, we are focusing on people or accounts that have two or less automation rules and yours just fell under that criteria. So that's you know, why you were given this option to look over your automation, just see how we can, you know, build on that. So, you know, typically what we've been seeing people that don't have automation, you know, usually have a big more complexity in their shipments and a lot of variables which is totally fine. We have other kind of solutions for that to make it a little bit quicker on selecting. I would suggest presets on that. If, you know, this isn't 100 percent always going to be fedex two day. I would suggest setting up presets for typically what you configure, you can select, you know, that fedex two day options with package and shipping service. So we can create, you know, numerous or endless amounts of presets here that cover all of what you typically select. And then we can add a package type one rate. We usually probably do that small box one rate. 
+
+11:30 | Mike
+No, it's one way pack. 
+
+11:32 | Joey
+Pack. Okay. Gotcha. All right. And things like that. So we can just kind of test this out, just kind of show you an example, one rate, two… day test. And the best part about these is you can assign a hotkey or a keyboard shortcut key so you can command X for, you know, one rate pack and quickly get it assigned to this shipment and even, or even select that preset in bulk. You know, if we do any sort of filtering… you'll have these presets set up here and be able to apply that any which way you choose here. So you can bulk update, apply shipping preset, then you have that option there. Do you do any kind of filtering or any, how do you organize? Maybe like this amount of orders, say if they all need to get out today, you know, what's the best way we're going to organize. 
+
+12:30 | Mike
+We don't we really again… we, for this amount of orders, we're not shipping that amount. So what we'll have is the day before, a lot of times we'll get notifications and we'll have the labels and we'll actually pre run them, okay? When we know what's coming in. And then our shipper pretty much just prints it out, prints out the paperwork and snaps it on thing and goes, okay. 
+
+13:01 | Joey
+Sounds good. And then… one thing that I've been kind of bringing up in some of these calls just to, I know speaking with someone who's having like a product drop coming at the end of the month and they're already getting a lot of pre orders. So just to, and it was the first time they're you know, seeing that amount of volume. So for those type of days, any sales or even your peak season, you know, we definitely see this workflow a lot using the group buy that can help, you know, group all your orders by typically, we see either quantity or skews. If you have a lot of common skews, maybe that would be a good one. But quantity is a good one to, you know, tackle your mostly, you'll see a majority of, you know, quantity one orders. So maybe you want to tackle those first in sections and in groups. And that way you can kind of, you know, select these services throughout work on these, select this chunk of orders and then create labels in a batch. Is there any sort of batching or I? 
+
+14:02 | Mike
+Wish that was a problem. No… yeah, I wish this, we don't do any batching. 
+
+14:08 | Joey
+Okay. And, 
+
+14:10 | Mike
+I wish there was that many orders that we were really concerned about and had to preview. We just like I. 
+
+14:15 | Joey
+said, we, 
+
+14:16 | Mike
+just, the… only thing that I can see that possibly could save us a little bit is if there were a way when the drop ships came through, if there was a way to automate where the tracking went in. And I don't you know, we don't know who's emailing us and when, but other than that, that's really the only thing that, you know, we get notification of the email, we copy the tracking number, find the order mark this ship and gone, other than that, you know, like I said, we're… not really in need of the automation. We just don't ship enough. 
+
+15:03 | Joey
+Yeah, but yeah, I mean, there's always like those presets. I think there's always little things here and there. I always say there's about five ways to do one thing in shipstation. So, you know, there's always different ways to add to what you're already doing. And I think that presets would definitely be a good one for you. I did want to or let's kind of try to dig into those dropship orders and kind of identify them here within your waiting shipment. Is there a good example of one that's dropship? 
+
+15:36 | Mike
+Well, I mean, the very first one, it's not ready to ship, but that's going to be a dropship. 
+
+15:42 | Joey
+Okay. That prescription safety. 
+
+15:44 | Mike
+Prescription, what happens we get that order? It comes, that one's in our Wordpress site. Okay? So we will print the packing slip from Wordpress, okay? And email our vendor and email them a copy of the packing slip with the address. Oh, and then when they package it and ship it, they'll email us shipping… notification with the tracking number. 
+
+16:13 | Joey
+Okay. So they're so these dropshippers are third party vendors, third party vendors. They're not connected through shipstation at all. Do you know if they have a setup through shipstation? I. 
+
+16:32 | Mike
+know, no, I don't think either of them do. 
+
+16:36 | Joey
+Okay. Yeah. Just because we do have the fulfillment network here with a lot of providers. So just wanted to make sure if they weren't like, you know, a part of it or were able to connect into shipstation, because with that, then you'll be able to automate that a little bit and a lot more seamless, right? Without without having to manually copy and paste tracking numbers and manually mark as shipped. You can even get a certain product here. If it's this is always going to be drop shipped. You know, we can put that to automate to directly send. Yeah. And that's. 
+
+17:12 | Mike
+not. 
+
+17:12 | Joey
+always going. 
+
+17:13 | Mike
+To be drop shipped. All depends on the customer. 
+
+17:16 | Joey
+Gotcha. Okay. Alrighty. Well, there is a lot of variables there. I did want, you mentioned that third party fulfillment and I did notice that the let's find some of those here. I did notice that the requested service does come in as that third party service. Where are we? Let's see the last 30 days? We had a few. Yeah, I typically saw that a couple fedex ones that came in and had all the information coming in like this one here. And what I did was… something like this and then just trying to doing filters here just to see get an idea how many, how frequent you ship to this customer and use their third party account number. Let's just see. 
+
+18:09 | Mike
+Oh, well, there's quite a few corporate accounts that I use their account numbers. 
+
+18:14 | Joey
+Right. I did see at least two or three. 
+
+18:16 | Mike
+There's a lot. Well, there's no, there's probably about 40. I call them partners. Their corporate accounts will use like an example would be aligard, a LLEGU a RD. 
+
+18:34 | Joey
+EGU a RDEGU a RD. Does the recipient usually come in? Okay. There it is. 
+
+18:45 | Mike
+So those get shipped fedex to the same third party account number all the time. 
+
+18:52 | Joey
+Right. So we can definitely create a rule like that, especially if it's coming in with that requested service, which it seemed like it was, that's a manual order. Yeah, I don't know if. 
+
+19:03 | Mike
+that's coming in with that. I think it's probably not. 
+
+19:10 | Joey
+Let's see here. I know at least the ones I looked at that went out fedex third party, they did come in with the requested service having that information. So I was definitely wanting to circle in on some of those. I mean, I can. 
+
+19:26 | Mike
+put in the… ship method and the account numbers in their account. But if that would be automated, that would save time, right? 
+
+19:36 | Joey
+Right. Yeah. So once those orders come in and it specifies that account number, we can create an automation rule that automatically marks it a third party billing. So selects fedex ground maybe does third party billing and then adds the account number and zip code. Yeah, that. 
+
+19:55 | Mike
+Would be helpful. 
+
+19:57 | Joey
+Awesome. Yeah. Let's go ahead and work on that. Then I think that's going to be very helpful. I do want to, I was going to kind of just get an example of one of these man. It's not coming up. Oh, that was in a waiting shipment. Okay? I thought I was in here already… workplace contains and we'll do that one here. Okay? Maybe not that one. Let's do fedex. 
+
+20:37 | Joey
+Let's do that for now. 
+
+20:44 | Joey
+I see some of them that say fedex collect. Do those also fall under like third party ones? 
+
+20:50 | Mike
+I would say probably, yes, I would say there. 
+
+20:55 | Joey
+Are some ups ones as well? 
+
+20:57 | Mike
+There's definitely ups as well. Okay. Yeah. 
+
+21:01 | Joey
+And I'm going to set up maybe just one or two of these. It looks like this one has a lot here just to kind of give you a template an example of this one. And then of course, you can continue adding on some as you go along. But yeah, let's go ahead and use this requested service. I'm going to just jot this down in a notepad. I don't want to lose it. Cool. Then we'll go to automation rules… and we'll create a rule. Do these specific orders come in through a specific store or does it vary? 
+
+21:49 | Mike
+Well, it should probably be ruled by their name, their company name, it's a corporate account. 
+
+22:00 | Joey
+Yeah, it doesn't have to specify by store. So we can actually do it by customer name, or in this case, since it's coming in, these ones are coming in with that requested service that's where I would start here and contains that specific account number actually has all that there can just equal. So anytime that requested service equals this value exactly. So just beware if in case that ever changes on your website, then it would change as it comes in shipstation. But this is exactly copied and pasted from those examples I saw earlier, so we can equal that next time an order comes in with that requested service, it will then apply. Let's do, let's do the we're gonna set a carrier and service package. And you said you typically choose, no, these would be third party. 
+
+23:05 | Mike
+Those are fedex ground. 
+
+23:08 | Joey
+Package. And then you would add a… third party bill. It's been a while since I, there, you are charged a third party and then we'll use that account number. 
+
+23:29 | Joey
+Billing zip and… United States is at the top perfect. So, yeah, that looks good. That's the right account number, right? Zip code. And so this action is necessary just to take place before only because only, you know, fedex and ups and other private carriers allow for third party shipping. So that is criteria before this option becomes available. That is why I'm building it this way just to kind of give you a details on exactly why I built it this way. So I'm going to save the rule like this. Everything look okay before I do. Sure. Okay. Yeah, let's go ahead and save that. And I didn't think we had any in awaiting shipment at the moment. But just for fun, let's double check. 
+
+24:25 | Joey
+I think so… here we are. 
+
+24:32 | Joey
+Yeah, none at the moment. But next time that comes in, it will match and apply that rule. So that way it doesn't have to be copied and pasted or manually inputted in that third party section. And then of course, you can build some more off of that one for all your other accounts. That way it's just more automated, at least that part for you. And then that would also already select the service for you with being fedex or whichever you choose for that particular customer. And so, yeah, half of those works for those like B to B shipments are already done for you. Then we can get a tricky or kind of get into your other options as well, your other shipments, which would just be like I mentioned setting up those service mappings. I think service mappings would be the best one there for you. Since I think, you know, you do say there's some override there… but if it's already, it's what the customer selected, you know, sometimes or I've seen a lot of examples where it is the service that is eventually selected is the same one that the customer selected. Would you say it's you know, 50 50 or more 75 25 of the override versus non overridden? 
+
+25:57 | Mike
+Well, I'd say we override at least 75 percent, okay? 
+
+26:01 | Joey
+More. Okay, more override. Gotcha. Yeah, like I. 
+
+26:04 | Mike
+Said because most customers will choose usps because that's our least expensive on our website, right? And we're even near the price with ups shipstation or fedex today, we just override it and. 
+
+26:21 | Joey
+That makes complete sense. Let's talk about just something that can help in that regard of at least doing the comparison for you. Is the rate shopper. I'm not sure if you've messed around with that at all or know about it. Do you, have you used rate shopper? 
+
+26:39 | Mike
+Again, I've seen it. Okay. And I don't go by it. I go by… I don't go by the cheapest. I go by what is the best for time savings? Who the customer is, you know, that's we're a small company. So we know people, we know where they are. We see everything. And again, if we were shipping some of the five orders would be different. We're shipping seven to 10 orders. Well, maybe sometimes it's 20 orders, but half of them are third party or those collect? 
+
+27:15 | Joey
+That's more. 
+
+27:17 | Mike
+Important if we get that down where I get those accounts in and automate those rules. We ship a lot more of those than we do these others. The other ones normally go drop ship. 
+
+27:29 | Joey
+Gotcha. Okay. So like the direct to customer or B to C is more drop ship, B to B is more, that is absolutely correct. Okay, perfect. Okay. I was thinking that was the case but definitely wanted to confirm. So I appreciate that. Yes, I. 
+
+27:45 | Mike
+Mean, if you wanted to create one more rule if we could see and make sure in the B to B that's much more important. Yeah, I mean, I could probably find an active. 
+
+27:55 | Joey
+That would be perfect. Yeah, if we could find a good example in awaiting shipment of one, that way we can process the rule and see it apply in real time. I'll look for one as well here. 
+
+28:08 | Mike
+Yeah, I'll be able to find in a hurry. Let's see. Okay? 
+
+28:19 | Mike
+All right. Here's, one from may xi order number is two five seven, three nine one. 
+
+28:30 | Joey
+Okay. Two five, seven three nine one. So that's already been shipped for James bridges? 
+
+28:35 | Mike
+Oops. That's a bad one. Then how about two five seven eight, nine one two. 
+
+28:40 | Joey
+Five seven eight, nine, one… that's for aligard, another aligard… and so that one came in manual orders, yeah. 
+
+28:56 | Mike
+That's probably not a good one that's yeah. 
+
+28:59 | Joey
+It is hard unless the manual orders are coming in with that information. Are these manual orders actually manual or? Yeah. 
+
+29:09 | Mike
+Sometimes I take them because they screw up ordering. How about here's? Two five, eight, four, two five. 
+
+29:18 | Joey
+Four, two five,, two, five, eight, four, two, five. Perfect. This one is an awaiting shipment. This one has requested service. Ups. Is this a common customer name or email? 
+
+29:31 | Mike
+That's a B to B? 
+
+29:32 | Joey
+Okay. And it's always going to come in with this customer name and email. Yeah. 
+
+29:39 | Mike
+The email could change. It should always come in with that customer name with. 
+
+29:46 | Joey
+This one or the Joseph heath that? 
+
+29:50 | Mike
+Would change. 
+
+29:51 | Joey
+Okay. So casper companies would be constant? Okay. Perfect. Oh, and it even has, oh, is that like a discount code? Maybe that? 
+
+30:03 | Mike
+Is a discount code? 
+
+30:04 | Joey
+Okay. Perfect. Okay. 
+
+30:07 | Mike
+And again, I could put in their partner, like their ups account number and zip code billing on each of the partners, if that would. 
+
+30:18 | Joey
+What you can do, let… me see here. Let me just look in your customers. Who's the only one coming up with that company name, casper companies, maybe just casper. Yep, more. Okay. There it is… in all caps that's typically how it comes in. So that's good. And we can, okay, there's a couple other cities here, but they all go to Texas just trying to figure out good criteria that we could set up for this one. So the company name is pretty constant. I was going to say if it's just one customer and it's usually constant, you can go in here and add a tag for your customers. That's another way to build a rule. So that would be something you can also build a rule with adding customer tags. And then anytime that customer reorders that order would get tagged with that specific tag. So let's do that with the casper as the company name, we could do automation. Then we'll go here, casper. Oh, I didn't let me save this really quick. And then I'll grab the information. We need specific criteria that's going to be company. Oh. 
+
+31:50 | Joey
+Customer… I should have company there. It is recipient company. I was like, where in the world is it? I know it's here. Okay? So recipient company contains casper and the reason why we'll put contains is for this reason, specifically, some came in as casper, some came in as other things. So casper was usually consistent. It might not apply if people put it lowercase actually let's do that here. Give a semicolon and let's put all lowercase… just in case it doesn't okay. Did I spell it? Right? Yeah. Okay. We'll also do this form casper? 
+
+32:41 | Joey
+Okay. Perfect. We'll come back to this one and add, let's add the, and that shipping account is usually ups or fedex. 
+
+32:51 | Mike
+That one's always going to be the same and I can get to that information. Oh, perfect. That's going to be a ups. Okay? 
+
+32:59 | Joey
+Ups ground. Yes. Yeah, this one… package then the third party information, if you could provide that one, it is seven. 
+
+33:14 | Mike
+Eight, six, capital… E 34. 
+
+33:23 | Mike
+That's the con number, zip code is seven, seven, nine, eight four. 
+
+33:29 | Joey
+Eight, four, seven, seven, nine, eight, four. All right. Yeah, that looks good. There always going to be ups ground with the package option. And then it's going to add that third party account number and zip code and billing country. That's going to be the name of the rule here. Third party rules just so it's easily identified going to save that. There, you did have one in awaiting shipment. So let's see if that catches. I'm going to reprocess automation rules. All it's going to do is just look for ways to match and apply these rules within your awaiting shipments. And let's see that one was let's see company. 
+
+34:27 | Joey
+It did reprocess all of them. So let's see. 
+
+34:35 | Joey
+That's yep, looks like ups ground is on there. Let's double check on that third party. Perfect. 
+
+34:42 | Mike
+Yeah. See. Now that's very helpful. Perfect. 
+
+34:45 | Joey
+Yeah. And that's main goal here is just to find things that can be helpful. And if you're telling me, you know, most of them are B to B. 
+
+34:51 | Mike
+I mean, that's very, because now, like I run these orders because I have it on spreadsheet. I know the account number. I know the third parties now, someone else can print these. 
+
+35:02 | Joey
+Oh, perfect. Yeah. So you're that's the main reason why you're running these because, you know, I'm kind of offhand. I know. 
+
+35:08 | Mike
+I set up all the corporate accounts. I have all the relationships. I have the spreadsheets, I certainly could share it with her but I make it easier because I want to make sure they're done right right now. I know they'll be done, right? Because everything's in. 
+
+35:21 | Joey
+Perfect. Yeah, no, I'm happy to set these up for you. 
+
+35:23 | Mike
+That works. Perfect. Awesome. 
+
+35:26 | Joey
+Yeah. And then of course, you can keep adding on more with all the other vendors that you have relationships with or companies you have relationships with. We have gone over our time, which is totally fine. But yeah, I wanted to see if you had any questions on any of this today. Maybe any topics I could follow up with via email? I. 
+
+35:46 | Mike
+Mean, this was like I said, we don't ship as much as I'd love to, but that was helpful. The only other thing, I mean, we… prepare third party labels to ship to customers because they want to ship stuff back to us. But no, I think this was helpful. Everything else, like I said, the overrides and stuff that's a manual thing that takes time, right? Seconds and we have to decide on who and what, and how. Yeah. 
+
+36:22 | Joey
+I totally agree on that. I mean, that's a lot of people's workflows as well. So, you know, no harm in that. I'm happy we're able to set up those third party rules. I really do, I will send you some information and resources on the shipping presets. I think that's a really good one. I don't want it to get too lost in the sauce here. But, yeah, that one's a really good one for your actual pickers and packers to easily, you know, click a shortcut on the keyboard and apply a certain preset. So, yeah, I think this was a great conversation. Mike. I appreciate your time. Let me go ahead and I'll follow up via email after this call. Be looking out for that. Yeah. And if you have any follow up questions, please feel free to reply to that email. Sounds great. Thanks again. I appreciate it. Thank you, Mike. You have a good rest of your day. 
+
+37:09 | Mike
+You too. Bye bye. 

@@ -1,0 +1,177 @@
+ShipStation Optimization Check-Up: Nate Seyer
+
+Roland Sanchez with Motovation Accessories, Nate Seyer
+Recorded on Jun 3, 2026 via Zoom, 27m
+
+
+
+Participants
+
+Auctane
+Roland Sanchez, Senior Customer Success Manager
+
+Company Placeholder
+Nate Seyer
+
+
+
+Transcript
+
+0:00 | Roland
+hey, how's it going Nate? 
+
+0:02 | Nate
+Hey, Roland, how are you doing? 
+
+0:03 | Roland
+Pretty good. Hopefully you can hear me pretty well. 
+
+0:06 | Nate
+Just fine. We. 
+
+0:07 | Roland
+Got a crazy storm pushing through Houston here where I'm at. And so it's a bit. It's a little bit kind of loud and noisy outside with the lightning. You guys are, where are you guys located? We're in Austin? You're in Austin? Okay. So, that's where our headquarters is in Austin. Yeah. So we're just looking at that well. So we have just so, you know, we have pflugerville here. I guess it's pretty close. 
+
+0:30 | Nate
+Literally literally right outside Austin. Yeah. 
+
+0:33 | Roland
+Gotcha. All right, coach. So I was just making sure I was like pflugerville. I used to drive through there all the time when I went to school in Killeen. 
+
+0:40 | Nate
+Yeah. I was going to say if you're from around here, you know, what it is? If you're not from around here, we just say Austin, so. 
+
+0:45 | Roland
+Yeah. I remember telling people like, yeah, I was going down this backcountry road from, I would say from ocala or from not comfort, my God from, yeah, the bulldogs. Who the hell are the bulldogs? Copper's cove coming down from copper's cove, coming down there, passing by pflugerville and my old mercury comet doing like 120. And everybody was like, what are you talking about? Where are you doing this? It's like it's like backcountry roads. You wouldn't understand they're like, no, we don't yeah. So, but anyways, it's good to meet you. And hopefully, you know, that pop up that happened in shipstation didn't throw you guys off too much basically just to kind of give you an understanding. I'm a customer success manager here at shipstation. And so what my role is I'll give it a book of business at the beginning of the year. And I have a bunch of accounts, but what corporate notices that there's a handful of accounts that aren't utilizing certain basic functions on shipstation. And so they put together a scrubber that went through and found all these accounts. And then basically just sent a pop up to let you know, to schedule an optimization call with your customer success manager. That being said, the majority of the accounts that I talk to, the things that I'll show them, it's just like, yeah, we don't really use that particular feature because they have their shipstation. So dialed in for the type of shipping that they want to do. So that being said that's kind of like what this is about. I'm not sure how versed you are with shipstation, but that's where we kind of come into play. Yeah. 
+
+2:20 | Nate
+We've kind of taken the, we have it working to ship. So don't touch it, don't break it. That's kind of our internal mindset here. But that being said, I am interested in learning a lot of this because… we are in the middle of, we just signed all the contracts. We're in the middle of doing a whole E commerce changeover to Shopify. Yeah. And we specifically told them in our contract that we wanted to keep utilizing shipstation in conjunction. So there's probably a lot of features that given that we're going to kind of be starting fresh that we might actually be interested in taking advantage of. 
+
+3:01 | Roland
+Okay. And. 
+
+3:03 | Nate
+Like I said, when we brought on shipstation, it was just to get off fedex Shipmanager. And so it was just like just generate our labels, get it out the door. And we're happy. So that's… kind of where, yeah, that's kind of where we are. So, I'm very happy to learn about some of the new options that like I said, we just may not be utilizing. 
+
+3:25 | Roland
+Yeah, absolutely. So, very understandable. I mean, I came from before I was with auctane which owns shipstation before I was with the shipstation. And just to give you an idea, the parent company is auctane. It's kind of like alphabet, owns Google. So the parent company is auctane and auctane owns shipstation, shippingeasy, shipengine, parcelguard, returnrabbit, stamps. Com, indesha. It owns a myriad of companies. And so there's a lot of stuff that you could actually purchase piggyback off of like say, for instance, you start developing your own stuff and you go, I don't even need shipstation anymore. I just need my API calls to be able to connect and pull a rate tracking, you know, address validation and stuff like that. We can give you the endpoints for the API connection to our shipengine site, which just gives you the rate calls. So there's a lot of things you can do and grow with our brand. But with Shopify, that's our biggest partner whenever they do something and they change something and they develop something on their end. We're right there alongside to try to make sure that we are, you know, lockstep with them. So that being said, there shouldn't be an issue when it comes to using Shopify for your full WMS, and then just having shipstation, you know, create labels for you. That shouldn't be an issue at all. I would just say that when you're ready to kind of lock things down, let's just find out basically what do you need from shipstation and then make sure that we can facilitate all those things for you. Okay. Yeah. That being said, I'll just give you a quick screenshot here and show a screen share and just kind of show you some of the things that, you know, we're talking about. So here's your shipstation landing here, all the orders and all that stuff. But a couple of things I would say that you could take advantage of. And right now you're on our goal plan which doesn't have a bunch of features available. So there are some things that you might not be able to really truly take advantage of. But there are some things that can help you out. So in your shipstation, when you go to your order screen and let's say, for instance, you want to pull up an order like this one right here, and I believe I have the right. Yeah, I do have the right one. So let's say you want to pull up this order, right? So this exhaust system is 10 pounds eight. Ounces, 23, 11, 10. And down here, it's showing 23 dollars for fedex. But let's say you want to do a rate shopper that doesn't have all this crap and it just shops like a few different rates. You can create a custom rate shopper that just rates three services that you want to rate and nothing else. Or you can just leave it defaulting to what you want to default to. That can help you out with just kind of like narrowing down some of the clicks that's basically what our rate shopper service is. Okay, but not sure if you already have everything dialed in specifically because you must have it build this fedex account, but that's something that could possibly help you out. Okay. Yeah. And then when you go into things like depending on how, depending on like which of your items are your most popular, I would say you can just pull a report in the insights tab and that can always show you how to do that. But it'll show you your most popular items. And then you can pre fill out things like your customs information with your harmonization codes, and then later on the Shopify side, we can help that inventory port into here. So that way we have live tracking of all your inventory. So Shopify and shipstation will stay updated on what you have in stock. Okay? Do you guys share with us international? Sorry. Go ahead. 
+
+7:08 | Nate
+Yeah. We do. So, a lot of our territories that we focus on, we do have some Canada and some Mexico as well. Occasionally we'll have a customer that wants something to go to like in Australia or something like that, but that's actually pretty rare for us. We don't really build our business around that. So… obviously, most of our stuff's going to the United States, but we do have North America as our territory basically. 
+
+7:39 | Roland
+Okay. Gotcha. Okay. So I understand now. So it's a you're kind of like beholden to just sticking to this one area. Yeah, we have a lot of, a lot of brands that. 
+
+7:51 | Nate
+We distribute our contract with the manufacturer limits us to a certain territory. So. 
+
+7:56 | Roland
+Makes sense like you get a, if you get like a last, you know… varnet… Oakley, whatever it is spy sunglasses they're like, but not in this mall because we already have an Oakley. So, right? I guess that kind of makes kind of jives, right? Alrighty. So then on the shipping side of it, under the rate shopper, that's when you go to the little gear top right up here, that'll take you to your settings and then you can just click plan shipping and then rate shopper. This is saying that you can customize for that rating tool. Basically, it just allows you to use a service that you want them to rate and then set time restrictions or time of transit restrictions, and then even set preferences to what you want based on. 
+
+9:00 | Roland
+Sorry about that. I think that storm is finally starting. 
+
+9:05 | Nate
+Yes, I think so. 
+
+9:07 | Roland
+So, yeah, I just wanted to show you that those couple of things and then the new, let me know if I'm cutting out, just interrupt me if I'm cutting out you're good now. And then there's new subscription plans that are coming out under your payment and subscription area. I. 
+
+9:22 | Nate
+Don't have your screen share anymore. Oh. 
+
+9:24 | Roland
+Gotcha. We do that. Sorry about that. No problem. So under the, you should be able to see it now, payment and subscription area, this little edit button. Once you hit that, it'll take you to the new plans that are rolling out. So these new plans are coming out in July the seventh, just giving you a heads up to kind of take a look at them. Pick one that you like standard is where you guys fall and it'll give you a lot more access to more functionality in shipstation. I get that Shopify is going to be your big, you know, the main thing you're going to use but as far as the integration side for API connectivity, it might be helpful because I think currently right now on the gold side, you don't get full API functionality. You don't get access directly to the shipengine API, and that will probably help you out quite a bit. When you're doing, you're connecting to Shopify. Okay? What I like about this new plans even though currently you're paying, I think it was like 101 150 because you connected your carriers. Is if you have slow months, then you can dial in the shipping. So you can literally, I'm not sure why it's moving around so much select a lower shipping rate for slower months and then bump it up during the higher months, if that. 
+
+10:49 | Nate
+Makes sense. And obviously, if we have a lower thing selected and we do over ship, it basically will automatically bump us into that next tier. 
+
+10:56 | Roland
+Yeah. You'll receive a pop up and it'll say you need to upgrade it'll, take you to the screen. You just hit however many shipments you need next. And then hit update plan that'll happen instantly. And then when you're done with that program, say somebody had a bulk order something like that kicked you over, you can just don't forget to downgrade before the end of their billing cycle. If you don't it'll keep you at another billing cycle at that new rate. The upgrades happen instantly. The downgrades take till the end of the billing cycle. Okay? So that being said, if you want to truly max out the discount and you're saying like, you know, what? We're at a 1,000 shipments a month, pretty much all year except for October, November, December, we go over a 1,000. Well, then you can literally dial it into a 1,000, click on a 20 percent discount, get it discounted even more. And then in October, November, December when those months come bump it up, knowing that you only get prorated for the difference for the rest of the year which is two three months. Okay? Yep. And I didn't dig too deep into your shipping history kind of see where you're at. But usually I'll just go to your shipments tab and I'll just custom view it with the date range and I'll just go back to… January and then just see what you guys are at down here at the very bottom. So six to 500. So you're just barely over a 1,000 shipments a month if my math is right in my head. So that's I mean, that's not bad. I mean, that's under 2000, but still that's going to put you right on the 2000 mark. Most likely. Okay. I don't know if you already know your numbers or not for October, November, December. Do you guys usually get busier? I mean, I know it's colder season. So it's tough to be out riding. 
+
+12:55 | Nate
+Yeah. We are pretty seasonal. Most of the time, November through February is kind of going to be when we're a little bit slower. Yeah, I guess that makes sense. We don't really have the kind of products that you buy for someone else. So like the typical holiday shopping, things don't affect us very much. 
+
+13:14 | Roland
+Yeah. If you look at October, November, December, it was less than a 1,000 shipments per month. So yeah, that jives, you weren't like me. I was riding my honda shadow to and from work in the cold rain in San Antonio back in the days when I was riding. So, yeah. But hey, I mean, that might help you out a little bit at least to dial in the cost of the subscription plan. But yeah, a little gear payment subscription and then edit and that'll take you to the new plans. And then to see the breakdown of everything that it has just hit the little down arrows next to each thing that pretty much mirrors mostly of what Shopify can do. Shipstation. Has been getting more aggressive with trying to become a full WMS which a lot of people don't know about. And so packing slips, barcode scanning, mobile picking pick to tote, all that stuff. Has been more of what we're getting to be a full inventory management, a full warehouse management functionality? 
+
+14:18 | Nate
+Yeah. That's why I say like a lot of what we're kind of in a holding pattern right now because we need to figure out how much of the Shopify solution are we going to be using? How much of this could we use? Like we're even talking to a couple erps? So we're kind of like we're going to have to use these features. I can't tell you who we're going to be using them from at this point. But, okay, we are going to start to expand into because we're not using a lot of these features right now. Like we don't use pick list and things like that yet. And we don't scan in our inventory yet. So there's a lot of changes coming for us. 
+
+14:51 | Roland
+Gotcha. So if you decide you want to start doing that since you are in the pflugerville area if you wanted to. If you ever wanted to, you could go to our headquarters there in Austin in an area called the grove. We built out a full warehouse on our second floor that lets you walk through and use the scan to tote scan, to print scan to verify functionality. So that way you can just verify what's going on in the box. I. 
+
+15:15 | Nate
+Would love to send my operations manager there. 
+
+15:18 | Roland
+Yeah, that'd be cool. 
+
+15:20 | Nate
+How do we do that? I'll. 
+
+15:23 | Roland
+see if I can't schedule time. We have a huge meeting coming tomorrow with all of our company. We're kind of doing a merger thing with worldwide express to kind of get the capabilities of LTL and truckload functionality built in a ShipStation. So, because of that, things are up in the air and we'll find out if I'm going to still be covering the same territory. I mean, just a year and a half ago, I was covering the pacific northwest and I was flying out there every week. So we'll see what happens. But what normally would this way this works after tomorrow? Assuming everything is smooth and I'm still doing what I'm doing here. Then I would send you an invite. I would meet you at the building, take you to the second floor. You guys get a full tour of our little warehouse there, scan to function, all that play around with the system, meet with Leah, the one that helped build it out. And then either afterwards, we go get lunch or else you guys just eat some of our snacks from our multiple kitchens in the building there and call it a day when you're done. Yeah, that's. 
+
+16:19 | Nate
+pretty much it. Yeah, we'd love to check that out because like I said, a lot of this new process is, I mean we've been in business for… we, because of that, we have so many homemade bespoke, you know, just manual processes that we just, keep doing. So, a lot of this is we would be more educated to make the decision on which tool we want to use when we can actually see it. And so that's why I think that would be very helpful. Yeah. 
+
+16:46 | Roland
+It can be real helpful for companies. The people that I've integrated the inventory and scanning functionality. They're kind of in the same boat, right? They kind of did a lot of manual processes, a lot of walking around with packing slips and pulling things. And then just it was a little by little thing. I haven't had anybody just straight up say like let's install it all and then just crash everything to the, you know, like stop and let's just do this. It's always been little things. So they would buy like a 20 dollar scanner off Amazon, start creating warehouse locations with barcodes. Everybody get used to scanning the location. And then after a few weeks of doing that, now that we have the locations, we're going to put barcodes on the items. So not only do you scan the location, you scan the item, you take that. And then after a while, now we're rolling around a tote, the tote has 15 bins or shelves and then we scan the barcode for the warehouse location, scan the item, scan the tote. And now the worker is fulfilling five or six different orders on that tote and then takes it to the packing station. And then he's done, he goes back and fulfills another six or seven orders. So it's a gradual process. And if you did want it hands on, we are capable of having an implementation manager meet with you over the course of 90 days and to kind of just help you walk through setting up some of those stages. So you wouldn't be like in the dark, I would just say, yeah, these guys want to do well. I would say you would probably do premium. We would get one of our people that's on the accounts plan to give a discount there to make sure that's premium you guys fill into this. That's why it's a little bit cheaper but premium get you guys set up with a discount. And then once it's time to start implementing, then set you up with implementation and then find time to meet with you guys and help you guys get onboarded. It's a whole process a lot more hands on and not just like here's the software, good luck. It's not like that. It's very hands on and we try to make sure that you're fully understanding how things work and using them. Just so that way it's not a wasted investment for you and not a wasted investment of our time to kind of help you get onboarded. 
+
+18:55 | Nate
+Right. 
+
+18:56 | Roland
+Okay. And the cost is what it is. There's no add ons that's another reason we strayed away from this mess, which is where you are right now with these things and all of these add ons that you have to pay for or not pay for, see you got grandfathered, half the customers I talk to don't have this for free. They definitely don't have auto split for free. So you got grandfathered into something. And that's the thing is that we're seeing a myriad of different companies that have all these different plans with different functionality as opposed to there's three that's it. And there's no add ons for any of them. You just pay the difference, mom pop shop over here kind of what you are right now or a full everything we want to have it all. 
+
+19:39 | Nate
+Yeah. Okay. Yeah, yeah, it would be great to learn about some of these tools because like I said, we're kind of drinking out of a fire hose right now, meeting with these Shopify partners. And for us, we need it to be the most integrated, least complicated as possible. We will sacrifice functionality to keep things simple around here. I mean, after all, we're motorcycle guys, I always try to tell people that like at our core, there's a lot of technology for guys who are used to racing on a track or turning wrenches. So we try to keep it as simple as we can. 
+
+20:16 | Roland
+I don't blame you. Yeah. I mean, I bet half the guys there didn't get into the business to be staring at a screen, they want to be able to ride more often. And I'm sure a lot of this crap is taken away from being able to enjoy the hobby, you know, just people enjoy the sport, right? For. 
+
+20:31 | Nate
+Sure. But if we're overcomplicating our job processes because we're still doing manual things that we've been doing for 10 years then we know we have to look into some of these tools. But that's why I say it would be great to come on site and just see some of these things in action because as you know, every company we've all got our own processes. But when we see things, we can be like, well shoot we could do this and this instead of this and do this instead of that. So having some hands on would actually be really nice. 
+
+21:02 | Roland
+Great. That's awesome. So, yeah, that's definitely something we can help out with. I would say once we get things settled, get you guys to visit the warehouse on our second floor in Austin, see what you think, see if it makes sense for you guys and see if this is something that can be done for you at scale and the way that you're imagining it. And then from that point on decide which subscription plan you would want to go with. And if you do want to go with the full gamut, then talk with our implementation managers and the people that manage those subscriptions to get you guys a discount and move from there. Yeah. Okay. And it might save you a ton of money based off of like what you're trying to do with Shopify, not trying to say don't do that. I'm just saying I get what you're thinking and I get what you're wanting. And as far as saving money and having it simple, I think that you might be surprised by what we can do for you. Okay? One. 
+
+21:51 | Nate
+Last thing, like I said, right now, we don't even know the right questions to ask at this point is kind of where we're at is, you know, we just started the build. I mean we're not going live till November, right? 
+
+22:02 | Roland
+Okay. We're. 
+
+22:03 | Nate
+in the discovery phase of like this is what we want. This is what we want to use. So again, a lot of the reasons we weren't using even some of the stuff we were already have in our plan is we don't know the right questions to ask yet. We're still learning a lot about it. 
+
+22:17 | Roland
+Okay. That's cool. As soon as again things get settled to us and I'm able to travel. I could always also visit you guys on site too because I do visit clients when I'm out in the field and even take a look and get an idea of what it is that you're wanting to do in the warehouse that'll give me a good understanding as a former ups rep when I was at ae, that's all I did all day long was to go visit clients and help them with figuring out their warehouse situation. So cool. Yeah, that'd be great. I'm guessing that in the meantime, you're probably going to need some data and whatnot. So real quick, I'm just going to show you one last thing right here. This is pretty easy. So you open up shipstation, you land right here basically in your insights tab and you can pull reports and whatnot from here. So there's a lot of stuff you can get right here. But if you go up here to the little barcode, not the barcode, I'm sorry, the little gear and click on this little Guy again, it takes you to your settings page, and then back where I showed you the payment and subscription area. You click on that little Guy and down here. And I don't know why this lives here but it lives here. This is the data archive. This is everything you've ever done with shipstation since you guys started in 2015. So this is every report and they're huge reports. So if you click on one to download, give it like five, 10 minutes to download. You'll get a spreadsheet that has about, I don't know 180 rows and 5,000 or 180 columns and 5,000 rows, but it'll give you pretty much everything that happened that month or that year. So you need to know how much you spent on next day air ground. If you want to know when Karen in the back moves something from ground to next day, air, how much you spent on particular products, all that's in there. 
+
+24:02 | Nate
+Okay. Yeah. 
+
+24:04 | Roland
+I figure if you do need stuff like this while you're trying to hunt for the right thing, you're probably going to need numbers to know what you're trying to build into. So hopefully that'll help out. Cool. Okay. All right, Nate. Well, I'll let you get back to it. If there's anything else you want to go over by all means, just let me know. I'm free until you're ready to get done with the call. 
+
+24:24 | Nate
+Okay. Yeah. I mean, as far as we're concerned because we're basically just utilizing realistically just the label generation and talking back to our E commerce software. We don't… have a lot of questions right now because everything just works. That's why we don't touch it. So, yeah, I don't have any issues, any thoughts, any kind of concerns. But if you're my point of contact for when we do have these kind of questions like, hey, how can we do this better? What could this be that kind of thing? Then that's great because it'll either be myself or my operations manager that would be kind of digging into some of these things. Cool. So, yeah, I'll see if there's anything that maybe I'm not thinking of that we do need answered. But yeah… when did you say that plans are changing over? When do we have to have that? 
+
+25:19 | Roland
+July the seventh is when we'll be changing over the plans. It's not going to affect you in anything systemically. It's just going to open up more features to you. It's just that other cost that's going to happen. It's going to change over the cost. So I would say before it happens, just make sure you dial in the right one that you want. If you are going to be slightly lower volume, just dial that in and lock it in. And then when it comes time you need to upgrade, you can upgrade, just keep an eye on it. If you go to your subscription plan. Like in the next few days or so, I heard that they were going to release a round of coupons. So some sort of discount might come out, but I don't know for sure. Okay. Yep. But I'm keeping an eye on all of them, all my calls that are logged on our system that we have. So I've been kind of going back through everybody's account and just seeing if anything pops up. So as soon as I see something pop up, assuming that, you know, I still have, you know, this territory, then I'll be sure to reach out to people and say, let them know, hey real quick a coupon. I see one popped up, go click on it. Yeah. And this is not a contract. None of these are contracts. So if you do get migrated over to the new plan and you decide, you know, what this is the name for me. I don't want this anymore. You can shut down shipstation anytime you want, even if you decide to say, I don't even need shipstation. I just need the rate call. So I just need your API, then we can always switch over to shipstation API and then just use the backbone of our API. So it's just a rate call, a tracking, an address validation, and a label. 
+
+26:54 | Nate
+Yeah. Okay. So. 
+
+26:56 | Roland
+Like say full Shopify and just this basic need over here. We can do that too. Yeah, yeah. 
+
+27:04 | Nate
+I think, like I said, I think right now we're going to, we'll leave everything in but it, there's so much that's going to change around here as we make these things. It's good to know that we have options. 
+
+27:14 | Roland
+Yeah, it sounds like you guys are going to be doing a lot of changes. Yes. Yeah. Okay. Cool. All right. Well, it's good to know. Keep me posted. I will of course, keep you guys posted the next few days once I get some answers to what's going on, in our world, in our little bubble here, and we'll go from there. Sounds good. All right. Cool. All right, thanks, Nate. 
+
+27:36 | Nate
+I appreciate it. Thank you. Bye bye. 

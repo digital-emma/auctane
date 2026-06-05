@@ -1,0 +1,354 @@
+ShipStation Optimization Check-Up: ANTHONY ESCOBAR
+
+Jeff Powell with Lead Devil USA
+Recorded on May 29, 2026 via Zoom, 31m
+
+
+
+Participants
+
+Auctane
+Jeff Powell, Lead, Customer Success
+
+Other
+Brigitte
+
+
+
+Transcript
+
+6:19 | Brigitte
+thank you. 
+
+6:24 | Jeff
+Hello, Bridget? 
+
+6:36 | Jeff
+Can you all hear me over there? 
+
+6:39 | Brigitte
+Hi. 
+
+6:40 | Jeff
+Hi, is this Bridget? Yes. Sorry. No, no worries at all. How are you doing today? 
+
+6:47 | Brigitte
+Good. How are you? 
+
+6:48 | Jeff
+I'm doing well. I'm doing well. Thank you for joining me today. My name is Jeff Powell and I am the customer success manager in the Dallas area. So, with that being said, I want to go through this slide deck with you. That explains kind of my role and my purpose here and why you received that pindo in your shipstation account. And kind of like what my goal here is as a customer success manager for y'all, and what all I can do for you. So, so. 
+
+7:28 | Brigitte
+I'm sorry, there's a big screen still. Is that supposed to be there? Is that your presentation? Okay? So, there's yeah, agenda. Yeah. Oh, yeah. That's what you're showing. Okay? 
+
+7:38 | Jeff
+Yes, yes, yes, ma'am, 
+
+7:40 | Brigitte
+you couldn't make it? Let me, I should have, can I get a pencil and a paper? I just thought maybe I needed that or do I, or is it, do I need a pencil and a paper? If. 
+
+7:55 | Jeff
+you, yeah, if you want to get pencil and paper, you can do that for sure. 
+
+7:57 | Brigitte
+I'm going to get that real quick, okay? 
+
+7:59 | Jeff
+No worries. 
+
+8:20 | Brigitte
+Okay. 
+
+8:22 | Jeff
+All righty. You good to go. Yeah. Okay. Yeah, we'll go through. This is just the agenda. Quick introduction purpose of today's, meeting discussing successful workflows potentially optimizing your account. And then if I have homework items or you do we'll discuss that at the end as well. Okay, going into that, my name is Jeff Powell. I'm a lead customer success manager for shipstation. My whole goal is to make sure your experience in shipstation is enjoyable and efficient for y'all. So leaving any pain points. I'm an advocate for y'all, essentially the way you can think of me in a way is an employee for y'all, that you don't have to pay. So I'm here to, you know, create automation rules for you, look at your workflow, hear about pain points, scaling and improving your performance in shipstation. And, you know, that last one provide guidance on your unique workflows and your own goals there. So this is what we'll be kind of going over. Excuse me. I really want to get a clear base understanding of what your workflow is and how it's working for you, identify any pain points that you might have, let me know what areas matter to you most. And then we'll walk through ways to optimize and save time in your account. And then, you know, any features or updates, resources that I think might be valuable to you. I'll definitely send that over in an email and share those with you and then answer any of the questions that you might have regarding shipstation and your shipping process. The last thing I'll share on this slide deck is the six workflow phases. Out of those six phases, we've you know, determined that we can help out in five of those six. When it comes to sourcing, we're not going to act like we know where to get the best materials for your products. We're not going to tell you how to acquire your products or anything like that. We have no business doing that… but like managing inventory levels, organizing your warehouse, you know, making sure you're getting the most attention to your products through your selling channels. And then making sure your pick and packing is efficient for you. And then the logistics of getting it out the door works well. And then post sale is going to be, you know, we do offer a returns portal for stores. And so if you guys need assistance with that, I can definitely guide you through that. But with that being said, that kind of wraps up, you know, this portion of it, what I would really like to do is kind of hear more from you. And your role at lead double USA and kind of y'all's, workflow and any pain points that y'all might be, you know, occurring today? 
+
+11:17 | Brigitte
+I just wanted to see if there was something new we can learn on here. I didn't know you guys did the sourcing. Is that part of the ShipStation already? Or what is the sourcing? 
+
+11:33 | Jeff
+No sourcing is the aspect that we don't mess with at all? Oh? 
+
+11:37 | Brigitte
+Okay. I thought you were saying that was a new thing to ship or I don't know. Okay. 
+
+11:43 | Jeff
+Yeah. So like I can help out with like automating your workflow. So I actually have y'all's account pulled up and I'll share my screen with you real quick. Go ahead. We'll probably. 
+
+11:54 | Brigitte
+Be good on everything then. 
+
+11:58 | Jeff
+Okay. Yeah. 
+
+11:59 | Brigitte
+I knew the orders are there. Okay. Waiting shipment, everything has been transferring over. Just fine. The ship locations are fine. I really don't know what we can do to make it any better actually. 
+
+12:17 | Jeff
+Well, one of the things like we can, so one thing I mentioned is automation rules, and I noticed like a lot of the time you're shipping with like usps, ground advantage or priority mail, right? So, one of those things like we can do is like for this one, for example, priority mail is going usps. So when you go to your settings gear in the top right corner on the left sidebar, we have automation and then automation rules. Okay? And you can create a rule for priority mail and… orders match specific criteria, add criteria and then… requested marketplace value contains priority… mail. 
+
+13:10 | Brigitte
+Then. 
+
+13:11 | Jeff
+we select an action type, you can then go to set carrier service… and then you can select action usps, priority mail. So every time a requested service that contains priority mail in there, then we'll set the service automatically to usps, priority mail. So that's one less click that you have to do. Okay? 
+
+13:36 | Brigitte
+Wait, like to assign priority mail for specific customers only, or just like when we select what way, which way we're gonna send it? It just, I didn't understand what that was. So we already select priority mail, right? So how is this gonna make it different? 
+
+13:56 | Jeff
+From, well, you haven't selected priority mail in shipstation yet? 
+
+14:00 | Brigitte
+Are you talking about for like all the orders? The thing is we don't do it for all the orders. How would we assign it for each one? I'm sorry. So out of, we're not all usually coming out priority mail, sometimes they're ups, yeah, ups. 
+
+14:14 | Jeff
+Yeah. So, yeah. But so, for this one, right? It would be going priority mail, right? 
+
+14:19 | Brigitte
+Huh. So. 
+
+14:21 | Jeff
+With that automation rule, I made a criteria rule saying like the requested service is priority mail? 
+
+14:28 | Brigitte
+Oh, got you. Okay. So it says on their order that it's priority mail. So this one would exactly. 
+
+14:34 | Jeff
+Exactly. Yep. And then, so you could do that. And then, you know, if I like it'll, pop up the service automatically for you. So you don't even have to go select that. And then, and then the other thing that I did notice in y'all's account is you have like one custom package, right? So, do you kind of have like a set amount of boxes or polymailer bags that you've used to ship out currently? Yeah? 
+
+15:02 | Brigitte
+It's this pretty much the same box. Sometimes it's a smaller box for smaller things. Okay. Yeah, it's just one size for the, that one. 
+
+15:12 | Jeff
+Okay. Because what you can do here is you can like right here, you can put in the length width and the width and height in here. And then you could have unlimited packages here. So say you have one or two, maybe three different packages that you select from what you would essentially do is once you have these all saved, you go to that order… you would let it load real quick, go back to this order. And then you would, your service would already be selected. So we can do that for ups as well. And then you just select your package type and then it would put in the dimensions for you. Yeah. 
+
+15:53 | Brigitte
+Yeah, we need to do that with your package types, need to update that for sure. Okay. Yeah. And then we don't even for ups, right? We can do the same thing. So we need to do that for that. 
+
+16:05 | Jeff
+Yeah, exactly. I. 
+
+16:06 | Brigitte
+Would make it faster and. 
+
+16:09 | Jeff
+then like even for, you know, just the ones that contain a belt, you know, if the item description has, you know, like for example, another thing that we could do with automation rules is, and I won't put this one into play. I'll put these all on hold for you right now just to make sure, you know, this is what you want to do, but all you gotta do is like hit the active button and then it just show it takes it off, doesn't delete it. Just once you go to show inactive, then you can enable it again. 
+
+16:40 | Brigitte
+Okay. But. 
+
+16:41 | Jeff
+For, you know, belts… orders match the specific criteria. So once again, this criteria is… for, you know, belts only. So you go to add criteria and then you could say item… name. 
+
+17:08 | Jeff
+I always do contains because if you say equals, it has to be like letter for letter, capital for capital and all that. So, I. 
+
+17:17 | Brigitte
+will. 
+
+17:18 | Jeff
+do belt and then you can select an action type and then you go to… where are we at? 
+
+17:33 | Jeff
+Set package dimensions. And so then you could play, you could plug this in. So any order that comes in containing the word belts will automatically have these dimensions plugged in for it. So if it's going usps, how about, if there's. 
+
+17:47 | Brigitte
+more than one in the package, how it, would? 
+
+17:51 | Jeff
+It need to go into a different package then? 
+
+17:54 | Brigitte
+Yeah. Okay. 
+
+17:55 | Jeff
+So, what we can do here is how. 
+
+18:00 | Brigitte
+do they know that it's more than? 
+
+18:03 | Jeff
+One total quantity equals one… and then total number of line items or… is it number of line items equals one? So that's saying there's only one quantity of belts in there and there's only one line item. So this is the shipping by itself. It has nothing else ordered with it. It contains the item name contains belt in it. Then we're saying the package dimensions to whatever it is. So, do you know those package dimensions for one belt that gets shipped out? 
+
+18:38 | Brigitte
+Yeah, I can look it up real quick. It's like 12. It's a ups box. Let me pull it up real quick. We're not at the office right now, no. 
+
+18:50 | Jeff
+Worries. No worries at all. 
+
+18:53 | Brigitte
+Let's see. 
+
+19:00 | Brigitte
+I think it's 12. It's yeah, it's 11 point two, five by eight by six. Okay. That's a different one. So. 
+
+19:19 | Jeff
+That would be what pops up. So save rule. So now, anything priority mail that is requested in that order will have priority mail selected for you. And then any solo belts that are being shipped will get those dimensions put in. 
+
+19:36 | Brigitte
+Oh, gotcha. So it's my question is, so it'll know if there's only one belt? Like how does it, how does it know that? 
+
+19:45 | Jeff
+It's so basically, like with that automation rule right here, it is looking at the order that comes in and it'll look at the item name. It will search to see if the word belt is in there. And then it will look at the order itself and see how many items have been ordered. Okay? Only one item. 
+
+20:03 | Brigitte
+Okay. And then. 
+
+20:05 | Jeff
+So, total quantity is one number of line items that's another safe thing because like if you did number of line items, it could have like the belt but they could order five belts. So, I'm just saying only one line item, only one quantity and the product contains… the word belt in it, then we're going to apply these dimensions here. 
+
+20:27 | Brigitte
+Okay. And, 
+
+20:30 | Jeff
+then same thing with like we can try to find one that's requested ups and create a rule for you there. Let me look through these real quick and to see what the requested service? 
+
+20:41 | Brigitte
+Yeah, sometimes they just don't I think maybe they don't order ups, but sometimes we just have to send that ups because of the days or the location. 
+
+20:51 | Jeff
+Okay. And so the automation will come in here, you know, for incoming orders, it'll update this information for you for new orders, but it's not set in stone. So if you end up needing to change the service, you're more than capable of like it's not locked in because of the automation. It'll let you update it and you can go, you know, browse the rates here, compare the different options and see the delivery times if you want to do ground saver or ground for ups. And then we have, of course, usps here, look at those options and then global postage for international. So I wouldn't worry about that one. But yeah, you have those capabilities. So really you? 
+
+21:30 | Brigitte
+Know, oh, yeah. So we do have some random international one comes in. Can you do it? Can you set it for the international? Should you set it for the international ones? Yeah. 
+
+21:43 | Jeff
+Definitely. So we create a. 
+
+21:46 | Brigitte
+Rule, we pick the best one? 
+
+21:49 | Jeff
+Yeah. So let's do this. Let's do international shipping. 
+
+22:00 | Jeff
+Match the specific criteria. Oh… we want, I think it's gonna be up here… country. What we're gonna do does not include, do not include United States and action type. What we're gonna do is set rate shopper? 
+
+22:25 | Brigitte
+Set rate shopper. And. 
+
+22:27 | Jeff
+so, we're gonna go set that up next for you. So save the rule for now and then over on this left sidebar in the settings go to shipping and go to rate shopper? 
+
+22:38 | Brigitte
+We're. 
+
+22:39 | Jeff
+gonna create a new one build from scratch… international shipping. And then we can do… what carriers do you want to offer for international shipping? 
+
+22:57 | Brigitte
+I guess usps has usually been the or ups or usps is what we use. 
+
+23:05 | Jeff
+Okay. So we'll do ground usps is. 
+
+23:08 | Brigitte
+Usually the more expensive. 
+
+23:10 | Jeff
+But the more accurate? 
+
+23:12 | Brigitte
+Like more likely to get there. 
+
+23:15 | Jeff
+Yeah, no, 100 percent. Yeah. And the other option that we have is globalpost? 
+
+23:23 | Brigitte
+Yeah. I think that's part of usps, right? 
+
+23:26 | Jeff
+Yeah. So it goes like first mile goes through usps, and then it's shipped to a globalpost facility warehouse. And then from there, it's shipped out. What I'll do is I'm going to follow up with an email with you today, Bridget, And send you the link to globalpost, and you guys can read over, you know, what that looks like. So, globalpost flat rate, duties and taxes included that goes to, I believe five different countries, Canada, Australia, I think New Zealand, yeah… Singapore, and then one other one I believe, and it's basically a flat rate. This is the best service. As far as convenience goes. Okay, it's a flat rate of 27, 95 or 27, 99, not 100 percent sure. But to those five countries, as long as it's under 200 dollars in value, and under a certain package size, it goes straight through customs and gets delivered and you get door to door tracking with it. Your customers don't have to pay any admin fees for being held up at customs. They don't have to hold it, pay any taxes and duties or anything like that. Okay? 
+
+24:40 | Brigitte
+Yeah, we need to look into that, do. 
+
+24:42 | Jeff
+They. 
+
+24:42 | Brigitte
+provide their own box or do we have to get the right, right? 
+
+24:47 | Jeff
+Whatever box, you know, you want to ship it in. Yeah, you can ship it in any type of box. It doesn't have to be a usps box. It doesn't have to be a ups box. It can just be a regular brown box. Or the one thing it can't be is like a priority mailbox with usps, because then it will switch to priority mail. So, this is something that, you know, I want you guys to read over. I'll send over the website, let you guys read up on that. And if you want to add it into here, then we can do so. Okay. So, right now, you know, it's kind of hard with international to add, you know, time restrictions, but if you do have like a preference of service, you can select, you know, ups ground international service. I think we need to probably add one more for ups. Is it, where are you mainly shipping to? 
+
+25:42 | Brigitte
+Australia, sometimes Japan is what we get most of, but, yeah, Australia. 
+
+25:47 | Jeff
+Okay. So, then we want to look at probably. 
+
+25:58 | Jeff
+I think standard and worldwide saver. 
+
+26:04 | Jeff
+Ground international shipments. So basically, like if it can go ground, we want ups ground. Yeah, and you can set like a dollar amount or like a percentage. So, if you were like, if usps comes up and it's like 30 cents cheaper, we could do 50 cents or, sorry, we'll do 50 cents here. So as long as like ups ground is within 50 cents, then it will select ups ground for you. So that's an option you can play with here. I'll save this and publish it for you. You have to select it at this point in time. So, once again, like if we go to orders… let it load real quick. When you go select your service, you'll see international shipping here. Now, obviously, it's not going to choose anything because it's going to Compton, California, but you would just, you would select this, you would need to have your weights and dimensions in and it would choose the cheapest option for international shipping for y'all, oh, 
+
+27:10 | Brigitte
+okay. 
+
+27:11 | Jeff
+But the reason like I'm not putting globalpost in there right now is because if y'all, do decide as a business like, hey, we're happy with that flat rate, Australia is one of those countries that get a flat rate of 27, 99 or 95. And you just want to do that moving forward, we can simply just change all international orders over in the automation room to globalpost and we don't have to use a rate shopper. So, right now, like this is created, I haven't set anything in there. I'm gonna let y'all, discuss that as a team and decide, you know, what best fits your needs. 
+
+27:46 | Brigitte
+Okay. 
+
+27:49 | Jeff
+So I will follow up with you today. I'll get an email. Let me double check real quick. I want to see if I have your email on file or if I might need to get that from you, cause I have infoleaddevilusa. Com. Is that a good email to send it to or? Yeah. 
+
+28:07 | Brigitte
+It's lead devil lead. 
+
+28:09 | Jeff
+Devil. Sorry. Yeah, lead devil USA. It's definitely a Friday for me. I'll get that. I'll sit over a couple or three things really for you automation rules, this kind of basic automation rules, the knowledge base article there, how to add custom packaging like the one that you already had in your ShipStation account. So if you want to add one or two other ones, and then I will send over the global post information. So you and I think Anthony was originally supposed to be on this, can discuss that and then feel free in my email. In my signature. There's going to be a calendar link. Yeah. And you can schedule another 30 minute window with me if y'all, want to discuss it further. And also based off of y'all's, default location, it's in Louisville, correct? 
+
+29:08 | Brigitte
+Yes. Is that? 
+
+29:09 | Jeff
+Where y'all are located? 
+
+29:11 | Jeff
+So, I'm happy I live in Frisco Texas. I'm right off of DT and 121. So, you're probably like 15, 20 minutes from me. I'm happy if y'all, really kind of want to sit down and like look through all the features of shipstation and talk things through. I can schedule an on site visit with y'all, and come to your warehouse, your store or location, and we can brainstorm some ideas and see like what we can do to optimize your account and make sure you're getting the best bang for your buck with shipstation. 
+
+29:40 | Brigitte
+That's really nice. Yeah, I'll let Anthony know if that's something he wants and to look over that. 
+
+29:47 | Jeff
+Okay, perfect. Well, I'll get that email sent out today. Feel free to, if you have any questions, feel free to follow up in that email thread. One thing I will let you know. I am not support. So, if you have like technical issues, I would still go through the support channels from shipstation. But feel free to ship me an email at, with that case number and I can look into it on the back end for you if you're not getting the answers you all need or want at that point in time. 
+
+30:15 | Brigitte
+Okay. Yeah, no worries. Yeah, I'm going to look into, the rules over here. 
+
+30:22 | Jeff
+Yeah. I'll send you. 
+
+30:22 | Brigitte
+Some automation I'll play with that. Yeah. 
+
+30:25 | Jeff
+I'll send you some helpful articles that will, is based off of our knowledge based articles that are shipstation created and that might give you guys some ideas of what capabilities we have in shipstation. And then we can just go from there. I nerd out with automation rules and order filters and that sort of thing. So I'm definitely here and willing to help you all out with that, if you need it. So, yeah. 
+
+30:51 | Brigitte
+I just thought of a couple of things you can do. Yeah. So, yeah, thank you very. 
+
+30:57 | Jeff
+Much. If you think if you think of any automation rules that you want in play, feel free to shoot me an email and I can plug them in for you and then we can double check them, make sure they look good to you and then, you know, activate them for you. 
+
+31:07 | Brigitte
+Okay. Yeah. Because there's some, yeah, there's some small packages we sent out and then just for like those small orders, we can use the small. So, yeah. So the next thing I was going to write was for automation when we send little clips or just like a small thing that can go in the flat rate box, that one that's one that I thought of. So I'll play around with that. And then I'll email you to see if you can check them out to see if I did it, right? 
+
+31:35 | Jeff
+Yeah. Sounds good. Yeah. I mean, you're not going to break anything. You can always make changes. So, feel free to mess around with those automation rules and send them over to me when you get them done, and I'll be like this is perfect or let's make this change and we'll go from there. 
+
+31:47 | Brigitte
+Awesome. Thank you so much, Jeff. 
+
+31:50 | Jeff
+Of course, Bridget. You have a great weekend. 
+
+31:52 | Brigitte
+Alright. You have a good one too. Stay safe. 
+
+31:54 | Jeff
+Alright, you too. Bye bye. 

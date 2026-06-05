@@ -1,0 +1,232 @@
+ShipStation Optimization Check-Up: Craig Bounous
+
+Roland Sanchez with USAMM
+Recorded on Jun 3, 2026 via Zoom, 21m
+
+
+
+Participants
+
+Auctane
+Roland Sanchez, Senior Customer Success Manager
+
+USAMM
+Collin Smith
+Craig Bounous, Marketing Manager
+
+
+
+Transcript
+
+0:00 | Roland
+hey, grazie. Mille. 
+
+0:03 | Collin
+Hey, how's it going pretty? 
+
+0:05 | Roland
+Good. Pretty good. Just trying to dig into all the shipstation stuff for everybody here, but hopefully your afternoon is going pretty well. 
+
+0:16 | Collin
+Oh, it's been a very busy day around usam today. We got a lot going on today. We just started our Amazon shipping integration on shiphero. So today is our first day shipping Amazon. So everything is kind of been a little hectic, but it's actually integrated pretty well. It's going relatively smooth. So always good. I did have some questions about integrating Amazon into our shipstation account. So maybe you could answer those for me. 
+
+0:49 | Roland
+Yeah, it should be a pretty seamless integration. Are you doing fulfillment by Amazon or are you self fulfilling? 
+
+0:55 | Collin
+So we're self fulfilling, we're only using them for carrier service. So it's just Amazon shipping V to. 
+
+1:00 | Roland
+Yeah, it should be just a direct integration. When you go to your selling channels, you should be able to just click on Amazon and walk through the steps. It'll have you verify the account, and then you just turn on whatever it is you want to turn on. When it comes to their rates, it's pretty user friendly, just like the way you connected, pretty much everything else you've connected as far as your storefronts goes. 
+
+1:19 | Collin
+Alright. Yeah, I'll just look into that. It should be pretty easy because I did the integration for shiphero. So if it's about the same, it's no. 
+
+1:26 | Roland
+Big deal. Yeah, Shopify. I see Shopify's connected, etsy, bonanza, and I see another Amazon connected. So walmart, it should be the same process as all those. Yeah, looks like it. Anyways. If you do have any issues, reach out and let me know if I can't help, then I'll make sure I get one of our implementation managers on the phone to kind of help walk you through any kind of hiccups or any problems. And of course, if there's like any cache or something like that needs to be cleared on the back end or something that needs to be turned on, I could always turn it on the back end for you guys too. Yeah. So I'm your customer success manager. So when it comes to like shipstation advanced features and that kind of stuff, I'd be the one that you want to reach out to or I could reach out to you. I don't call you to sell you crap. I'm not trying to get you to do anything different. I'm kind of more agnostic and like, look if the system's working great. Great. If you need help with the system or you want to learn about some advanced features that shipstation has. Great. My whole thing is before you bounce, let me know what's wrong. Let me know what we can do that's kind of like where I am, let's retaining that relationship with you guys. 
+
+2:34 | Collin
+Yeah, it. 
+
+2:36 | Roland
+Looks like Mercedes Lorenzo was working with you guys for a while last year. She was one of our aes out in the field and we partner up. So sometimes she may call on you when she says like, hey, there's this new ups rate available or there's this new fedex thing available. So she may reach out regarding that stuff. But when it comes to the functionality things that would be more of my role that being said, sorry, I'm kind of having a really bad allergy day today. I'm here in Houston, I, 
+
+3:03 | Collin
+get it. I get it. 
+
+3:04 | Roland
+And it's just been nuts with the storms coming through and pushing allergy stuff out. Yeah? 
+
+3:08 | Collin
+That was us last week when all that rain came in the next day. I was just like bleh, I felt horrible. 
+
+3:15 | Roland
+You guys are located in Killeen, is that? 
+
+3:18 | Collin
+Right. Yeah, central, we're up here not too far away from you, no? 
+
+3:22 | Roland
+I know exactly where it is. I graduated from Killeen high school. Yeah… class of 94 that's old school. Nice. 
+
+3:31 | Collin
+Yeah. You got me beat by about 10 years. Yeah. 
+
+3:34 | Roland
+I got most people beat. Yeah, I grew up in harker heights. So, like people say, like how big was it? Like when I was there? It was like tiny, 11,000 people, if that, you know, like now Killeen is so developed. 
+
+3:47 | Collin
+Yeah. I actually live in heights. Oh, really? Yeah, I live off knightsway, the 24 10 and stillhouse lake road. 
+
+3:57 | Roland
+Yeah. They built a big. 
+
+4:00 | Collin
+Development and it used to be a big ranch and they built a big housing development on it, you know? Yeah. 
+
+4:04 | Roland
+No. So, I was there back in the day when knightsway wasn't a thing, and it was just the ranch and there would be like this bar that we would go hit up on the way out there called fireside. I think it's called and it's just some crap hole bar on the way out there. But anyways, yeah, that's I. 
+
+4:19 | Collin
+think it's still there. It's just a. 
+
+4:20 | Roland
+different way back in the day. Yeah, it was way back in the day. 
+
+4:24 | Collin
+It's right off the 44 10. Yeah. 
+
+4:28 | Roland
+Yeah. And well, there was a place when you're coming back the other way on 24 10, when you cross business, 190, there was a place right by the golf course called the office, and it was like a bar, and we used to hang out and go drink there. Yeah, this is. 
+
+4:41 | Collin
+Yeah. I don't think that one's there anymore mid. 
+
+4:44 | Roland
+Nineties. This is old school. But anyways, so I do go out in the field and I visit my clients. And by the way, Craig, hello, Craig just joined the call. Yeah… I'll just recap real quick. I'm your customer success manager for shipstation. So all things shipstation related, that would be kind of where I can help out with you guys. I don't get a chance to reach out to all my clients throughout the year. So shipstation and AI and corporate put together this scrubber. The scrubber went through and pulled all these accounts that are on our books. I have 500 managed accounts and it just said like these are the ones that aren't utilizing certain basic things. I'll let them know before they leave and leave for something that was so simple that they could have used. You may not need the little things that I'm going to tell you about, but they're there. And I do go out in the field and I visit clients. I bounce between Austin, Houston, San Antonio, usually every other week or so. And then I also do the zoom calls like this either from my home or a hotel or whatever. So if you guys need an in person visit, I can do that. I just need to know because I only have like five accounts out there in the clean area that I'd visit. So I just need to know plus I can go hang out with some old high school friends. So you guys saw the pop up. It happened on shipstation. It said that you're not utilizing all your account or whatever it is. And so that's what this is in regards to. I'll just do a quick screen share and I'll show you something. But again, knowing that I dig into a lot of my customers' accounts. As I do these calls, I started seeing like, yeah, they don't need that because they ship this specific way. So let's do a screen share real quick right here. I'm just going to do a desktop too. So this is your shipstation. Normally, it would land right here on your insights page or your orders page and one of the things that it. 
+
+6:35 | Craig
+Pulled up as. 
+
+6:36 | Roland
+Far as that scrubber, it said that rateshopper, but again, it's just a really basic thing. Our rateshopper and being that you guys have so much of a complicated workflow when it comes to shipping and you're utilizing various types of carriers and services that are I'm guessing putting on other accounts besides your own account. This is why rateshopper may not be a great fit for you guys. But if you wanted to turn on rateshopper, it's under your settings tab and on shipping on the left hand side rateshopper. And then you can create a new rateshopper, and then you can literally build one from scratch if you want to and call it like Craig's… rateshopper. I'm not going to turn anything on. I can't break anything on the back end. So just keep that in mind just stuff that I can show you. But this is your ShipStation and I can't really like mess anything up. But let's say you wanted to rate some really basic stuff. You can always do that and have it rate specific carriers, specific accounts and just really dial it in. So let's say you're doing media mail apply and the restrictions are it cannot be over three days time in transit. And so you can have certain orders that are tagged coming in from certain platforms or selling channels, and have it rate using this specific rate shopper that you built out. So that way when you have orders that come in that are not mapped, I'm going to go back to your order screen. And I apologize if I'm going fast, just stop me if you need to guys. So let's say you go back to your order screen, orders are coming in and you have orders that are coming in that are not mapped that you might want to use that rate shopper on. Then you can have it apply. So that way the rate that spits out down here will be dialed in a little bit faster, a little bit quicker because it's only rating those three or those four based off that rate shopper that you want. Does that sound like something that you've seen before or even care about? 
+
+8:49 | Craig
+Yeah, we're pretty locked in when it comes to what we can and can't do because a lot of the rates that we're looking at, we have government contracts that we have to use certain things. So, yeah, so we're pretty locked in when it comes to the rates and shipstation. 
+
+9:11 | Roland
+Excellent. Yeah. And I figured that much is just one of those things where I can't I just, I've got to show, I want to make sure that you guys are aware of it, but, you know, of course, I figured seeing that you do bill third party quite a bit, things are locked in but yeah, I just wanted to make sure that you were aware of it. And if you did need to turn it on, you could turn it on. It would just eliminate a lot of the, a lot of the pinging off of all these different rates, and waiting for more to pull up as it sometimes takes a long time. I bet. Yeah, but yeah, cool guys. Yeah, yeah, it'll just slow it'll. It'll speed up the process. But that way when they're, instead of having 50 different services and carriers, like things you're never going to use like ups next day, air early, like just turn it off and just not have it on there. And you can also switch those off too on the selling channels just so you know, you go to your selling channels and you have a specific selling channel, like you're talking about Amazon, right? Let's say you have that selling channel and, you know, for a fact you will never use ups next day, air early or fedex next day air. You can just literally turn those off and toggle them off. It'll eliminate the mistake of ever happening. And it'll make sure that it's defaulting to the service that you want for that specific carrier anyways. 
+
+10:25 | Craig
+Yeah. Does that, does it completely remove them? And we'd have to add them back in later or does it just mark them as off? 
+
+10:36 | Roland
+Yeah, it just, I'm sorry. Yes, you're correct. You can, it'll just turn them off? You can always add them back in later on. Yes, that's correct, you can go to edit and then you can just dial it in also which kind of fulfillment method, but yes, deleting it won't get rid of it forever. You can always add that service mapping one more time. 
+
+10:57 | Craig
+Okay. Yep. And. 
+
+11:00 | Roland
+Then if there's any other stuff that you need like, you know, notifications and different branded tracking pages for your customers, if you want to use that. So this was defaulted to our carrier tracking page, you can always have a branded one with your logo and have the logo pop up there. So that might help out a little bit. But these are all little things that you can do to kind of just dial it in especially on the product side. You know, I'm sure you're aware that you can just add dimensions and whatnot to the products and already add the customs information to them if you need to for your most popular ones. But you guys do a lot of like more of a one off stuff, right? 
+
+11:38 | Craig
+Yeah. Ours are pretty custom stuff. We do hand built stuff quite a bit and we very rarely ship out of… the us because when we do it's to apo, fpos. Yeah. And so, yeah. 
+
+12:00 | Roland
+They all go postal anyways. Pretty much. Yep. Yeah. All right. Cool. Yeah. So those are those little things where it's like I get, it probably doesn't fit just because you have it so dialed in already, you know what I mean? And so they're just like these little things that they want us to show people and say, like just make it aware that's cool. Yeah. And I just want to make sure you guys got that stuff. And if there's any other things that you might need, then we could always dive into it automation rules. Also, I'm sure you're aware of them. You guys have a few, it's not that many. If you ever get to the point where you're at like 65 70 automation rules, just dial them in a little bit, get rid of the ones you don't need, turn them off because the orders are going through that cascade of automation rules for every single order. So, if you're having a lag time when you're trying to process orders, automation rules is 100 percent slowing it down the more you have, the more it'll have to go through them. Okay? 
+
+12:57 | Craig
+Yeah, last. 
+
+12:59 | Roland
+Thing I'll show you guys before I kind of like leave you alone is I just want to make sure that you guys are aware of this every merchant. I always show them this little settings screen up here at the top, right? Little gear. Once you click on that and go to payment and subscription right down here. I don't know why when I'm about to show you lives here, but this is where it lives down here at the bottom, right? You have your data archive. I don't know if you guys are aware of this already, but literally anything and everything you've ever done with shipstation since you started with us, since 2013 is in this data archive. So if you needed to see a workflow or if you need to see some orders or some customer stuff from back in April of 20 22, you can literally download this report and it has everything that happened that month in shipstation. Cool. 
+
+13:49 | Craig
+There's huge reports. By the way. I wish we would have known that like six months ago. I'm sorry, we did have to, we did have to compile a bunch of crap. And so, yeah. Oh, man. That is really cool. 
+
+14:00 | Roland
+Yeah. So there are huge reports. If you click on one, don't freak out if it takes five minutes to download it'll, take a while. But once it downloads, you're going to have a spreadsheet with 150 columns and a 1,005 1,000 rows. So it's going to be a it's got everything in there, everything from your products to the hottest zip codes that you ship, to Sally in the back, turn something from ground to air and you don't know why the hell she did it that's in there? Okay, cool. Alrighty. Other than that guys, I don't have a whole lot more for you. If there's anything that you want to go over or talk about. The only thing I noticed was like in April early, there was a ticket that was put in by you, Craig regarding the email request, but I don't know much more than that. I don't know if anybody resolved it for you or went over it with you, but I usually don't dig into too much of the ticket stuff. Well. 
+
+14:58 | Craig
+I can't remember what it was, but it must have been resolved. Okay? 
+
+15:03 | Roland
+Cool. If you're having issues with stuff like, you know, error about not having shipping insurance. Yeah, I saw that was an error that was going out for a while. Oh, yeah. It seems like that might still resolve if you're having issues with this stuff and you seem like the little chat bot or the customer service people aren't helping you out. Just send me an email with that ticket and then just CC me or if the service people are reaching out to, you can say, hey, copy and roll in on this because if I see that they're giving you a hard time or they're just giving you the runaround or wasting your time by asking you to log in and turn your computer off and on again like that kind of crap, I can just escalate it to a higher level technician. Okay. Cool. Did you try turning your system on dude? 
+
+15:50 | Craig
+Yeah, I tried it. We're not new at this. Yeah. Okay. Cool. Colin, did you need anything for the Amazon? 
+
+16:00 | Collin
+So we have, yeah. So we have the API, well, not the API. We have it integrated. So we have Amazon buy shipping and we have Amazon shipping both integrated into shipstation already. But anytime we try to ship with an order, it gives us an error. And I look up the account that Amazon is shipping, the seller central email. It's missing. So I'm wondering if that's why it's trying to route itself from Amazon using our seller account, but there's no seller account associated with it. So it just doesn't know where to go to find the order and it just errors out. 
+
+16:36 | Roland
+Okay. Gotcha. Interesting. That's the… that's the main account, right? The. 
+
+16:46 | Collin
+You're talking about the well, so we have like several different selling… channels, right? And like accounts and stuff. So like for our, we have like we ship broken threewood, we ship your first sergeant, we ship usamm, we ship all sorts of stuff from shipstation. So we have it all kind of separated but we want to be able to use Amazon shipping for pretty much any of those orders, that go ground because we want them to count towards our daily package quota with Amazon. Yeah. But for some reason, when we try to use Amazon shipping because we don't want to use Amazon by shipping because that uses like SPS and everything that uses all their stuff. So we won't get the credit for shipping with Amazon, we want to use Amazon shipping. But when we try to select, it just throws an error code and just says this order couldn't be found and it just doesn't let you do anything. Yeah, I'm. 
+
+17:44 | Roland
+looking at that, I'm looking at the carrier for that one right now, right below the Amazon by shipping. Yeah, I'm just going to put in a dummy package… no insurance… rates and let's… see here carriers. Okay, Amazon shipping, not available. No ethical service to reveal for the computer shipment. But when I go to the carrier, it says there's only one service and that's just Amazon shipping. 
+
+18:20 | Collin
+Yeah. We only want the one service like it doesn't need. Yeah, it's basically just our basic ground service for the lower that's. 
+
+18:28 | Roland
+it, yeah. And then when I do it that way, same thing, nothing available. Okay. Let me see if I can figure out what's going on. If I do submit a ticket for it, then just be on the lookout for an email. I'll copy you Colin as the contact. 
+
+18:45 | Collin
+And. 
+
+18:46 | Roland
+see if they can get it fixed. But, yeah, that's weird. Okay. Yeah. Let me do a screenshot of this. So real quick, I'm guessing, I'm just, I know this is what… you're talking about, but just be on the safe side and make sure basically we're talking about this Guy right here, yes. 
+
+19:06 | Collin
+Amazon shipping, that one. Yeah, because the other, we're not going to use buy shipping. We're going to use Amazon. So, and yeah, for whatever reason, it throws out an error code like and we can't pull up shipping information or prices or anything. Yeah. Gotcha. 
+
+19:22 | Roland
+And I went down and tried to see if there was any kind of other way to make sure it's connected, right? But I can't tell if there's anything wrong with it. So, like… I don't know, yeah, right. And Craig, do we? 
+
+19:35 | Collin
+Know whose email we use for that for seller central? Is that like a, I mean, do we use one of the ones we use for ship, Amazon com or is that like actual seller central, Amazon? 
+
+19:51 | Roland
+All right. 
+
+19:55 | Craig
+My email is for, is a login on both? No. Let me. 
+
+20:02 | Roland
+back that up for seller. 
+
+20:06 | Craig
+At Amazon, it would be Amazon, usam. Com. If you're looking for the seller, if you're looking for the shipping Amazon, then any of those accounts you'd know all those accounts, but. 
+
+20:20 | Collin
+Know, I just, I don't want to put in the wrong one, but you can probably edit it, right? So, if I put in, like if you put in. 
+
+20:26 | Roland
+The wrong, if you put in the wrong one, it's gonna take you. I believe it's, gonna take you to the next step, which is verifying password or verifying it. So, if you put in the wrong one, it shouldn't let you go to the next step. If you don't have the correct answer for that. 
+
+20:36 | Collin
+All right. Well, I'll try mine because I have the shipping email. I'll try that and I'll see what it says. It didn't do anything. Okay. It just, it just seller central email I put it in. I hit save. That was the only option. 
+
+20:54 | Roland
+Okay. Oh, 
+
+20:56 | Collin
+weird. Yeah. 
+
+20:57 | Roland
+Let me see what I find out on my end. All right. Cool. I'll get back to you with that guys. I appreciate you giving me a little project workout, so that's good. It was something to mess with. So, thank you very much. I will knock this out and figure out. I'll get you an answer whether or not I get it fixed or not. I'll get you an answer. I appreciate. 
+
+21:14 | Collin
+That, thank you. Yeah, guys. 
+
+21:16 | Roland
+All right. Cool. If there's nothing else you need, just let me if there's anything else you need, just let me know you got my email, but be on the lookout for a follow up email in just a little bit, okay? 
+
+21:25 | Collin
+All right. Will do. Thank you. 
+
+21:27 | Roland
+All right, guys. Take care. Thank you. Bye. Nice meeting. Y'all, bye. 

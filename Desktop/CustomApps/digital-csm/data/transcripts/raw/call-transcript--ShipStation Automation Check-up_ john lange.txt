@@ -1,0 +1,543 @@
+ShipStation Automation Check-up: john lange
+
+Jonathan Carucci with Johnnynerdout
+Recorded on Jun 3, 2026 via Zoom, 42m
+
+
+
+Participants
+
+Auctane
+Jonathan Carucci, Customer Success Associate
+
+Johnnynerdout
+John Lange
+
+
+
+Transcript
+
+0:00 | John
+you got 30 bucks in that jar? 
+
+0:12 | John
+You got 35 ways? 
+
+0:14 | Jonathan
+Hi there. Can you hear me? Yeah. All right. Thank you for meeting with me. Let me get my camera on here. 
+
+0:30 | Jonathan
+What is happening? All right. So, yes, thank you for setting up for meeting. And, you know, my name is Jonathan. I am part of the customer success department here. We just myself as well as a team of like five or six other, one of us. We just handle the overall health of the accounts, see if there's any way to optimize things. So, yeah, do want to get to know each other a little bit better. I would like two things. Obviously, number one, your position within the company, number two, a little bit of what your company does as far as workflow with shipstation. And then the third thing, what exactly is it you're looking for in this meeting? Are there something specifically that comes up? Or is there something that you said? Hey, I want to set up this meeting because I want xyz information… or optimization? Yeah. 
+
+1:24 | John
+So, it's my company, we do an E bike conversion company. So we help people convert their bikes into E bikes. So we sell everything that goes with that bike parts, motor parts, everything. And then we help people do that. So we're shipping out that type of stuff. 
+
+1:41 | Jonathan
+Very cool. I. 
+
+1:42 | John
+Am on this meeting because I was told that I needed to. I got an email saying you have outgrown something and you need to do this meeting so that we can help you. And so I said, okay, yeah. 
+
+1:55 | Jonathan
+I would love to see. I've been hearing, so apparently there's different messages that the pop up shows and some people are kind of like, it's more of a suggestion. But then I've heard some people like yourself like, no, you need to have this meeting or something. There's even one that said something like you need to have this before may 30 first and that the pop up showed up yesterday. So I was like, well, time wise that doesn't even that's not even correct. Yeah. But however it is that you got here, you are here. So let's go ahead and just, you know, look at your workflow, see how it works. And if there's something that does pinpoint because I think for these automation meetings, sometimes it's the system will look at your system or your workflow kind of see if there's things that you're automating if it's not, it kind of looks at it as you're not as optimized with the shipstation software as possible. And then if there is an opportunity, we'll go ahead and look at it. I also do know that workflows are different for every company, every merchant. So some merchants, they don't need automation especially if they already know how things work. But sometimes we do see opportunities. So at least to get things started, I'm looking at here, it seems to be that you ship. So would it be safe to say that you ship average… like under 500 over 150 orders a month for the most part? 
+
+3:13 | John
+Under 500 a month, over 500 a month? 
+
+3:18 | Jonathan
+Within shipstation. 
+
+3:19 | John
+Yeah. 
+
+3:20 | Jonathan
+Okay. I would. 
+
+3:22 | John
+Think so. I mean, I think I, it depends. I mean, it's seasonally I think right now is a busy time, but I think I had probably 10 USPS things and then probably 10 ups things. I probably had 20 going out today, got it, you know, on a Wednesday that's a typical day. So, I mean, I don't know it's probably, I mean as. 
+
+3:43 | Jonathan
+Long as the weather's hot. I'm sure. A lot of people are trying to go out there and ride their bikes and not have to pedal the entire way. So, I'm. 
+
+3:50 | John
+sure. I'd say 500 would be the over under, okay? 
+
+3:54 | Jonathan
+That's perfect. Now, are you kind of like a one man band? Meaning, are you the one who also ships, it packages, it sends it out or is it a warehouse that does that? 
+
+4:03 | John
+No, I do it here. We do everything in house from our warehouse. So everything that we have, we don't do any third party stuff at all. Everything's in our warehouse here. 
+
+4:12 | Jonathan
+Got it. So, for… the most part, I'm… guessing the kits that you guys do the conversions, it moves, it's not like something that has to be customized for every type of bike. You probably have a specific item or specific products that are sent to them or how is it that you do your breakdown? Because I see that you have about 475 SKUs within shipstation. So is it, how exactly does that product break. 
+
+4:42 | John
+down? So we probably have closer to 1,500 SKUs. Wow, I don't know, I don't know how they integrate with shipstation. And to be honest with you, I don't even know what we're leaving on the table with shipstation. How we could kind… of infiltrate, talk with our system. We use WIX. I know that shipstation does have a decent amount of inventory management stuff. I don't even know what you guys, I don't know what I don't know with shipstation, right? So, yeah, feed me. I'm a baby bird, feed me. 
+
+5:20 | Jonathan
+No, absolutely. So, at least with that end now, one thing, yeah, clearly shipstation does have an internal inventory system that's always been one of those little points where it's like, alright, perfect. You are able to show what stocks are you're able to even tell shipstation? If this stock is going low, don't allow the order to go through or do, but warn me you're able to kind of put warehouse locations in the event that you want to actually put this items in a bin here in the row, here in this shelf here. So you're able to do that within shipstation. Now, the important thing, is that information necessary for you or is it just going to give you like an extra heavy like an extra thing to do? Especially if WIX is what you're using as your inventory system? 
+
+6:05 | John
+So WIX is what I use for inventory, but it would be nice because I want to hire somebody to take over doing order fulfillment for me. Okay? It would be awesome if I could put in the location for everything like in aisle three bin six. Yeah, I can do that with shipstation. Yeah. 
+
+6:21 | Jonathan
+So let me go ahead and share my screen. Now. I will go ahead and. 
+
+6:33 | John
+where is it? Maybe I don't know if you could pull up what price tier I'm in like. 
+
+6:40 | Jonathan
+What? Yeah, we'll look at all of that for sure. So let's look at that. Now, first you are in what's called the bronze plan which it's up to 500 shipments a month. There's only one user that's included. You're also paying to be able to use your own carriers here. And this is what the monthly total is. If we look at the breakdown in terms of subscription, this is kind of, this is what's called the legacy subscription breakdown. The main thing about this one is it breaks down based on volume. So if you needed to go over 500, you would have to go to the silver plan. And then whatever features you get with them that's what would happen. Now recently, there has been a change meaning in some of… the lineups rather than having this, which we call the legacy lineup. There's this new plan here, which it's now split up into three rather than having all those different ones. Now, it's just all the features are bundled in. And then each thing becomes volume based. So you can be in the standard if those are the features that you want because you don't need a premium type of plan. And then you can just go ahead and select the volume. We can always come back to that because one thing that you will be able to see is it is higher than what you're currently paying. This would be 89 99 to do 500 shipments when you're currently paying 49 99. So it's about a 40 dollar difference right there. Sometimes for some workflows. It makes sense. Other times it doesn't but at least let's keep that in the back of our minds because currently, this is what your breakdown shows. 
+
+8:22 | John
+Gotcha. Now. 
+
+8:25 | Jonathan
+Exit here, going into what you're stating. So, yeah, if you were to come into, you know, products inventory here is where I mean, of course, it hasn't been enabled. So you won't be able to see it. But here you would be able to see what products it is, what warehouse location it's in what's the amount that's allocated, you would be able to set it up in shipstation by going to settings… shipping. No, that's different. It would have to be inventory management. And then warehouses here is where you'd go ahead and build your warehouse, exactly how you're stating you would add a location. And then you'd just put how many units? And then just break it down to where it is. If it has does that. 
+
+9:11 | John
+Talk with WIX. So. 
+
+9:12 | Jonathan
+the short answer is currently the way that it is set up. No. The little bit longer answer is there is a system called inventory sync. This is a new item that has been brought into shipstation. It is an add on. So this would be the add on fee. And WIX is, let me see. I'll show you the, so the article for inventory sync. It's right here. I can always send it to you as well. And WIX is one, it's been growing. It only started with like Amazon big commerce, woocommerce, Shopify, but now it's been growing. So now we actually do have WIX meaning if it is enabled and turned on into your computer. Now the systems do go ahead and speak to each other. So your system that you have within WIX, as soon as an order is created within shipstation, not only will they get the levels first of all from WIX into shipstation, so it would load. But then they're going to be speaking to each other. They update every 10 minutes. So you wouldn't have to do anything within shipstation. And within WIX. It's been a pretty big game changer because before people used to be doing their warehouses within shipstation, the exact same way as you'll, still have to set up end of the day, end of the week, end of the month, whatever they would run a report and then upload it via CSV to their external sources or opposite. That way, their levels would still be consistent. Now, it's not now, you don't actually have to do it. The system does it automatically? The main caveat is it is a add on charge for it. Now. I will say this the other lineup that we saw that was 89 99 over there. That one does have inventory sync included. So there are other features that are in there as well. You do have phone support. You're able to do a API shipping in the event that you need to use API things that normally you would not be able to do on your current bronze plan, but you would be able to do that on the standard now. 
+
+11:11 | Jonathan
+Okay. Another thing that I do want to ask. So by the way, at the conclusion this call, I will go ahead and send you an email which is going to have articles for… inventory, meaning, how to set up warehouses within ShipStation, how to do stocks and things like that. I'll even send you an inventory sync article so that you can go ahead and just look at that information. If something's not making sense, go ahead and respond to me, be like, hey, can we set up another call? Hey, can we, do, can you walk me through this? Is there a demo for this? I'll be more than glad to send you that information for it, but I will be sending you inventory warehouse and then inventory sync articles. Okay. How do you select? What is… your services, what's because I do see we have ups ground, sometimes standard sometimes go to orders. 
+
+12:13 | John
+I'll walk you through it real quick, go to orders and then just click on the top one or whatever. 
+
+12:17 | Jonathan
+Sure. 
+
+12:20 | John
+So I would go down usually, I would type in the information, the weight and dimensions, okay? And based on what they selected, whether it's ups or usps, that's generally, how I do, so if you let's. 
+
+12:35 | Jonathan
+see. So, so here they would go ahead and do the requested service, right? Yep. 
+
+12:40 | John
+Exactly. Okay. Now. 
+
+12:42 | Jonathan
+What, what happens if there's no service like this one down here? Yeah. So. 
+
+12:46 | John
+Then I generally just go by the cheapest. So then I would type in all the information. I would hit that browse rates. 
+
+12:51 | Jonathan
+Button, got it. Okay. So let me show… you two things which I feel like. 
+
+13:04 | John
+And I got two different ups accounts. So sometimes they're one's cheaper, one's rated for certain size packages and, versus the other one. So when somebody selects ups, I use, I always hit, the shop rates, browse rates to get the price difference between my two accounts got. 
+
+13:21 | Jonathan
+It, it probably doesn't have any weight. 
+
+13:30 | Jonathan
+Interesting. Bad example. Let me look at another one. 
+
+13:38 | Jonathan
+Now, one of them is ShipStation, and then the other two are your, these are your own, correct? Yeah. Okay. So your own probably beats our negotiator rates for ups from ShipStation. Yeah. Okay. And like you said, depending on what it is, no services configure submit most likely is because what you said, there's no weight, there's no dimension. So it's not going to go ahead and put anything there. Now, do you, are there things that you already know? Because of like let's say this item, you know, that there's what the weight is, what the dimensions are going to be, if it's just this item? Yeah. 
+
+14:18 | John
+Like, like that, he just wants one that's going to go on a seven by five thick envelope, got it. And it's going to weigh point one ounce. So. 
+
+14:26 | Jonathan
+I will say this if you already know and it's a single line item, meaning just it's one item that's coming or one item that's being on the order. You can do what's called a standalone. So you'll click on the skew on order and you can click shipping here. You can actually put the weight and dimensions and then you can apply it and save it. What this is going to do is if there's a single line item of this order that comes in the future, if it's just this right here, it's going to automatically fill it up based on what you put that's cool. That helps out a lot of people, especially people who they get a lot of single line item orders because it's like we don't have to manually do this. The system does it. Now, in the event that they order three of these, it will multiply based on the weight. The dimensions will kind of remain the same but the weight will actually go to like three ounces. If one of these is one ounce. And so forth. I would say that would be something to definitely check up and set up because if a lot of your orders are single line item orders because it does add up. And we have seen a lot of people saying perfect. Now the order imports. And then the, we already have the dimensions and a weight already set up. I don't have to worry about doing that save clicks. And whenever it's multiplied click, saves time right? All right now, like I said, you will be able to click on it on the item name and then it opens up the standalone product detail. And then you would just click on the shipping. If you did do a lot of international shipping, once again, you can also even do the same thing for customs. So that you don't have to keep on adding it. Oh, interesting. Okay. Now. 
+
+16:14 | John
+Oh, okay. I just changed that one. 
+
+16:16 | Jonathan
+I saw. Yeah. So let me reload it. And it, was it the last one? No, it wasn't yeah. 
+
+16:21 | John
+No, not that one. That one, that one. Okay. Yeah. 
+
+16:24 | Jonathan
+So, we can see that I already added it up right there usps, ground advantage. And there it is. So the next time someone orders one of these, it's going to automatically load in on it, select ground advantage. Now, how often would you have to say that you're looking, you're having to select browse rates? 
+
+16:45 | John
+Every other one got it. So here's one. 
+
+16:49 | Jonathan
+Thing that I will say shipstation does have something called rate shopper, really, would it, you've seen that before? Yeah. 
+
+16:56 | John
+It was just, it was 150 bucks a month for it though, and I was like, I don't know if it's worth it for me to, I agree not click that button. What if. 
+
+17:05 | Jonathan
+I were to tell you could get that rate shopper by upgrading to that 89 plan with inventory sync? 
+
+17:12 | John
+Because be included? 
+
+17:13 | Jonathan
+Yes. So that was kind of the main thing of, I think it's good that you already have knowledge of rate shopper, because a lot of people don't even know what that is, the fact that you looked at it, but you said no, it's too much money here is one thing our product team started realizing there's a lot of features that are being used that merchants would love to use. But like the same thing of what you're saying, I'm on the browns plan, it doesn't make sense for me to go ahead and pay 150 dollars for it. So, what they did is they just said, you know, what? Let's go ahead and do these features and here's where each one shows up, the standard plan does go ahead and give basically all these, where would that be? 
+
+17:51 | John
+Automation. So you. 
+
+17:53 | Jonathan
+get what's called the customized rate shopper that's the one that is 149 dollars. Normally… it, it's included in it. It's not going to make anything about your price. Basically a lot of different things. Also, you get API access that's something that you don't you get up to 10 users right now with the bronze plan, you only get one user. So in the event that you did want to go ahead and say, I want to get someone else to start handling shipping for me. Either, they would use, your account, which sometimes that makes it difficult because you don't want everybody to have admin access to do everything. Sometimes you just want them to have permissions to just ship. And then, you know, that there's no one's changing anything. It is possible. 
+
+18:29 | John
+Would I be able going back on that? Because I'd like to have some accountability on like if somebody else is shipping because he would be our third person, if we had another person here, would it be able to track who shipped it? Like this was fulfilled by? Yeah. 
+
+18:44 | Jonathan
+So here is, so yes… here is how you'd be able to do it at least from the order aspect… I'll show you here. So in shipstation, there is this thing down here called shipment activity. And depending on what the system is, it will go ahead and tell you. So it tells you right here that this user changed the provider, and then, you know, shipment created here's, the user that created it. So, yes. So you would be able to do so, you could even assign orders to a specific person. So you could even have an action to where you would let's say you create a user called mr abc. You could say, I want all these orders to be assigned to mr abc. And then a restriction would be they can only look at the orders that are assigned to them. So when they log into shipstation, only the orders on the orders grid that are theirs would be showing up. That only makes sense if you have multiple people and you want them to have that control. But in your current plan for you to be able to do so, you only have one. So you still would have to add users at five dollars a piece for each one. The plan that we were showing you that was 89. You get 10 users included, on top of the fact of you get rate shopper, which is 149 dollars, and then 30 dollars for inventory, sync two features on top of the users that would optimize your workflow and you would only be paying about 40 more dollars than you're currently paying now. Well now? 
+
+20:10 | John
+That, that one that you're talking about, it still only includes up to 500 shipments per month, alright? Correct? 
+
+20:16 | Jonathan
+Yeah. So it only, but I will say this, I was looking at your account right now. It looks like within this is within 30 day, 30 days that we do last month. So you're about 340? 
+
+20:30 | John
+Okay. I did. 
+
+20:31 | Jonathan
+Go ahead and did and do, and we do know peak season changes. I did a year's worth of this. It looks like you average about 300 to close to 400 in a year span because 3,000 shipments, we divided by 12. It's close to that amount. So I think we can say unless you hit some spike which I mean, we always love when our merchants do. So… it looks to be as long as you're under that 501. For now, you are in a comfortable sweet spot. If for whatever, can you check? 
+
+20:58 | John
+Last year's June through August. So June and July, yeah, and average those, I'm kind of curious to see what absolutely cuz that those would be my peak seasons and it would. 
+
+21:10 | Jonathan
+make absolute sense. Let's see between both of those 479 between the first of June to the 30 first of… July we have. 
+
+21:21 | John
+So that was only, so that'd be 240. 
+
+21:26 | Jonathan
+Per, yeah, close to it, about 240 per. And like I said, so this right here is also, you know, you have reports. You're able to look at this whenever you switch over to the other. If you do switch to the other lineup, you get what's called analytics which it's a little bit further, deeper… reporting style and it gets a lot of information. It lets you know who's buying it, meaning where in the country, you're getting it, what's a heat map, what's your best delivery times? And those are kind of things that we've had a lot of merchants realize, hey, what, what's our hot market? What's our not, and then figure out where to target and you're able to do so based on time period as well. Okay. That's cool. So. 
+
+22:07 | John
+Okay. So, it sounds like it sounds like it'd be, a good thing for me to do then. Yeah, I mean, if you, 
+
+22:15 | Jonathan
+are interested, all you just would have to do is just tell me and I would go ahead and get that set up for you. Once again, I am not pushing you to do so. In this meeting, you, I can give you more information on it and you can just kind of weigh the pros and cons. And in the event that you do say, hey, I want to go ahead and migrate, you just email me and say, can we go and migrate? It's not going to disrupt you at all. It would only change your billing cycle on the next billing period two. 
+
+22:38 | John
+Questions I have. Yeah, go ahead. One is whenever I go to fulfill an order, I see something that says scale. What is that? When? 
+
+22:47 | Jonathan
+You're talking, are you talking about in the orders today, yeah. 
+
+22:49 | John
+So, go pull up an order. And when you, yeah… right there next to wait and the very far right? What's that? 
+
+22:57 | Jonathan
+That's if you have, you can connect your scale to your workstation. And literally, you can put an item on the scale, click scale and it's going to go. Read what the scale is saying and automatically put it on there. Do you? 
+
+23:09 | John
+Have a list of like scale that would be awesome. I would, I want that, what scales work with it? You know what? 
+
+23:15 | Jonathan
+Let. 
+
+23:16 | John
+me. 
+
+23:17 | Jonathan
+go ahead and check. I know we opened up a store. I don't know if a scale is in there. 
+
+23:28 | Jonathan
+There you go. We got to push this Guy in. It depends that one's up to 70. I don't imagine everything's going to be. I think you might have things that are more expensive or more heavy, not expensive. I. 
+
+23:39 | John
+have, but I have my scale that goes up to 150 if I need, like if we're shipping a bike, they usually run around 90 95 pounds. 
+
+23:47 | Jonathan
+Let me go ahead and so I'm looking that's like. 
+
+23:50 | John
+Three or four times a year, got it. 
+
+23:54 | Jonathan
+Let me see. Do we have? So, are you stating, so we have recommended scales. It gives you like different nums, but I will say this as long as your scale is compatible with your computer, it should be compatible with shipstation. Meaning we'll just read it. And then it's just going to use information that's read from your scale on it. The only thing is, you would have to have shipstation connect, running on your computer for it to work. Yeah, I. 
+
+24:19 | John
+mean, that's fine. My, my computer is just a, dumb one. It's not, it just says how much it weighs. Yeah. But so that 35 dollar one that you showed me, does that one talk with everything? Does that one connect? Do you know I? 
+
+24:33 | Jonathan
+Mean, it does, but I will say this. So really what this, is ShipStation. They just kind of like began our own supplies to our best recommended ones. Are the ones, doesn't mean that it's better than your current scale. It's just something that we opened up a store and said, hey, we have a lot of people asking us what are the best shipping labels? What are the best, you know, ones that we feel like it works? And that's what that is. But at, I would probably say the best thing for you to do is maybe download ShipStation, connect, try it on, put a wait and then click on that scale button and then see if it shows you the exact, amount. If it's correct, you don't actually have to purchase a scale. Well, like I don't. 
+
+25:13 | John
+have a, my, I don't have a scale that would talk? 
+
+25:15 | Jonathan
+Oh, got it. Got it. You have a scale but it doesn't send information. Yeah. 
+
+25:20 | John
+It's like a total standalone, like bathroom scale type thing. 
+
+25:24 | Jonathan
+Got it. Okay. It's. 
+
+25:24 | John
+a shipping scale, but it's not, yeah. So, this. 
+
+25:27 | Jonathan
+is kind of where it would, these are different stores. Now, you do, they're recommended once again, you are always able to look on Amazon and see if there's one or wherever and see what scale is based on your weight. But these are ones that shipstation does go ahead and say based on what we've seen based on what merchants have told us, they're the most compatible within shipstation. And then they will tell you unable, these are specific ones that we know for sure that don't work. It does give you unsupported scales and gotcha. Oh, that really means, oh, go ahead. Oh, I was going. 
+
+26:05 | John
+To say it looks like you guys do have a scale, that you guys are selling it's. A 400 pound wireless shipping scale. Do you know? I'm assuming that would work with it, but is there a way to, I would really hate to buy it and then find out it doesn't… top. No, you. 
+
+26:23 | Jonathan
+Just looked online. I'm on the. 
+
+26:25 | John
+Shipstation. So if you go under supplies, are you under supplies, scroll all the way down, scroll all the way to the very bottom? Oh, and let me go up a little tiny bit. There's a thing where you can say hardware, 
+
+26:39 | Jonathan
+What? The heck? I'll tell you what? Mine looks a little bit different, doesn't it? 
+
+26:44 | John
+Yeah, if I go on supplies, if I scroll down there's at the very bottom, it says hardware under explore more. 
+
+26:56 | John
+Okay. Probably one of these, so it's that 400 pound one right there on the top. Got. 
+
+26:59 | Jonathan
+It, wow. How big is this thing? And it looks like there's a sale. Okay. So, you're stating you're one, you're just making sure that this does, yeah. 
+
+27:10 | John
+I would get that right now for 70 bucks if it, if it's wireless and it talks, that would be awesome. I would totally get it right now. 
+
+27:17 | Jonathan
+Yeah. So here's what I'll say now, I mean, obviously, the good things free shipping, returns, whatever it is. But yeah, if our, if we are, if it's in the ShipStation supplies, it's compatible with ShipStation. So, it's yeah, everything's this is kind of what we're saying everything that is on our supply area is because of that. The fact that we've worked on it, they've tested it. They've said, you know, this works is we don't get any glitches with it. So it would work with your system. And it's actually pretty good. That's even on a sale right there. I didn't even know that. But… yes. So you would be able to go ahead and get that cool. 
+
+27:54 | John
+That works for me. Okay. Anything else I should get? I get 30 more bucks. I get free shipping, it says. 
+
+28:04 | Jonathan
+Oh, geez. I mean, that point, do you need a printer? Do you need some labels? You know? 
+
+28:09 | John
+It's got a good one. Oh, you guys sell boxes too? 
+
+28:15 | Jonathan
+Yeah. And, this is new. This is like this ShipStation supplies, Q1 is when it became live. So… interesting. Okay. Yeah, start a bundle, very cool. 
+
+28:36 | John
+Maybe I'll just buy that and then, I'll just get, I'll get that scale. You don't have to stand for that. No worries. So, that was the one question. Oh, and then returns, do you guys have a, I feel like I'm missing out on, cause obviously, we do have returns. I feel like I'm not, yeah, capitalizing on making my life easier for returns like I'll send them a return label. I'll go under orders and then I'll click on the plus button and I'll do a return. But after that, that's it like there's no more. I don't follow up with it. I don't get a notification or anything. I don't got it. So. 
+
+29:17 | Jonathan
+Yes, once again, that is a standard. So now we actually do have on the standard plan, let me see if I can find it return. So now you will get what is called branded returns merchant. So before it used to be just kind of easier. Now, you can actually even integrate it within your website. So when someone's trying to return, you can even now do like returns and exchanges, which is a big deal because sometimes someone's like I want to return this, but I don't you know, like I said, I want to return this scale because I actually want another scale on the returns portal, which is included on the standard plan. Now, it actually will show the options whenever they're trying to return from their website so that they can make an exchange right away rather than you having to just do a return and then having them do another order to bring it in. And there is reporting as well. So you are able to send like a confirmation email. It's moving. It's. Definitely heavier than how you currently have it. It's a more robust system which normally would be a premium feature, but once again, because of the new lineup, they now included it within the standard plan. Okay? So let me go ahead and send you an article on that one as well because we are at time here. And hey, you told me that you wanted me to feed you some stuff. I feel like I'm giving you quite a little bit to munch on. 
+
+30:43 | John
+Well, I bought the scale and then what do I need to do to update to upgrade to the standard? Do I do it on my end or is that something that you do? 
+
+30:51 | Jonathan
+I would do it if you want me to go ahead and do that? I mean, just as long as you tell me, hey, go ahead and update it. I would have to go send it to our department. It really takes like five minutes if that to update. 
+
+31:01 | John
+I mean, is it something that I should just do? Is it easy for me to just do it or is there something I could mess up? 
+
+31:06 | Jonathan
+By now, no, no, no, yeah, no, not at all. You are able to. So, are you on shipstation right now? Yeah, you can go to the page where I was at, go to settings? 
+
+31:17 | John
+Edit. Huh. Yeah. I'm on new plans. Just go to standard 500 select users… 10. Yeah, if. 
+
+31:27 | Jonathan
+You don't have to change anything at that point? You just would go ahead and create it. And let me check something out. Yeah, then. 
+
+31:37 | John
+How do I get that? Just do the pay annually thing too? 
+
+31:43 | Jonathan
+Oh, save 20 percent at that point? You're pretty close to what you're currently paying monthly now too? Yeah. 
+
+31:49 | John
+And then how. 
+
+31:51 | Jonathan
+do I get? 
+
+31:52 | John
+That, is that thing just automatically included that rate shopper. It'll just pop up now. Yeah. 
+
+31:58 | Jonathan
+So, exactly, now, what you'll do, let me actually double check here. Hold on okay? 
+
+32:12 | Jonathan
+One moment and there was something. 
+
+32:14 | John
+For 30 bucks that you said was also included, we were talking about? 
+
+32:17 | Jonathan
+Inventorysync, okay. That's also included too correct, you would get inventorysync, you would get the hold… on today. What is happening? I'm trying to make sure that you're… not gonna have any issues. Yeah. And you wouldn't have to do anything, meaning you wouldn't have to. 
+
+32:51 | Jonathan
+Okay. You would not have to make any changes. So whenever you switch over, you're gonna have access now to the Ray browser. So whenever you click Ray browser, it wouldn't tell you update right away. It's gonna tell you to build it. So just actually let me know whenever you have clicked and then we can kind of verify. 
+
+33:11 | John
+It is not update plan. I just clicked update plan. 
+
+33:14 | Jonathan
+Okay. And I'm gonna double check on my side to make sure that it actually has done it. 
+
+33:31 | Jonathan
+Let me refresh, jump back into the account. 
+
+33:47 | Jonathan
+And, yeah, you're on standard. So now, if you go into settings, so the gear icon on the top, right? You click on shipping and then rate shopper. Now, you can go ahead and create new and it's gonna tell you start with recommended build from scratch. So at that point, you have full control over what services you want, what's the time limit that you want? Meaning, is there a specific time that you want? Do you wanna build different services? The cheapest rate, fastest rate, best ups rate? Now, you have complete control over that. 
+
+34:25 | John
+One, and… for. 
+
+34:30 | Jonathan
+trying to look for the inventory? 
+
+34:32 | John
+What should I, I'm sorry, I know you sound like you need to get it off. Hey, friend, do I need to do? What would you recommend? I do recommend it or build from scratch, I'm not super well versed in this, but is it pretty easy to do build from scratch? Yeah. 
+
+34:45 | Jonathan
+Yeah, you can, I mean… it tells you recommended it recommended would only have it if you had ShipStation carriers available, and. 
+
+34:52 | John
+It's so it's going to show. 
+
+34:54 | Jonathan
+You nothing, whether you recommend or build from scratch, they're going to look the exact same. So you can click whichever one at that point. Just name it, choose what services you want to be technically that service. So if you just want to put the ground usps ground advantage versus ups ground versus fedex ground, whatever it is, you go ahead and build it. And then you put a restriction. 
+
+35:15 | John
+Do you want these services? 
+
+35:16 | Jonathan
+To show up the best rate that show up versus as long as it's delivery time between five to seven days between one, two days that's the main things that you would build it in, you don't even have to put a time restriction. A lot of times when merchants build the cheapest rate, they just won't put a time limit because it's like, well, it's the cheapest rate. We know, it's going to probably get there within five to seven days if it's a ground service. 
+
+35:38 | John
+But you have. 
+
+35:39 | Jonathan
+Control over what that is and. 
+
+35:42 | John
+Just kind of continue. 
+
+35:43 | Jonathan
+On it now, so. 
+
+35:45 | John
+For each one, the name. So like this one, I would put ups ground and then I would just select the services to compare. I would just use my two ups ground accounts, just compare those two. And then if I essentially, it sounds like it's just ups. So if I want to do next day, I would just, I would just be comparing between those two. 
+
+36:02 | Jonathan
+Correct. Yeah. And so the best thing is once it loads in, so you can even do an automation rule to select to kind of be like if it's this order, if the order is above this weight or whatever it is, go ahead and use this rate shopper service or you, all you would have to do is whenever you're in the order, go ahead and select which rate shopper you want, whether it be ups, ground or next day air. And then the algorithm is going to be, you're going to see it's loading. And then it's going to show a rate. The rate that it shows is the winning rate between the accounts and the services that you selected. And those do update, it is live rate. So for whatever reason, once peak season comes, we know our carriers like to, you know, start applying surpluses. It's going to apply live. So it's not something like, oh, it's winning today, and then it's not, it's you know, it's actually the most expensive one. No, it's looking at the live rates at that moment and it's making sure that you get the best rate without you having to click on the rate for the browser and manually select which winning ups. 
+
+37:04 | John
+I'm kind of curious. So if I were to do, yeah… raid shopper, I see it. Cool. 
+
+37:13 | Jonathan
+Now raid shopper, that's the one that's one of the ones, the other one, if you click on inventory management, you'll go scroll down to where it says inventory sync and then you'll go ahead and configure it. You'll set up the inventory sync that's the other one that will allow to speak to your WIX store? 
+
+37:32 | John
+So, I'm in shipstation, the main page and I clicked on inventory. Is that, am I in the right section? Oh, let's see and it says inventory sync. Yeah, exactly. Go to settings. 
+
+37:44 | Jonathan
+And then go to settings it's going to. Now, go ahead. Actually, did it take you to somewhere called add? Ons? Yeah. Okay. So here's what you do on the left side, you see add ons look to above where it says inventory management? 
+
+37:56 | John
+Okay. And then you'll. 
+
+37:58 | Jonathan
+see inventory sync right there. Oh, but what you need to do before then is right above it, where it says warehouses, set up the warehouse? 
+
+38:07 | John
+Meaning go ahead and, 
+
+38:08 | Jonathan
+build the warehouse of where things are located. That way. Whenever it's syncing, there's actually information that's going to match up. 
+
+38:15 | John
+So, it looks like I do have an inventory warehouse already. It's a. 
+
+38:19 | Jonathan
+Default one. 
+
+38:20 | John
+So, if. 
+
+38:21 | Jonathan
+you look at it, if you click on the inventory warehouse, like the blue, it's going to show you that it's just completely blank because it has been built out. There is one that we just call inventory warehouse, but it's just the default one that allows you to just start building it from there. You can import to CSV if you need to add specific columns. 
+
+38:41 | John
+Or you can just build it yourself by. 
+
+38:44 | Jonathan
+Just adding location. I'm not going to ruin. 
+
+38:47 | John
+Anything. If I click add warehouse, am I going to mess up anything with? No, no, no. 
+
+38:53 | Jonathan
+There's nothing that's going to mess up because you're currently not using it. So, if you add a warehouse build it, the only thing is once you actually do get products in there, make sure that product is assigned to that warehouse. So whatever you name the other warehouse, whenever it says assigned product to warehouse, you're going to see name, inventory warehouse, and then name the other, whatever one that you're creating, make sure those products are on our part of that warehouse. 
+
+39:21 | John
+But it's not going to mess anything up. Okay? I'm just going to put the I'm going to make one with my address and then hopefully that will be. 
+
+39:31 | Jonathan
+Just fine. Now, you're talking when you're talking about your address, you mean like your ship from location? Yeah. Okay. So warehouse and ship from location, two different things, they can be the same but, the ship from location is the one where on the label, it will show where it's coming out from the warehouse on the warehouses is what ShipStation you're telling ShipStation is where your inventory is and where the location is. So. 
+
+39:54 | John
+I might get another storage unit. Okay? So I would have upset another warehouse and then label that with that address. 
+
+40:01 | Jonathan
+Got it. 
+
+40:02 | John
+So that I could say, okay, I know that this, these parts are here or these parts are there? Yeah, you absolutely. 
+
+40:08 | Jonathan
+Could do that, just make sure that you would add the warehouse or the ship from location from the shipping. So, if you look on the left side on the shipping dropdown menu, that, that's where you would add it from the ship from locations. 
+
+40:22 | John
+And then the. 
+
+40:22 | Jonathan
+warehouse would be from. 
+
+40:24 | John
+The warehouses? 
+
+40:24 | Jonathan
+Or from. 
+
+40:27 | John
+the. 
+
+40:27 | Jonathan
+warehouse dropdown? Okay? Those are the two main things that, I would distinguish between. Do you have any information? I. 
+
+40:37 | John
+don't want to take all your time. I'm kind of already lost on that, on which one? 
+
+40:42 | Jonathan
+On the ship from locations and the warehouse? Yeah. 
+
+40:45 | John
+Yeah, I just don't want to mess anything up because I know that I could, my bandwidth is I… get out of my depth pretty quick with the, with this stuff like mapping and everything. 
+
+40:57 | Jonathan
+Okay. So I'll tell you what if it is better? Well, actually, we are, we can always set up another meeting here's. What I'll do. Let me, and the email, I'm going to go ahead and send you a link. That link is going to go ahead and bring you to another one of these optimization meetings. And what I would say is kind of play around with what the rate shopper is, the, inventory sink warehouse? Is there if there's something that you're like, ooh, like you said, I'm getting a little bit out of it. I don't feel comfortable with it. Make a little note of it so that whenever the meeting does come up, it's right away. I want to, hey, I started it, I need to kind of finish it up. The only thing I will say is whenever that meeting does occur, whether it be next week, whatever it is, it's most likely going to happen with someone else only because I'm getting acl reconstruction surgery Friday. So I will not be in the office for a limited time. Yeah. So, but once again, it is a small group of us, we all do the same thing. And the best thing is whenever you have examples. So, if you say I tried setting it up, I don't know if I'm doing it, right? Can you double check? We're all equipped to be able to handle it. The best part about it is, if you get as far as you can to where you're like, I don't feel comfortable with it. Perfect. Make a little note stopping point and then we'll be able to pick up from there. That actually helps us a lot more than just being like what'd I do? And it's like, oh, I don't know, but I tried xyz perfect. Now, let's show you how to you're doing it right up until this level or let's go ahead and. 
+
+42:28 | John
+Resolve it? Cool. 
+
+42:30 | Jonathan
+Okay. Sounds. 
+
+42:31 | John
+Perfect. All right. Thanks. 
+
+42:32 | Jonathan
+Thanks Jonathan. No, absolutely. Thank you for this time. I will be before, I'd probably say maybe like in about a couple of hours, be expecting that email from me. It's going to show you articles. It's going to give you the information and the link to the optimization meeting that would happen afterwards. 
+
+42:46 | John
+Okay, cool. All right. Well, thank you very much. Have a great one. Yeah. 
+
+42:50 | Jonathan
+Bye bye. 

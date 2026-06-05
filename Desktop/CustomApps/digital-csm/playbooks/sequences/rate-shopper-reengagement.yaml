@@ -1,0 +1,105 @@
+sequence_name: rate-shopper-reengagement
+signal: rate_shopper_not_adopted
+trigger_mode: regression
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  No engagement after all three touches — flag account in Salesforce as
+  rate_shopper_outreach_exhausted and create a CSM task for human review.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "Rate Shopper went quiet on {account_name} — here's what I'm seeing"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas from ShipStation.
+
+      I noticed Rate Shopper hasn't been active on your
+      account for {days_inactive} days. You had it running
+      before — something changed.
+
+      A few things that typically cause this:
+
+      1. A carrier connection expired or was removed
+         → Check your connected carriers:
+         https://ship14.shipstation.com/settings/carriers
+
+      2. A preference rule conflict — if a new carrier was
+         added without a corresponding Rate Shopper rule,
+         it can cause the feature to fall back to manual
+
+      3. A plan change that affected feature availability
+
+      Your Rate Shopper settings are here:
+      https://ship14.shipstation.com/settings/rateShopper
+
+      If you turned it off intentionally, just let me know
+      why — I want to make sure it was working the way
+      you needed it to.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name    # Salesforce contact first name
+      - account_name  # Salesforce account name
+      - days_inactive # days since last Rate Shopper activity (signal payload)
+
+  - day: 7
+    subject: "Still seeing manual rate selection on {account_name}"
+    body: |
+      Hi {first_name},
+
+      Quick follow-up — Rate Shopper has now been inactive
+      for {days_inactive} days on your account.
+
+      In that time, your account has processed approximately
+      {shipments_since_inactive} orders with manual carrier
+      selection. Based on your previous Rate Shopper activity,
+      that's an estimated ${estimated_recovery} in carrier
+      cost that the preference rules would have optimized.
+
+      If something broke or stopped working the way you
+      expected, I want to fix it. Just reply and tell me
+      what you were seeing — I can usually resolve carrier
+      rule issues in one conversation.
+
+      Or re-activate directly here:
+      https://ship14.shipstation.com/settings/rateShopper
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                # Salesforce contact first name
+      - account_name              # Salesforce account name
+      - days_inactive             # days since last Rate Shopper activity (signal payload)
+      - shipments_since_inactive  # orders processed without Rate Shopper since it went inactive
+      - estimated_recovery        # estimated carrier cost delta (shipments_since_inactive × avg savings/order)
+
+  - day: 14
+    subject: "Closing the loop on Rate Shopper — {account_name}"
+    body: |
+      Hi {first_name},
+
+      Last note from me on this.
+
+      Rate Shopper has been off for {days_inactive} days.
+      I don't know if that's intentional or not — but I
+      wanted to make sure you had the option to turn it
+      back on before I stopped following up.
+
+      Re-activate here:
+      https://ship14.shipstation.com/settings/rateShopper
+
+      Reply anytime if something wasn't working right —
+      I'm here.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name    # Salesforce contact first name
+      - account_name  # Salesforce account name
+      - days_inactive # days since last Rate Shopper activity (signal payload)

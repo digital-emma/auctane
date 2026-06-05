@@ -1,0 +1,396 @@
+ShipStation Automation Check-up: Ray
+
+Miranda Gibble with ray@renoo.life
+Recorded on Jun 3, 2026 via Zoom, 32m
+
+
+
+Participants
+
+Auctane
+Miranda Gibble, Customer Success Associate
+
+ray@renoo.life
+Ray Jolicoeur
+
+
+
+Transcript
+
+0:00 | Ray
+hello? This is Ray. 
+
+0:03 | Miranda
+Hi, Ray. This is Miranda. Let me turn my camera on. 
+
+0:08 | Ray
+Oh, hi, Miranda. How are you? 
+
+0:11 | Miranda
+Good. How are you today? I'm. 
+
+0:13 | Ray
+good. Thank you. Sorry, my camera is not going to be on, oh. 
+
+0:17 | Miranda
+No worries. I'm. 
+
+0:18 | Ray
+on an old apple cinema display and the camera is shot. But maybe in the next few weeks or months as I get a new one? 
+
+0:27 | Miranda
+Yeah, yeah, no worries at all. Thank you for also taking the time to meet with me. The automation checkup meeting is a very flexible approach really just today, want to get a good understanding of how you utilize shipstation. And then I can definitely make some recommendations of any features that may not be utilized. Fully main focus can definitely be on automations, but we could set some time if there's any other features or any other questions concerns that you may have about shipstation. And then just a quick intro. My name is Miranda part of the digital customer success team. And really my overall goal for you is that you just feel super confident when you log into shipstation and that you get the maximum value out of your shipstation account. 
+
+1:12 | Ray
+Oh, good. Yeah, I do feel super comfortable when I log into shipstation. I've used it quite a bit over the last few years and yeah, I actually clicked this. I guess it was an invitation to review my workflow and I'm not sure if it was specifically… sent to me or sort of a generic button that I mistaken for, you know, being specifically addressed to me, but I did want to sort of review what I'm doing and see if any of that can be improved. Yeah. 
+
+1:55 | Miranda
+Yeah, absolutely. That's exactly how I'd like to approach today's. Meeting what I'll do is I can either you, if you would like to share your screen when you drop into your account, I have the capability as well so I could share my screen. We'll just take a look at the account and then basically walk through how you create labels, how you organize data in shipstation, things of those nature. And that'll usually allow me to kind of then start assessing what recommendations I can make on the account and disclaimer. I will say you might be utilizing shipstation to the best of like your shipping needs. And so if that is the case, we can, I'll definitely reiterate that as well. It may not necessarily like or I'll say there's never like one right or one wrong. One, right way of utilizing it'll. Just be dependent on your shipping needs, your current workflow, things of those nature. So at least I'm happy to at least also let you know like, hey, you're doing exactly what you need to do for your account. 
+
+2:57 | Ray
+Okay. So the funny thing is that I've been trying to log into shipstation for the last half hour and for some reason I just get a spinning wheel which never happens. Well, I get a spinning wheel for about three seconds, but now it's just stuck on this spinning wheel. So I'm not sure what's going on here. 
+
+3:19 | Miranda
+I don't I'm just double checking making sure if we don't if we have any issues reported, but I don't think we do. And then I'll let me try to drop in. 
+
+3:29 | Ray
+Close my browser and restart it. Maybe. Okay. I'm not. 
+
+3:32 | Miranda
+Sure. I'll also try to drop in because if I see a spinning wheel too, then maybe there is an issue. Let me see. Okay. No, I'm all good on accessing you're. All good. Okay. Yeah, I'm just. 
+
+3:43 | Ray
+Restarting. Okay. Why is it? It's good now? Okay. That's all I need to do. I guess. Okay, perfect. 
+
+3:51 | Miranda
+Yeah, if you want to, whichever you're comfortable. I'm happy to share my screen as well. If that's a little easier, I could drop in as like a main user actually, let me just show that real quickly. I know it's towards like, you know, in the afternoon time. So I know there's no open orders yet, but we could definitely take a look at some past shipped orders. Typically, I like to approach this of just like one understanding how you organize the order data. So, and what I mean by that is mostly like, hey, how do you know what orders you want to focus on today? 
+
+4:24 | Ray
+Right. Exactly. So just as a, yeah, let me just explain as a quick side note what's my current workflow and how I tag orders and things like that so that you can take it from there. So typically, yeah, unfortunately, there are no orders right now because they're all fulfilled. But typically in the awaiting shipment page, there would be a bunch of orders. When the order comes in. I usually have. So I've established let's just back up if we go in products and we go in. Yeah, those are all the products. 
+
+5:00 | Miranda
+Nice. Okay. Perfect. 
+
+5:02 | Ray
+Perfect. There's a lot of them and what I've done and that's where I have a bit of a question mark is that I've tagged products based on where… the product is going to fulfilled from. Okay. So right now, there are two potential fulfillment centers. Let's call them. One is here at our studio, and the second one is a warehouse in New Jersey. Yeah. In New Jersey. So typically, so, so every product has one of these two. Okay. Oh, sorry. The third one is, the third one is Amazon, so. 
+
+5:52 | Miranda
+Amazon, so. 
+
+5:55 | Ray
+FBA orders, but which don't really come in into shipstation, at least not, in the order orders to fulfill page. Okay. So, so when the order comes in, depending on what product is in the order, one, let's start with just one product. Typically, there's only one product, there could be two or three but yeah, it does happen that there's two or three. But, and so the product itself is tagged either to be fulfilled out of the New York studio or to be fulfilled out of three PL. And when it is tagged. And that's the bright green tag three PL ready to fulfill. When it is tagged with this, then the, I have an integration with the three PL, where they pull in these orders and… they fulfill the order so that I don't have to reenter all the data in their system. 
+
+7:04 | Miranda
+Yeah. Does it communicate back that like let's say they create a leap or they fulfill that order? Does that communicate back to shipstation? Or do you have. 
+
+7:13 | Ray
+them in? You are good. You are good. So that's one of the flaws. Okay? So the flaw in the integration and I'm not sure why still, I think it was a year and a half ago I spoke to, I think it was the product team and they said that typically, when an order is fulfilled out of a three PL, it will not deduct my inventory in shipstation. So it'll I think it deducts it until the order is fulfilled. But when the label tracking number is entered and the data is pushed back into my shipstation, then the inventory goes back up by the number that it was deducted. So that's a big problem. By the way, if you have anything to address that, that'd be great. 
+
+8:04 | Miranda
+So the three PL, let me see if we can actually find like a quick order. I do want to see how it's currently being updated. Here. We go. Perfect. There's. One from today. Okay, perfect. Yeah. If you're doing the mark as shipped, I would recommend when you're marking as shipped, there's a button to deduct inventory as long as you have that selected, it can deduct the inventory for that order. If it's not selected, that's when there's an issue of being able to deduct inventory. But how? 
+
+8:35 | Ray
+Do I, because that's all done automatically. So the order appears in shipstation, then if it is tagged with ready to, if it's a product that's tagged with ready to ship, the order gets pulled in automatically into the warehouse system. Then when they fulfill it, the order is automatically updated to shipstation. Okay? And disappears from my orders list, goes into my shipments list with the track. 
+
+9:09 | Miranda
+Gotcha. So as soon as they fulfill, it somehow communicates back to like through API probably or how do they? 
+
+9:17 | Ray
+Yeah, it is. Yes, it's API. And as a matter of fact, sorry, just to be clear, it doesn't show up in the shipments. 
+
+9:26 | Miranda
+It'll show in the fulfillments, correct? Yeah, it'll show here. I'll show you, where is that? This will be? So the ship, if you see anything in the ship section that's because the label was generated in shipstation. But if you mark orders as shipped or if you're using FBA, any type of fulfillment provider, it's actually going to be in the fulfillment section here. Ah, okay. Yeah. And this is where you'll find that information. I don't let me double check. I don't think it does. Yeah, I don't think it does. That would be nice though if it let you know if it deducted inventory, but in the actual order itself, like right here, you'll see, right? Let me zoom in just a little bit. You'll see right here like it's set to false where allocate inventory just because that box isn't being checked off, but that's if you're doing it manually. So like let me just show you real quickly if it was done manually just so you know, where it is in case you ever had to. Okay, let me just, I'm just real quickly going to create a test order… just so I could show you how that looks. And then I'm going to double check too because maybe it's just making a quick adjustment to the API. I'm pretty sure I can at least just confirm if that's a capability. So here, when you're marking an order as shipped right here, we have a deduct inventory button right there. Now, if you're using API, I'm pretty sure I'm going to double check real quick. 
+
+11:00 | Ray
+Yeah. When I do it manually, I do click that box. But the problem is with the orders that are automatically coming in from the warehouse. 
+
+11:11 | Miranda
+OK. Let me see. There might be some ways to, oh, actually this might be V2 not V1. Let me try V2 because we have like a shipstation inventory API call. So I wonder if that's where it needs to be made. Let me see. 
+
+11:32 | Miranda
+No. OK, here's, inventory. No, I guess it wouldn't be inventory. Let me try… here fulfillment and then see if this one possibly has. I'm pretty sure V2 should be able to have a little bit more. 
+
+11:54 | Ray
+I remember at one point, when I spoke to the product team, they told me, yeah, that's sort of a flaw in the system. 
+
+12:00 | Miranda
+And they. 
+
+12:01 | Ray
+said that it was on their to do list to address at some point, but that was a long time ago, and I haven't reached back out to them. 
+
+12:12 | Miranda
+Let me reach out to them then because I do want to see create fulfillment. I do want to see if there's a possibility. I'm pretty sure it's somewhere in the actual code of the API. I. 
+
+12:25 | Ray
+Can't imagine I'd be the only one wanting this feature and. 
+
+12:30 | Miranda
+We also made some great changes like rbt, we have like a inventory section. So it might be a combination of both. Let me see, being able to deduct but I will give it them because they know API, you know, like basic API functionality, but they'll be able to at least answer that or give me some clarification if this is still something that's being worked on but should be something that I can definitely get some clarification for you. 
+
+12:57 | Ray
+Okay, perfect. Thank you. 
+
+12:59 | Miranda
+Yeah, absolutely. That's. 
+
+13:00 | Ray
+a good feature. Yeah, it'd be an amazing feature because I always get nervous when I get three or four units left on inventory and I'm always afraid someone will order, you know, five or I won't see the orders go through. And next thing, you know, I have to contact the customer. It's just a bunch of back and forth with the customer saying we apologize because they ordered before we updated the inventory and blah blah blah, and then they have to choose to, you know, either they cancel their order or they have to change to another colorway. It's just, yeah, something I'd love to avoid. 
+
+13:35 | Miranda
+Yeah. I think this would be great. I'll make sure to get that looked into to hopefully see via hopefully via API. 
+
+13:43 | Ray
+Yeah. And not to mention that I never have a clear read through shipstation on my inventory. I have to always do this manually. I have to go on my inventory system, on my three PL system and then, you know, check their inventory, put that in a spreadsheet go into my shipstation inventory for the inventory of the studio because that, that's accurate because there's no API and then out of the two and see what's on inventory at Amazon. Anyway, it's just, 
+
+14:16 | Miranda
+yeah, yeah, not as ideal. Yeah, no, I totally understand. Do they use like a warehouse management system or like some other system and not shipstation? 
+
+14:28 | Ray
+It's not shipstation. It is. I forget what it's called. Let me see. 
+
+14:57 | Ray
+Yeah, forget what it's called. 
+
+15:00 | Miranda
+Oh, no worries. No worries. But. 
+
+15:02 | Ray
+It's not shipstation. It's something else like if you know of the names of warehouse management systems, they would, I. 
+
+15:13 | Miranda
+would probably recognize them. There's a good amount like shiphero. I think is one, no, I think no, there's a good chunk. 
+
+15:21 | Ray
+Yeah, but. 
+
+15:22 | Miranda
+I totally understand. Because like when it comes to like pick pack features and all that they typically will route to just helps me to have a good understanding of like how they function. So then we can see if there's any ways to help alleviate how they process orders and how you process orders. Okay? But yeah, let me see if I can get some, you know, information at least regarding if there's any way to deduct inventory whenever they are marking these orders as shipped. Hopefully, there's a way. So then that'll help with needing to like pull inventory from their account and re upload that into shipstation. So good. 
+
+16:03 | Ray
+Okay, good. Follow up. Perfect. Thank you. And just a quick question. When I go into fulfillments, like you suggested, and I put recent, it's a very limited list that goes back like three, four days to may 20 eighth. 
+
+16:20 | Miranda
+How do I, oh, yeah. You can change that by default. We like do the ship date on or after? I think it's like two weeks out, but you can clear that if you remove it, you'll be able to see more data or you can just change that filter if you want to look like maybe the last 30 days. 
+
+16:37 | Ray
+So, where do I change the filter? 
+
+16:40 | Miranda
+It'll be at the top like left area. There's a filter by row right here. I'll try to highlight it. It should be right above the columns that you see like shipment number, order number, and then ship date, you can just either remove that. You'll click on that little box that's highlighted since it currently has a filter. And then you can either remove it to see all orders or you can change that ship date if you want to extend that information a little further. 
+
+17:06 | Ray
+It's funny. I don't have that function… on the ship date. 
+
+17:13 | Miranda
+Does it show like I think it was on or after? May, let me try to refresh it. I think… yeah, right here, it might show like on or after may twentieth. 
+
+17:26 | Ray
+No, like my ship, when I clicked ship date, it only sorts by ship date. There's no, there's no pull down menu like yours. Oh, interesting. And. 
+
+17:38 | Miranda
+this is in the shipments tab, correct? That? 
+
+17:40 | Ray
+Is in fulfillments? 
+
+17:44 | Miranda
+Oh, fulfillments, and then, so right now, it's not filtered. You can filter at the top but you should be able to still filter. Sorry? 
+
+17:55 | Ray
+I'm in shipments and then… let's see your menu. Okay? Shipments then you click on fulfillment. 
+
+18:04 | Miranda
+Yeah, there should be no filter at the moment. I know fulfillment. We don't put a filter. So you should be able to see all data. Oh, yeah. 
+
+18:11 | Ray
+I do. Okay. They're all there? Yeah. Oh, I see now. 
+
+18:15 | Miranda
+The ship one, if you click there and you see like I'm not seeing like right now, there's only 80 orders that's just because of the filter. We have like a preset filter for at least the shipped shipments, but it's funny. 
+
+18:26 | Ray
+I don't have that filter. 
+
+18:28 | Miranda
+Are you able to see all? 
+
+18:30 | Ray
+Oh, ship date. Got it. Yeah. Okay. Last seven days, got it. Okay. No, I was looking at the column header. 
+
+18:37 | Miranda
+Oh, okay. Gotcha. I was. 
+
+18:38 | Ray
+Looking at the filters, my. 
+
+18:39 | Miranda
+Mistake. Yeah, filter would be right just right above the column headers. But yeah, yeah. Yeah, I see it now fulfillment. We shouldn't have it. Yeah. No, there's no filters on fulfillments, but we do have like a preset one for shipped and the reason why it's the shipped recent it's because it's looking at like more recent orders that's why we have that filter. Actually, I can answer that a little bit further. 
+
+18:59 | Ray
+So, if the, now that I see all the fulfilled orders by the three PL here because… all of these are the three PL. Yeah, they're all three PL. So… yeah, none of these are mine. None of these have been fulfilled… out of the studio. So question. 
+
+19:28 | Miranda
+Of, yeah. 
+
+19:31 | Ray
+So question about that. If… I were to let's say select, I don't know like the last, the orders from the last day… assuming that the product team comes back and says, no, we still haven't implemented that. Could I let's say select the orders from the last day or let's say the last week and then… deduct these quantities from the inventory. Is there a way to do that? 
+
+20:07 | Miranda
+Yeah. You should be able to edit. Yeah, let me double check. I think there's a way to easily like within the order you could like remove right here. You can either add or remove it individually. That's one way. Now, if it's a lot of orders… the best way would still be that like CSV option. But if you're if it's not too many orders and you're like, I just kind of want to be able to do it like on an individual level, you could definitely do so here in that remove. 
+
+20:42 | Ray
+Oh, no, no, yeah. No, that's too much. Yeah, no, I was thinking about let's say selecting the last day's, order. Let's say the 10 orders for the last day and then press, I don't know, press one of the buttons at the top maybe the. 
+
+21:06 | Ray
+Yeah. If you get out of inventory and you go into fulfillment again, like shipments, yeah… if you select, let's say a few of them and then say, okay, I want to allocate these quantities to inventory as having been depleted. Oh. 
+
+21:27 | Miranda
+Yeah. At the moment that's not yet available, these are like the only actions that would be available. 
+
+21:33 | Ray
+So update status, I didn't press that. But when I press when you. 
+
+21:37 | Miranda
+press that, yeah, this one is just mostly like if it wouldn't really apply to market ship, it's mostly like for FBA orders. Like if maybe it was stuck in like in transit, you can like push to update the status. Okay? Just to refresh. Yeah, it's like a refresher for updating this order or the fulfillment status, typically, you won't see that first market ship. But if you're doing like FBA or some type of other, like we are able to connect some fulfillment providers. So that would be the way to do so. And then these two options are, if you want to notify the customer, like recent emails or if you have like a selling channel, yeah. 
+
+22:14 | Ray
+Yeah. No, that's done automatically already. So, yeah, we're good with that and. 
+
+22:18 | Miranda
+Typically, you'll see here like if it did notify if you ever saw an error, you can always resend that this way. But yeah, I'll double check just to see if there's a way to at least moving forward, help with ensuring this is set to true because right now, I think by, if you're using version one, I'm doing some research right now and it looks like at least version one doesn't let's see if there's version two. Yeah, here's version two, but I know for sure version one doesn't have that option to deduct inventory when you mark a ship via apl. Can I? 
+
+22:54 | Ray
+Delete version one because we've updated version two. 
+
+22:59 | Miranda
+Yeah. You can delete these if you're not utilizing. And if you're using version two that's really that's cool. I'll make sure to confirm if version two can at least help with deducting those inventories. 
+
+23:13 | Ray
+Okay, perfect. Yeah. 
+
+23:15 | Miranda
+I'll get some confirmation there because I'm pretty sure most likely this will be the best one to it's basically like a more complex or I wouldn't say more complex but offers more complex actions. There we go compared to our basic version one. 
+
+23:31 | Ray
+Okay. Yeah. And that inventory sync was…, such a great promise. 
+
+23:39 | Miranda
+Yeah. Is there something not working on inventory sync? 
+
+23:43 | Ray
+Well, that's not working. Oh, interesting. That's the main part of it. So it's sort of, yeah, it's too bad because the whole promise of inventory sync is to be able to always have accurate inventory. But, if all the orders fulfilled by one fulfillment center, don't show up in the system. 
+
+24:09 | Miranda
+What's the use? You know what I mean? Yeah, yeah. 
+
+24:13 | Ray
+In the sense like I understand like integrating different shops and that's great. But in the end, it's still not the accurate inventory I'm. 
+
+24:21 | Miranda
+looking for. So, yeah, is it like, is it pushing stock level? The only reason why it's not pushing accurate is because of, the market shift, not deducting that inventory, correct? Yeah, that's. 
+
+24:33 | Ray
+the reason, yeah, it is pushing, to the different selling platforms. Yeah. So that's still a great improvement. Okay, cool. For sure. 
+
+24:42 | Miranda
+Yeah, perfect. Yeah. So this is the one I'll take a look at is the inventory API for you on the vtu that's the one before you kind of like try it out. I'll make sure to get confirmation that is working. 
+
+24:55 | Ray
+So how can I, where's the API again? I'm trying to. 
+
+24:58 | Miranda
+Yeah. So this will be a it'll be account. Yeah. 
+
+25:02 | Ray
+Expired, so I can delete that one, right? Delete? 
+
+25:05 | Miranda
+Yeah, you can delete that and it looks like one's expired already. Yeah. And then we could definitely explore version two that's where the add the inventory add on for API would be connected to that version two. But I want to just definitely get some confirmation first. It looks like it is possible via V2 API, but I want to get some clarification as to how that's functions for you. And see if they can give me like an example call or just kind of how to set that up a little bit. So then I can give that to you and you can provide that to, your fulfillment provider to make any changes if needed. Okay? Perfect. 
+
+25:45 | Ray
+Thank you. And yeah. So the other thing, I was wondering is what I described in the beginning, that is that my, I guess my tags are associated with each product? 
+
+26:04 | Ray
+Which is which ultimately determines where the order is filled. From. Is that the right way to do it? I sort of came up with that you? 
+
+26:15 | Miranda
+Know. Yeah, this is actually great. That's. 
+
+26:17 | Ray
+probably what? Yeah. 
+
+26:18 | Miranda
+Okay. Yeah. I actually, would, I actually like the way you have that set up. I would recommend that. The only reason why is because order we have like a way to do like item skew and item name, however, that only applies to single item orders. So, the order tag is like a workaround where if an order contains multiple products that it flags that now, the only thing I probably would say might help you is if, do… you ever get orders that contain products that would be shipped from you? And from the fulfillment provider, I do. Okay. And typically, how do you handle those? 
+
+26:59 | Ray
+So, what happens is that the order comes in, I see there's one item for me, one, either one item for the provider, they're each tagged differently and the order shows up a few minutes later with my three PL provider or in the three PL provider system. One of the two items shows as not being able to be fulfilled by them. 
+
+27:30 | Miranda
+Because. 
+
+27:30 | Ray
+it pulls the entire order into their system, not just the product. So I delete that, and then I mark it as ready to fulfill manually… that's part of my workflow. I give myself an opportunity to… I guess make modifications to the orders when they go to the three PL so that things like that can be caught. Because if they would be marked as ready to ship, but one of the items, you know, they don't have, then it would block the order. So I'd have to go in anyway. 
+
+28:11 | Miranda
+So, 
+
+28:12 | Ray
+yeah, it's a, you know, every day I have to go in and mark the orders as ready in their system. It's a bit of a, I don't know. It takes it. It takes me three minutes. It's not the end of the world, but it's something I can't forget. Yeah. 
+
+28:30 | Miranda
+Or. 
+
+28:31 | Ray
+Else, I will stay with the three PL. Yeah. 
+
+28:33 | Miranda
+One other option, I know I'll double check Amazon or etsy, but I know for Shopify, another thing, another cool setting that just came out recently. And I do want to see if this is something that's maybe set up or maybe could help in the future. Let's see, let me go to the integration guide store settings. So. 
+
+28:54 | Ray
+This is a get a warning. Yeah. Okay. 
+
+28:56 | Miranda
+Go ahead there's. There's a newer setting. So, if you have like in Shopify there's on the product level, you can indicate who's fulfilling, like what location is fulfilling or it's being fulfilled from if you have that set up in shipstation, we, what happens for Shopify orders is we like it's still in the same order, but it splits it and that allows like you to fulfill one part of the order. And then your fulfillment provider can fill the other part. And it already, it'll know like what products to split based off that Shopify location field coming from? Yeah, I. 
+
+29:33 | Ray
+have that set up already? 
+
+29:34 | Miranda
+Okay, cool. Yeah, I know that some. 
+
+29:36 | Ray
+Orders do arrive split and perfect. If they don't I have to split them manually. Okay? 
+
+29:42 | Miranda
+Gotcha. Yeah, that's the newer feature Shopify is our strong, I'll be honest, it's our strongest selling channel so that feature is only launched there. Hopefully Amazon etsy will be next, but that should at least help alleviate. I just wanted to make sure that was something you're aware of like, hey, it should at least help with that manual splitting process. And hopefully in the future. Now, what other things I. 
+
+30:05 | Ray
+think it's not spelled the same. My three PL, I guess the location of the fulfillment location is not spelled the same. So, I think maybe that's why it shows up as a warning sometimes in my orders. Is that possible? 
+
+30:21 | Miranda
+Yeah, it will. Sure. Yeah, it'll show like if you click on the order details, it'll give you like a little pop up of, hey, this is being fulfilled by this like it'll have it highlighted in yellow that Shopify location. Is that what you're referring to? Yes? Exactly. 
+
+30:34 | Ray
+Okay. 
+
+30:35 | Miranda
+Yeah. Then that's how, you know, the settings turned on. So. Perfect. Yeah. 
+
+30:38 | Ray
+So that is in locations in Shopify, correct? 
+
+30:42 | Miranda
+Yeah. We pulled that into ShipStation, and then basically, if we see that there's two different locations, it'll know to just split that for you based off of the product. So, we do all that magic work for you based off of that information. Okay, perfect. Perfect. Awesome. Well, I know we are up on time. Any questions? Any concerns? 
+
+31:04 | Ray
+No, I just wanted to double check and I think the way I'm doing it seems to be okay. And yeah, I think that's, the main follow up is, yeah. 
+
+31:18 | Miranda
+That API inventory that's it. Yeah, I'll get you an answer. It looks like there could be like a workaround. I just want to make sure I get you all the information. So then we could just test, make sure that's working. And then after that, I'll recap what we spoke about too. So if there's any next steps or if you'd like to set another meeting, you're more than welcome. My only disclaimer is anything that's super urgent, if you can't ship, if you can't log in. Those are those things or those things of that nature. I still recommend reaching out to support. They'll be probably more readily available than I, but anything non urgent that I would say involves optimization feature usage, absolutely feel free to reach out to me. Okay? 
+
+31:59 | Ray
+Perfect. Thank you, Miranda. I appreciate your help and yeah, wish you a great end of day. Thank. 
+
+32:07 | Miranda
+You, you too. I'll make sure to get you an email later today. But besides that, have a great rest of your day. Thanks. Bye bye. 

@@ -1,0 +1,111 @@
+sequence_name: churn-intervention-volume
+signal: shipping_volume_decline
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  urgency_tier upgrades to critical (35%+ decline) at any point during sequence —
+  unenroll immediately and escalate to human CSM with full account context.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "{account_name} — I noticed something in your shipping trends"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas, part of the ShipStation customer success team.
+      I was reviewing your account and noticed your shipping volume
+      over the last 12 months is running about {decline_percent}%
+      below where it was the year before.
+
+      That kind of shift can mean a lot of things — seasonality,
+      a change in your sales mix, or something in your workflow
+      that's creating friction you might not even be aware of.
+
+      I pulled a quick look at your account and noticed a few things
+      worth a conversation:
+
+      - {feature_gap_1} — this is currently not enabled on your account
+        and is the most common reason accounts at your volume leave
+        shipments on the table
+      - Your carrier mix over the last 90 days shows {carrier_observation}
+
+      Your full shipping trend breakdown is here:
+      {analytics_link}
+
+      If anything looks off or you want a second set of eyes on
+      your setup, just reply here — I'm happy to dig in.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - account_name        # Salesforce account name
+      - first_name          # Salesforce contact first name
+      - decline_percent     # computed from signal payload (T12M vs P12M)
+      - feature_gap_1       # top disabled feature relevant to shipping_volume_decline
+      - carrier_observation # agent-generated summary of carrier mix from BQ event history
+      - analytics_link      # https://ship14.shipstation.com/dashboard/operations
+
+  - day: 7
+    subject: "Quick follow-up — {account_name} shipping trends"
+    body: |
+      Hi {first_name},
+
+      Following up on my note from last week.
+
+      I know inboxes get busy — wanted to make sure this didn't
+      get lost. The {decline_percent}% volume gap I flagged is
+      the kind of thing that's usually easy to close once we
+      identify what's driving it.
+
+      One thing I can see from your account: you're currently
+      not using {top_disabled_feature}. Accounts similar to
+      yours that have this enabled typically ship
+      {benchmark_volume_lift}% more orders per month without
+      changing anything else about their workflow.
+
+      Here's where you can turn it on — it takes about 2 minutes:
+      {feature_deep_link}
+
+      Or just reply here and I can walk you through it.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name              # Salesforce contact first name
+      - account_name            # Salesforce account name
+      - decline_percent         # computed from signal payload (T12M vs P12M)
+      - top_disabled_feature    # highest-priority disabled feature for this signal
+      - benchmark_volume_lift   # cohort benchmark from BigQuery (e.g. "12")
+      - feature_deep_link       # deep link for top_disabled_feature from PRODUCT_DEEP_LINKS
+
+  - day: 14
+    subject: "Last note on your {account_name} account"
+    body: |
+      Hi {first_name},
+
+      I'll keep this short — this is my last note on this.
+
+      Over the past 12 months your shipping volume has declined
+      {decline_percent}% compared to the year before. I don't
+      want to assume I know why, but I do want to make sure
+      it's not something on our end that we could fix.
+
+      If your business has shifted, that's completely fine —
+      no action needed. But if something in ShipStation isn't
+      working the way it should, I'd rather know about it.
+
+      Your account is here if you want to take a look:
+      {analytics_link}
+
+      And I'm here if you want to talk through it — just reply.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name        # Salesforce contact first name
+      - account_name      # Salesforce account name
+      - decline_percent   # computed from signal payload (T12M vs P12M)
+      - analytics_link    # https://ship14.shipstation.com/dashboard/operations

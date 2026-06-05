@@ -1,0 +1,393 @@
+ShipStation Automation Check-up: Angela Robinson
+
+Joey Velasquez
+Recorded on Jun 3, 2026 via Zoom, 36m
+
+
+
+Participants
+
+Auctane
+Joey Velasquez, Customer Success Associate
+
+Other
+Angela Robinson
+
+
+
+Transcript
+
+0:00 | Joey
+hi there, Angela. Hi. 
+
+0:01 | Angela
+Can you hear me? 
+
+0:03 | Joey
+Yeah, I can hear you. Perfect. Can you hear me? 
+
+0:07 | Angela
+Yes, I can hear you. Okay, cool. Thank you. Yeah. 
+
+0:10 | Joey
+So, yeah, thanks for meeting with me here for the automations checkup. I know you might have been curious on kind of why this was brought up in your account. We are doing these more frequently within our team for digital customer success, just checking in on some of the accounts that we manage. Yours being one of them and really targeting some folks that maybe have, you know, certain criteria that's in whether it's like less than three automation rules, things of that nature. And so you're given this opportunity to book this meeting for some of those reasons. I was been looking over your account here, excellent. 
+
+0:50 | Angela
+Yes, and yeah. 
+
+0:52 | Joey
+Did you have any kind of topics you wanted to bring up? I just want to make sure we prioritize anything that any topics of discussion you might've wanted to focus on. 
+
+1:01 | Angela
+Yes, I would love that. And does it, would you like my video on? Oh, it doesn't matter. Does that matter to you? No? Okay. No. 
+
+1:10 | Joey
+Yeah. You can still, as long as you're able to share your screen even if not, I could share my screen. 
+
+1:15 | Angela
+Okay. But yeah. Okay. Got it. So, I'm so glad that I had this opportunity to meet with you because I didn't know that it was even an option. And so definitely. 
+
+1:28 | Joey
+Newer. 
+
+1:30 | Angela
+yes, which is fantastic. Let me get into ShipStation. I just recently took over crowning jewels last year in late October… in that a lot of cleanup as well. Because what I had found was we were losing quite a bit of money on shipping. And so I went through just on my own because I didn't know that this was an option to actually have support. I went through on my own and revised shipping and moved it to just two different options. So, we currently have the ground advantage and then priority that's what I found that was working well, but I would love a, any, anything that you saw that stood out to you specifically that we can improve, would be great. And then kind of, so maybe a quick overview of ShipStation and what all of the, what all it entails like with the workflow, different automations, anything that I might be missing? 
+
+3:03 | Joey
+Yeah, absolutely. That's, typically, how these meetings go. A lot of, and this is kind of my slide show, just give you a better idea of how these can go. We'll do quick introductions. We've been talking here, kind of go over the purpose of today's, meeting, which is just finding, more manual processes that you typically do in ShipStation, try to eliminate some of those, through automation. Most of the meeting will just kind of review your workflow, look at some live orders, typically see how you, process those orders on a day to day. Then we'll try to implement maybe a automation rule service, mapping, anything that entails automation. And then we'll follow up with some action items and, resources. So that's me, my nice clean picture here. But, Joey Velasquez digital, customer success manager, which really helps streamline your shipping processes and workflows, offer some guidance, based on your unique business and, workflow, we can offer, you know, what features you might be, might suit you or suit your needs a little bit better, and support you on like maybe you're, looking to scale or expecting a sale within the next month and you haven't you know, dealt with a large volume. We could definitely support in, finding, those workflows that's going to work for you and then just really getting the most value out of your subscription. And, just shipstation features that you're already paying for that you might not be using. So, things like that. So, really, we're, it's a lot of discovery on these calls. We're trying to get to know you, your workflow, your products, and then, try to, offer some suggestions on top of that. You know, my goal at least for these calls is at least to have, one of my suggestions, you know, land or actually be beneficial for your, workflow. Usually, we'll try to throw in like two or three suggestions, but it doesn't always, stick, which is totally fine. And we don't want to completely change your workflow. We just want to kind of build on top of it. So, what we can cover today is, like I mentioned finding those manual processes, identifying workflow, kind of hiccups or, pain points, offer some feature recommendation based on your business. And then, of course, answer any, shipstation questions you might have. So, yeah, let's take a look at your, workflow here. Let me change screens to your account. And so, typically, what I look for, when doing an audit on your account is just seeing what automation is already taking place. Using these open orders and awaiting shipment. I'll just click on probably the most recent ones and see how, the shipment came into shipstation. And I do that with the shipment activity, is a good, log that shows all the actions that take place. It honestly looks like you have a good amount or at least these, few automation rules that you have going, you know, they're matching and applying, you mentioned earlier in the call that you've, kind of fixed that or at least dwindled it down to the two services ground advantage or the priority mail. So, yeah, that's doing a lot of the selecting for you. That's mainly what I try to look for if, it's a big piece of the puzzle. Is the service being selected? 
+
+6:16 | Angela
+Is the service? Okay? And is there a way to even, maybe, and you tell me if I should go to my questions after, or, oh, like, as we go through this? Yeah. 
+
+6:30 | Joey
+As, as we go, it's definitely. Okay. Yeah. 
+
+6:32 | Angela
+Okay. So, like, I get that, triangle right there, that Shopify location like that. Is that supposed to give me that? It feels like a little warning sign or something? 
+
+6:44 | Joey
+It does, it's more of a, it feels like that, but it's not. It's more of a, an alert. I, too, question the symbol there. The, the orange, triangle there kind of does seem like a warning. It's not, it's actually a feature, a newer feature for Shopify integration. So, it brings in the location, where the inventory is stored, from Shopify. And this is more for our multiple warehouse, merchants that, have, maybe this item in one warehouse, this item in a second warehouse, if that is the case, it would break, auto, split them into this one being one shipment and that one being a second shipment, because they contain different Shopify locations. We also have a new automation, criteria, for that Shopify location. So, if you did have that scenario, you can make automation based off of the location. So, a lot of different, kind of different functionality, but do you mainly, run off of just one location? Yes? 
+
+7:48 | Angela
+One location we shipped from? 
+
+7:50 | Joey
+Correct. Perfect. So, yeah, you can absolutely just disregard this little message. It's just extra data, extra information that's coming in from Shopify. Okay? Whether you, whether you need it or you don't, you know, if you need, it could be useful if you don't then, you know, it's not doing much other than just showing you what the warehouse is. So, yeah, just different things like this. Like I said, you had most, the requested services is being mapped or at least through automation, it's being applied. So we can kind of skip over that and kind of try to find some unique, things that you do manually. I like to also ask kind of, if you're going into a ShipStation maybe on a Monday and they're getting nine orders, definitely a good amount of orders, but say, if there's like 100 orders, what's typically your process or game plan, how you're going to organize, your awaiting shipment orders, and how do you typically kind of go through, all those shipments, either in bulk or batches, things like that? 
+
+8:54 | Angela
+Yes. So, we do them alphabetically by. 
+
+8:56 | Joey
+Customer. Oh, 
+
+8:59 | Angela
+customer by customer, first name? 
+
+9:02 | Joey
+Gotcha. So. 
+
+9:05 | Angela
+We. 
+
+9:07 | Joey
+will typically just sort it up here. 
+
+9:09 | Angela
+Sort it up there, yes, by the recipient, and then we have our, shipping orders in alphabetical. 
+
+9:21 | Joey
+Oh, okay. So, you kind of pick them in alphabetical order as well? Do you utilize, any of the pick lists or packing slips from ShipStation? No, or is it all outside of ShipStation? Okay? 
+
+9:34 | Angela
+Pick. Well, yeah. So we, I… think… that I, 
+
+9:46 | Angela
+it's from the order printer. Is that a different? 
+
+9:58 | Angela
+Yeah, I don't use it in, I use something else in Shopify for, oh, 
+
+10:02 | Joey
+okay. Yeah. Like printing out the order details? Yes. Summary. Yeah. Okay. Yeah, yeah. No worries. So just wanted to ask to see if that was maybe something we can, work on or tailor to kind of see what is most important to you about the process in ShipStation specifically. You know, one thing I've been in a lot of these calls. We've been going over just some pretty simple features in ShipStation that, you know, aren't going to or maybe aren't even part of automation, which is totally fine. But it's going to be beneficial just to know how to better organize, these awaiting shipment orders, how other typical workflows go, 
+
+10:45 | Angela
+So, 
+
+10:45 | Joey
+yeah, we, we've talked about this group by a lot. This is really good for those scenarios especially when you have a lot of orders say, on a Monday and you need to absolutely get them all out. A lot of times people would use this group by, especially this one, typically, we see the total quantity, cause generally, you'll see most shipments are just a quantity of one. So you'll have, yeah, right here, you have almost, you know, majority of them being, one quantity one orders. So we could just tackle those individually, in groups. And so this groups all of them by quantity, one, quantity two, and then so on. So that's one way to do it. I mean, and you could still keep it alphabetically but it would actually be grouped by, certain factors like a total quantity on this one, cool thing about the group by, is, you can have that select all in just by the group. And so you can select all these 26 orders. Once you've you know, grabbed all the SKUs, ready to pack them all, and then you can create all the labels since you already have all the selection of the service being selected. Looks like all these are selected. Wow, almost all of them have a rate. I like to use the sidebar as well, kind of refresh that rate to make sure. Yeah, now. 
+
+12:09 | Angela
+Yeah, I use this sidebar… perfect. But I, yeah… I use this sidebar. And then, for, I will click through all of the ground advantage, and then print the batch like that, from all the ones. I, yeah, yes, all the ones that I've clicked on, okay? 
+
+12:37 | Joey
+That's definitely a way to do it. So are we, is it a big, kind of, emphasis or, is it important to just kind of manually check each and every one just to make sure everything is perfect. 
+
+12:51 | Angela
+I would prefer not to, I would love not to have to, if I can just click them all and then print. 
+
+13:04 | Joey
+yeah, it's definitely ideal. Yeah, it's definitely kind of, the goal in shipstation, right? Is to, have all this stuff already preselected for you, with, of course, with our integrations with like Shopify, you bring, it brings in all the weights, some, in some cases, the dimensions, I do see in a lot of these cases, you have the smart fill enabled, which is a really cool new feature and that's starting to, auto, apply some of the package and the, you know, weights and different presets, kind of automatically for you without you even having to set that up or think about it. 
+
+13:38 | Angela
+Yes, I tried, to do that when I moved everything. Like I went, took me a. 
+
+13:43 | Joey
+Couple several. 
+
+13:44 | Angela
+days to insert to add the ground advantage, remove first class. And then I tried to set up the presets with the average ounces of the jewelry, and then anything of like a, a pounder, 
+
+14:02 | Joey
+Above, so that. 
+
+14:03 | Angela
+it was basic before they would just click preset and then go, but, I don't feel like I'm able to do… that. I feel like I have to take so little more time… but I just taught myself on this, so. 
+
+14:23 | Joey
+One thing, I'm glad you mentioned the presets. I did notice that when I was doing my audit, it's another kind of small feature we look for, that can potentially help in, some workflows. So, I see you have some great setups in the presets there. Let me just take a look exactly this one. Oh, it just has the box size, and then doesn't have a ship from setup although it's selected. But my favorite part about these presets is the hot key that you could set up with it, that at least saves a couple clicks. You can be in here especially if you have only a few presets, you know, pretty easy to memorize those shortcut keys after a while. Okay? And, 
+
+15:02 | Angela
+then, what does that hot key do? What is that? Yeah. 
+
+15:05 | Joey
+Yeah. So, let's set one up really quick. Let's see this one. Is that small, mailer? Yeah, the. 
+
+15:10 | Angela
+Small jewelry mailer, is our most used that? 
+
+15:14 | Joey
+One, I like it. Yeah. 
+
+15:14 | Angela
+Yes. 
+
+15:15 | Joey
+Yeah. Let's use, let's use S, say, so command S would be the hot key. If you're using windows, it'd be control S, but yeah, I'm on mac. So it's a little different, me. 
+
+15:26 | Angela
+Too, mac. 
+
+15:27 | Joey
+Okay. 
+
+15:27 | Angela
+Everybody should be on mac. 
+
+15:29 | Joey
+Okay. Nice. So let's see, save changes here. And so now you'll see that hot key, what that can do is just instead of, clicking within the presets selecting it, you can now just command S, and let's see if it does it there. Oh, that's another hot key. Okay? Sometimes ticket takes just a second. Let's re, click into that one. And then I could put S, there there it is. Okay. Yeah, you'll see that little, notification on the screen when you hit a hot key, yes. And then it will apply, that preset to the order. So you can actually let me see, are all these that same one. So let's see, let me just double check here. So yeah, that's definitely a quick and easy way to apply that preset. So. 
+
+16:26 | Angela
+I would go through, let's just say I'm going to go through the top five, Amy Ann, Ashley, Brittany, let's just say those, I'll click on those four orders and then push command S, and they would go, they would be ready, right? 
+
+16:45 | Joey
+Yeah. Let's see sidebar. Yeah. And you'll see it apply in the sidebar. I usually open up the sidebar just in case. 
+
+16:55 | Angela
+Yes, I do like to see that. Yeah. 
+
+16:58 | Joey
+So, that did apply to those ones that we have selected. So you can do it as easy as that, without having to click within the individual order. And then with that sidebar, of course, you could see that rate is coming up here. You can always click refresh to if you've changed anything. And as long as you're getting rates for all these orders and their ground advantage, you can kind of spot check them here on the grid, which is nice. And then that was right there. Yeah, I mean, all those rates look pretty normal. So nothing alarming there. So you can just quickly create and print labels there. Do you utilize the shipstation connect application at all? 
+
+17:39 | Angela
+I know that I… logged into it. Okay. I have it as an app, yes, but I don't really know what it does. Oh. 
+
+17:52 | Joey
+Okay. I can kind of explain. Yeah. So shipstation connect, the app is a separate application. It's a small app that just runs in the background. When you're using the web application, it just connects your local devices, meaning the devices connected to your computer into shipstation, gotcha. Because the shipstation naturally is a web application, you can't have access to your kind of devices that are directly connected. So that application is almost like a connector bringing those devices into the web application. So it is necessary to sign in order to have that online and working. So, yeah, I do see it's set up here in the epiprinter and the rolo is set up there. So, yeah, perfect. Just want to make sure you're using that because that does save a few clicks as well. Let me double check and see if you have something set up as the… it might be different on my side, but do you have anything set up to default print to one of those printers? It's. 
+
+18:58 | Angela
+defaulted to the rolo. Okay? Perfect. 
+
+19:01 | Joey
+Yeah, it shows differently on our end. So just wanted to make sure you were all set up there. But because, yeah, that can save some clicks. How are you liking the group buy? Do you think that's going to be beneficial or help? Yes? 
+
+19:15 | Angela
+I think that'll will be great. 
+
+19:18 | Joey
+Yeah. And there's different options as well here. You can kind of mess around with requested services, maybe one if you want to separate by the priority to the ground advantage, you can definitely do that by that. My other. 
+
+19:32 | Angela
+question too is I do get a pop up sometimes of the little notifications about adding products, that products haven't been assigned to… Or something. And I'm not sure what I'm not doing on the Shopify end. Like when I add a new product and it's not integrating… with shipstation. 
+
+19:59 | Joey
+Okay. So, I'm sorry, is that message on the shipstation side? Yeah. 
+
+20:03 | Angela
+Like if you go to the, in the shipstation side, if you go to that little notification on the far right? Like where it says add funds, and then those alerts right there, those alerts. 
+
+20:13 | Joey
+Oh, okay. 
+
+20:14 | Angela
+Right. They're unconfigured products, I don't understand that. 
+
+20:18 | Joey
+So, that's anytime we get a new SKU in shipstation. So anytime you have a new product in Shopify, it doesn't create that record until it's ordered and a part of an actual order. So, until it gets imported into shipstation, it's going to create that new product. And it's just telling you that you haven't set up any defaults for that product because they're so new. And, yeah, that's why it says that default shipping information for future orders. Just, it's kind of a suggestion to say… hey, there's two new products. Do you want to, you know, set up any defaults for them? So that's all that is, you can definitely, you know, disregard it, dismiss it if you don't need to set anything up for them. 
+
+21:04 | Angela
+Okay. So… let's say somebody ordered one of those new products, then would it just go into? The only thing that I have set up is the jewelry is all one weight, but then we have some accessories. So something like a new mug then, is that something then? I need to, I set the weight on it. So then. 
+
+21:28 | Joey
+Does shipify? 
+
+21:30 | Angela
+Say, once somebody orders it the first time, then does it recognize it and it does it? Or am I missing a step on my end that I have not inputted? 
+
+21:43 | Joey
+It does bring in the weight, however the weight is brought in by the order import and doesn't really save the weight to the product record in shipstation. The only thing that saves in shipstation is the SKU, the name and then it'll say that created date whenever it's created nothing else as far as the defaults in shipstation get set up automatically because, and for many reasons people have different defaults in shipstation than they do in their marketplaces for whatever reason. So, yeah, just for those reasons… keep this kind of just blank until you configure something. And some people don't need, you know, defaults on their products. Maybe they rather do it through automation rules or some way, some other way. Oh, I'm sorry, I lost you here. There you are. So, yeah, these are, this is really what it's saying is just to set up these product details, you know, these defaults within shipping, defaults, in inventory, things like that. So if it's not needed, then it might not be needed. But yeah, it's just kind of an alert just in case. Okay, let's see here. What else did I have for you? So we did look over in the group by, we talked about those presets and the hotkeys, which is really nice. Those two things really have been going really well with a lot of these calls. Typically either you know, about them or you don't so, yeah, we've been finding a lot of people, you know, kind of do it a more manual way of just going through each and every shipment. Do you typically, or I'm? Sorry, I know we kind of went over batches for just a moment. But let's revisit. I just want to double check your kind of your history with batches. Doesn't look like there's been any, at least process ones this year. So maybe that was something that the previous manager… or a team did. Do you guys, are you guys familiar with batches or no? Okay. Is there? 
+
+23:57 | Angela
+Something that I need to, is it, do I need to clear them out? Not? 
+
+24:03 | Joey
+Necessarily, or these are open ones that you can absolutely archive them. It looks like they're pretty old. So I would definitely either cancel or archive them. Okay? And then this is just the process ones. These are just your, the history of batches within this account, which the last one that was created and processed was in 20 25. So it seems like maybe a process that, oh, there's some archived here. Okay? Nevermind I might be wrong. 
+
+24:32 | Angela
+Well, I just, I do go up to like the printer and I archive some like it'll say, you know, label and then I will archive them but I have no idea why I'm doing that. I'm just trying to like clear my notifications. 
+
+24:45 | Joey
+No, no, no, yeah. So that's what it's doing. Okay, perfect. So, you do have some batching here, which is good. Just kind of want to see how it's organized and see what else we can kind of build on top. I do see all these notes here. Is this used anywhere other than just like the engraving part? No? 
+
+25:05 | Angela
+Just that is only for our production. 
+
+25:08 | Joey
+Okay. Gotcha. So. 
+
+25:09 | Angela
+And it says from buyer, but that's we have gone in, we can't figure out a way on our production template yet. How to… that's just where we put our internal notes. Yeah. But that note was not from the buyer because they don't see it. So. 
+
+25:26 | Joey
+Okay, perfect. Is there any kind of manual processes within the production side? Like writing things down on a piece of paper or? Yeah, I'm just trying to find maybe some out of the box or outside of the box type of solutions or manual processes that maybe I'm not thinking about? 
+
+25:48 | Angela
+Yeah, no, I feel like, right? Yeah, unless there are, you know, sales like we, I scaled back quite a bit from what they were doing before as I kind of rebuild. Okay, nice. And then we've been doing, we've… been doing, I believe that they had previously like they would ship once a week, maybe once or twice a week. 
+
+26:19 | Joey
+Oh, 
+
+26:20 | Angela
+but we ship more often like when we are anyway… we… ship more often. So, my… biggest thing, is the making sure that the settings and the carrier optimization of just, I did a lot of research on the ground advantage and then having the… priority if they want that. But have you found, I just, I don't want to, we were losing so much money on shipping. So that was my biggest thing to tackle. 
+
+26:59 | Joey
+Yeah. I think you did a phenomenal job. It's already being set up with the automation. It's great at that. And that is what typically you should use ground advantage with the package type. That way you get the full tracking. And it is, you know, with jewelry items especially anything under a pound is almost always going to be through the postal service to get your best bang for the buck. So you're doing everything right there. I just want to add on it with some of those kind of workflow things like grouping by maybe just finding different ways to do batching, applying those presets a little bit faster for you are great. The last thing I want to talk about, I know we're getting to our time here, but we did, I did notice that you're on one of our older plans. We have since the end of last year, updated our subscription plans. I think you're a really good fit. Your account would be a really good fit for a more. 
+
+27:53 | Angela
+Specialized. 
+
+27:54 | Joey
+plan if you will. So we've changed. The main thing that's changed is the flexibility with the shipping volume. So the account or the plan that you're on currently is a legacy plan. Here. It's the gold, you know, up to 2000 shipments per month. 
+
+28:12 | Angela
+Then you have. 
+
+28:13 | Joey
+This additional charge of your carrier's fee, which has now gone away with our new pricing. It's more just baked into the price. But so your total at the moment is one 39 99 per month for 2000 shipments. I just looked over your data earlier and noticed that generally you stay below 500 shipments per month. Does that sound correct? 
+
+28:36 | Angela
+Yes. 
+
+28:37 | Joey
+Yeah. So that's being able to be more flexible with our new plans? 
+
+28:42 | Angela
+Most. 
+
+28:42 | Joey
+people fit under the standard option. And then just depending on your shipping volume would dictate your price there. So right now, if you were to move over to the standard plan on the same amount of shipping, this is what you'll pay. So up to 2000 shipments. But but right now you're not using or you haven't used all those shipments. You know, it looked like almost ever at least within the last calendar year. So, yeah. So just going on average alone, I would say the 500 would meet your needs. And then you actually get more user accounts being from what you have. Now, I think the gold is at three, yeah, three user accounts for the gold for the standard, you'll get up to 10. So we actually charge five dollars additional for each user account. So you're getting seven additional users. 
+
+29:34 | Angela
+And then, and what does a user mean? It's just the different people who are logging in to. 
+
+29:39 | Joey
+use, right? Right? Okay, right. It would be these users. So you only have one. But if you definitely, our recommendation is always to set anybody who's a different person that uses shipstation to set them up their own account and their own logins. It's really good for really just responsibility purposes to who took actions, and what shipment. And if anything bad happens or a mistake happens, you know, you have a track record. 
+
+30:10 | Angela
+Who was logged in? Okay? 
+
+30:11 | Joey
+Exactly. So that's definitely what I'd recommend that's going to be beneficial there for you. You won't lose anything there. As far as I saw you'll still have an option to bring in your own accounts which you're currently paying for extra. And then you'll have the option for the shipping API, which you have that option. Now in the gold plan. So really not a lot is changing here. We've just added a lot of new stuff and new features. One thing that's new is our returns option. And since you use Shopify that's you know, we have the. 
+
+30:45 | Angela
+returns and exchanges. 
+
+30:47 | Joey
+Feature from Shopify is now integrated in shipstation on these new plans. 
+
+30:53 | Angela
+One of my. 
+
+30:53 | Joey
+favorite things is the data analytics tools as well. So our insights page has changed a little. You still have these options there, but we've added more on top of that using Google data analytics, super nice dashboards that you would benefit from as well. Yeah, all that to say by getting you down at this, the shipping volume you're actually utilizing you'll be able to save, you know, some money there. And I know that was you spoke on that kind of being your goal with losing revenue and money. So I think that would be a really good choice for you and option than what you're paying right now. Do you have any questions on that? 
+
+31:37 | Angela
+I still pay. So what is, when it says my carrier accounts? So each carrier? 
+
+31:48 | Angela
+That's like not, I haven't even, you know, I have not even gone through like if I don't use these carriers? 
+
+31:59 | Angela
+You're. 
+
+31:59 | Joey
+paying the extra amount right now to even just have them in shipstation, if you're only using some people only use them for like third party billing which is a lot of people. So yeah, you would just still have that option. You just won't have to pay the additional 40 dollars. So that's really what's changed through there. And then of course, your shipping volume is more limited. But as we've seen your data over the last year, let me just pull that up here. 
+
+32:30 | Angela
+But if I stay at the legacy. 
+
+32:35 | Joey
+Now, like, 
+
+32:35 | Angela
+let's just say since our plan is to grow, then let's just say within the next six months, we do double our volume. So then I would get to let's just say I do get to a 1,000 shipments a month. Then I would actually lose money, right? Because then that would jump me to 149 instead of staying on the legacy plan, that would be 99. Yeah, I'd just. 
+
+33:05 | Joey
+be jumping. Yeah, I'd be jumping up 10 dollars. But really the value that's packed in there being the user accounts, each of seven additional ones would be five dollars each. Then actually some of these add ons too on your legacy plans. So this rate shopper which is 99 dollars comes with that new standard plan that's just some of just a little bit of the value that we've added there. This inventory API comes with it. It's another 30 dollars on the legacy plan. And then the inventory sync as well. So that's you know, almost about 200 dollars there of value that's packed into the new plan. And really the new ShipStation and then any new features that come out which we're expected to release a lot more with especially with AI tools later this year and start of next year. So just, you know, to not be left behind with some of those features. I think it would be definitely recommended to move to the standard. You know, most people are seeing a price increase if they utilize all their shipments as we saw with this example. But currently, you're in that position where we're able to kind of meet you where you're at right now. 
+
+34:17 | Angela
+Yes. 
+
+34:18 | Joey
+And then you'll be able to save the money as you grow. Of course, the revenue grows as well. The next tier would be right here, which again we noted was just 10 dollars more than you're paying right now with that over almost 200 dollars of value. And then that next tier is just a little bit jump up from there. Another 25 dollars. So, right. 
+
+34:38 | Angela
+You. 
+
+34:38 | Joey
+know it's not too much of a change at least in your scenario, but yeah, it's definitely a good option to have right now while you're still in the growing phase. 
+
+34:52 | Joey
+We're a little bit past our time. So I want to be considerate of your time, but do you have any questions on this change? Does this sound good? 
+
+35:01 | Angela
+I do, I actually have questions on the inventory piece that I will, I want to look at so I can do that on my own time. And then maybe if we could do a follow up? 
+
+35:11 | Joey
+Absolutely. 
+
+35:12 | Angela
+Because inventory is one of the things that we are wanting to tackle. So, yeah, and the, 
+
+35:20 | Joey
+cool thing about moving over to the new plans too, we are offering implementation. Okay? You'll actually be able to have especially if you want to utilize one of these newer features or start implementing inventory from shipstation, we can definitely make that request to our implementation team. Okay? They're just across the way over here and they'll be able to put you in their queue and then get you on their books and get some meetings down with them. So. Yeah, okay. 
+
+35:48 | Angela
+Okay, great. But we can definitely. 
+
+35:50 | Joey
+Keep talking about it. 
+
+35:51 | Angela
+Yeah. Let's do that. Yeah. 
+
+35:53 | Joey
+Yeah. Let's follow up via email, I'll send you over some links as well of what we talked about and then we can keep the conversation going there. Great. But any last questions that you have for the time today? 
+
+36:03 | Angela
+That's it. This was so helpful. I appreciate the overview and the tips on all the things. So I look forward to learning more about the inventory. Awesome. Yeah, I'm. 
+
+36:13 | Joey
+happy to keep the conversation going and keep assisting as we go. Thank you. Thanks for your time, Angela, you have a good rest. 
+
+36:20 | Angela
+Of your day. Thank you, Joey you too. Talk to you later. 

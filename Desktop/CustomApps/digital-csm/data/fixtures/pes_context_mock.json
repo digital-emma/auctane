@@ -1,0 +1,14 @@
+{
+  "account_id": "ACC-00123",
+  "features_enabled": ["basic_labels", "address_validation", "tracking_notifications"],
+  "features_disabled": ["automation_rules", "rate_shopper", "walleted_carriers", "returns_portal"],
+  "last_shipment_date": "2026-05-21",
+  "t12m_volume": 1840,
+  "p12m_volume": 2310,
+  "rate_shopper_enabled": false,
+  "rate_shopper_type": "none",
+  "carriers_in_use": ["USPS", "UPS"],
+  "has_walleted_carriers": false,
+  "automation_rules_count": 0,
+  "analytics_enabled": false
+}

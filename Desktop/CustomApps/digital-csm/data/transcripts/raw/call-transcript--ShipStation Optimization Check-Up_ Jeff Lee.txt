@@ -1,0 +1,679 @@
+ShipStation Optimization Check-Up: Jeff Lee
+
+Jeff Powell with CMS MAGNETICS, INC.
+Recorded on May 22, 2026 via Zoom, 59m
+
+
+
+Participants
+
+Auctane
+Jeff Powell, Lead, Customer Success
+
+CMS MAGNETICS, INC.
+Joel Sanchez
+Fuyuan Li, PRESIDENT
+
+
+
+Transcript
+
+0:00 | Joel
+the meeting should only be about 30 minutes. Hello? Hey… Joe. Hi. 
+
+0:15 | Joel
+Can you hear me? Yeah. 
+
+0:16 | Fuyuan
+I can. Okay. Good. I, 
+
+0:20 | Joel
+decided to join early since I'm already sitting at my desk. Yeah… that's good sometime. I forget. Yeah… it's easy that it's through zoom and not through teams. 
+
+0:49 | Joel
+Do you have anything going on for the weekend? 
+
+0:52 | Fuyuan
+Nothing special. How he is, the first thing? 
+
+0:58 | Joel
+Who's birthday? Harly… Daniel's. 
+
+1:02 | Jeff
+wife? 
+
+1:05 | Joel
+Oh, Harly. Okay. 
+
+1:11 | Joel
+You guys gonna go over to Fort Worth? No? 
+
+1:13 | Fuyuan
+They come tomorrow. Okay. Yeah, we try to accommodate our age fair? 
+
+1:21 | Joel
+Enough… is Theo doing okay. Yeah. 
+
+1:32 | Fuyuan
+I don't think that they are software engineers, you know, toasted you. 
+
+1:38 | Joel
+Know. Yeah. 
+
+1:39 | Fuyuan
+Industry so. 
+
+1:46 | Fuyuan
+Yeah, I know. 
+
+1:52 | Fuyuan
+Lots of new grads don't have jobs. 
+
+1:56 | Joel
+Yeah, I'm starting to see some of that as well. 
+
+6:09 | Joel
+Oh, Jeff, I don't know if I shared with you when you shared with me a week ago or so maybe two weeks that the amax was put on a hold for the time being. It's. 
+
+6:23 | Fuyuan
+working now? Okay? 
+
+6:24 | Joel
+Do you want me at the time I switched our ShipStation subscription to charge the mastercard you gave me, do you want me to switch it back to the American express? 
+
+6:35 | Fuyuan
+Either, should you'll be fine? 
+
+6:38 | Joel
+Yeah. Okay. It's. 
+
+6:39 | Fuyuan
+not very necessary. Okay, I guess. 
+
+6:44 | Joel
+For the sake of keeping it the same as previous, I'll switch it back to the American express just because at the time, I didn't know how long it would take to get it back up. So, I put it on the mastercard. 
+
+6:56 | Fuyuan
+Okay. Yeah, it's up to you. You want to change that's? Fine. Yeah, I. 
+
+7:00 | Joel
+went ahead and changed it back because now that I have your confirmation, I have no reason to not have it back on the American express. Okay? Plus, you get points. I'm imagining as a business. 
+
+7:12 | Fuyuan
+We got a point, for both cards. Oh, well, that's good. Actually, we paid them all for chase. 
+
+7:21 | Joel
+For membership. Yeah, I think a new card came in the mail. I left it in Christine's desk. 
+
+7:29 | Fuyuan
+For chase. I didn't. 
+
+7:31 | Joel
+open it, but I can see through the little preview window and the envelope that it's a card. Oh, 
+
+7:36 | Fuyuan
+we didn't order a new card. I'm not sure why. 
+
+7:40 | Joel
+I wonder, is it like perhaps the one of them has a expiration? Coming up? No. 
+
+7:46 | Fuyuan
+It's pretty new. Could it be ads, I. 
+
+7:50 | Joel
+guess that's true. They do send fake cards as far part of advertising. Yeah. 
+
+8:03 | Joel
+Let's see. I'm gonna step away for a moment to get more water, alright? 
+
+8:50 | Joel
+Possibility of two more orders. One will be this one that they just found out, and the other one is one for the ones in the right studio. I'm waiting on them to give me their way to the industry. Aside from that, those are the only two that I prefer. It's not a bad feeling that there is an order already. Yes, it was Jeff. Friday, put it in his email from directly, the sales order. We received the finale, and I responded back on his acknowledgement to the studio. They requested a new card because they mentioned the card to charge a card. We don't actually have a mobile, so, it's nice that we all get orders there's. Nothing reported for it. So, those are the only two that could come in before. I mean, sorry, after cut off, you know, everything else is just like not the good stuff that will, you know, carry a pick out for expedition or something. But if Johnny gets a head of a pack, then we should try to ship as much as we can today before we leave, just so Tuesday is not like swamped with food… thank you very much. 
+
+10:06 | Joel
+Have a good one. Okay. Yes. 
+
+10:23 | Joel
+Oh, is it in middle color? Well, our meeting hasn't started yet, so technically, you could look at it. Well, I'm happy. Yep. 
+
+10:40 | Joel
+Okay. Yeah, good. Thank you. I do order an email from wormwood. It's the update if he has anything. 
+
+10:51 | Fuyuan
+Let me take a look. 
+
+11:49 | Fuyuan
+Yeah, it's prepaid. 
+
+11:56 | Joel
+Okay. Hold on. Let me grab it. Go ahead. 
+
+12:00 | Jeff
+Hey, Jeff and Joel. 
+
+12:04 | Joel
+Hey, Jeff, please allow us one moment. Jeff is taking a call with one of our customers that just happened a few minutes ago. 
+
+12:11 | Jeff
+Yeah, no worries at all. 
+
+12:17 | Fuyuan
+You have five, five to eight? Yeah. Yep. You may leave… that she could have cut. 
+
+12:46 | Fuyuan
+And the period in shipping. 
+
+12:55 | Fuyuan
+Of the good. And the good thing. 
+
+13:01 | Fuyuan
+Okay, good. You have, once zip code is zero two seven. 
+
+13:09 | Joel
+Eight zero. 
+
+13:14 | Joel
+Okay. Gotcha. Okay. 
+
+13:20 | Fuyuan
+Okay. Gotcha. Okay, good. You're all set. 
+
+13:30 | Fuyuan
+Okay. I will… love them. Thank you. Have a nice weekend. Yep. Sorry… about that. 
+
+13:43 | Jeff
+No worries at all. It's Friday before the busy weekend. So I'm sure everybody's trying to get things crossed off the list before the memorial day weekend… but thank y'all for joining me today. My name is Jeff. I think I might have met you, Jeff at one point or maybe Joel at y'all's location. 
+
+14:05 | Joel
+It was a. 
+
+14:06 | Jeff
+Little bit ago, but my name is Jeff Powell. I am the customer success manager for the Dallas area. And basically what that means is I am an advocate for anything shipstation related. So new features that we release. I will let you know that, you know, maybe it might be of service to you to enable those, but also working with workflows and efficiencies to make them more efficient for you. So if you had any pain points in your current workflow as well as like reporting features and automations, I can assist you there. I'm not sales and I'm also not support. So if you do run into a technical issue, feel free to create a ticket still with support. And if you're not getting, you know, a solution from them, feel free to shoot me an email and then I can follow up on my end on the backend and see if I can get it elevated for you or look into the matter myself and see if I can get a quick fix that solves the issue. 
+
+15:02 | Joel
+That's just. 
+
+15:02 | Jeff
+a little bit about me. What I would really like to do. I know this is like an optimization call. The reason for that is we just do have a lot of new features that not everybody really knows about. And so I just wanted to kind of go through that, see, you know, kind of what's your current workflow, what's working in shipstation? What's not, and then see if some of these features might be appealing to you if not going to hurt my feelings, but just wanted to, you know, have an open conversation with y'all in see how shipstation's performing and see if anything can help it be better for you? 
+
+15:37 | Fuyuan
+All right. Got it. 
+
+15:40 | Jeff
+So, with that, I'll let you guys kind of, is there any current pain points you're experiencing with shipstation? You know, if you had a magic wand, which it could do this or that? 
+
+15:52 | Fuyuan
+I think it mainly that's for chell. Okay? 
+
+15:57 | Joel
+Yeah. I would say we don't have any major pain points up until recently with international orders. In particular. We noticed that our quoted shipping rates through the backend via bigcommerce are not translating to the same rates through the same accounts that shipstation's then quoting us for. While generating the shipping label, we're seeing discrepancies as large as like 50 dollars plus on average upwards of almost like 70 dollars. And this is purely for the international orders. It seems as of this week in particular. 
+
+16:34 | Jeff
+Okay. And in bigcommerce, do you have your rates live rates going between shipstation to bigcommerce for, because I see you have a unishipper account. So, is that what you have going into your bigcommerce or, yes that? 
+
+16:49 | Joel
+Is what we have linked into the backend for our customers to use when quoting during checkout. Okay? And it's going to, it's the exact same account that we have also tied to shipstation among the other two ups accounts, our standard one, and then the one awarded by shipstation themselves. 
+
+17:07 | Jeff
+Right. So it's your ups. So are you just showing your unishipper account? I know you have that connected to shipstation. But is that the rate that's showing up in bigcommerce? Correct? Okay. I'm just taking notes over here. We do have a, 
+
+17:22 | Joel
+case open right now in regards to this, it was generated maybe Wednesday of this week or maybe Tuesday. At the earliest. We gave supporting documents and evidence per the request of the agent. Provided, I think it was Wednesday. We have not heard back from them yet. I don't know if they're probably investigating or talking to a different department, maybe technical to figure. 
+
+17:48 | Jeff
+Out. Why? Yeah. So it's either it's like between 50 to 100 dollars cheaper on bigcommerce than what it actually comes in to shipstation when you go to pay for it. 
+
+18:00 | Joel
+Yeah, correct. And we've even compared to ups. Com as well. And ups com aligns with the quoted rates on bigcommerce. It's just that the shipstation rates regardless of whether it be the unishipper account, which is the one again plugged into the backend of bigcommerce. Yeah, it's just not lining up and in order to not create a disturbance in our customers' experience with the order, we absorb the cost in order to try to, you know, again minimize any interference with the customer experience, but that's a pretty large thing. 
+
+18:35 | Jeff
+That's a big chunk. 
+
+18:36 | Joel
+Yeah. 
+
+18:36 | Jeff
+Yeah, 50 bucks to 100 dollars is, yeah. 
+
+18:41 | Joel
+You can imagine shipping margins can be quite thin for most companies, no. 
+
+18:46 | Jeff
+100 percent. I totally understand that. Do you have that ticket number? 
+
+18:54 | Joel
+Yeah. Let me dig it out of my inbox here. 
+
+19:00 | Joel
+Ticket number is… nine six, eight, three, two seven four. 
+
+19:11 | Jeff
+Nine, six, eight, three, two, seven, four. Correct. Okay. I will look into this and see who I got assigned to see what progress is being made on there. And then I will update you. I mean, it's Friday on memorial day, we weekend, but I will look into it and see if I can get some information for you today. If not, I will follow up with y'all first thing Tuesday or next week to see where we're at with that and figure out what's going on. I noticed, like I looked at your orders earlier for international, so we'll go through fedex. Are you having any issues with the fedex rates or anything like that? It's or is it just a unishipper that's plugged in the ShipStation that you're giving live rates on the back end to big commerce? Yeah, the. 
+
+19:58 | Joel
+Latter, it's just the, for fedex. In particular, we do a lot of third party billing or recipient billing only really use. Okay, that's per the request for our customers routing guides. There's been, very small instances where a customer usually through a direct email or phone call will request fedex shipping without any prior customer account to bill, but the vast majority are billed third party or recipient. Okay, gotcha. 
+
+20:30 | Jeff
+Okay. For international? 
+
+20:40 | Jeff
+And then, I know that's a big piece and obviously a major pain point especially with the thin margins with shipping. I will dive into that for y'all and see where we're at any other pain points Joel that you, as far as workflow efficiencies deficiencies, you feel like you have to click a lot anything along those lines, yes. 
+
+21:02 | Joel
+I got some feedback from my team and my colleague prior to the meeting. Starting. One of the things we experienced recently is we want to know. It's mostly about the notes features for any given order. We know that it from finale which is our, one of the platforms we use to keep together our customer. It's like a CRM and enterprise resource planner as well. The order function allows us to keep an internal and a public note. We can see when we put public notes in that they get imported into shipstation. And the internal notes often do as well. But we wanted to know if we were to say enter in notes, internal notes into the order view in shipstation, will it pull over to finale and add to the internal notes there, or is it only held on that platform? 
+
+21:58 | Jeff
+Let me check and see what we send back to finale with that API call and see if that's something we can API call back… with… new internal nodes. I honestly don't know the answers to that. Go ahead yeah. 
+
+22:20 | Joel
+One of the things that with our workflow, typically, when we get any notes we want to add to an order, it's usually from our marketplace, not our not from finale itself. So, for instance, if we have a sale through bigcommerce, our website. 
+
+22:37 | Jeff
+If someone calls. 
+
+22:38 | Joel
+in and say more recently, hey, I want to change the service speed from ups secondary air to usps, priority mail. Well, we, the easiest thing for us to do in that moment is to add a note into the notes here on shipstation for the order. But later on if we look at the sale in finale, just figure out, okay, well, if it's was submitted to us using, you know, the carrier service speed of ups secondary air, but then was shipped using priority mail, we don't really have a way to validate that change or basically validate verify that change internally without doing some digging to figure out why that change was made. So that's kind of why we're at wondering if, to know if the notes you. 
+
+23:25 | Jeff
+know. 
+
+23:25 | Joel
+If the API call, syncs the notes back and forth or if it's really only from finale to shipstation and that's it. So, so. 
+
+23:34 | Jeff
+Though, I mean, your big commerce stores directed directly integrated into shipstation. So big commerce is sending us documentation on the order and whatever original shipping service is requested. And then after that point, you're saying a customer might reach out and say, hey, I don't want second day with ups, you know, already mail with usps is fine. And so then you have to go into shipstation and manually make those change on the shipping service, you're saying, and then also leaving a note to document that. And then from there, you're hoping that shipstation returns that information back over to finale. Yeah. 
+
+24:14 | Joel
+Just because we live in finale pretty often and that's what we use to basically help understand the entire order flow, to make sure every process was done correctly? 
+
+24:26 | Jeff
+Okay. The. 
+
+24:26 | Joel
+Last thing we want is to have a change like that made without like I said, if us, without someone being able to verify that to make sure that it wasn't just done on a whim or done by accident. Okay? If we don't want our customers to think that we're trying to cut costs on shipping without their prior consent, because without having documentation like that, we're kind of left up to more or less guessing or, you know, more or less hearsay as well. 
+
+24:58 | Jeff
+Yeah. I mean, one thing that I could recommend doing just not knowing the capabilities of what we can send back to finale is it looks like you guys have already been using the using tags. That would be one thing that I would maybe look at adding into those orders is if someone's going in there and they go make a personal note or a custom note wherever it may lie and say, hey, you know, Jeff called in and he wanted to change from, you know, ground shipment to expedited shipping or vice versa, right? You could tag those notes in there and have them. And then you could also use a tag in shipstation to tag that order and say, basically tag saying customer change shipping service, and you would then have access to tell that story, in the shipstation platform. If that was like a scenario there where we can't potentially send that information or update that information back to finale, I would need to reach out to a finale rep that we have a rapport with. And then also my solution engineer and see what capabilities we have, with finale and updating records and what we send over to them. Okay? Yeah, that sounds. 
+
+26:24 | Joel
+That makes sense to me because we do whenever requests come in like that for our marketplace order typically through our website where we have the control to change things easily. We endeavor to change the order on big commerce. So the change gets pushed to shipstation instead of changing into shipstation and run the risk of big commerce and the API call re, overriding the change at that point. 
+
+26:50 | Jeff
+Can you say that one more time? Yeah. Click. 
+
+26:53 | Joel
+Yes. Okay. We endeavor to make any changes to an order when specifically when it comes to like shipping service be changing or the carrier changing, okay, to change it on big commerce. So that change gets pushed back to shipstation to update the packing slip and the info for it there instead of changing just shipstation, because we've learned over time that if we make change just in shipstation on the next API call that happens routinely, I've seen the data will be overridden again from… because. 
+
+27:28 | Jeff
+If it refreshes, then it hasn't been changed on big commerce yet. Then it's gonna, we return back to the original service that big commerce had? 
+
+27:36 | Joel
+Yeah, correct. So, we're aware of that. So, okay. Yeah, that's one that's another thing. And then the last thing which is related to the API call in a way, we had an order this morning where it was originally built in finale and synced you for the carrier using freight request as the requested service. I updated it after I saw it or populated into shipstation to be a ups ground. When I open the order summary on shipstation, I could see the requested is ups ground. But in the summary view under awaiting shipment, the requested service still says freight, the packing slip prints and says ups ground. And that's not a problem. But the requested service in the summary view here. So says freight. They wanted to know why that might be. So, because sometimes if we're shipping very quickly, we may think that we have a freight order, we haven't gotten set up yet. But in reality, when we look into it further, it says ups ground. 
+
+28:45 | Jeff
+Do you have that? Have you shipped that or created a label for that order yet? No, not yet. 
+
+28:49 | Joel
+I have, we have it currently in the view here. If I, if I want to give you the order number, if you want to see it. 
+
+28:53 | Jeff
+Yeah. Can you give me the order number on that one? Yeah, it's eight. 
+
+28:57 | Joel
+Zero eight, three. 
+
+28:59 | Jeff
+Seven five. 
+
+29:22 | Jeff
+You're saying the requested service is still freight on your end? Yes. So. 
+
+29:27 | Joel
+In the main awaiting shipment view, where you have your list of orders for the day, right? I can see the requested service still says freight. But when I click on the order itself and look at the order summary, I can see the request successfully changed to ups ground. And when I print the packing slip, it says the same. It's just in the summary view of your, of the orders for the day under our waiting shipment, it still says freight as the requested service. So. 
+
+29:53 | Jeff
+I wanted to know. 
+
+29:54 | Joel
+Okay. Is that an API issue as well? Because we confirmed in finale that the order id does not have anything related to freight anymore in the requested service? 
+
+30:05 | Jeff
+Yeah. I mean, I see that like I'll share my screen just real quick with y'all. So this is y'all's, this is your system, your account. I'm not making any changes. And I can see here where the order says freight requested service. But… when you open it up, the requested service has changed from freight to, ups ground, correct? And so, I don't know if that's like a. 
+
+30:46 | Jeff
+I don't know if this part right here is something that just doesn't get updated. Do you notice that when it comes in for your big commerce that that's updated from ups ground to usps, you know, or whatever situation it might switch that you've seen the requested service stay the same in this summary area. And then you click it and then you see it updated, I… don't. 
+
+31:13 | Joel
+have anything relevant as an experience to share about that? One of my teammates shared in the same instance that I mentioned earlier about the customer calling into to change their carrier and service speed? That part of what caused the mistake. She generated a shipping label using ups second day, Eric, that was the original service selected. 
+
+31:38 | Jeff
+But she. 
+
+31:40 | Joel
+you know, had avoided it shortly after that to generate the correct label. But she mentioned that what prompted her to make that mistake was this requested service and requested in the summary view being different? 
+
+31:56 | Jeff
+She went off the summary view for a finale order. Is, is that right? Or was it through a big commerce? It was. 
+
+32:03 | Joel
+A big commerce order. Yeah. So I don't know. Okay, if she's perhaps got to it before it had finished updating or have or something like that. I don't know the timeline. Unfortunately, I wasn't present to see it. So I all, I know it's about what I was told after the fact. Okay. 
+
+32:22 | Jeff
+So, it looks like there's some sort of… the order internally. When you click into it, it's changing once you've changed it in big commerce or finale to the correct requested service. Like this is coming through. It's showing the correct service like this is supposed to go ups ground now, but however, it's not updating the requested service in the summary view. 
+
+32:48 | Jeff
+I'm going to take note of that. That's definitely above my capabilities just being honest and transparent. Okay. No problem. Yeah, you're. 
+
+32:59 | Joel
+up front at the beginning about not being able to answer all the technical calls. Yeah. But yeah, and then. 
+
+33:07 | Jeff
+that's why, like you have someone like me. So like if this does pop up and you go to support and it's not like getting any that's why I wrote down that other ticket number. Like… I can at least go dive in to reach out to people and see what's going on and see like if we can get a solution for you sooner than later. But this is, this might be like a small bug that needs to be fixed and I can put it on their radar at least. 
+
+33:47 | Jeff
+age… is not. 
+
+33:52 | Joel
+Updated. 
+
+34:00 | Jeff
+I took some screenshots of it just so I can share. I'm just gonna put a ticket in on y'all's behalf for this. 
+
+34:13 | Jeff
+See like what they can figure out and get escalated up. So I'm gonna know what to create ticket today. 
+
+34:27 | Jeff
+So basically, just so the biggest issue that I'm hearing besides the pain point with the live rates and unishipper and big commerce. The next thing is that we're kind of focusing on is when you have to make internal changes in… big commerce or finale is documenting those changes correctly and then exporting them out to finale. Yeah. Okay. So those internal notes have you like when you make those internal notes? Like, so I'm saying when you go to big commerce, right? And you're changing the shipping method because you had someone reach out to you, have you just tried updating them in big commerce and then importing them in from there… when you change the service and then refresh, and then seeing if those notes come through. And then are they do those notes? I guess my original question or better way of wording? It is like the internal notes you make on big commerce that you push into ShipStation, are those already arriving into finale for you or not at all? So the only notes? 
+
+35:35 | Joel
+That we'll import in from big commerce sales or the notes that generated by the customer during checkout. Usually the things like, you know, requested po numbers and things like that. If there's other businesses or like notes about like delivery tips or things like that, we ourselves do not add any internal notes through big commerce. Any notes we may add would be basically in finale itself or on the off chance that it's just related to a small thing with shipping. We'll keep it in ShipStation. So I hope that answers the question. But so. 
+
+36:13 | Jeff
+you're still looking for ShipStation for those small notes if it's changing of, you know, service for us to push that through even though you're going in big commerce to make those changes. So… like right here, these… are the notes, you know, internal notes like this one doesn't have any, for example. But then there's custom field two custom field three might is when you're making the change in big commerce to… doc to make, you know, say they have ups ground here and they decide, hey go usps ground advantage. It might be a little bit cheaper. I don't know when… you go back into big commerce to make that change of the requested service to usps ground advantage. Could you imagine big commerce use one of these custom fields on the big commerce side to update the notes there and then send that over to finale from ShipStation or decide like messing up your whole process? My thought is just because if you're already in there, you know, like does this like when you have a custom field one, does this get transported over to finale for you? This order? I suppose, we. 
+
+37:36 | Joel
+we haven't tested out and I'm logged into big commerce right now on the exact same sales order that you're have open. We don't really have, we haven't tested out yet. They have a order comments and a staff notes feature. We haven't tested either to see which will import to what section, whether it be one of the custom fields there or if it truly goes into the. 
+
+37:56 | Jeff
+Internet? 
+
+37:56 | Joel
+Or the note to buyer, we know that the note from buyer section gets imported in directly from big commerce if the customer chooses to utilize it. 
+
+38:05 | Jeff
+But the custom field. 
+
+38:06 | Joel
+One, is very much, you can see just a very simple copy of the order number and that's just so it shows up on the label shipping label. So the customer could see that it's tied to their order number, right? 
+
+38:18 | Jeff
+Okay. No, that makes sense. But I guess the bigger question though is like if you do have a note from buyer, right? That imports in from big commerce, are you seeing like when you fulfill this order and ShipStation, are you seeing that note from buyer going into finale at all? Is that showing up for you at this point in time? I actually, 
+
+38:39 | Joel
+don't know in this moment and we don't unfortunately, we unfortunately, don't have a order in the queue right now with a note from the buyers to verify that. 
+
+38:48 | Fuyuan
+Yeah, sorry, can you hear? Yeah, yeah, yeah, that's the ones I think there is a customer ordered, but he, she tried to ship to a different address and I changing big commerce, but it didn't populate to ShipStation. So the following day, we ship it to the wrong address. 
+
+39:15 | Jeff
+That's her. 
+
+39:16 | Fuyuan
+Okay. Ultimately, they purchased their building set. I don't know if you still remember, Joe, then we have, to, I think refund her their shipment. So she shipped from her. 
+
+39:29 | Jeff
+House. 
+
+39:29 | Fuyuan
+To her children's house. 
+
+39:36 | Jeff
+The address changed for the order, and then you updated it in big commerce and refreshed. But the order number didn't. 
+
+39:43 | Fuyuan
+change the address changed to ShipStation? 
+
+39:48 | Jeff
+ShipStation? 
+
+39:49 | Fuyuan
+Still has the old address? 
+
+39:53 | Jeff
+Okay. I would need to look on that specifically with the order number on the back end and see what information was sent over and see if, you know, big commerce sent that information over like, I mean, at the end of the day, if big commerce doesn't send it over to us, we're not going to change it. So that's something I would like have to look at that individual order number and see what information was sent over to us to say like, yes, we did get it there's. A bug. We need to fix that or. 
+
+40:24 | Fuyuan
+Big commerce never. 
+
+40:26 | Jeff
+Updated the address and sent it over to us. 
+
+40:29 | Fuyuan
+Right, right. It's almost a year ago. 
+
+40:31 | Jeff
+10 months, okay? 
+
+40:33 | Fuyuan
+Has. 
+
+40:34 | Jeff
+that happened again recently or just that one off? 
+
+40:38 | Fuyuan
+It's just one time. At least, I handled that one. So, okay. 
+
+40:47 | Jeff
+I hope it doesn't happen again. But if it does please, no take on that order number, and then I can check on the back end for y'all and see what's going on with that order. If that does happen again, the. 
+
+40:58 | Fuyuan
+Other one is too old, to check. 
+
+41:01 | Jeff
+Right. I could, if you have the order number, I can look into it, but probably there might have been some changes that big commerce made on their end. And same with us that it might be outdated now and it's not going to happen like that anymore. So I just don't have the timeline of that, but I could double check and see, you know, if that order came in. But if it's a one off issue… that's not occurring on a daily basis, then I wouldn't put too much. 
+
+41:32 | Fuyuan
+Time into it, right? Makes sense. Yeah, I will, we'll just pass it. We'll keep this in mind. So we yeah, need again. 
+
+41:39 | Jeff
+If you see if you see it happen again where the address hasn't changed and, you know, like I would obviously double check. I mean, that's just, you know, if, you know, there's an address change, you're making it in big commerce, then you go check the order and ShipStation. I'll just double check to make sure that it's updated. And if you don't see that it hasn't updated, you know, shoot me an email, let me know what the order number that I can look on the back end before you get that out, and you can update the address manually if need be. All right. Okay. I have. 
+
+42:13 | Joel
+Another question, Jeff? Yeah. 
+
+42:17 | Jeff
+My. 
+
+42:17 | Joel
+colleague reminded me, sorry, apologies. We're. 
+
+42:22 | Jeff
+off to. 
+
+42:23 | Joel
+Request it to build collect on a customer's carrier account. Could you share with us if you're able, what is the closest equivalent that strip station can offer us to do that? Is it recipient, is it my understanding, the recipient, the closest that we could do to build collect? So. 
+
+42:44 | Jeff
+You're you're like asking for payment on delivery? I don't know. 
+
+42:51 | Joel
+If it's just a placeholder lingo for their purchase orders or their internally for them? But we, it seems to be quite similar across some of our customers where they use the phrasing collect, they'll collect. And through ShipStation, we can see when we're doing other shipping options we have like third party recipient or sorry, third party or recipient and we just presume that recipient is the same thing as collect… because, we have no reason to believe that it wouldn't be unless they typically share with us that this account does not belong to them. 
+
+43:32 | Jeff
+Can you, do you mind showing me on your screen where you're talking about this? 
+
+43:36 | Joel
+Yeah. Let me because my colleague just synced an order. You can look at eight zero, eight, five two eight. 
+
+43:46 | Jeff
+Was saying eight, zero, eight, five, two eight. 
+
+43:49 | Joel
+Correct. 
+
+43:55 | Jeff
+Share my screen again. 
+
+44:00 | Joel
+We, we have the ups collect number there. And typically, what we would do is, we would use it to just build recipient because that's the closest we understand in order to meet that request of theirs. But. 
+
+44:14 | Jeff
+we've also had other. 
+
+44:15 | Joel
+Customers share feedback with us that billing recipient is not the same thing as billing collect. So we're not really sure. 
+
+44:24 | Jeff
+What I mean? I'm guessing that's their ups account number. And so this would go through third party and you would put the account number here and their zip code. And… that's I mean, that's that, right? There is a credit card. So, I mean, that's 16 digits, you know, CVC and then the zip code. So I'm guessing they're wanting you to part charge them on their ups collect. And so that's that would be third party at that point is what I'm guessing. I've never really heard the term ups collect. It's. You know, ups account. And then if you're doing third party, then you can come down here, put in their account number and their postal code and… use that as a third party billing. I mean, that would be my understanding of this information right here. Okay? Because I mean if. 
+
+45:28 | Jeff
+someone on my team, if they've seen something like this, I have never. 
+
+45:32 | Fuyuan
+Seen, manually put, yeah, they manually put that, yeah. 
+
+45:37 | Jeff
+But I'm confused why they're giving you also for medics too. That is correct. My thought process is maybe they're thinking you're going to like ups direct… and putting in their account number and their credit card information. 
+
+45:53 | Fuyuan
+They cannot talk. There's. No field. They can exchange this ups account with ShipStation between. 
+
+46:02 | Jeff
+Finale and the. 
+
+46:02 | Fuyuan
+Station there's no field can exchange that in that info. 
+
+46:07 | Jeff
+So they have to put their answer. 
+
+46:11 | Fuyuan
+We have to manually pass in for there to see it mean there's a Guy handle this shipment. 
+
+46:23 | Jeff
+I mean, this is a unique situation for me usually like, I mean, ups collect, I'm guessing that's their, the digits of their, is this, I mean, correct me wrong? Is this their ups account? They're wanting you to charge? 
+
+46:39 | Fuyuan
+Yes. Yeah. But initially, when we set up ShipStation and with their finale, we didn't we cannot find a field to pass custom ups S count from finale to ShipStation. That's about two years ago that's so I don't know if there's any change right now. I'm. 
+
+47:03 | Jeff
+not for sure on like what finale sends over to us and what fields that's I mean, I'm not trained on finale. I would reach out to your finale rep and see, I mean really all you really need in this information is to have their ups account number and then their zip code to fill out here. And then that's how you would do the third party. You don't really need all the credit card information unless you just want to have it on there for whatever reason. But I would look into finale and that's where like I mentioned earlier with big commerce if they are doing that as well, looking at big commerce and what fields you can put information in. Maybe like this one, you have custom field one where it's just copying the order number. Maybe in custom field two, you put ups third party, the account number and the zip code that goes along with it. And then you just bring it copy and paste it over here. 
+
+47:57 | Fuyuan
+Yeah. There's not a lot of documents between. I mean, the changes exchange of this information we. 
+
+48:07 | Jeff
+have. But the thing is that, that's on finales like that's coming from finale and big commerce to us. So you would have to look on their documentation on like how to send internal custom notes to buyer or note from buyer like that. Would also, I mean be something note from buyer that comes in is like charge third charge my ups account. And here's my account number and zip code… that we would need that information coming in through. It would have to come from finale to come in to us. It would have to come somewhere from finale or bigcommerce and then be imported into us. So that's where you would need to look on the finale side or bigcommerce side and see where you could document that information on the order that's in that selling channel and then have it import in over to shipstation. Okay? For. 
+
+49:04 | Joel
+Fedex as well. Whenever we get requests to use a fedex account that does not belong to us and instead belongs to our customer or perhaps their end customer. If it's their end customer, we're just going to do third party. I mean, that's self explanatory. 
+
+49:19 | Jeff
+But when it's. 
+
+49:20 | Joel
+the customer themselves who's interacting with us asking to use their account and they say collect, we just again, we presume it's recipient, but we would like to know as I asked earlier, if that can be confirmed. But if you, as you mentioned, don't have the confidence to say otherwise, then we can just talk to our other rep from either carrier to figure it out. 
+
+49:43 | Jeff
+Well, yeah, I'm not 100 percent what your customer is referring to when it comes to ups collect. I don't know if they're just saying like, hey here's, my, I think that's more of a conversation you're having with your customer and confirming like, hey, you want me to charge this third party to your, or you want me to charge this on your ups account directly and that's like either yes or no question there. And then you have the, I don't know what the ups collect terminology really stands for. 
+
+50:16 | Fuyuan
+I've never seen that. That's our term. 
+
+50:20 | Jeff
+Yeah. Okay. 
+
+50:21 | Fuyuan
+Charge their account, charge that account. 
+
+50:24 | Jeff
+Collect it on that account, basically use. 
+
+50:27 | Fuyuan
+That account to ship. 
+
+50:29 | Jeff
+Okay. So, I guess I'm okay. So that's basically yourself telling the team on like whoever's on shipstation to use this third party account and charge it through ups third party with like this account information, right? Correct? 
+
+50:50 | Fuyuan
+Yeah. When we took the order, we know customer one, use their account. We put this info in their internal note, so it could be a show up on the shipstation side. So, whenever they ship whoever ship this, he will say this. Then he will use that account instead of every shipment that he has. 
+
+51:10 | Jeff
+So, did you put this in manually yourself at shipstation? Is that what you're saying, Joel? 
+
+51:14 | Fuyuan
+And Jeff? Yeah, just manually put there. Yeah. 
+
+51:16 | Joel
+At finale, actually not at shipstation. At finale. It got ported over from there. Yeah. 
+
+51:21 | Fuyuan
+Because when we took order, we work on finale. So we put all the info in finale then, when we, when the time to ship the box, this info will show up. Whoever making the label will see this, then he will choose the right way to ship. 
+
+51:38 | Jeff
+Okay. So, Joel… help me here. I'm kind of confused on like what we're what the obstacle here is because it's coming in from finale. You didn't have to manually put it in the shipstation. Are you looking to see if there's like a way that shipstation just automatically does third party shipping for you or? 
+
+51:57 | Joel
+No, nothing. Nothing like that. It's just a general inquiry about whether or not you knew whether or not when the term collect is used by any sort of, you know, customer of ours, whether or not it's commonly known to be either billing recipient based on the options available in shipstation currently, or if it's bill third party. I believe this question got a bit out of hand. So I apologize. Yeah. 
+
+52:25 | Jeff
+No, no, no, you're good. 
+
+52:26 | Joel
+It's as simple as that, whether or not you know or do not know whether or not the term collect in the eyes of shipstation, using the options they give us on the right there, under the other shipping options, whether or not we are to select recipient for third party, it's third party. Okay. Yeah, yeah. So. 
+
+52:46 | Jeff
+Like if you're charging someone's account, it's going to be third party? Okay? If. 
+
+52:53 | Joel
+that's the case. What conditions would we ever use recipient for then? 
+
+53:00 | Jeff
+I can look into that. I just know from my experience at shipstation, if you're charging someone else's account, a ups, a fedex account or anything along those lines, you choose third party. I can see, I'll reach out and see what the… difference is between third party and recipient. But when you're charging someone else's account that's going to be third party charge. 
+
+53:30 | Joel
+Okay. Because for a while we were doing operating like that until we got feedback from our customer quite heated as well that they were not being billed correctly despite us selecting third party. So we kind of have this looming question that has yet to be answered. So, like I mentioned earlier, perhaps we just need to talk with the carriers directly to get them to tell us how they would treat the transaction if you will within their own system because in the end, they're the ones who are handling it. 
+
+54:00 | Jeff
+Yeah, no, 100 percent. And I mean, we have the product team that works directly with upso and I'm really close with the product manager there. I can ask him for more information on that. And also my team. But what was, why were they, what was their claim of not being charged correctly? 
+
+54:20 | Joel
+So, I guess it was their accounting had reached out to, I guess I don't know if this context is necessary. We sold merchandise to a customer of ours and then they sold it to their end customer and they had us drop ship the order for them. So using the drop shipping, we charged their account third party per our customer's request to. 
+
+54:50 | Jeff
+use their end customer in. 
+
+54:51 | Joel
+The end, that end customer came back and reported, hey, why was our account building correctly? And he was confused and as we as were we because it was our understanding that because the account didn't belong to our customer and instead belonged to their end customer, that the proper procedure was to build third party. 
+
+55:17 | Jeff
+We. 
+
+55:17 | Joel
+to this day, don't know if it was truly an actual error or a misunderstanding by the accountant or a misunderstanding by our customer on receiving the feedback from the accountant. We don't really know to this day, but that has prompted us to be a bit more wary about whether or not we use recipient or use third party. 
+
+55:38 | Jeff
+Completely understandable. From my experience, it sounds like there was this miscommunication between your customer and their customer about how this was going to be actually charged. But I will give you. Sorry… I just need to fix the writing on this versus recipient. I will give you clear documentation on what the difference is between third party and recipient choice. But in the four years I've been with shipstation, if you're plugging in someone else's account information and using their account, their ups or fedex or USPS account to pay for the billing, hands down, it's always been third party and that's just how I've you know, how I was trained that's how all my other csms operate when you're charging someone else's account to pay for the shipping, it goes by third party. But I will look in to, and find the documentation that clearly states the difference between third party and recipient there for y'all and email that over to you. Yeah. 
+
+56:45 | Joel
+I appreciate that Jeff. 
+
+56:47 | Jeff
+Yeah, of course. So I will look into the ticket you guys already currently have. I will look into the API capabilities of what we can send over back to finale. As far as I think, if you need to update the internal notes section in shipstation and see if that can be sent back to finale to have it on your records and see if that's a plausible thing or if we do need to, in fact, when we're changing the shipping service document somewhere in bigcommerce that then brings it into shipstation and then sends it out. And then the… I'm suspecting that it's not updating the summary page even though it's been updated in the order details page, and I'm going to create a ticket for that for y'all. Do you want me to put you as the contact person for that Joel, or do we want to Jeff if? 
+
+57:50 | Joel
+You're able to do both of us. I'd be preferred but you can put me if you can only put one and I can share the results with her. 
+
+57:56 | Jeff
+Okay. I'll see if I can do both. If not, I'll do it to you and then, yeah, just pass it along to Jeff. Okay? So I got some homework to do. I will be taking care of that. I know we really didn't get into some of the questions I had, but that's totally fine. We can get this taken care of first and then maybe follow up when we're on, you know, clear understanding of what's going on. And then, yeah, see about some other options that are available to you in shipstation. Nothing that's pressing but just some features that you might not know about and might be interesting to y'all, all right. 
+
+58:40 | Joel
+Sounds good. I don't think there's anything else as far as I can recall from my team, maybe something that just came to mind is about the returns feature for any given sales order, but it's not too pressing. It's just like a curiosity thing. I may just hold on to it until it becomes a bit more relevant later on. 
+
+58:59 | Jeff
+Okay. That was one of the things I was going to reach out to y'all about is your returns process. So the thing is I have to jump to my next meeting. But if you want to send me over what you have about the returns process, what's going on, about the returns process, or what you're interested in, send that over to me and I'll look at it and then I can follow up with information. All right. Sounds good, Jeff. Okay. Thank you gentlemen for joining me and I hope you have a great weekend you? 
+
+59:31 | Joel
+As well. Take care. 
+
+59:32 | Jeff
+All right. Bye bye, y'all, bye. 

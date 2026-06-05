@@ -1,0 +1,109 @@
+sequence_name: automation-education-new
+signal: zero_automation_rules
+trigger_mode: onboarding
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  No engagement after all three touches — flag account in Salesforce as
+  automation_outreach_exhausted and create a CSM task for human review.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "I found a manual habit in your {account_name} account worth automating"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas from ShipStation.
+
+      I was reviewing your account and noticed you have
+      {automation_rules_count} automation rules set up —
+      which means every routing, carrier, and service
+      decision is happening manually on each order.
+
+      I looked at your last 30 days of orders and found
+      something specific: {specific_manual_pattern}.
+
+      That's the exact kind of repetitive decision that
+      an automation rule handles in one setup — permanently.
+
+      Here's how it works: you define the condition once
+      ("if order weight is over 5 lbs, always use UPS Ground")
+      and ShipStation applies it automatically on every
+      matching order from that point forward.
+
+      You can create your first rule here — it takes
+      about 5 minutes:
+      https://ship14.shipstation.com/automations
+
+      Just reply if you want me to suggest a rule based
+      on what I'm seeing in your order pattern.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                # Salesforce contact first name
+      - account_name              # Salesforce account name
+      - automation_rules_count    # current active rule count from PES (0 for onboarding)
+      - specific_manual_pattern   # agent-generated from BQ order history analysis
+                                  # e.g. "Orders over 5 lbs defaulting to USPS Priority manually
+                                  # on every shipment"
+
+  - day: 7
+    subject: "The one automation rule {account_name} should have running"
+    body: |
+      Hi {first_name},
+
+      Following up on my note about automation rules.
+
+      Based on your order history, here's the single rule
+      I'd set up first if this were my account:
+
+      {recommended_rule}
+
+      This one rule would affect approximately
+      {orders_impacted} orders per month based on your
+      current volume — eliminating that many manual
+      decisions from your workflow permanently.
+
+      You can build it here in about 5 minutes:
+      https://ship14.shipstation.com/automations
+
+      Reply if you want me to walk through the exact
+      settings — I can be specific to your workflow.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name        # Salesforce contact first name
+      - account_name      # Salesforce account name
+      - recommended_rule  # agent-generated rule suggestion based on BQ order pattern analysis
+                          # e.g. "If order weight > 5 lbs, assign UPS Ground"
+      - orders_impacted   # estimated monthly orders affected by recommended_rule
+
+  - day: 14
+    subject: "Last note on automations for {account_name}"
+    body: |
+      Hi {first_name},
+
+      Last note from me on this.
+
+      Your account still has {automation_rules_count}
+      automation rules — every order is still being
+      routed manually.
+
+      When you're ready to change that:
+      https://ship14.shipstation.com/automations
+
+      And if you want a rule suggestion based on your
+      specific order patterns, just reply — I'll take
+      another look at your account.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name              # Salesforce contact first name
+      - account_name            # Salesforce account name
+      - automation_rules_count  # current active rule count from PES

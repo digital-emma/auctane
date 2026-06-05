@@ -1,0 +1,116 @@
+{
+  "heuristics": [
+    {
+      "signal": "shipping_volume_decline",
+      "urgency_tier": "early_warning",
+      "observation": "Leading with a specific unused feature (e.g. Rate Shopper or Automation Rules) instead of asking about volume drives significantly higher reply rates. Accounts respond better to 'here's what you're not using' than 'your volume is down'.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "shipping_volume_decline",
+      "urgency_tier": "active_risk",
+      "observation": "The most effective active-risk calls skip pleasantries and open with a specific data point: 'You shipped X fewer packages this year than last — I want to understand what changed.' Accounts that received a data-led opening were 2x more likely to schedule a follow-up.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "shipping_volume_decline",
+      "urgency_tier": "early_warning",
+      "observation": "Referencing peer benchmarks ('accounts your size on the growth plan typically ship 3,000+ labels per quarter') motivates action more than internal comparisons. Use cohort data when available.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "revenue_decline",
+      "urgency_tier": "active_risk",
+      "observation": "Framing revenue decline outreach around 'protecting your shipping budget' rather than 'your revenue is down' results in warmer reception. Accounts are sensitive to feeling like they're being called out.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "revenue_decline",
+      "urgency_tier": "early_warning",
+      "observation": "Connecting the revenue conversation to an upcoming contract renewal date (if within 6 months) increases urgency without being pushy. Renewal proximity is the most reliable hook for getting a call scheduled.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "no_label_printed_7_days",
+      "urgency_tier": "early_warning",
+      "observation": "Asking 'Is everything okay?' consistently outperforms 'We noticed you haven't shipped recently.' Accounts interpret the latter as surveillance; the former as care. Keep the tone check-in, not alert.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "no_label_printed_7_days",
+      "urgency_tier": "early_warning",
+      "observation": "If the account has automation rules disabled, this is the best moment to introduce them — framing it as 'set it up now so you're ready when orders pick back up' lands better than a cold adoption pitch.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "zero_automation_rules",
+      "urgency_tier": "early_warning",
+      "observation": "Onboarding accounts respond best when the CSM leads with a single concrete rule example tailored to their business (e.g. 'auto-apply FedEx Ground for all packages over 5 lbs') rather than explaining the feature generically. Specificity converts.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "zero_automation_rules",
+      "urgency_tier": "early_warning",
+      "observation": "For regression accounts, asking 'what changed?' before pitching re-enablement is critical. Accounts that deleted rules often had a reason (carrier issue, workflow change). Ignoring that context kills the conversation.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "rate_shopper_not_adopted",
+      "urgency_tier": "early_warning",
+      "observation": "Leading with an estimated savings figure ('based on your volume, Rate Shopper typically saves accounts like yours $X–$Y per month') is the single highest-converting opener for rate shopper adoption outreach. Even a rough estimate outperforms a feature description.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "rate_shopper_not_adopted",
+      "urgency_tier": "early_warning",
+      "observation": "Regression accounts often stopped using Rate Shopper after a disappointing comparison result (carrier wasn't competitive that day). Acknowledge this possibility directly and explain that rates are dynamic — a re-run today may look very different.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "no_walleted_carriers",
+      "urgency_tier": "early_warning",
+      "observation": "The most common objection to connecting walleted carriers is 'I don't want to share my account credentials.' Address this proactively: explain that only the account number is stored, not login credentials, and the connection uses carrier API tokens.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "no_walleted_carriers",
+      "urgency_tier": "early_warning",
+      "observation": "For regression accounts, the disconnect is frequently caused by a carrier rep telling them to 'manage shipping directly.' Positioning reconnection as complementary (not competitive) to their carrier relationship reduces friction significantly.",
+      "outcome": "positive",
+      "source": "csm_transcript"
+    },
+    {
+      "signal": "rate_shopper_not_adopted",
+      "urgency_tier": "early_warning",
+      "observation": "The live price reveal is the highest-converting opener for Rate Shopper adoption on legacy plan accounts: state the merchant's current monthly bill and the Standard plan bill side by side on screen. Merchants on old Silver/Bronze plans dismissed Rate Shopper as a $149/mo add-on — once they see it's included at or near their current price, the objection collapses without argument. If they raise negotiated carrier rates, explain that the preference setting still prioritizes their rates; Rate Shopper adds comparison, it doesn't override. (94-call analysis, 20-25 qualifying calls)",
+      "outcome": "positive",
+      "source": "csm_call_analysis"
+    },
+    {
+      "signal": "zero_automation_rules",
+      "urgency_tier": "early_warning",
+      "observation": "The highest-converting approach across 94 optimization calls: open with a specific manual behavior found in the merchant's own order history, name it explicitly, then build the rule live on the call. Example opener: 'I can see 12 orders last month with PO Box in address line 2 — you're handling those manually. In 10 minutes we can make that automatic.' Pre-call prep: review carrier distribution, rule count vs order volume, and recurring manual overrides. Generic 'you could automate more' never lands. The framing that removes resistance is 'you're already doing this — we just made it automatic.' (94-call analysis, highest activation rate in dataset)",
+      "outcome": "positive",
+      "source": "csm_call_analysis"
+    },
+    {
+      "signal": "general_optimization",
+      "urgency_tier": "early_warning",
+      "observation": "Analytics is the most underused feature relative to stated merchant interest — most merchants don't know it exists until shown. Lead with a question, not a demo: 'What does your current reporting on carrier performance look like? Because ShipStation actually tracks on-time delivery by zone — let me show you what's in your account.' Anchor to the merchant's specific pain: USPS complaints → Carrier Performance tab; manual revenue calculation → Orders tab custom export with Amount Paid and Rate columns; multi-brand or 3PL → picker performance dashboard. Note: richer Analytics features require Standard plan — pair with plan migration conversation or target Standard plan accounts only. (94-call analysis)",
+      "outcome": "positive",
+      "source": "csm_call_analysis"
+    }
+  ]
+}

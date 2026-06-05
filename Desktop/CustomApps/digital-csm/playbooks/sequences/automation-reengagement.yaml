@@ -1,0 +1,98 @@
+sequence_name: automation-reengagement
+signal: zero_automation_rules
+trigger_mode: regression
+persona: Atlas
+sender_email: atlas@shipstation.com
+unenroll_trigger: customer_reply
+escalation_trigger: >
+  No engagement after all three touches — flag account in Salesforce as
+  automation_outreach_exhausted and create a CSM task for human review.
+cadence_days: [0, 7, 14]
+
+emails:
+
+  - day: 0
+    subject: "Your {account_name} automation rules went inactive — here's what I'm seeing"
+    body: |
+      Hi {first_name},
+
+      I'm Atlas from ShipStation.
+
+      I noticed your automation rules have been inactive
+      for {days_inactive} days. You had {previous_rule_count}
+      rules running before — something changed.
+
+      Rules going inactive is usually one of three things:
+
+      1. A rule condition referencing a carrier or service
+         that's no longer connected to your account
+      2. A rule that was manually disabled during a
+         workflow change and never re-enabled
+      3. A plan change that affected automation availability
+
+      Your automation hub is here:
+      https://ship14.shipstation.com/automations
+
+      If you disabled them intentionally, just let me know
+      why — I want to make sure the feature is actually
+      working for your workflow, not against it.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name            # Salesforce contact first name
+      - account_name          # Salesforce account name
+      - days_inactive         # days since last active automation rule (signal payload)
+      - previous_rule_count   # rule count before they went to zero (from BQ history)
+
+  - day: 7
+    subject: "Still seeing manual routing on {account_name}"
+    body: |
+      Hi {first_name},
+
+      Following up — your automation rules have now been
+      inactive for {days_inactive} days.
+
+      In that window your account processed approximately
+      {shipments_since_inactive} orders manually that your
+      previous rules would have handled automatically.
+
+      If a rule broke or stopped working correctly, that's
+      worth fixing — a misconfigured rule is usually a
+      one-line edit. Just reply and tell me which rule
+      was causing the issue and I'll help troubleshoot it.
+
+      Or check your automation settings directly:
+      https://ship14.shipstation.com/automations
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name                # Salesforce contact first name
+      - account_name              # Salesforce account name
+      - days_inactive             # days since last active automation rule (signal payload)
+      - shipments_since_inactive  # orders processed without automation since rules went inactive
+
+  - day: 14
+    subject: "Closing the loop on automations — {account_name}"
+    body: |
+      Hi {first_name},
+
+      Last note from me on this.
+
+      Your automation rules have been inactive for
+      {days_inactive} days. I don't want to keep flagging
+      it if you've made an intentional workflow change.
+
+      When you're ready to revisit:
+      https://ship14.shipstation.com/automations
+
+      Reply anytime if something wasn't behaving correctly —
+      I'm here.
+
+      Atlas
+      ShipStation Customer Success
+    personalization_variables:
+      - first_name    # Salesforce contact first name
+      - account_name  # Salesforce account name
+      - days_inactive # days since last active automation rule (signal payload)

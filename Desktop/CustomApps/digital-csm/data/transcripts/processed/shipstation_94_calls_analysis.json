@@ -1,0 +1,281 @@
+{
+  "source": "ShipStation CS Call Analysis — 94 Optimization Calls",
+  "analysis_date": "June 2026",
+  "call_types": ["automation_checkup", "optimization_checkin"],
+
+  "playbooks": [
+    {
+      "id": "playbook_a",
+      "name": "Rate Shopper + Plan Migration — The $0 Upgrade",
+      "signal_type": "rate_shopper_not_adopted",
+      "signal_strength": "very_high",
+      "frequency": "20-25 calls",
+      "mechanic": "live_price_reveal",
+      "target_segment": "Merchants on Silver/Gold/Bronze plan, >50 orders/month, 0 Rate Shopper activity",
+      "activation_moment": "Price reveal — not a feature demo. State current bill vs Standard bill side by side.",
+      "qualifying_language": "I noticed you're browsing rates manually on about X orders a week. Let me show you what the accounts doing this automatically look like.",
+      "likely_objection": "I've negotiated my own UPS rates and they're better.",
+      "objection_response": "The preference setting lets you still prioritize UPS even when ShipStation's rate is slightly cheaper. It doesn't override your negotiated rates — it adds them to the comparison.",
+      "in_app_trigger": "Pendo modal on order processing page for legacy plan accounts with 0 Rate Shopper activity and >50 shipments/month",
+      "in_app_message": "You're manually choosing between carriers. There's a faster way — and it's included in your plan.",
+      "cta": "optimization_call_calendly"
+    },
+    {
+      "id": "playbook_b",
+      "name": "The Automation Rule From Your Manual Habit",
+      "signal_type": "zero_automation_rules",
+      "signal_strength": "high",
+      "frequency": "highest activation rate of any approach in dataset",
+      "mechanic": "account_audit_finding_something_real",
+      "target_segment": "Accounts with low/zero automation rules relative to order volume",
+      "pre_call_prep": "Review: (1) carrier distribution, (2) automation rule count vs order volume, (3) recurring manual overrides in order activity",
+      "activation_moment": "Specificity — name the exact manual behavior found in account data, then build the rule live on the call.",
+      "qualifying_language": "Before we start, I pulled a quick look at your account. I noticed [specific thing]. Does that sound familiar? Great — let's fix that first.",
+      "example_opener": "I can see 12 orders last month with PO Box in address line 2 — you're handling those manually. In 10 minutes we can make that automatic.",
+      "key_insight": "Generic 'you could automate more' does not land. Specific account data always does.",
+      "cta": "optimization_call_calendly"
+    },
+    {
+      "id": "playbook_c",
+      "name": "The Data Your Account Already Has — Analytics Discovery",
+      "signal_type": "general_optimization",
+      "signal_strength": "medium_high",
+      "frequency": "most underused feature relative to stated merchant interest",
+      "mechanic": "account_audit_finding_something_real",
+      "target_segment": "Merchants who want carrier performance data, cost-as-percent-of-revenue, product sales trends",
+      "activation_moment": "Show a live Analytics screenshot and ask: Did you know ShipStation tracks on-time delivery percentage by carrier zone?",
+      "hooks_by_merchant_type": {
+        "usps_complaints": "Carrier Performance tab — on-time % by carrier",
+        "manual_revenue_calculation": "Orders tab — add Amount Paid and Rate columns, save as custom export",
+        "3pl_or_multi_brand": "Picker performance dashboard"
+      },
+      "qualifying_language": "What does your current reporting on carrier performance look like? Because ShipStation actually tracks on-time delivery by zone — let me show you what's in your account.",
+      "limitation": "Richer Analytics features require Standard plan — pair with Plan Migration conversation or target Standard plan merchants only",
+      "cta": "optimization_call_calendly"
+    }
+  ],
+
+  "activation_mechanics": [
+    {
+      "id": "mechanic_1",
+      "name": "You're already doing this — we just made it automatic",
+      "description": "CSA identifies something the merchant does manually, then shows it as a one-time automation rule. No persuasion needed — value is framed as removing a tax, not adding complexity.",
+      "appeared_in": ["4R Ventures", "MRKT", "Folk Revival", "Tackle Industries", "New Leaf Stitches", "Pond and Rock Shop"],
+      "activation_rate": "highest"
+    },
+    {
+      "id": "mechanic_2",
+      "name": "The live price reveal",
+      "description": "CSA shows on screen, on the merchant's actual account, that their current plan price is identical or trivially more than Standard with more features. Must state both numbers side by side.",
+      "qualifying_trigger": "Your current bill is $X. Standard is $Y. Rate Shopper alone was $149 as an add-on.",
+      "appeared_in": ["Folk Revival", "United RV", "White Rhino Products"],
+      "activation_rate": "very_high"
+    },
+    {
+      "id": "mechanic_3",
+      "name": "The account audit finding something real",
+      "description": "CSA opens the account, looks at actual orders, and finds something the merchant did not know. Credibility jumps instantly — proves CSA is not running a scripted pitch.",
+      "appeared_in": ["Folk Revival", "Square One Coffee", "Quirk Cars"],
+      "activation_rate": "high"
+    },
+    {
+      "id": "mechanic_4",
+      "name": "This is a setting, not a ticket",
+      "description": "Merchant has been experiencing a problem for weeks. CSA fixes it on the call by changing a checkbox. Highest-relief moment in dataset.",
+      "appeared_in": ["The Pond and Rock Shop", "Terradez Ministries", "Stratarise US LLC"],
+      "activation_rate": "high"
+    }
+  ],
+
+  "feature_engagement": [
+    {
+      "feature": "Rate Shopper",
+      "pes_key": "rate_shopper",
+      "frequency_calls": 30,
+      "frequency_tier": "very_high",
+      "sentiment": "mixed",
+      "sentiment_notes": "Legacy plan merchants carry aversion from old $149/mo add-on pricing. Once new pricing is shown side-by-side, objection collapses.",
+      "activation_outcome": "high",
+      "activation_condition": "Live price reveal — both numbers stated explicitly on screen",
+      "primary_objection": "I've negotiated my own carrier rates and they're better",
+      "objection_resolution": "Preference setting still prioritizes negotiated rates — Rate Shopper adds comparison, doesn't override"
+    },
+    {
+      "feature": "Automation Rules",
+      "pes_key": "automation_rules",
+      "frequency_calls": 35,
+      "frequency_tier": "very_high",
+      "sentiment": "positive_when_specific",
+      "sentiment_notes": "Generic feature pitches fail. Account-specific openers (naming a real manual behavior from order history) produce the highest activation rate in the dataset.",
+      "activation_outcome": "highest",
+      "activation_condition": "CSA names exact manual behavior from account data, builds rule live on call",
+      "primary_objection": "We have a unique workflow that's hard to automate",
+      "objection_resolution": "Start with one rule for the most repetitive behavior — 10 minutes, one rule, measurable time savings"
+    },
+    {
+      "feature": "Analytics",
+      "pes_key": null,
+      "frequency_calls": 15,
+      "frequency_tier": "medium",
+      "sentiment": "high_interest_low_discovery",
+      "sentiment_notes": "Most underused feature relative to stated merchant interest. Merchants don't know it exists until shown.",
+      "activation_outcome": "medium_high",
+      "activation_condition": "Question-first opener: 'What does your current reporting look like?' then live screenshot",
+      "limitation": "Richer features require Standard plan — pair with plan migration or target Standard accounts only"
+    },
+    {
+      "feature": "Plan Migration (Silver/Bronze → Standard)",
+      "pes_key": null,
+      "frequency_calls": 20,
+      "frequency_tier": "high",
+      "sentiment": "confused_then_positive",
+      "sentiment_notes": "Merchants don't know what they're losing or gaining. Value unlock requires stating current bill next to Standard bill — not describing the plan abstractly.",
+      "activation_outcome": "high",
+      "activation_condition": "Both prices stated side by side on screen",
+      "primary_objection": "I don't want to pay more",
+      "objection_resolution": "Standard is often same price as current Silver — Rate Shopper, Analytics, Inventory Sync, 10 users included"
+    },
+    {
+      "feature": "Split Orders / Auto-split",
+      "pes_key": null,
+      "frequency_calls": 12,
+      "frequency_tier": "high",
+      "sentiment": "frustrated",
+      "sentiment_notes": "Merchants manually handling multi-box orders don't know auto-split exists. High relief moment when shown.",
+      "activation_outcome": "high",
+      "activation_condition": "Show auto-split triggers automation rules before processing — product defaults carry through"
+    },
+    {
+      "feature": "Return Labels",
+      "pes_key": null,
+      "frequency_calls": 8,
+      "frequency_tier": "medium",
+      "sentiment": "negative",
+      "sentiment_notes": "Two distinct issues conflated: state abbreviation bug (BigCommerce edge case) and missing CC email on returns (feature gap).",
+      "activation_outcome": "partial",
+      "activation_condition": "Triage which issue — bug vs feature gap — before attempting resolution"
+    },
+    {
+      "feature": "Multi-store Ship-from Assignment",
+      "pes_key": null,
+      "frequency_calls": 3,
+      "frequency_tier": "low_medium",
+      "sentiment": "frustrated",
+      "sentiment_notes": "Wrong company name on label from multi-store setup. One-checkbox fix on call.",
+      "activation_outcome": "immediate",
+      "activation_condition": "Uncheck 'always use company name on return address' — automation rules assign ship-from by store"
+    },
+    {
+      "feature": "Address Validation",
+      "pes_key": "address_validation",
+      "frequency_calls": 2,
+      "frequency_tier": "low",
+      "sentiment": "frustrated",
+      "sentiment_notes": "Merchants don't distinguish ShipStation validation warning (overridable) from carrier error at print time.",
+      "activation_outcome": "education",
+      "activation_condition": "Explain the two-stage system — ShipStation warning vs carrier rejection"
+    },
+    {
+      "feature": "Carrier Pickup (USPS)",
+      "pes_key": null,
+      "frequency_calls": 2,
+      "frequency_tier": "low",
+      "sentiment": "frustrated",
+      "sentiment_notes": "Same-day USPS pickup via ShipStation not supported. Requires future ship date on label.",
+      "activation_outcome": "none",
+      "activation_condition": "Platform limitation — set expectation, no workaround"
+    }
+  ],
+
+  "friction_points": [
+    {
+      "id": "FP-1",
+      "name": "Product defaults don't carry through after manual split",
+      "frequency": "high",
+      "calls": 12,
+      "solution": "Auto-split at product level triggers automation rules before processing",
+      "problem_type": "they_dont_know_it_exists",
+      "best_quote": "We ship 50-pound boxes. An order might come in for 350. And we don't have automations in place that auto-split and do all the stuff according to the weight limitations of each box."
+    },
+    {
+      "id": "FP-2",
+      "name": "Rate Shopper not being used — merchants still manually browsing rates",
+      "frequency": "very_high",
+      "calls": 30,
+      "solution": "Rate Shopper now included on Standard plan — customizable version allows carrier preference settings",
+      "problem_type": "mixed — didnt_know_it_existed plus old_pricing_aversion",
+      "key_insight": "Merchants on old Silver/Bronze plans saw Rate Shopper as $149/mo add-on and dismissed it. New pricing makes it effectively free but merchants have not been told.",
+      "best_quote": "I think when they pull an order, they probably look at the different rates for UPS, FedEx, USPS and they choose probably what's cheapest."
+    },
+    {
+      "id": "FP-3",
+      "name": "Reporting gap — can't get SKU + tracking number in one export",
+      "frequency": "medium",
+      "calls": 3,
+      "solution": "Custom export via Shipment Line Items can be configured and saved with both fields",
+      "problem_type": "tried_it_and_it_didnt_work plus dont_know_save_format_exists",
+      "product_gap": true
+    },
+    {
+      "id": "FP-4",
+      "name": "Return label workflow friction",
+      "frequency": "medium",
+      "calls": 8,
+      "solution": "Two distinct issues: (1) state abbreviation bug is BigCommerce edge case support can fix, (2) default CC email on returns is a missing feature",
+      "problem_type": "broken_behavior plus feature_gap"
+    },
+    {
+      "id": "FP-5",
+      "name": "Plan migration confusion — merchants don't know what they're losing or gaining",
+      "frequency": "high",
+      "calls": 20,
+      "solution": "Standard plan includes Rate Shopper customizable, Analytics, Inventory Sync, 10 users — often same price as current Silver plan",
+      "problem_type": "they_dont_know_it_exists",
+      "activation_key": "The number must be stated next to their current number — not just 'there is a new plan'"
+    },
+    {
+      "id": "FP-6",
+      "name": "Address validation errors blocking label creation",
+      "frequency": "low_medium",
+      "calls": 2,
+      "solution": "Education — teach difference between ShipStation validation warning (can be overridden) vs carrier error at print time",
+      "problem_type": "tried_it_doesnt_work"
+    },
+    {
+      "id": "FP-7",
+      "name": "Carrier pickup scheduling broken — USPS",
+      "frequency": "low",
+      "calls": 2,
+      "solution": "USPS carrier pickups require future ship date on label. Same-day pickup via ShipStation not supported.",
+      "problem_type": "platform_limitation"
+    },
+    {
+      "id": "FP-8",
+      "name": "Multi-store ship-from assignment — wrong default company name on label",
+      "frequency": "medium",
+      "calls": 3,
+      "solution": "Uncheck 'always use company name on return address' — automation rules can auto-assign ship-from by store",
+      "problem_type": "dont_know_setting_exists",
+      "resolution_speed": "one_checkbox_on_call"
+    }
+  ],
+
+  "what_doesnt_work": [
+    "Showing features the merchant has no current problem with",
+    "Demonstrating mobile picking or inventory sync to a merchant still manually weighing packages",
+    "Leading with optimization score — adversarial framing provokes resistance from sophisticated merchants",
+    "Generic 'you could automate more' without specific account data"
+  ],
+
+  "segment_insights": {
+    "sophisticated_merchants": "Push back hardest on optimization score but are most likely to activate something. Lead with account audit, not the score.",
+    "semi_retired_operators": "30-40% of base. No specific pain. Reachable but not urgency-driven. High-value framing: you're running this well — here's one thing that saves 15 minutes a day.",
+    "legacy_plan_merchants": "Feature aversion from old $149 Rate Shopper pricing. Value unlock is permission to use features they already decided against."
+  },
+
+  "product_flags_for_upstream": [
+    "SKU + Tracking in one export is a real gap — two power users raised with documented frustration",
+    "SmartFill is creating automation distrust in variable-product segment — needs smarter on/off recommendation at onboarding",
+    "Optimization score framing is provoking resistance from sophisticated merchants — consider reframing to workflow review or account health check"
+  ]
+}

@@ -1,0 +1,369 @@
+ShipStation Optimization Check-Up: George
+
+Devin Lawrence
+Recorded on May 27, 2026 via Zoom, 22m
+
+
+
+Participants
+
+Auctane
+Devin Lawrence, Customer Success Manager
+
+Other
+Alla17pro
+
+
+
+Transcript
+
+0:00 | Devin
+hello? Hi, hi. How are you? Good. 
+
+0:13 | Alla17pro
+How are you today? I'm. 
+
+0:15 | Devin
+good. 
+
+0:18 | Devin
+Is it George? Yes. 
+
+0:21 | Alla17pro
+Yes, name is George. Nice. 
+
+0:24 | Devin
+To… meet you. My name is Devin. I'm here locally in southern California. Okay, good. I'm in orange county. And, yeah, working as a customer success manager. So helping merchants, you know, optimize the software. Have you been a longtime user? How long have, do you know how when? 
+
+0:52 | Alla17pro
+Are you a ShipStation? Yeah, yeah, many years, we use shibishim, for many years. 
+
+1:00 | Devin
+And what? So… when you were in the UI, you saw that there was an optimization check in opportunity. 
+
+1:10 | Alla17pro
+Yes. Okay. 
+
+1:12 | Devin
+Great. Are there any things top of mind that you'd like to address? I don't know if there's any pending like pain points that you're experiencing. 
+
+1:28 | Devin
+Currently, everything? 
+
+1:30 | Alla17pro
+Is okay. Okay. So, any improvement for your? 
+
+1:37 | Devin
+Yeah, yeah. So let me share my screen. Are you, you're able to see this? Yes. Okay. So here, I am kind of dropping into your, to your ShipStation. I think you might even be on version two. Does this, does this user interface look similar to what you have when you log in… with the layout and the format of the screen? 
+
+2:10 | Alla17pro
+Oh, yeah. Yeah. Similar. Okay. So, yeah, maybe a different because. 
+
+2:19 | Devin
+There is a newer version. I think, huh, just depends on if you've migrated if you've switched over to the new version, but ultimately… our goal is to, we have new subscription plans this year. 
+
+2:35 | Alla17pro
+So, maybe I use a different layout right now, for example, you, your layout, you, can you have automation something? 
+
+2:45 | Devin
+Yeah, this is more recent update. Yours probably looks here. I can go here. See how it's a version two. This is probably what you see. 
+
+2:57 | Alla17pro
+Oh, because, you know, we have a different account. So, what I'm using, is for, 
+
+3:11 | Devin
+is this, your account, the… Allah group company? 
+
+3:19 | Alla17pro
+Where to see account name? Do you see this? We're using, Allah, lighting account? Well? 
+
+3:26 | Devin
+For, for shipstation, it's whoever signed up the account. They put it as like Allah group company… but it's that's the correct contact information, right? Yes. 
+
+3:43 | Devin
+Linda, this is you, I think, George, I don't know if George. 
+
+3:48 | Alla17pro
+Yeah, I'm a warehouse manager, Linda, and, 
+
+3:53 | Devin
+then. Livia. 
+
+3:55 | Alla17pro
+Yes, Livia. They also have a different account. 
+
+3:59 | Devin
+Okay. So you have multiple shipstation accounts? 
+
+4:04 | Alla17pro
+I think it's a different username. Maybe it's a different username, right? 
+
+4:11 | Devin
+Well, it's under Livia Shaw. And here's the email. Can you see right here top left? 
+
+4:18 | Alla17pro
+Yes, yes. 
+
+4:19 | Devin
+Contact at Ala lighting the. 
+
+4:20 | Alla17pro
+contact, yes, that's my co worker. 
+
+4:22 | Devin
+If I go to users, there's multiple users. So there's shipping there's, Jay, there's George service warehouse. So, this is your guys' account… right? 
+
+4:36 | Alla17pro
+Right, right. Okay. 
+
+4:38 | Devin
+Can I capture your last name just to update? 
+
+4:42 | Alla17pro
+Xu, how do you spell it? XUXU? Okay, perfect. My account is Ala, what is yours called Ala account? You just call me George? 
+
+4:58 | Devin
+George, right? I just want to make sure we're looking at the right? 
+
+5:02 | Alla17pro
+Oh, yeah. Yeah. That's the one that's the one. 
+
+5:06 | Devin
+This looks familiar. Yeah. This number right up here is kind of assigned to your merchant account. So nine eight, two four, zero five, but this is the older version of shipstation. But either way you can come in here. It's just the user interface is just a little updated. I would say. 
+
+5:29 | Alla17pro
+But, right. 
+
+5:30 | Devin
+Now, you're on the platinum 5,000 plan, right? 
+
+5:35 | Alla17pro
+So, it, 
+
+5:36 | Devin
+comes with certain add ons and features. What we're doing is we're consolidating plans. So, right now there's what one two three four, five, six, there's like seven different plans to choose from. 
+
+5:48 | Alla17pro
+With the new. 
+
+5:49 | Devin
+Plans, there's three now. So we have starter standard and premium. 
+
+5:54 | Alla17pro
+But with. 
+
+5:54 | Devin
+these plans, all those features that you previously had to pay for or add on, those are now included in these plans. And then what you're able to do is change your monthly label print. 
+
+6:09 | Alla17pro
+Previously. 
+
+6:12 | Devin
+You had to choose platinum to get the 5,000 labels. But when I look at your volume and even looking here, if you can see down here in the bottom left. 
+
+6:23 | Alla17pro
+It shows. 
+
+6:24 | Devin
+you, your monthly cycle. So you're on the ninth of the month. 
+
+6:29 | Alla17pro
+So, 
+
+6:30 | Devin
+it's about another week and a half and you've only done 1,100 shipments. So if you go to the standard plan and you go, let's say you only need 2000 a month. Now… you're at 175 a. 
+
+6:48 | Alla17pro
+Month versus. 
+
+6:49 | Devin
+The two nine two nine. Okay. So the new plan is going to give you a little bit of a cost savings on a month to month. 
+
+6:58 | Alla17pro
+Okay. But then. 
+
+6:59 | Devin
+additionally, you get access to all those features that you would like have to pay for previously. So like the… rate shopper tool that's one that I see a lot of merchants looking at… and even the inventory features. 
+
+7:17 | Alla17pro
+Good. So, inventory. 
+
+7:20 | Devin
+You know, you can now have the inventory sync and the inventory API integrations. Those are now included in the standard plan. 
+
+7:33 | Alla17pro
+Previously, 
+
+7:34 | Devin
+you'd have to like pay for that. So, I don't know. Are you currently managing inventory in a third party software? 
+
+7:42 | Alla17pro
+Right. Currently, we have other software to manage inventory, yeah. 
+
+7:49 | Devin
+Because there's no information. Yeah, it doesn't look like you're using the inventory sync. What do you use for the inventory? Is it SKU vault or finale, or? 
+
+8:03 | Alla17pro
+Currently, for the inventory, we have a Google… sheet software, a software based on Google sheet, and we have, you know, a house made software connected with Google sheet? 
+
+8:18 | Devin
+Okay. So, homegrown, yeah. 
+
+8:23 | Alla17pro
+Maybe, so, you mean this feature, this warehouse feature included in the standard plan, correct? 
+
+8:29 | Devin
+The inventory feature, oh, you do have it, you have it updated here. So you have it on hand and available? Yeah, we. 
+
+8:36 | Alla17pro
+have some. 
+
+8:37 | Devin
+Right, right. So, ultimately shipstation could be your inventory. Source of truth. All you would need is, I mean, you can do it with a CSV file. So, if you know, your products and you're on hand count, you can put that all in it. You can put that in a CSV and shipstation will give you the format to use the CSV file. 
+
+9:03 | Alla17pro
+And import to? 
+
+9:05 | Devin
+And then you import it, and then ShipStation is now your inventory of truth. 
+
+9:10 | Alla17pro
+Okay, good. 
+
+9:17 | Devin
+Which I mean, let's see. 
+
+9:28 | Devin
+Going back to the features. So, yeah, you have the inventory tracking and sync functionality and then what we're working on to improve the inventory product is like, we have these new features for reorder assist to do purchase orders with your suppliers, and then there's a scan to receive, but that comes on the premium plan. So I don't know. 
+
+10:03 | Devin
+You know, I haven't seen your warehouse. So I don't know maybe you can give… me some insight on, do these sort of features? Do they seem needed in your, for your processes or it sounds like you have like your homemade kind? 
+
+10:19 | Alla17pro
+Of Google? 
+
+10:20 | Devin
+Sheets, software going. Do you have like a large network of suppliers? 
+
+10:29 | Alla17pro
+No, no. 
+
+10:30 | Devin
+Okay. 
+
+10:33 | Alla17pro
+Our supplier, just several of them. Yeah, not so much. It's easier to. 
+
+10:40 | Devin
+Manage. 
+
+10:42 | Alla17pro
+But your suggestion is good. So, right now, our orders is only shipment, we can use below 20, sorry, 2000, right? 
+
+10:54 | Devin
+Yeah. So based on what I'm seeing. 
+
+10:57 | Alla17pro
+I don't need to, set on 5,000. Yeah, because platinum. 
+
+11:01 | Devin
+Was there was no way to adjust the volume, you know, you had to kind of platinum was the 5,000 amount? So. 
+
+11:08 | Alla17pro
+We can, we can adjust it by ourselves, correct? Yes. So if you, 
+
+11:13 | Devin
+go in here and you go to edit just like I'm showing, you just select the 2000. It's going to give you more users. So you get up to five users. And then the last thing we're doing is including additional analytics licenses. So when you're going into like the insights tab, there's certain reporting that's only available to like the admin because it's tied to like a license with another software that we're managing. But now we've been able to improve that. So instead of one admin, you have three people that can now access the more advanced reporting once you migrate to the new plan. 
+
+11:55 | Alla17pro
+Okay. So, yeah. 
+
+11:56 | Devin
+You would just click this update plan button that would switch you over to standard. And then all those add ons and other features are now like available. 
+
+12:09 | Alla17pro
+So if I, 
+
+12:12 | Devin
+go back here… and I say let's and I think it's going to update you to the version three UI user interface. So it'll you'll start to see the screen like this. So you'll see it just, some words change, but it's mostly the same features. So insights you can see here. 
+
+12:41 | Devin
+There's some other reporting once you switch over to the new plan. But those, I just wanted the last thing to show you is those add ons. So like right now, if you wanted to do the inventory API or the inventory sync, it would be additional, right? Or if the rate shopper tool would be additional. So when you migrate to the standard plan, these are all will all be available. And then I'm available to kind of help you. 
+
+13:12 | Alla17pro
+Know if I need those add ons, yeah, like. 
+
+13:14 | Devin
+Okay. Well, how does the rate shopper tool work? Or let's look at some examples or let's schedule another call or I can even come out to your location and meet in person. Maybe you have people in the warehouse that need to get involved… and then the conversation can even improve like, let's say you want to look at some of the premium features, right? For example, let's say you want to look at the purchase… order or the reorder assist that one's cool. Basically, when your inventory counts get low enough, it'll alert you and say, hey, your stock's getting low, you may want to submit a purchase order. And then it gives you the purchase order template and it auto populates the product. And then you can kind of configure it to say, okay, based on previous sales and based on forecasted sales and yada. Yada. It'll give you suggested quantities to repurchase. And then that purchase order then becomes, you can just basically email that to your supplier. So it kind of creates it for you. You mess with it how you'd like and then forward it to your supplier. So my point is if you want to, if we want to explore those other premium features, we can do like we can do a trial, we can turn it on and say, hey, let's try this out. Let's see if it works. Because if so, then maybe you can get rid of other, you… know, whether it's the handmade Google sheet or other types of software that you're working with. So the goal is to try to get as much as, you know, as much as you can do it in shipstation. Yeah. Huh. 
+
+15:06 | Devin
+Okay. And then my last I think feature or tool that is very, that a lot of merchants are liking is there's this labs option down here, bottom left… we're trying to improve the software and kind of putting in a lot of AI tools. So let's say you do want to look at automations, right? So when an order comes in, it'll automatically get, you know, sent to the, you know, it'll maybe you assign a specific service. So, you know, for each of these orders or this product, it's always going to go priority, you know, or ground advantage and you can set up automation. So when the order comes in, it automatically just selects that service and you don't have to, you know, just saves you some time but these AI automation role creator, you can click on this and you can give it prompts. You say, hey, I want every order over 100 dollars to get, you know, expedited shipping. And then you set the service to that service level you want with whatever carrier. And then when those orders come in, if they're order a certain amount, they get automatically tagged or assigned to that service. So you're not having to do all the manual steps. 
+
+16:24 | Alla17pro
+Okay. Yeah. 
+
+16:27 | Devin
+That's a good one cause sometimes it's hard to, it's kind of hard to figure out what it looks like. You have some automation rules, but there's a lot of options, you know. So sometimes you can get lost in like what's possible, or how do I do it correctly? So I say that's that would be another big improvement that shipstations automation. 
+
+16:49 | Alla17pro
+Rules. Okay. 
+
+16:51 | Devin
+Automation rules, and then just the AI, you know, just like ask shipstations. So, you can activate this and… then you can say, what… can you do for me? Like what's this AI tool? 
+
+17:10 | Alla17pro
+Automation rules? Yeah. 
+
+17:12 | Devin
+Like, okay, it's it can do navigation support, order, search, automation, rules, packing, slip, generator, bulk updates. So, you can use the tool to kind of help streamline your, some of the, some of the work you do in shipstation. So, okay. Let me. 
+
+17:33 | Alla17pro
+Try the new layout. Oh yeah. Yeah. Right now, I saw the labs because, my layout is older one. Yeah. Right now, I saw the hands. 
+
+17:44 | Devin
+On, I think you could still access this in the older layout, but I just don't know where to, I'm more used to the new layout. Yeah. 
+
+17:51 | Alla17pro
+It's easier. Yeah, it's easier using the new layout to access the hands on and the labs. Yeah. Okay. Yeah. I saw this one AI automation rule. Okay? And. 
+
+18:04 | Devin
+that's a value add for users. So there's no extra like cost or fee. 
+
+18:13 | Alla17pro
+Okay. Thank you. Yeah. Maybe I'll try this one to see if this one can help. Yeah. 
+
+18:22 | Devin
+And then again, I'm available. I'm customer success. I'm not, there's… nothing I need to sell you. I just need you to love the software and, you know, yeah. 
+
+18:33 | Alla17pro
+It's good. Yeah, I love this ShipStation. Yeah, I use it my co worker and use it very often, very well. Yeah, we use it a lot great. So, yeah, yeah, your suggestion is good. Yeah, we can manage our volume if our volume is below 5,000. We just need to use 2000. One should be okay. Once our volume increases, we can increase any time, correct? 
+
+19:03 | Devin
+It'll tell you it'll say like, hey, you've you're on the 2000 and first label you need to upgrade to 5,000 and it'll just prompt you to upgrade. And then let's say you're seasonal, you know, maybe there's times of the year where you're slow then you can, you know, always make sure you're dropping down to the tier that you need. And then… yeah, and then especially on the inventory side. So, if you do want to move forward and try to get your inventory synced up and use all the tools available. Once you switch over, let me know. I can submit a case like a work order, and then we can have one of our engineers like our solution engineers. They can, they can get in a more in depth call to help walk you through like the implementation… so they can help, kind of get it set up and make sure you're using it to the fullest capability. It's I think it's a few day lead time, like I submit a case. And then based on the queue and the work and the workload, then, you know, one of those engineers will reach out and schedule with you, but it's another way to kind of walk cause it's it can be a little, you want to make sure you set it up correctly. Cause once you do, then now it's you have your inventory, of truth in shipstation. And then that will sync out to all whatever channels you need to back out. Okay? It looks like you have a few selling channels with Amazon and eBay Shopify… walmart, so all the inventory will update back to your channels. And then there's configurations to like set up. So, even though you have maybe 100 on hand, you want it to show like five to make it look like, oh, there's only five left. You can, you can do stuff like that. 
+
+21:03 | Alla17pro
+OK. Yeah. I will let my coworker know those new features. And if we need, we will try the labs and the warehouse management… inventory. Great. 
+
+21:19 | Devin
+Thank. 
+
+21:19 | Alla17pro
+You. Any other? 
+
+21:20 | Devin
+Questions or any other items… concerns? 
+
+21:28 | Alla17pro
+No problem. Everything. OK. I think. OK. 
+
+21:31 | Devin
+Yeah. Talk to your business partners, see about the new plan. And then, yeah, please keep in touch. I want to help make sure you guys are, yeah. OK. 
+
+21:39 | Alla17pro
+Yeah. Right now, we just use a standard plan. We use a 2000 volume. Great. That should be fine for us, right? 
+
+21:45 | Devin
+Now, OK, I'll keep an eye on it when I see it switch over, then I'll you know, I'll follow up here and there to make sure you're. OK, get what you need, OK? 
+
+21:54 | Alla17pro
+Got it. Thank you so much. Thanks. Have a good day, bye. 

@@ -1,0 +1,336 @@
+ShipStation Optimization Check-Up: mackenzie
+
+Roland Sanchez with Mackenzie NotProvided
+Recorded on Jun 2, 2026 via Zoom, 34m
+
+
+
+Participants
+
+Auctane
+Roland Sanchez, Senior Customer Success Manager
+
+Company Placeholder
+Mackenzie NotProvided
+
+
+
+Transcript
+
+0:00 | Roland
+hello? Good morning. How's it going? 
+
+0:10 | Roland
+Can you hear me? 
+
+0:16 | Mackenzie
+Hi, sorry, I was letting the girls know I was in a meeting. 
+
+0:19 | Roland
+Oh, you're good. How's it going? Good? How are you doing pretty good? Trying to pull up our, one… of our systems for trying to check out your account and everything like that? But I'm you guys' account customer success manager. So we cover, I cover San Antonio, Houston, Austin, all the way down to corpus, up to El Paso, beaumont. I'm based out of Houston, Texas. I'm over by the galleria area. If you're familiar. And, yeah, the main reason for the call is just because you guys came up on our like the little pop up that happened at shipstation. I'm guessing, is that what you guys saw on your end? 
+
+0:59 | Mackenzie
+Yes. We've been using shipstation now for almost. 
+
+1:05 | Roland
+10 years. Looks like a very long. 
+
+1:07 | Mackenzie
+Time. Yeah, I was gonna say at least eight. 
+
+1:10 | Roland
+Yeah, yeah. The little pop up. Yeah, go ahead. I. 
+
+1:14 | Mackenzie
+Would say that like everything is wonderful. As far as that goes, there are just, there is just an element of y'all's, like update system that has caused us some trouble and I've tried to kind of get help on that, but it hasn't really gone anywhere. So when I saw that this was an option, I thought well, number one, it'd be nice to meet you and know who we deal with. Yeah. And number two, it might be nice to bounce this off of you because I am the customer service supervisor here. I have been for a very long time and half the time we don't know we have problems until somebody tells us. So, I just thought I would try to discuss that with you and then kind of just see what you know, what this was for. And if there was anything else that could benefit us. 
+
+2:01 | Roland
+Yeah, for sure. So, it's not for anything particular like as far as a customer service issue. So those things I can see on the back end, I can see when you guys submit tickets and I can go over and show you like some little tricks and things like that to kind of maybe get this a little bit more taken care of if you will. So that way you're not kind of left in. 
+
+2:20 | Mackenzie
+The lurch, my biggest issue right now is the automation thing that it's doing where I. 
+
+2:27 | Roland
+Auto try, yeah. 
+
+2:29 | Mackenzie
+We're apply auto apply, but they keep telling me they don't have examples. I've given them examples. If you can see it on the back end, there should be examples. It hasn't happened now probably in like a month or so. But the problem is when it does happen, we don't know it's happened until it's a major issue because basically usually how it gets caught is it's either sent to the wrong address because shipstation changed it and, or it literally ships without our knowledge, like goes as far to create a label and we don't ship the label because the label wasn't our doing. So, what happens is the customer calls and they say, hey, I haven't gotten my package. Well, we look and it's shipped. So then we're confused and then we look and it says system generated or shipstation whatever in the bottom of the information. But what is happening is if it's marked as shipped, then we don't see it as not shipped. And so when it gets marked as shipped with a label that shipstation produces, then we don't ever know it's an issue until the customer's calling saying like why haven't, I gotten my product? So, but it will go as far as to like auto apply like weight… and everything based on previous things which usually that's fine. It usually is eight by six by four. I mean, that's pretty and eight ounces. That's typically what we do. But the problem is when it goes as far as to like change the zip code and change the address and change this. And then produces a label that we didn't even know happened. And like I said, we usually don't find out until the customer hasn't gotten their product for like three weeks. And then when they call us, we see it was shipped. And then we're like, well, what's the problem? But then we go into the label and the label of course, hasn't moved because the label was actually never used. So that would be the only thing I would say would be an issue is just the auto stuff. They walked me through the back end the last time for all of our settings and everything. And they said everything looked fine as far as automation went. But that would be the only thing that I would say that I would like to figure something out for if we can't it may just be system errors that happen every once in a while. And if it is, I understand that. Like I said, it's not consistently or constantly. 
+
+4:56 | Roland
+Yeah. Let's take a quick look at. 
+
+4:59 | Mackenzie
+It because at one point somebody told me it didn't do that. They were like, it doesn't autofill anything. I'm like it definitely does. Yeah. So you. 
+
+5:08 | Roland
+can absolutely have it where it autofills everything. And the one thing that I'm not aware of it ever doing is just automatically spitting out a label. Somebody has to physically scan or click something to spit out a label. But here's your ShipStation. So the orders just because I need your account. So the orders are coming in from your selling channel and they're popping into here. And then this is your order screen and then let's say we just pick one random one here like this Guy right here. So there are some automation rules that look like they apply and we can go down to shipment activity and see like what happened like when the order came in and. 
+
+5:44 | Mackenzie
+All that, yeah. And that's usually where I can tell ShipStation created a label because that's what it will say label created by system or by ShipStation, not a person. 
+
+5:55 | Roland
+Gotcha. So that's what, yeah, if you catch those, let me know. So that way I can take a look at those and dig into them. But this right here is, 
+
+6:02 | Mackenzie
+do they have any on your end? With examples? I've given them, probably three or four order numbers with examples that they have. 
+
+6:09 | Roland
+I looked into the zed disk tickets here, battle card designs. It looks like the most recent one was November 20 26, 20 25. I mean import… orders, conversation with Mckinsey. This might be one of them right here. So then what I'll dig into those later. I don't want to waste your time with those. But on the screen here, let's take a look at one of these guys. Is it like a specific carrier when you see that the label auto prints or is it a specific? 
+
+6:48 | Mackenzie
+It's only ever, it's only ever done it with usps. So I can't say that for sure. I have tried to narrow down specifics to like the place it's going or the zip code or anything. And they're I mean, they're all over the place as far as like what they're… all over the place as far as like why they do what they do. But yeah, typically, it will say like Kaylee or me or like one other person. But like I said, when the label was created and we were like what the heck happened? I could go into the bottom and see like either system or ShipStation and know that like it had done that like on its own essentially gotcha. 
+
+7:35 | Roland
+I want to dig into them a little bit just if I could find out what's if I see anything else like weird to order a sign or sign a Kaylee shipment created? Well? 
+
+7:46 | Mackenzie
+And then we had one the other day that just totally changed like the address, but I think that was more of a customer thing because, he put in a zip code that didn't match the city name. Yeah. So when it mapped over to ShipStation, ShipStation, did it, right? 
+
+8:03 | Roland
+Yeah. The address validation. 
+
+8:05 | Mackenzie
+Mapped it to the correct address and the correct zip code. The Guy had accidentally put the information wrong. So, I thought that was one of those again, but it wasn't that was something on his end. I don't know if you have any order numbers you, they should have given you those. I. 
+
+8:24 | Roland
+can't remember. I wouldn't see them until I actually get in and dig, into the ticket to find order numbers. Like in other words, none of the, none of the service stuff that you're doing is relayed to me and that'll never happen unless I go and dig into it or unless you tag me on it, say, hey, Roland, dig into this. 
+
+8:39 | Mackenzie
+Yeah. There's an order number there's. That one and the one above it, that one eight, three four two seven is the actual order number? Okay? 
+
+8:51 | Roland
+Should we'll find it either way though with this? Yeah. 
+
+9:00 | Roland
+That's showing nothing on that hit ship activity. Okay. 1,125, you know, for tactical fedex, one rate pack… fedex account. 
+
+9:11 | Mackenzie
+What does that one say? I'm? Sorry, is that what it's the same issue? 
+
+9:17 | Roland
+Yeah, it's this is one of the ones I believe that you sent them that had that issue, but I. 
+
+9:22 | Mackenzie
+don't see anything. But the problem is, and I've also explained this to them. If we fix it, it's not going to show y'all correctly. And we have to fix it because we can't just let it sit there for a customer. So that's another thing that they have told me is like, well, y'all, need to let it sit there with no shipment. But the problem with that is there's an order and there's money that's been taken for an order that needs to be shipped. So we can't just leave it in there. But typically, when we go in and override it like we ship it ourselves, it does take those notes out. 
+
+9:52 | Roland
+Gotcha. So when you over, so let's say for instance, in this one that you overwrite it, what did you override? 
+
+9:58 | Mackenzie
+So typically, what we have to do is like go in and avoid the label that was created because typically by then, it usually is too late to ship that label because it's usually like a week and a half or two weeks after. So we usually avoid the label and then create another label essentially and then actually use that one. 
+
+10:17 | Roland
+All right. So that's coming in from woocommerce. That was one of the one that was an issue. So, I see it's coming from woocommerce… selling channels and battlefield… tactical. So these are all both important, which is the store that you would use the most GM for tactical and division storefront. It. 
+
+10:40 | Mackenzie
+Would be the tactical website that's going to be the one that comes directly from woocommerce. Gotcha. 
+
+10:49 | Roland
+Okay. So address validation, verify sender about the commercial if they value your future journey, number of settings, see if there's anything weird here, custom fields… heading, processing, completed shipment status, canceled on hold. I'll do that. Nope… shipping services, international ship via fedex package, edit the leak. Nothing weird there. I don't think it's going to be, I think it's going to be the same for the other ones too. 
+
+11:26 | Mackenzie
+Yeah. Like I said, they walked us through all the settings and stuff and said like, you know, they… didn't see anything that was an issue, yeah. 
+
+11:39 | Roland
+Freaking weird. I wonder if there's a… that's kind of wild that it's doing that like that, it would. So it comes in the order comes in. I, 
+
+11:50 | Mackenzie
+don't have an issue. I don't we don't have an issue with like the default stuff, eight by six by four, the eight ounces single holster shipment. All that's fine. But when it's going as far as to literally ship it, like I said, it's a problem only because we don't find out about it until like it's way late. Because usually it's the customer calling saying why haven't I received my item. Well, we wouldn't know because when we print our unfulfilled orders out, obviously, it's not going to print because it has a label. So we just don't ever know about it. Literally, is how it works out is we just don't ever know until they call and let us know. And then we usually write the order number down as like a ShipStation issue that we have on the back end. But like I said, it hasn't happened. It hasn't happened in a while. So I don't know if maybe they fixed it. I know that they told me, they weren't aware of it. So I don't really know, what happened on that end. But so. 
+
+12:44 | Roland
+Say the order comes in through woocommerce, and it comes in and it lands, it's going to land obviously in the order screen here somewhere. And then a label gets printed on it and let's say that the whole automatic label thing happens, a label gets printed on it. You guys are discovering it again in the ship shipments area because of a label gets printed on it. It's it's moved out of order screen and it gets pushed into shipments, right? 
+
+13:10 | Mackenzie
+No, I mean, we're usually discovering it through an order number by searching for an order number. And then when it pulls up, the order id has a label created. And then that's usually, what like okay, what's the problem? And then scroll down and see that it says system or ShipStation and understand what happened and void that label and reprint reship, it essentially. 
+
+13:30 | Roland
+Gotcha. So in other words, it might still be you're just going back up here and just searching for that order. Not. 
+
+13:36 | Mackenzie
+Necessarily, right? Because that's how they identify them to us. We use order numbers. 
+
+13:41 | Roland
+Gotcha. I would be kind of curious. I want to see where it's living. Like once that label gets printed, is it still hanging out here in the order screen? No? 
+
+13:49 | Mackenzie
+It goes to shipments and that's what I'm saying. So then we go to the order. 
+
+13:53 | Roland
+Screen and. 
+
+13:54 | Mackenzie
+we print an order summary, which an order summary pertains to items that haven't shipped, which is why that one item doesn't get caught because it's not going to be printed out as not shipped because it has a label. 
+
+14:05 | Roland
+Yeah, it never hit the initial pickup from the USPS exactly because it's just sitting there somewhere that's. 
+
+14:12 | Mackenzie
+cool. Yeah, the label never gets printed or used. I mean, it exists, but it never gets used. 
+
+14:17 | Roland
+Never got used. So. 
+
+14:18 | Mackenzie
+When we go into the label into the usps or whatever number or fedex tracking, and it literally says like label created and that's it no movement. Then we usually know that's the problem. And then when we scroll down, typically, we're able to track it by seeing either system or ShipStation created label. And so then we're like, okay, that's an issue. 
+
+14:41 | Roland
+Gotcha. Cool. Alrighty. Good to know. I wonder if there's a, I could have sworn there was a thing in here for initial scan or when it hits the carrier… I thought there was scan to verify, well. 
+
+14:59 | Mackenzie
+When it hits the carrier, I mean, the customer gets a notification to their email that it's been picked up. 
+
+15:05 | Roland
+Yeah. Exactly. What I'm kind of curious is if on the order screen on the shipment screen, if there's a way we can have it some sort of column here that lets us know that the USPS literally scanned it origin scan, but I don't see anything. In other words, there's no way to kind of like sort this screen. 
+
+15:23 | Mackenzie
+No. The only way to look at tracking is to go in individually. 
+
+15:28 | Roland
+Yeah. I thought there would be a way to sort it. 
+
+15:31 | Mackenzie
+I mean, you can see that it's been sent but that's about it. 
+
+15:33 | Roland
+Yeah, that's it. But that still doesn't guarantee that it has the origin scan from the USPS from somebody picking it up right? Without going into tracking. 
+
+15:43 | Mackenzie
+Well, we get all of our packages manually scanned individually because of the fact that we've had trouble with usps before losing bags of mail. So, every single thing that leaves our office gets an individual scan and literally updates per the tracking typically around like 347. Gotcha. That like usps is in possession of the item from like our location gotcha. 
+
+16:10 | Roland
+My only concern is like if, for some ungodly reason, they, because they don't have to scan USPS ups and fedex don't have to scan. So for some crazy reason, they decided to stop scanning, then this will really get messed up. They. 
+
+16:26 | Mackenzie
+Don't because we go back there and stand and make sure they do it, gotcha. And we load the bags up for them every day. Okay? So we know they scan everything and like… I said, it's kind of power. It's protocol now because they lost like three mailbags at one point. So, yeah, they scan individually, every single box that leaves every single label gets an update like usps in possession of the item. And that's usually how we can tell that the label hasn't moved. Because when we go to, it literally just says that like label created and nothing else. Okay? So. 
+
+17:06 | Roland
+Alrighty. I'm going to kind of dig into it a little bit. I'm kind of curious to see if there's anyone that I can. I will look into the ones that you sent them as far as the examples go and see if there's anything that we can figure out on that end. But I'm just going to kind of, well, I. 
+
+17:16 | Mackenzie
+Think there were screenshots and stuff at one point that I sent. Like I said, it sometimes will change after we void the label and then redo it ourselves. Yeah. But like I said, we don't really have a choice and that we can't just leave it sitting there. Yeah. So I don't really know exactly. 
+
+17:37 | Roland
+Yeah. I mean, you can always, I get that, you know, you don't want to leave them sitting there and you're kind of don't want to wait for support. If you want to email me or call me and say, hey, Roland, hop on real quick. I might be able to just hop on a zoom call real quick with you guys and take a look at it myself. But yeah, I'm just trying to say like I see the azure's validation is overridden. And so in other words, that way if you have one of those pop up, I'm quicker about getting on a call than support guys for sure. So you don't have to wait for anything. I can get on there within a few minutes, take a look at screenshot. 
+
+18:08 | Mackenzie
+Yeah, or even Roland, I can just send you like a freaking screen recording or something. 
+
+18:14 | Roland
+Yeah. Where it says that? 
+
+18:15 | Mackenzie
+Or whatever that. 
+
+18:17 | Roland
+Would be even more helpful for sure. That way I can share that with them if you. 
+
+18:21 | Mackenzie
+See that happening? Yes, because that's the thing they keep telling me that this isn't happening. And I'm like look, I've done this system a very long time. I know like what I'm looking at, what I'm doing, what's normal, what's not. And like I said, the mapping of the eight by six by four, the single holster shipment, the usps preset all of that's fine. All of that's worked fine for years. The autocorrect whatever stuff. What I have an issue with is that, you know, it's literally going so far as to create a label. 
+
+18:49 | Roland
+Yeah, that's the wild part that's what I don't. 
+
+18:51 | Mackenzie
+get, and I didn't even know it could do that. And that's what that other gentleman said. At one point, he said, I didn't even know it had the capability of doing that. I said, well, it does. Yeah, it does just so. 
+
+19:00 | Roland
+you know, yeah, it literally should not be able to, that's the crazy part, you know, but it obviously is doing something to get rid of this thing. All right. Let me dig into that a little bit. And then what I'll do is I'll get back with you if I can figure anything out when it comes to why that's happening. Yeah, sure. If not, I'll just dig into these tickets a little bit too, because it looks like you guys have had, a few conversations with them to kind of fix this labels canceled. Well, and, 
+
+19:27 | Mackenzie
+I don't know why that's under battlecry designs. We don't even use that anymore, but. 
+
+19:31 | Roland
+It's just an internal thing. So, okay, cool. I just, 
+
+19:34 | Mackenzie
+wanted to make sure that I'm not doing it wrong. No. 
+
+19:37 | Roland
+Whatever you want it to be called, you tell me and I can change it like literally right here. 
+
+19:42 | Mackenzie
+And, oh, I can. 
+
+19:44 | Roland
+Adjust things. It's just saying that because that's what we have it down as, but I would just need to change it. I. 
+
+19:51 | Mackenzie
+Don't even know where that came from. 
+
+19:53 | Roland
+What's the company actually called JM fore? Tactical? 
+
+19:58 | Mackenzie
+Our main company is JM fore. Tactical. 
+
+20:01 | Roland
+JM fore. Tactical. Yeah. So this is just our. 
+
+20:07 | Mackenzie
+We have a couple of companies that operate out of shipstation or you could just put, I guess, JM fore, instead of tactical, whatever. 
+
+20:13 | Roland
+Yeah, there's just a few things that we have in our system that, that's for us, but ultimately, it has nothing to do, with your actual functionality or anything like that. Just that if people start calling you, they might call or reach out to ask for battlecry designs. So, yeah. 
+
+20:29 | Mackenzie
+Interesting. And it. 
+
+20:30 | Roland
+Might have happened because there may have been at one point you created a ship from address and that ship from might have had that name on it, and it just stopped. Oh. 
+
+20:39 | Mackenzie
+Okay. Yeah. I was trying to say we never used that name. I have no idea what that is. 
+
+20:44 | Roland
+No. Okay. But ultimately, the reason for that pop up that you guys saw wasn't because of stuff like this. It was just because there are some features in shipstation that we noticed that you're not using. And then also there's new subscription plans that are rolling out. And so they just want you to be aware that there are changes coming. And then we're also going to be getting LTL so soon we'll be able to do palletized shipments inbound outbound and all that. But the main things is just right here which you don't really probably need. I don't think is the rate shopper tool to have the system automatically rate specific carriers and things for you. They didn't notice there was a customized rate shopper turned on for you, but this is the little catch, right? The stupid caveat here. They asked us to look into the pop up that comes up and see what it was that the program noticed that you are not using one of them being rate shopper, then they say have a call and let the customers know about rate shopper. Okay. I call you, let you know, we click on it and it's 150 dollars and you're like, no, they don't want to do that. They're not going to pay extra for this. So as crazy as it sounds, the new subscription plans that are rolling out, it's included. So right now, you guys are paid 144 dollars a month, the new subscriptions that are going out. And by the way, you have no access to rate shopper, but the new systems that are going out or new subscriptions that are going out are 174 for where you would land 10 users. And it comes with the rate shopper. And all the other features that you would get on a higher plan. Anyways, we're basically going away from these eight plans with all these different settings and all the different user levels and all the different criteria and add ons like over here, all these different add ons. And we're switching it now to just three plans, three plans, a basic medium, and then a huge everything that you do, you know, somebody does plan with WMS, ERP, all the functionality of aware of a full functioning warehouse, three PL type of system. But mostly everybody falls in the standard which is pretty much everything except for things like inbound purchase orders and stuff like that, really complicated workflows. So the breakdown of everything that you get in the standard plan is in these little drop down arrows and I'll show you this where this lives and also. 
+
+23:29 | Roland
+and also this part, so let's say for instance, your volume fluctuates, you have busy months. You have slow months. The current plan that you're on is at 2000 labels per month. And that's it, you're locked on the new plans. You can dial it up and dial it down every month. So if you have busy months, you can dial it up to 5,000 if you need to. And then you have super dead months, you can dial it down to 100 if you wanted to and pay 60 bucks. So I like these new plans because I can dial it in to what I need and based off of what you guys done, which again, this is not like saying that you have to sign up for anything in particular, but just kind of, you know, going back and taking a look, I looked at January, I don't know if you guys get a busy October, November, December, like a lot of merchants do typically. Typically. Yeah. So if you go back to January, it looks like that 6,069 shipments for those six months so far. So you're right at if not right under a 1,000 shipments a month, 60 69. I don't know why I said 69 60, so 60 69 and we are now officially in June. So let's say we divide it by six. No, that would be five. Let's say divide by five full months. So at 1,213. But if one of those months was a slower month, then you could have dialed in even more precisely for that particular month. Let's say March, which I mean, I'm guessing you probably add a 1,000 shipments every single month or more. But let's say March was a slower month. Are you having slow months where it's right at a 1,000 or right under? You could always set it that one was 1,300, but you could always set it to below a 1,000 and it lives in your settings. And then the little edit button right here above the cost under plans and subscriptions. But let's say, for instance, you're having a month that are slow and you have it at a 1,000 that would put you right at 149 a month. And then if for some reason you go above that 1,000 at the end of the month, it'll just say upgrade, you click on the little upgrade. It takes you to the next highest shipping level. Oh, so we'll do that on its own. It'll pop up. It'll have a pop up, you know, we'll do it on its own. It'll have a pop up saying that you need to upgrade because you've hit your limit, you click on upgrade and then select upgrade 2000 and then hit update plan. Then you'll be good to go. Then at the end of that month, just remember to downgrade it so that way you can go back to that 1,000 or the cheaper one or whatever for whatever month you're in, you can dial it in. Yep, got it. But this gives you access to the rate shopper. The way the rate shopper works is it's pretty helpful. I think you go into your let's go to shipping and rate shopper, you can create a new one. This is not going to let you do it here because again don't have access, but let's see, create a new one. You come in here and then you can pick and choose which services that you want shipstation to rate. And then you can put down right below that a criteria for those services. So right here, it says the lowest rate. But once you create your rate shopper, it'll say set criteria and you can say anything that's less than four days time in transit or anything that's air, or it has to be these specific packages. So you can custom dial in that rate shopper. What that does is when it comes to the orders time and the orders come up on screen, as… long as you have all your dimensions and stuff in there, it doesn't go through and rate 50,000,000 different services. It just rates the three or four that you want. Okay? So it helps eliminate a lot of the other stuff. This will speed up things during Christmas. And during your busy months, it'll speed things up because every single order as you rate shop or as you process, has to go through every single rate to pull it in before it can give you a final price. And so that kind of slows things down. Yeah. So hopefully that helps out a little bit. And this whole new subscription plan thing is happening July the seventh. Okay. So just be aware at July the seventh, it's going to force migrate you in. So if you see one that you, if you want to set it up now and set up to what you like. I would suggest to dial it in, set it up and lock it in before… July the seventh. So that way it doesn't just default you to 2000 automatically. And that's actually what you want, right? If that's what you're going to use anyways, great fine. And then also there's an annual discount up here. If you were to pay annually, it would drop that price, right down to, I think what you're paying currently? It'll lock it in. So it gives a 20 percent discount. This is if you pay annually. So if you pay annually, I would suggest to dial it in to exactly what you want. And if for some reason you hit that threshold, it'll let the pop up will come up. It'll do the exact same thing. You click upgrade to the next upgrade plan that you want. I need 2000. Instead you upgrade, just keep in mind that when you do that, it's going to upgrade you for the rest of the year. You can't dial back down at the end of the month. Only way you can do that is the month to month. If you do the annual plan. Yes, you get the discount, but once you hit that upgrade, it upgrades you until the end of the year. Great for customers that get busy only during October, November, December because they're like, hey, what do I care? I got the whole year at 1,000, right? 
+
+29:16 | Mackenzie
+Yeah, no, that probably wouldn't be best for us monthly would probably be better to go back and forth. Yep. So cool. That's good to know. I wrote it down. 
+
+29:27 | Roland
+Yep. Okay. Yep. All right. Cool. Hopefully that helps out. One last thing also is in the little setting screen where the little gear is obviously right up here in this area, this question mark, I'm sure you're probably already aware, but this is where you can get all your support stuff. Yes, you can chat with them, enter support cases, and then there's the supply store. I don't know if you ever used the supply store but it's obviously popping up down here at the bottom with supply stuff. But in this setting screen under payment and subscription right here. I… don't know why this lives in this little world, but here's your data archive. This is literally everything that you've done with shipstation since you've been with us. So you can always download one of these reports and look at all the different labels and orders and stuff you've done, and what things have changed and what Sally printed in the back on her shift. All that is living in here. It's a huge report with a ton of data. But I might download one of these to see if I can see that order and see if I see any other logs in there or one of those orders that were having issues? Okay? 
+
+30:35 | Mackenzie
+But this? 
+
+30:36 | Roland
+Is literally where everything lives that happens in shipstation is in these reports. Okay. Cool. Well, that's pretty much all I got. I hope I didn't overload you with too much stuff, Mackenzie, but I appreciate it. 
+
+30:48 | Mackenzie
+No, no, you're good. And I apologize that the other probably shouldn't have been brought up. I just, we. 
+
+30:54 | Roland
+have a major concern with that. We. 
+
+30:56 | Mackenzie
+Have a major concern with that. 
+
+30:57 | Roland
+Because. 
+
+30:57 | Mackenzie
+I feel like when I go to customer service, they either tell me that that's not happening like it's not possible or I give them everything they ask me for in the chat like screenshots, whatever. And then they email me requesting the same information and I won't lie to you. I just get frustrated. I'm like you already have all that. I wish you would have just forwarded that to somebody so that they can continue to help me because like that's just a lot to like get all those screenshots all that together. And then I feel like I always do that. And then they usually email me and say, well, we need another example. Well, I may not have another example. So I just get frustrated as far as like trying to fix it. So I will just send it to you directly if it happens again. Like I said, we haven't had it happen in a while now. I'm hoping maybe it's not going to happen again. But if it does, I'll just reach out to you directly if that works for. 
+
+31:48 | Roland
+You, yeah, send me that screen record or that screenshot or whatever you got there. And then I could submit a ticket that's a support ticket from my end that might help out a little bit too. But yeah, I get what you're running into with them. And I understand that I've learned a long time ago. I've only been here for like five years now, which is not a long time. But I came from ups and I used to see weird stuff when I'd go visit clients that had different software platforms like this. But man, I've learned a long time ago, like when someone says like, yeah, it's happening. I don't say it's impossible. I'm just like, huh, let me dig into it because I've learned weird stuff happens in the platform. So you can't say. 
+
+32:27 | Mackenzie
+That doesn't happen. Well, yeah. And that's what it's like, there's no possible way that's happening. I'm like, I understand that it's not possible. And I understand that it's happening. Yeah, that's all I know, I. 
+
+32:36 | Roland
+Had a merchant that when I was covering the Seattle Washington area and I was covering the pacific northwest, I had a merchant there that he was doing. A, you've probably seen their commercials, that relief factor. It's for like joints and arthritis and you call their 800 number or whatever and they just send you a packet. So he's just spitting out orders all day long. There's a conveyor belt with just orders coming out and the labels are printed automatically on everything. And I was like you could do that and they're like, yeah, I don't print a label. I don't click a button. It goes. Every order that comes through. It has a label automatically because we default postal under one pound. Everything is the same. And so I was like, okay, so it is a thing that can happen. So, I don't know why they're saying that you can't have the system automatically print a label. There's a setting in there somewhere to have the system automatically print a label. I've heard of that. So I've seen it so cool. Alrighty. Sorry that you've gone through the trouble in a hand hearing. No, it's okay. People give you a hard time, but, yeah, hopefully we'll get results. 
+
+33:32 | Mackenzie
+It's okay. I appreciate it and I'll just go through you from now on. And if it happens again and we'll try to get it worked out. Yeah? 
+
+33:39 | Roland
+Yeah. For most ticket stuff, you can always submit the ticket, but if that does come up again, please reach out to me but just keep in mind, I am not customer support. I can't always fix things. No, you're good. Sometimes I actually take a long time to get things fixed if it goes directly to me, but I'll do my best to help you out. Okay? 
+
+33:55 | Mackenzie
+Okay. Thank you so much. 
+
+33:56 | Roland
+Roland, I appreciate it. Thanks. Take care. Bye. 

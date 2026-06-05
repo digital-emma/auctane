@@ -1,0 +1,696 @@
+ShipStation Optimization Check-Up: Stacey Lui
+
+Devin Lawrence with Capital Technology Inc.
+Recorded on May 28, 2026 via Zoom, 43m
+
+
+
+Participants
+
+Auctane
+Devin Lawrence, Customer Success Manager
+
+Capital Technology Inc.
+Stacey .
+
+Other
+Kim C
+
+
+
+Transcript
+
+0:01 | Stacey
+recording? 
+
+1:29 | Stacey
+Hello? Hi, Devin. How are you? 
+
+1:34 | Devin
+Good. How are you? 
+
+1:35 | Stacey
+Doing well. We also have Kim from our team joining the meeting today, so they should be in soon. 
+
+1:46 | Devin
+Great. Okay. 
+
+1:49 | Stacey
+And before we start just to confirm, is it going to be a hard stop at 11 a. M for us? 
+
+1:55 | Devin
+We can make it as whatever you'd like, yeah, do you have a hard stop? 
+
+1:58 | Stacey
+Okay. No, no, we don't but we just weren't sure like how long the meeting would last because we did have quite a bit that we wanted to go through. 
+
+2:07 | Devin
+If we go over that's fine. I don't I do not have a hard stop, so. 
+
+2:11 | Stacey
+Okay. All right. Great. 
+
+2:14 | Devin
+And what are your roles? You versus Kim there? 
+
+2:18 | Stacey
+Okay. So I am the director of logistics. So I oversee all of like the warehousing and shipping within our company. And Kim, he is our shipping and logistics associate. So he does more of like the day to day order processing. So, he is the one that is currently doing all of the daily order processing in shipstation as well as other platforms. 
+
+2:49 | Devin
+Great. Yeah. Well, pleasure to meet you. 
+
+2:54 | Stacey
+Nice to meet you. Nice. 
+
+2:56 | Devin
+To meet you, Kim. So my role with shipstation is customer success. I'm here locally in southern California. I'm based out of orange county. 
+
+3:08 | Stacey
+Oh, okay. So we're pretty close to you. 
+
+3:10 | Devin
+Yeah. What city? 
+
+3:11 | Stacey
+We're in chino? 
+
+3:13 | Devin
+Chino. Yeah, yeah… it's nice and cloudy today. Not too bad. 
+
+3:19 | Stacey
+I know we've been having a little bit of like gloomy weather in the past few days. 
+
+3:26 | Devin
+Yeah. So the goal obviously to cover… kind of how you guys are utilizing shipstation, if there's you know, what are your processes? If there's any pain points, seems like you guys might have a few items you want to cover. So we'll jump, you know, we can go through that. And then obviously, the goal is to help you guys utilize all the functionality and kind of optimize the software to the best of your needs. Yeah. So we have some new subscription plans that we can at the end kind of cover to… just to showcase which features may be available to you now that weren't previously that you may have to like pay for or do an add on. So. 
+
+4:10 | Stacey
+Okay. So we actually recently signed on for the trial of the rateshopper okay. But I think we need to configure our settings for it to be active. I'm not quite sure on how to get that set up. 
+
+4:34 | Devin
+Okay. Do you have it up on your computer? If you want to share your screen? Yeah, or I can do it. 
+
+4:41 | Stacey
+Yeah, I can share it. 
+
+4:53 | Devin
+I see that it's in trial… until June third looks. 
+
+5:03 | Stacey
+Like, yeah, we've been in trial, I think for a couple weeks already, but yeah, I just didn't get a chance to really like look into it. Okay? 
+
+5:16 | Devin
+One of the things we're doing with the subscription plans is we're consolidating and making fewer. So, I think right now you'd have like seven to choose from. You guys are on the gold plan. With the new plans. There's only three. And one of the benefits is a lot of the add on features are now included. So like the rate shopper tool, even though you're in trial, now, let's say you were to switch to the one of the new plans, it would automatically be included. 
+
+5:44 | Stacey
+Okay. And. 
+
+5:45 | Devin
+Then, so my point is with same thing with some other features which we'll explore. But okay… if you go to your gear icon up, right? Like next to the question mark… okay. Click on that. 
+
+6:05 | Stacey
+Yeah, this is. 
+
+6:06 | Devin
+Like your settings. Yeah. Okay. So this is where you kind of can view all the different types of settings, like under account. You can see payment and subscription that's where we'll eventually go there to kind of look at the new plans. But on the left hand side, you can see kind of a menu. Yeah, click on shipping. If you click shipping, it'll open a little drop down… click the little side. Carrot. There you go. So right there you see rate shopper, click that one. 
+
+6:50 | Devin
+So here it's giving you like the three defaults, right? That some people like to just choose because they know what they want or you can hit the create new button and that'll take you through the exercise of you… can go. Okay, I'll start with what's recommended or I want to build from scratch. It depends on if, you know… it seems like we're maybe exploring this now, right? I don't know if you have a specific automation you want to set up? Well? 
+
+7:22 | Stacey
+So really quick first because I see on this screen, it says ShipStation here. So does it only… shop for the rates that are, I guess, like if it's through ShipStation carriers? Because we actually typically use our own carriers like our own fedex and ups. Okay? So we would want them to shop, what ShipStation to shop for our rates? 
+
+7:50 | Devin
+Yeah, that is an option… with the old plan or, the one you're currently on. It would be an extra add on to do bring it's like called bring your own carrier. Actually with your plan, it's included. Yeah, you got it. Nevermind sorry, I just checked. So if you go to carriers, let's say we back up and go up a few yep, there you go carriers, and. 
+
+8:20 | Stacey
+Our carrier account, do? 
+
+8:22 | Devin
+You have the usps fedex, and yeah, if you go to your carrier accounts, you have that set up, right? Let's see. 
+
+8:29 | Stacey
+Right. We have all these set up. Okay? 
+
+8:33 | Devin
+So, yeah, when you create the rate shop automation, you could you select which services you want it to rate shop with? So we just have to like add them, into the automation rule if you will. Okay? 
+
+8:47 | Stacey
+So, from here, I mean, I don't have a specific one to do yet. Okay? So then we just choose which of the carriers and services we want to add, correct? Be compared and. 
+
+9:01 | Devin
+Then there's additional configuration to say, if my let's say the cheapest rate is the ShipStation, wallet rate, right? Huh, you can say, if my rate is 50 cents a, dollar, 52 three, you know, just a little bit more, then select my carrier account instead or you can just have a rate shop between your own, you know, carrier account services, but you ultimately, you would name it, right? Because you could have multiple rate shop automations. Okay? 
+
+9:38 | Stacey
+So, 
+
+9:39 | Devin
+you might want to name it. 
+
+9:45 | Devin
+Like some people will do a rate shop. They want the lowest rate, but they want it to get there by a certain time in transit, right? Okay. 
+
+10:01 | Stacey
+Okay. So most people they'll say like, okay, for packages, if we want them delivered within like three business days, then choose from these carrier options and services, correct? 
+
+10:14 | Devin
+And then what will happen is when you complete the order instead of getting the list of services and all the different prices for each, it'll just, it's just going to give you the one that's based on this, the rate shop? Okay? So there's no like decision making at that point, it's just boom, this is the one based on our, you know, preferences and it's like print, label go. Okay. You don't have to go through and compare and. 
+
+10:42 | Stacey
+This, so I'm going to just like an example of when we do process and order. Okay. So with each order, would we have to manually choose the option of rate shopper? Or is there a way to set it? Where by store, the default will use the rate shopper rather than us having to like manually go to it? Yeah. 
+
+11:10 | Devin
+When you create the rate shopper automation rule and you enable it, it'll start working for orders that are imported in. 
+
+11:19 | Stacey
+Okay. So it will be like kind of pretty much the default, correct? 
+
+11:23 | Devin
+And then if you have to change it… okay? 
+
+11:31 | Stacey
+Because we do have like the automation rule rules currently set up where, you know, like maybe for a specific store packages under two pounds, you know, it automatically selects usps, anything greater than that might be like, you know, fedex VPS. So will the rate shopper overwrite those automation rules that we set or do we have to turn them off first? 
+
+11:57 | Devin
+The rate shopper will go first and then those will override. Okay. 
+
+12:09 | Stacey
+Okay. We will look into getting that set up and try it. And then if I have any additional questions, we'll reach out to you, yes. 
+
+12:21 | Devin
+And then let me show you another tool that's available. If you go back to the gear icon. 
+
+12:38 | Devin
+On the bottom left of that menu there, there's a labs which is kind of not intuitive, but we've… we're improving the AI connectivity with ShipStation. 
+
+12:54 | Stacey
+Huh. So. 
+
+12:55 | Devin
+We're training it in our ecosystem. So two of the features that are great are the, ask ShipStation. So if you enable that, you'll get a little side menu right? Where it's kind of like the comp, the AI conversation where you can say, please help me create a rate shopper automation with these requirements. And then it'll start giving you kind of suggestions. And then the other one is the actual AI automation rule creator. So you can go in there and say, hey, I want an automation rule for the, for this, and then you can kind of refine it and guide it, and then ultimately, it'll give you like the actual automation rule that you need to enter. And I think it even gives it to you to either approve or like say, no, I don't that doesn't work. Oh. 
+
+13:47 | Stacey
+So it can actually do it for us rather than doing the step by step on how to do it. Yep. Oh, okay. That's cool. Okay. So, okay. So it's like this. All right. We'll definitely play around with this. 
+
+14:05 | Devin
+Yeah… it's a good feature. We're hoping custom merchants use it a lot so that it can get, you know, obviously smarter. Yeah. Okay. Are there any other like questions in regards to the software? Was it just kind of the rate shopper feature? 
+
+14:30 | Stacey
+Yeah, because we kind of, yeah. So actually, yeah. So in terms of like features, yeah, that was the main thing, but we also had some questions just to see if there are features… regarding like orders with multiple items and that require multiple shipping labels. And we want to see if there's like a way to customize what is printed on the label. So, right now, our current process is… we have the SKU, like for an order. We will have the SKU as one of the references on the shipping labels. Because when our warehouse team when they do like the pick and pack, I would say like 90 percent of the time, they rely on just the shipping label because we don't attach packing slips to the packages. Yeah. When we're shipping out orders, so, a lot of times the. 
+
+15:40 | Devin
+labels guiding them in terms of, yeah. 
+
+15:43 | Stacey
+And then when it comes to multiple items, what happens is like if it's a multi item order and it requires multiple labels, it may be like both items are being printed on both labels. But if there is a way for us to like kind of assign an item to a package and for that item to be the only one in the reference of that label, that specific label like that would help us a lot. 
+
+16:17 | Devin
+That's like, okay, I'll have to look into that one. 
+
+16:19 | Stacey
+Okay. 
+
+16:26 | Stacey
+But as far as, you know, you're not sure if that's an option right now. Excuse me. Oh, as far as, you know, do you think that there is? 
+
+16:34 | Devin
+Like a, I'm unsure that one's out of my depth. I'll have to look, Because I know you can, you obviously create multi piece shipments, right? Right? One of six, two of six, three of six. Well, let's look real quick. Go to this gear icon again. Okay? And, 
+
+17:11 | Devin
+go to, 
+
+17:19 | Devin
+good. Go to templates. Well, yeah… just click on the templates to see the dropdown… email templates, packing slips, no, that's packing slips. Okay? And then the one above too branded customer pages, click on that. 
+
+17:47 | Devin
+Thought there was maybe a place here to, oh, you know, what should we just ask real quick? Because I'll have to double check, but maybe let's ask in the chat there like. 
+
+17:57 | Stacey
+I'll ask, yeah. 
+
+17:58 | Devin
+Can you, that might be a wordy question for it, but can… multi piece shipments have? 
+
+18:12 | Devin
+Different… information in reference fields on label, something like that? 
+
+18:32 | Devin
+Try this. Let's see how fast it goes too. 
+
+18:40 | Stacey
+Okay. I'm not sure if you can read it. 
+
+18:43 | Devin
+Yep. For multi piece shipments in reference fields. 
+
+18:46 | Stacey
+It's been called it's set at the shipment level, not per package. This means all labels in a multi piece shipment show the same reference. Okay? So. 
+
+18:57 | Devin
+Oh, you have to be like, it has to be like a one of one and then another one of one and another one of one, it pretty. 
+
+19:04 | Stacey
+Much has to. 
+
+19:04 | Devin
+Be separate until you have six, one of ones, you know? 
+
+19:08 | Stacey
+Yeah. 
+
+19:09 | Devin
+Which maybe there's and we don't have to go spend too much time on this, but maybe there's a way to do an automation rule where it says, if it's a multi piece shipment, set it for individual labels, I don't know, and then add the reference, you know, add the reference field to each individual label. I don't know if that's a possibility, but because then it's doing it automatically like, yeah, so you don't have to do it yourself. It is still six. Yeah. Maybe that's no, that now you're going to have six different tracking numbers that are all unrelated, right? Because if you track one, it's not going to say one of six. It's just going to say one of one, right? And if you're in a, what happened to that one box? 
+
+19:54 | Stacey
+And you can't yeah. 
+
+19:57 | Devin
+It does create a little bit of lack of visibility. My background's with the carriers I was with ups for a long time. Oh, okay. So, yeah. Yeah. Okay. There's cautionary. Yeah, I would caution that, but, okay, I get what you're asking and… we'll see if there's a workaround. Maybe I don't know, maybe put. 
+
+20:18 | Stacey
+In a suggestion to your. 
+
+20:20 | Devin
+Developer. Yeah, because I have, I can directly ask the product team and say like, hey, customer wants this. Yeah. Is it on the roadmap? Maybe it's something that they've already heard from other merchants and they want to, and they're addressing it, you know, Because we're constantly evolving and the software's improving. Yeah. Okay. 
+
+20:43 | Stacey
+Okay. Kim, did you have any other questions or anything that you wanted to ask about on this call? 
+
+20:54 | Kim
+I… was thinking about, you guys have been talking and I was wondering if the split ship would answer the question? 
+
+21:06 | Devin
+It does split it into two different packages… right? 
+
+21:14 | Kim
+But how. 
+
+21:15 | Devin
+do you get the reference fields for the second one? How. 
+
+21:21 | Kim
+printed in the label? Is that what you guys, well? 
+
+21:26 | Devin
+I guess the ask is that for each label, it has the SKU that's going in that box, right? Yeah, instead of just the first line item, SKU copied on each six labels because then they don't know which, right? Why it's split. I. 
+
+21:41 | Kim
+Mean, with the split ship, you can take the SKU that you wanted in that box, right? For a different label. 
+
+21:50 | Devin
+We could test it. Do you have an order right now that needs to be split? 
+
+21:55 | Kim
+I do not, I already processed all the orders today. Oh, you're too fast. Unfortunately, I don't have, yeah, too bad too. 
+
+22:03 | Devin
+Efficient, yeah, I guess ShipStation? 
+
+22:05 | Stacey
+I know the moment Kim sees an order, he's like I want to get this processed. 
+
+22:10 | Kim
+Yeah. 
+
+22:12 | Devin
+So, you're saying, Kim, that when you split shipment, right? It creates two different shipments. Yeah. And then you're assigning the SKU that goes in, it just, yeah… it's coming with the SKU, right? So then when you print out those labels, does it have the correct SKU in the reference field for each box for each label? 
+
+22:33 | Kim
+No, I think that's the only thing that we need to work on that's. 
+
+22:39 | Devin
+what we're talking about? Okay? And for whatever reason, it just takes the lead SKU, yeah. On both. Yeah. Can you manually change that? I wonder like if you were to go to box two of two, right? You go into that order? Can you… manually change the reference field? Or is that just, but that's I know that's more. 
+
+23:02 | Stacey
+Work. 
+
+23:02 | Kim
+Generally, there is in the printing section… we tried that, right? Stacy when we tried… to replace the po… for fedex, do you remember that… it was in the inventory thing and like, 
+
+23:25 | Devin
+let's say you open up that order that first run the one one, two, just open it up that order. Okay? Does it have, if you scroll down? Does it have like… reference fields, items… recipient notes? 
+
+23:48 | Stacey
+Like my, I guess like suggestion, you know, if there hasn't been anything developed yet, but let's say if I'll choose a carrier that could support multi piece shipment, I would say like here, like when we create, you know, packages, if there's a way to assign into each package, you know, what the item is, that's where I could see like where it could potentially. 
+
+24:13 | Devin
+Be added. Yeah, like another field right there, because I don't think there's. 
+
+24:20 | Stacey
+a way to manually, yeah, choose what to put in the reference field? 
+
+24:25 | Kim
+I. 
+
+24:26 | Stacey
+mean, okay. Yeah, because I feel like this is like by the order. So it's like if you put, you know, something in the custom field, it'll probably print on the entire shipment and not for individual labels. 
+
+24:40 | Devin
+Okay. Sounds like you've tried it. 
+
+24:43 | Stacey
+I mean, that's what I'm assuming just because this is at like the shipment level. 
+
+24:47 | Devin
+Because that would be the only thought is like, okay, you go in here, custom field one, you put the SKU, right? And that'll be on that box, and then you go to the next box and you say custom field one, will… it like replace it on the previous, you know, like, will it just copy over on each? Or will you, can you have a unique custom filled one on each box? 
+
+25:10 | Stacey
+Yeah. Okay. I think we'd have to test it. 
+
+25:18 | Devin
+We can do that and also inquire within, okay, to see if there's a, 
+
+25:29 | Stacey
+yeah, a solution. Okay. 
+
+25:37 | Devin
+Is that a pretty frequent use case for you guys? Where you're having to split a lot of orders? 
+
+25:44 | Stacey
+Yeah. Yeah, it's just because we do get a lot of multi item orders. 
+
+25:50 | Devin
+So, and the items can't fit all in one box? 
+
+25:54 | Stacey
+Sometimes, no. 
+
+25:57 | Devin
+There is a way to enable like an auto like a auto split. So it does it automatic. 
+
+26:05 | Stacey
+Oh, like if it recognizes this skew, 
+
+26:09 | Devin
+right? If it comes in at two quantity of two, it knows to automatically split it into two… which is on the product level. So, if you click on products. 
+
+26:26 | Devin
+If you have a specific product, you know, each time it's gonna require two boxes. 
+
+26:34 | Stacey
+So, if that's the case, so let's say, like when we use rateshopper, will it identify that it's like a multi shipment and it'll only choose carriers that will support having multiple shipments, right? 
+
+26:50 | Devin
+Yeah, ups. 
+
+26:53 | Stacey
+Ups products, yeah. 
+
+26:58 | Devin
+It should, yeah, I'll double check that I'll confirm. Okay. So like just, you can click on any of the, an. 
+
+27:10 | Stacey
+Example one that would be by itself? 
+
+27:13 | Devin
+Yeah, click on it, 
+
+27:21 | Devin
+I think it's either, yeah, I think you have to click shipping. 
+
+27:31 | Devin
+And then at the bottom, I think there's a little toggle enable. Yeah. And then it gives you options. 
+
+27:41 | Stacey
+Okay. So, like ships individually? 
+
+27:43 | Devin
+Yeah. So like that first one would probably fit that item creates a new shipment for the, so. 
+
+27:48 | Stacey
+By new shipment though, would that be like, oh, sorry. 
+
+27:52 | Devin
+Ships individually? My bad, I said the wrong one. Sorry. 
+
+27:55 | Stacey
+Oh, I mean, because it does say creates a new shipment for each unit ordered, but would that create like a separate order? Like would it split the order or? 
+
+28:05 | Devin
+Yeah, it would just split the order. So it's like one of two, two of two. Okay, same order, just two shipments. 
+
+28:13 | Stacey
+Okay. 
+
+28:16 | Kim
+Devin, will it not affect the order? That is for example from Amazon ShipStation is sink through that? Will it not create another order from Amazon or? 
+
+28:31 | Stacey
+Like when we send back tracking, like what? Amazon, yeah. 
+
+28:34 | Kim
+When we send back the tracking, it'll. 
+
+28:35 | Devin
+have the both tracking numbers. It would yeah for that order because it'll have two pieces. It'll be a two piece shipment. 
+
+28:46 | Kim
+Two tracking. 
+
+28:48 | Devin
+Right. Because you have to put them in two boxes. You can't have the same tracking number on two different boxes. It'll mess up. It'll be like you're trying to cheat… the system. 
+
+29:07 | Kim
+I haven't tried that though, but that's. 
+
+29:11 | Devin
+interesting. The billing will be all messed up. The tracking will be all messed up. Sometimes the carriers don't figure it out. But most of the times they do a lot of times the drivers see it depending on the carrier USPS, might, I don't know how that works with them. 
+
+29:33 | Kim
+I don't think that's an option for us Stacy. 
+
+29:36 | Devin
+I would not recommend duplicating labels like basically taking a label and copying it 50 times… gonna get busted. 
+
+29:47 | Kim
+It's just, I think Amazon, for example, Amazon recognizes only one order number. So, if you do a split, then you will have two order numbers, right? 
+
+29:57 | Devin
+No, it'll just be one order number. 
+
+30:00 | Kim
+But it has a dash or something. 
+
+30:02 | Devin
+It'll have like a two, it'll be like two shipments. 
+
+30:08 | Kim
+I mean, same order number, same name, yeah. 
+
+30:14 | Stacey
+I think it's like saying like it'll be the same order number, and then a dash one, and then the order number dash two. 
+
+30:23 | Devin
+Let's see if you have any in your history… because there's a shipment number. 
+
+30:29 | Stacey
+Like Amazon will recognize the order. Like when they receive the tracking like since they'll have the additional dashes from the original order. Yeah. 
+
+30:40 | Devin
+It'll be the same order, just two different shipment numbers… in shipstation. 
+
+30:58 | Kim
+Okay. I haven't tried that. We can. 
+
+31:01 | Stacey
+Always try it with one order. I mean, just like manually, you can do. 
+
+31:03 | Devin
+It, with this product, I mean, you can try it with this one product. I don't know how often it gets ordered. I don't know how long you're going to have to wait for that one to come through. And then… someone would have to order two of them. 
+
+31:16 | Stacey
+Yeah. 
+
+31:17 | Devin
+Whatever the use case, I don't know how frequent that is. Maybe do it on a few order or products or SKUs, you know, like this has to ship in its own box. 
+
+31:30 | Stacey
+Or, I mean, we could also manually split. 
+
+31:34 | Devin
+Manually auto split. Yeah, when it comes in. 
+
+31:37 | Kim
+Yeah. So. 
+
+31:39 | Devin
+It's up to you if you want to automate that or not. Yeah. 
+
+31:42 | Stacey
+I think maybe, yeah, the best way is when we do get an order that has like multiple pieces, we'll just manually try to split that one just to see if everything goes through. 
+
+31:57 | Kim
+Yeah, it's not very often though. 
+
+32:01 | Stacey
+That's good. Okay. Was there anything else that you had Kim? 
+
+32:12 | Devin
+Yeah. One last thing is just on the new subscription plans. Okay? 
+
+32:17 | Stacey
+So, 
+
+32:17 | Devin
+if you hit the gear icon again… and then hit the payment and subscription? 
+
+32:29 | Devin
+You guys are on gold. So that's probably like what? One 39 99, yeah, 30. 
+
+32:36 | Stacey
+Nine, I know. 
+
+32:37 | Devin
+The rate shopper is… I think it's like 130 additional per month. However the new standard plan, which is what I would recommend. It includes that rate shopper tool. 
+
+32:56 | Stacey
+Oh, so this one, the 174? 
+
+32:58 | Devin
+Yes, that's for 2000 labels a month. So, with the new plans, you can change that based on your, oh, that's. 
+
+33:06 | Stacey
+new, so. 
+
+33:07 | Devin
+If you go to one, let's say you only need a 1,000. Huh. Now, you're at 10 dollars more than your, but now, that includes the rate shopper tool. So, currently, you're in trial, but at, you know, come June third, it's going to start billing you? 
+
+33:23 | Stacey
+Right. 
+
+33:27 | Devin
+And then the analytics license, this is also new where currently, you only have one admin license to like to access all the analytic analytics tools on shipstation. 
+
+33:41 | Stacey
+Huh, it's. 
+
+33:42 | Devin
+because we're using another third party called looker, and so there's like a license for that's assigned to each merchant. So you get one per merchant. But now it's with standard, it includes three. So you can have basically like three admins on the account. So when they're going into the insights or the analytics kind of tab, you get access to all the reporting that's available. 
+
+34:06 | Stacey
+Okay. So if we currently have three users, are they already automatically at the admin level or do we have to change something in the settings to make them? 
+
+34:15 | Devin
+I think the main user will be the admin one. And then I think you just have to assign the other two to the users you want. 
+
+34:23 | Stacey
+Okay. 
+
+34:26 | Devin
+And then if you scroll down just a little more right there, it says compare features. If you drop that, this kind of gives you a little more like comparison. Okay? 
+
+34:45 | Stacey
+Oh, but then it doesn't compare like our current, well, you, so. 
+
+34:49 | Devin
+Standard is everything that you would have for gold plus. Oh. 
+
+34:52 | Stacey
+Standard is gold. Yeah. 
+
+34:54 | Devin
+Plus additional features. If you keep going, which we can set another call or I can even, we can set an appointment for me to stop by. But like… especially under the inventory and warehouse management sections, this is where shipstation's building out and investing. 
+
+35:22 | Devin
+So, like shipstation can be your inventory like source of truth. And then it connects right to all your selling channels and to your, it… can like, you can sync all your inventory… yeah. 
+
+35:37 | Stacey
+So, the thing with that is because we do also have another system that we use for the retailers that require us to be connected through Edi. So, because of that split, so we're using Opal… the company name is city on systems, but their platform is called Opal, what's. 
+
+35:59 | Devin
+the company name again? 
+
+36:01 | Stacey
+City on C, IT y o N. 
+
+36:05 | Devin
+System, city on systems, yes. Okay. So they require. 
+
+36:09 | Stacey
+Well, we use them because they have the capability to connect to our retailers that require Edi, got it. And so it's pretty much split and that's why we don't really have like a platform or system that manages our inventory. It's done all manually through excel just because orders are processed in different platforms. I wonder. 
+
+36:41 | Devin
+If we could sync it all into shipstation for you. And then. 
+
+36:46 | Stacey
+we also have like manual bulk orders that we'll get from our retailers like Tj Maxx will send us POS just like through PDF and those are processed manually, right? But ultimately, everything does get invoiced in quickbooks. It's just that our quickbooks inventory, it was messed up from a time when we migrated from like the desktop version to online and something happened with the inventory and it just was never fixed. So it's not really the numbers aren't accurate, right? 
+
+37:22 | Devin
+Well, I know with shipstation, when you sync your inventory, the first step is getting it all on a CSV file and then you import that into shipstation. And it has all your SKUs with all your stock counts, you know? And then from there, you know, it syncs into your selling channels and all the different integrations you can set up. And then, and… then it's that source of truth and it, you can manage it, in shipstation. I don't know about Opal. Yeah. So I'll tell. 
+
+38:01 | Stacey
+you another thing… like with our SKU namings with different retailers, like we might have one product but the naming of the SKU is different across the different retailers that we're selling in. So if there isn't so in shipstation, like you'll see like sometimes we'll be selling like a model, let's use like X3 navy. And then sometimes it'll be like X3, a navy. Like there'll just be a bunch of different versions. 
+
+38:34 | Devin
+You have aliases for each SKU depending on the dang. Yeah. 
+
+38:40 | Stacey
+Like it's, a lot and a lot of like bundles. 
+
+38:45 | Devin
+Yeah. And you have bundles as well. Yeah, we support bundles. I think it might be in the premium though plan. Yeah. So. 
+
+38:56 | Stacey
+It's okay. 
+
+38:59 | Devin
+I'm taking notes. So if I can like get… exact information on our capabilities in regards to these items, then? Yes. Okay. 
+
+39:10 | Stacey
+Okay. 
+
+39:12 | Devin
+It is under the like, if you go to the inventory management on the left hand side, okay? It would be like, here, right? If you click that… and then click the inventory sync at the bottom. Okay? I wonder. 
+
+39:37 | Devin
+Yeah. So you would have like your sources and your targets. So you could have multiple targets, multiple sources, right? But I don't know. Yeah, with the manual bulk orders, yeah. 
+
+39:51 | Stacey
+It's just, yeah, orders are processed like all different ways. Okay? 
+
+39:59 | Devin
+Okay. Well, that was kind of the last thing is we have these new subscription plans. All all these features now are included. You just kind of change the tier based on your volume. But if you were to migrate to standard, you would have the, you know, you would kind of exit the trial and it would automatically be available, okay? Along with the rate, you know, along with the inventory features. And… I think the other one is, I wonder if the inventory API would work? 
+
+40:39 | Devin
+Anyways, okay. That was kind of my last item… okay? 
+
+40:49 | Stacey
+Yeah, we'll definitely look into this and yeah, if rate shopper is something that we can see ourselves like utilizing, we probably would consider the switch just to, you know, save a little each month rather than paying for the subscription by itself. Yeah. 
+
+41:07 | Devin
+Then the other coupon is if we now offer like an annual option, so, okay… it does lower it a little bit more especially if you're I don't know if you need 2000 or if you need 1,000, I. 
+
+41:26 | Stacey
+Feel like during like non peak season, 1,000 is enough. But when it gets like closer to like Q4 holidays, yeah. 
+
+41:35 | Devin
+So now it's adjustable, you can, you know, let's say January February rolls around you're slow, you can adjust it back to 1,000. And then if you do end up hitting the 1,000 and first label it'll just prompt you to upgrade to 2000. And then it'll just prorate the billing based on the month. Okay? 
+
+41:58 | Stacey
+Okay. Got it. 
+
+42:04 | Stacey
+Okay. I can't think of anything else but, yeah, if anything comes up, so will you be, are you like are dedicated? Yeah. 
+
+42:15 | Devin
+I'm customer. Yeah. However, I can help you guys. And if I don't know like obviously I'll go search and we do have other resources like we have some solutions engineers like let's say you migrated to standard 2000 and you wanted a kind of dig into the weeds on maybe let's say the inventory or the rate shopper, I can submit a case to have like a solutions engineer jump on, and help. So some additional support. But yes, otherwise, I'm available if there's obviously, if it's like a UI, like a user interface issue or error? Like there's always, you can submit a ticket. And then if that's not getting resolved, then you can escalate to me. Okay? If it's like a feature based question or like, hey, we're looking to do this, you know, and I have a few items I'm going to follow up on and I'll get back to you regarding… then we can just keep that open dialogue email. Let's you know, let's schedule a visit. Maybe you want to, maybe… you want to look at your warehouse and see if like, okay, let's say if we did go to premium, like would that help us save us money? Like there's some additional features there too to explore, yeah, depending on how, what your needs are. You know, yeah, I don't want to force anything. Yeah. Okay. 
+
+43:27 | Stacey
+Sounds good. Okay. All right. Thank you so much for your time today, Devin. It was really helpful of. 
+
+43:34 | Devin
+course. Thank you. And then look for my email to follow up. Yeah. 
+
+43:38 | Stacey
+Okay. Sounds good. Thank you. 
+
+43:39 | Devin
+All right. 
+
+43:41 | Stacey
+You have a good day, you? 
+
+43:42 | Devin
+Too. Bye all. 
+
+43:43 | Stacey
+Right. Bye. 

@@ -27,10 +27,20 @@ from learning_engine.transcript_ingester import TranscriptRecord
 _BP_PATH = Path(__file__).parent / "best_practices.yaml"
 
 
-def get_recommendations(signal_type: str, account_context: dict) -> list[dict]:
-    """Return up to 3 best-practice recommendations for a signal + account context.
+def get_recommendations(
+    signal_type: str,
+    account_context: dict,
+    priority: str | None = None,
+) -> list[dict]:
+    """Return best-practice recommendations for a signal + account context.
 
-    Always leads with BP-001 (Rate Shopper Best Value). Selects up to 2 additional
+    priority controls injection mode:
+      "primary"   — recs are main email content; max from cross_signal_injection_rules
+      "secondary" — recs are a bonus section; max from cross_signal_injection_rules
+      "none"      — returns [] (used for cancel_link_clicked / critical escalation)
+      None        — falls back to max_recommendations_per_email from recommendation_logic
+
+    Always leads with BP-001 (Rate Shopper Best Value). Selects additional
     recommendations from conditional_best_practices using account_context signals:
       - has_multiple_stores     → BP-004
       - has_mixed_weight_orders → CBP-003
@@ -39,11 +49,19 @@ def get_recommendations(signal_type: str, account_context: dict) -> list[dict]:
       - ships_internationally   → CBP-004
     Falls back to signal-type defaults when no context signals are present.
     """
+    if priority == "none":
+        return []
+
     with open(_BP_PATH) as f:
         kb = yaml.safe_load(f)
 
     logic = kb.get("recommendation_logic", {})
-    max_recs = logic.get("max_recommendations_per_email", 3)
+
+    if priority in ("primary", "secondary"):
+        cross_rules = kb.get("cross_signal_injection_rules", {})
+        max_recs = cross_rules.get(priority, {}).get("max_recommendations", 3)
+    else:
+        max_recs = logic.get("max_recommendations_per_email", 3)
 
     all_bps: dict[str, dict] = {}
     for bp in kb.get("core_best_practices", []):
@@ -83,6 +101,17 @@ def get_recommendations(signal_type: str, account_context: dict) -> list[dict]:
             recommendations.append(_format_recommendation(bp))
 
     return recommendations
+
+
+def get_injection_rules(priority: str) -> dict:
+    """Return the cross_signal_injection_rules block for a given priority.
+
+    Returns dict with keys: section_header, max_recommendations, footer (optional).
+    Returns {} if priority not found (e.g. priority="none").
+    """
+    with open(_BP_PATH) as f:
+        kb = yaml.safe_load(f)
+    return kb.get("cross_signal_injection_rules", {}).get(priority, {})
 
 
 def _format_recommendation(bp: dict) -> dict:

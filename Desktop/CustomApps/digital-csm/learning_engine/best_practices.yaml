@@ -8,6 +8,14 @@ core_best_practices:
   - id: BP-001
     name: Rate Shopper Best Value — All Orders
     priority: 1
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     description: >
       Every account should have a Rate Shopper automation rule set to Best Value
       on all orders as the baseline rule. This ensures every incoming order
@@ -28,6 +36,14 @@ core_best_practices:
   - id: BP-002
     name: Weight-Based Carrier Assignment
     priority: 2
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     description: >
       Set automation rules that assign carriers based on order weight thresholds.
       Common pattern: orders under 1 lb use USPS First Class, orders 1–5 lbs use
@@ -47,6 +63,14 @@ core_best_practices:
   - id: BP-003
     name: Tag-Based Routing Rules
     priority: 3
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     description: >
       Use order tags to trigger automation rules for special handling scenarios.
       Examples: tag 'fragile' triggers insurance + signature required, tag 'wholesale'
@@ -66,6 +90,14 @@ core_best_practices:
   - id: BP-004
     name: Service Mapping by Marketplace
     priority: 4
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     description: >
       Map services by store or marketplace source. Example: orders from Amazon store
       always use Amazon Buy Shipping, orders from Shopify store use Rate Shopper Best
@@ -85,6 +117,14 @@ conditional_best_practices:
 
   - id: CBP-001
     name: PO Box Override Rule
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     trigger_condition: Account has orders with PO Box addresses processed manually
     description: >
       If order ship-to address contains PO Box, automatically assign USPS —
@@ -98,6 +138,14 @@ conditional_best_practices:
 
   - id: CBP-002
     name: High-Value Order Insurance Rule
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     trigger_condition: Account has orders over $100 shipped without insurance
     description: >
       If order value exceeds $100 (or merchant-defined threshold), automatically
@@ -111,6 +159,14 @@ conditional_best_practices:
 
   - id: CBP-003
     name: Rate Shopper + Weight Combo Rule
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     trigger_condition: Account ships mixed weight orders and is not using Rate Shopper
     description: >
       Combine weight threshold with Rate Shopper Best Value for maximum optimization.
@@ -129,6 +185,14 @@ conditional_best_practices:
 
   - id: CBP-004
     name: Destination-Based Service Split
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     trigger_condition: Account ships both domestic and international orders
     description: >
       Separate automation rules for domestic vs international orders.
@@ -143,6 +207,14 @@ conditional_best_practices:
 
   - id: CBP-005
     name: Rush Order Expedited Service Tag Rule
+    signal_priority:
+      zero_automation_rules: primary
+      rate_shopper_not_adopted: primary
+      shipping_volume_decline: secondary
+      revenue_decline: secondary
+      no_label_printed_7_days: secondary
+      no_walleted_carriers: primary
+      cancel_link_clicked: none
     trigger_condition: Account receives rush or expedited orders from any channel
     description: >
       Tag rush orders at the store level and create an automation rule that
@@ -181,3 +253,41 @@ recommendation_logic:
     - CBP-004
   max_recommendations_per_email: 3
   always_pair_specific_with_core: true
+
+cross_signal_injection_rules:
+
+  primary:
+    description: >
+      Best practices are the main body of the recommendation.
+      All 3 steps are best practice recommendations.
+      Used for: zero_automation_rules, rate_shopper_not_adopted,
+      no_walleted_carriers
+    max_recommendations: 3
+    section_header: >
+      Based on my audit, here are the three steps I recommend
+      to get your workflow fully optimized:
+
+  secondary:
+    description: >
+      Best practices appear as an additional optimization section
+      after the primary signal recommendation. Framed as
+      "while reviewing your account I also noticed..." so it
+      feels like a bonus insight from the audit, not a separate
+      pitch. Used for: shipping_volume_decline, revenue_decline,
+      no_label_printed_7_days
+    max_recommendations: 2
+    section_header: >
+      While reviewing your account I also noticed a couple of
+      optimization opportunities that could help improve your
+      results further:
+    footer: >
+      Fully optimizing these areas alongside the steps above
+      is typically what moves the needle most for accounts
+      at your volume.
+
+  none:
+    description: >
+      No best practice recommendations included.
+      Used for: cancel_link_clicked — this is a critical
+      escalation signal, not an optimization moment.
+    max_recommendations: 0

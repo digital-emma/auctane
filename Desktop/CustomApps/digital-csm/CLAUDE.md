@@ -54,7 +54,8 @@ YAML decision trees keyed by `signal_type`. Each playbook defines `tiers:` (seve
 
 ### learning_engine/
 - `transcript_ingester.py` — normalizes CSM meeting transcripts (Gong, Zoom, manual) into `TranscriptRecord` objects.
-- `heuristic_extractor.py` — keyword + outcome correlation over transcript batches, producing a `HeuristicReport`. Phase 2 will replace keyword matching with an LLM call.
+- `heuristic_extractor.py` — keyword + outcome correlation over transcript batches, producing a `HeuristicReport`. Phase 2 will replace keyword matching with an LLM call. Also exposes `get_recommendations(signal_type, account_context, priority)` and `get_injection_rules(priority)` — used by `prompt_engine.py` to inject best practices into outreach prompts.
+- `best_practices.yaml` — ShipStation automation best practices knowledge base. 4 core BPs (BP-001–BP-004) and 5 conditional BPs (CBP-001–CBP-005). Each BP has a `signal_priority` field that maps every signal type to `primary | secondary | none`, controlling how it is injected into prompts. `cross_signal_injection_rules` defines the section header, max recommendations, and optional footer per injection mode.
 
 ### tests/
 Tests inject fixture data by subclassing `SignalDetector` with fake Segment/BQ clients — no actual API calls, no monkeypatching frameworks needed.
@@ -81,6 +82,18 @@ Deep links by signal (defined in `PRODUCT_DEEP_LINKS` in `agents/prompt_engine.p
 - `cancel_link_clicked`: escalate to human, no CTA
 
 Future state: inbound reply routing via HubSpot webhook → agent conversation continuation. Flag for eng team — HubSpot sequences must allow reply routing to agent inbox.
+
+## Best Practices Injection
+
+`learning_engine/best_practices.yaml` is loaded at runtime by `get_recommendations()` in `heuristic_extractor.py`. Injection mode is determined by `_SIGNAL_PRIORITY` in `prompt_engine.py`:
+
+| Mode | Signals | Behavior |
+|---|---|---|
+| `primary` | `zero_automation_rules`, `rate_shopper_not_adopted`, `no_walleted_carriers` | Best practices ARE the main email body (max 3 recs, section_header from YAML) |
+| `secondary` | `shipping_volume_decline`, `revenue_decline`, `no_label_printed_7_days` | Best practices appended as bonus section after primary signal message (max 2 recs, section_header + footer from YAML) |
+| `none` | `cancel_link_clicked` | No best practices injected — `get_recommendations()` returns `[]` |
+
+To add a new best practice: add an entry to `best_practices.yaml` with a `signal_priority` block, then add its ID to the relevant `include_if_*` list in `recommendation_logic`. No code changes needed.
 
 ## Core Design Principles
 

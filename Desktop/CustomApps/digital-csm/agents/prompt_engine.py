@@ -20,7 +20,7 @@ from __future__ import annotations
 
 from agents.signal_detector import Signal
 from integrations.bigquery_client import BigQueryClient
-from learning_engine.heuristic_extractor import get_recommendations
+from learning_engine.heuristic_extractor import get_injection_rules, get_recommendations
 
 _bq = BigQueryClient()
 
@@ -188,6 +188,16 @@ WHAT NOT TO SAY: Never mention competitors. Never mention cancellation.
 Never say "I wanted to reach out" or "just checking in." Never show
 features they have no current problem with.
 
+BEST PRACTICES INJECTION RULE:
+The user prompt will include a "Best practice recommendations" section.
+For primary signals (adoption signals: zero_automation_rules,
+rate_shopper_not_adopted, no_walleted_carriers), these recommendations
+ARE the main body of the email — build the 3-step structure around them.
+For secondary signals (churn/engagement signals), append the best
+practices as a brief bonus section after the primary signal message,
+introduced with the provided section_header. Never include best practices
+for cancel_link_clicked — the section will be empty if present.
+
 CTA RULES — FOLLOW EXACTLY:
 
 Primary CTA: Always drive the customer to take action directly
@@ -305,8 +315,8 @@ def build_rate_shopper_prompt(
         "has_high_value_orders":   pes_context.get("has_high_value_orders", False),
         "ships_internationally":   pes_context.get("ships_internationally", False),
     }
-    recs = get_recommendations("rate_shopper_not_adopted", account_context)
-    best_practices_section = _format_best_practices(recs)
+    recs = get_recommendations("rate_shopper_not_adopted", account_context, priority="primary")
+    best_practices_section = _format_best_practices(recs, priority="primary")
 
     user_prompt = RATE_SHOPPER_USER_PROMPT.format(
         trigger_mode=signal_payload.get("trigger_mode"),
@@ -356,6 +366,16 @@ _ADOPTION_SIGNALS = {
     "no_label_printed_7_days",
 }
 
+_SIGNAL_PRIORITY: dict[str, str] = {
+    "zero_automation_rules":    "primary",
+    "rate_shopper_not_adopted": "primary",
+    "no_walleted_carriers":     "primary",
+    "no_label_printed_7_days":  "secondary",
+    "shipping_volume_decline":  "secondary",
+    "revenue_decline":          "secondary",
+    "cancel_link_clicked":      "none",
+}
+
 _FEATURE_DISPLAY_NAMES: dict[str, str] = {
     "automation_rules":        "Automation Rules",
     "rate_shopper":            "Rate Shopper",
@@ -367,9 +387,32 @@ _FEATURE_DISPLAY_NAMES: dict[str, str] = {
 }
 
 
-def _format_best_practices(recommendations: list[dict]) -> str:
-    """Format get_recommendations() output into numbered prompt text."""
-    lines = []
+def _format_best_practices(
+    recommendations: list[dict],
+    priority: str | None = None,
+) -> str:
+    """Format get_recommendations() output into numbered prompt text.
+
+    Wraps recommendations with section_header and footer from
+    cross_signal_injection_rules when priority is provided.
+    Returns "(none)" for empty recommendation lists.
+    """
+    if not recommendations:
+        return "(none)"
+
+    lines: list[str] = []
+
+    if priority and priority != "none":
+        rules = get_injection_rules(priority)
+        header = (rules.get("section_header") or "").strip()
+        footer = (rules.get("footer") or "").strip()
+    else:
+        header = footer = ""
+
+    if header:
+        lines.append(header)
+        lines.append("")
+
     for i, rec in enumerate(recommendations, 1):
         lines.append(f"{i}. [{rec['id']}] {rec['name']}")
         if rec.get("rule_condition"):
@@ -379,6 +422,11 @@ def _format_best_practices(recommendations: list[dict]) -> str:
             lines.append(f"   Why: {rec['why_it_matters']}")
         if rec.get("deep_link"):
             lines.append(f"   Link: {rec['deep_link']}")
+
+    if footer:
+        lines.append("")
+        lines.append(footer)
+
     return "\n".join(lines)
 
 
@@ -404,8 +452,9 @@ def build_prompt(signal: Signal, pes_context: dict, salesforce_context: dict) ->
         "has_high_value_orders":   pes_context.get("has_high_value_orders", False),
         "ships_internationally":   pes_context.get("ships_internationally", False),
     }
-    recs = get_recommendations(signal.signal, account_context)
-    best_practices_section = _format_best_practices(recs)
+    priority = _SIGNAL_PRIORITY.get(signal.signal)
+    recs = get_recommendations(signal.signal, account_context, priority=priority)
+    best_practices_section = _format_best_practices(recs, priority=priority)
 
     return USER_PROMPT_TEMPLATE.format(
         signal_name=signal.signal,

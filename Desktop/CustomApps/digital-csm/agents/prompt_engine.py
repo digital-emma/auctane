@@ -20,6 +20,7 @@ from __future__ import annotations
 
 from agents.signal_detector import Signal
 from integrations.bigquery_client import BigQueryClient
+from learning_engine.heuristic_extractor import get_recommendations
 
 _bq = BigQueryClient()
 
@@ -107,6 +108,9 @@ Account context from Salesforce:
 
 How your best CSMs have handled this situation:
 {heuristics_section}
+
+Best practice recommendations to include:
+{best_practices_section}
 
 Based on the above:
 1. Should this be handled by the agent or escalated to the CSM? State your reasoning.
@@ -237,6 +241,9 @@ PES feature status:
 Few-shot examples from your best CSMs handling this exact situation:
 {heuristic_examples}
 
+Best practice recommendations to include:
+{best_practices_section}
+
 Using the account data above and the CSM examples as your guide:
 
 1. Write a personalized outreach email subject line that references
@@ -291,6 +298,16 @@ def build_rate_shopper_prompt(
     """
     heuristic_text = _format_heuristics(heuristics, "rate_shopper_not_adopted")
 
+    account_context = {
+        "has_multiple_stores":     pes_context.get("store_count", 1) > 1,
+        "has_mixed_weight_orders": pes_context.get("has_mixed_weight_orders", False),
+        "has_po_box_orders":       pes_context.get("has_po_box_orders", False),
+        "has_high_value_orders":   pes_context.get("has_high_value_orders", False),
+        "ships_internationally":   pes_context.get("ships_internationally", False),
+    }
+    recs = get_recommendations("rate_shopper_not_adopted", account_context)
+    best_practices_section = _format_best_practices(recs)
+
     user_prompt = RATE_SHOPPER_USER_PROMPT.format(
         trigger_mode=signal_payload.get("trigger_mode"),
         account_name=salesforce_context.get("account_name") or salesforce_context.get("name", "unknown"),
@@ -306,6 +323,7 @@ def build_rate_shopper_prompt(
         automation_rules_count=pes_context.get("automation_rules_count", 0),
         analytics_enabled=pes_context.get("analytics_enabled", False),
         heuristic_examples=heuristic_text,
+        best_practices_section=best_practices_section,
     )
     return RATE_SHOPPER_SYSTEM_PROMPT, user_prompt
 
@@ -349,6 +367,21 @@ _FEATURE_DISPLAY_NAMES: dict[str, str] = {
 }
 
 
+def _format_best_practices(recommendations: list[dict]) -> str:
+    """Format get_recommendations() output into numbered prompt text."""
+    lines = []
+    for i, rec in enumerate(recommendations, 1):
+        lines.append(f"{i}. [{rec['id']}] {rec['name']}")
+        if rec.get("rule_condition"):
+            lines.append(f"   Rule: {rec['rule_condition']}" +
+                         (f" → {rec['rule_action']}" if rec.get("rule_action") else ""))
+        if rec.get("why_it_matters"):
+            lines.append(f"   Why: {rec['why_it_matters']}")
+        if rec.get("deep_link"):
+            lines.append(f"   Link: {rec['deep_link']}")
+    return "\n".join(lines)
+
+
 def build_prompt(signal: Signal, pes_context: dict, salesforce_context: dict) -> str:
     """Format USER_PROMPT_TEMPLATE with signal + PES + Salesforce + heuristics context.
 
@@ -364,6 +397,16 @@ def build_prompt(signal: Signal, pes_context: dict, salesforce_context: dict) ->
     heuristics = _bq.get_heuristics(signal.signal, limit=2)
     heuristics_section = _format_heuristics_section(heuristics)
 
+    account_context = {
+        "has_multiple_stores":     pes_context.get("store_count", 1) > 1,
+        "has_mixed_weight_orders": pes_context.get("has_mixed_weight_orders", False),
+        "has_po_box_orders":       pes_context.get("has_po_box_orders", False),
+        "has_high_value_orders":   pes_context.get("has_high_value_orders", False),
+        "ships_internationally":   pes_context.get("ships_internationally", False),
+    }
+    recs = get_recommendations(signal.signal, account_context)
+    best_practices_section = _format_best_practices(recs)
+
     return USER_PROMPT_TEMPLATE.format(
         signal_name=signal.signal,
         trigger_mode=signal.trigger_mode,
@@ -378,6 +421,7 @@ def build_prompt(signal: Signal, pes_context: dict, salesforce_context: dict) ->
         csm_owner=salesforce_context.get("csm_owner", "unknown"),
         lifecycle_stage=salesforce_context.get("lifecycle_stage", "unknown"),
         heuristics_section=heuristics_section,
+        best_practices_section=best_practices_section,
     )
 
 

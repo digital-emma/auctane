@@ -1,0 +1,183 @@
+# ShipStation Automation Best Practices Knowledge Base
+# Referenced by prompt_engine.py when generating recommendations
+# Every personalized recommendation must include at least one core best practice
+# plus account-specific rules derived from order pattern analysis
+
+core_best_practices:
+
+  - id: BP-001
+    name: Rate Shopper Best Value — All Orders
+    priority: 1
+    description: >
+      Every account should have a Rate Shopper automation rule set to Best Value
+      on all orders as the baseline rule. This ensures every incoming order
+      automatically gets the best available rate without manual carrier selection.
+      Best Value balances cost and delivery time — it is the recommended default
+      over Cheapest because it prevents false economies (e.g. saving $0.20 on
+      USPS but losing a package).
+    rule_condition: All orders (no filter)
+    rule_action: Assign Rate Shopper — Best Value
+    why_it_matters: >
+      Eliminates manual carrier selection on every order permanently. When combined
+      with walleted carriers, Best Value compares negotiated rates alongside
+      ShipStation rates and picks the optimal option automatically.
+    pairs_well_with: [BP-002, BP-003]
+    deep_link: https://ship14.shipstation.com/settings/rateShopper
+    signal_types: [rate_shopper_not_adopted, zero_automation_rules]
+
+  - id: BP-002
+    name: Weight-Based Carrier Assignment
+    priority: 2
+    description: >
+      Set automation rules that assign carriers based on order weight thresholds.
+      Common pattern: orders under 1 lb use USPS First Class, orders 1–5 lbs use
+      USPS Priority or Rate Shopper, orders over 5 lbs use UPS Ground or Rate Shopper.
+      Weight is the most reliable and consistent condition available in ShipStation
+      and works across all store integrations.
+    rule_condition: Order weight (e.g. under 1 lb, 1–5 lbs, over 5 lbs)
+    rule_action: Assign carrier + service OR assign Rate Shopper
+    why_it_matters: >
+      Weight-based rules eliminate the most common manual override pattern —
+      merchants manually switching carriers based on package weight on every order.
+      One rule set handles this permanently.
+    pairs_well_with: [BP-001]
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+  - id: BP-003
+    name: Tag-Based Routing Rules
+    priority: 3
+    description: >
+      Use order tags to trigger automation rules for special handling scenarios.
+      Examples: tag 'fragile' triggers insurance + signature required, tag 'wholesale'
+      triggers UPS Ground, tag 'rush' triggers overnight service. Tags can be applied
+      manually or via store integration and are the most flexible condition available.
+    rule_condition: Order tag equals [tag name]
+    rule_action: Assign carrier, service, confirmation, insurance, or any combination
+    why_it_matters: >
+      Tags make automation rules readable and maintainable. Instead of complex
+      nested conditions, one tag handles all exceptions for a category of order.
+      CSMs consistently find that merchants who use tags have more automation rules
+      and fewer manual overrides over time.
+    pairs_well_with: [BP-001, BP-002]
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+  - id: BP-004
+    name: Service Mapping by Marketplace
+    priority: 4
+    description: >
+      Map services by store or marketplace source. Example: orders from Amazon store
+      always use Amazon Buy Shipping, orders from Shopify store use Rate Shopper Best
+      Value, orders from wholesale store use UPS Ground. Prevents wrong service being
+      applied when a merchant ships from multiple channels.
+    rule_condition: Store or marketplace source equals [store name]
+    rule_action: Assign carrier + service specific to that marketplace
+    why_it_matters: >
+      Multi-store merchants are the most likely to have service mapping errors —
+      wrong carrier on marketplace orders creates fulfillment compliance issues.
+      One rule per store eliminates this permanently.
+    pairs_well_with: [BP-001]
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+conditional_best_practices:
+
+  - id: CBP-001
+    name: PO Box Override Rule
+    trigger_condition: Account has orders with PO Box addresses processed manually
+    description: >
+      If order ship-to address contains PO Box, automatically assign USPS —
+      UPS and FedEx cannot deliver to PO Boxes. Without this rule, merchants
+      manually override carrier on every PO Box order.
+    rule_condition: Ship-to address contains PO Box
+    rule_action: Assign USPS Priority Mail
+    why_it_matters: Eliminates a high-frequency manual override for any merchant with residential customers.
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+  - id: CBP-002
+    name: High-Value Order Insurance Rule
+    trigger_condition: Account has orders over $100 shipped without insurance
+    description: >
+      If order value exceeds $100 (or merchant-defined threshold), automatically
+      add carrier insurance. Prevents merchants from manually adding insurance
+      to high-value orders and ensures no high-value order ships unprotected.
+    rule_condition: Order total greater than $100
+    rule_action: Add carrier insurance
+    why_it_matters: One missed high-value shipment without insurance costs more than months of insurance premiums.
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+  - id: CBP-003
+    name: Rate Shopper + Weight Combo Rule
+    trigger_condition: Account ships mixed weight orders and is not using Rate Shopper
+    description: >
+      Combine weight threshold with Rate Shopper Best Value for maximum optimization.
+      Example: orders under 1 lb assign USPS First Class (Rate Shopper cannot beat
+      First Class at this weight), orders 1 lb and over assign Rate Shopper Best Value.
+      This is the highest-impact combination rule for mixed-weight shippers.
+    rule_condition_1: Order weight under 1 lb → assign USPS First Class
+    rule_condition_2: Order weight 1 lb and over → assign Rate Shopper Best Value
+    why_it_matters: >
+      Rate Shopper is less effective under 1 lb where USPS First Class is almost
+      always cheapest. Splitting at 1 lb gives merchants the best of both — fixed
+      optimal service for light orders, dynamic optimization for heavier ones.
+    pairs_well_with: [BP-001, BP-002]
+    deep_link: https://ship14.shipstation.com/settings/rateShopper
+    signal_types: [zero_automation_rules, rate_shopper_not_adopted]
+
+  - id: CBP-004
+    name: Destination-Based Service Split
+    trigger_condition: Account ships both domestic and international orders
+    description: >
+      Separate automation rules for domestic vs international orders.
+      Domestic: Rate Shopper Best Value. International: assign specific
+      international service (USPS Priority Mail International or UPS Worldwide)
+      based on destination country or region.
+    rule_condition: Ship-to country equals US → Rate Shopper Best Value
+    rule_condition_2: Ship-to country not US → assign international service
+    why_it_matters: Rate Shopper does not always have international rate visibility — explicit international rules prevent wrong service selection on cross-border shipments.
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+  - id: CBP-005
+    name: Rush Order Expedited Service Tag Rule
+    trigger_condition: Account receives rush or expedited orders from any channel
+    description: >
+      Tag rush orders at the store level and create an automation rule that
+      assigns overnight or 2-day service when the rush tag is present.
+      Prevents expedited orders from accidentally being assigned ground service
+      by a Rate Shopper Best Value rule.
+    rule_condition: Order tag equals rush OR expedited
+    rule_action: Assign UPS Next Day Air or USPS Priority Mail Express
+    why_it_matters: >
+      Rate Shopper Best Value will occasionally select ground when it is cheapest.
+      Rush tag rule must run before the Rate Shopper rule to override it correctly.
+      Rule order matters — this should always be rule #1 in the automation stack.
+    pairs_well_with: [BP-001, BP-003]
+    deep_link: https://ship14.shipstation.com/automations
+    signal_types: [zero_automation_rules]
+
+recommendation_logic:
+  always_include:
+    - BP-001
+  include_if_zero_automation_rules:
+    - BP-001
+    - BP-002
+    - BP-003
+  include_if_rate_shopper_not_adopted:
+    - BP-001
+    - CBP-003
+  include_if_multi_store:
+    - BP-004
+  include_if_mixed_weight:
+    - CBP-003
+  include_if_has_po_box_orders:
+    - CBP-001
+  include_if_high_value_orders:
+    - CBP-002
+  include_if_international:
+    - CBP-004
+  max_recommendations_per_email: 3
+  always_pair_specific_with_core: true

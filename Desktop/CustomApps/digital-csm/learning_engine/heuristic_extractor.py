@@ -18,8 +18,83 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import dataclass, field
+from pathlib import Path
+
+import yaml
 
 from learning_engine.transcript_ingester import TranscriptRecord
+
+_BP_PATH = Path(__file__).parent / "best_practices.yaml"
+
+
+def get_recommendations(signal_type: str, account_context: dict) -> list[dict]:
+    """Return up to 3 best-practice recommendations for a signal + account context.
+
+    Always leads with BP-001 (Rate Shopper Best Value). Selects up to 2 additional
+    recommendations from conditional_best_practices using account_context signals:
+      - has_multiple_stores     → BP-004
+      - has_mixed_weight_orders → CBP-003
+      - has_po_box_orders       → CBP-001
+      - has_high_value_orders   → CBP-002
+      - ships_internationally   → CBP-004
+    Falls back to signal-type defaults when no context signals are present.
+    """
+    with open(_BP_PATH) as f:
+        kb = yaml.safe_load(f)
+
+    logic = kb.get("recommendation_logic", {})
+    max_recs = logic.get("max_recommendations_per_email", 3)
+
+    all_bps: dict[str, dict] = {}
+    for bp in kb.get("core_best_practices", []):
+        all_bps[bp["id"]] = bp
+    for bp in kb.get("conditional_best_practices", []):
+        all_bps[bp["id"]] = bp
+
+    # BP-001 is always first
+    recommendations = [_format_recommendation(all_bps["BP-001"])]
+
+    # Collect candidate IDs from signal-type defaults and account-context signals
+    candidate_ids: list[str] = []
+
+    signal_key = f"include_if_{signal_type}"
+    for id_ in logic.get(signal_key, []):
+        if id_ != "BP-001" and id_ not in candidate_ids:
+            candidate_ids.append(id_)
+
+    context_gates = [
+        ("has_multiple_stores",     "include_if_multi_store"),
+        ("has_mixed_weight_orders", "include_if_mixed_weight"),
+        ("has_po_box_orders",       "include_if_has_po_box_orders"),
+        ("has_high_value_orders",   "include_if_high_value_orders"),
+        ("ships_internationally",   "include_if_international"),
+    ]
+    for ctx_key, logic_key in context_gates:
+        if account_context.get(ctx_key):
+            for id_ in logic.get(logic_key, []):
+                if id_ != "BP-001" and id_ not in candidate_ids:
+                    candidate_ids.append(id_)
+
+    for id_ in candidate_ids:
+        if len(recommendations) >= max_recs:
+            break
+        bp = all_bps.get(id_)
+        if bp:
+            recommendations.append(_format_recommendation(bp))
+
+    return recommendations
+
+
+def _format_recommendation(bp: dict) -> dict:
+    """Extract prompt-injection fields from a best practice entry."""
+    return {
+        "id":             bp.get("id"),
+        "name":           bp.get("name"),
+        "rule_condition": bp.get("rule_condition") or bp.get("rule_condition_1"),
+        "rule_action":    bp.get("rule_action"),
+        "why_it_matters": bp.get("why_it_matters", "").strip(),
+        "deep_link":      bp.get("deep_link"),
+    }
 
 
 @dataclass
